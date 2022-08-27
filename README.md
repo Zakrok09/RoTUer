@@ -19,6 +19,10 @@ Clone this repo on your machine:
 
 ```git
 git clone https://github.com/Zakrok09/RoTUer
+
+cd RoTUer
+
+npm install
 ```
 
 In order to run the website in your browser, use:
