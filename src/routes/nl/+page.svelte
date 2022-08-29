@@ -4,28 +4,28 @@
 
 <main>
     <div class="landingSite">
-        <h1>Niet zeker wat te doen?</h1>
-        <a href="/" class="navItem" id="logo">RoTUer</a><i>...is hier</i>
-        <i>Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen verantwoordelijkheid</i>
+        <h1>Weet je niet zeker wat de volgende stap is?</h1>
+        <a href="/" class="navItem" id="logo">RoTUer</a><i>...is er om te helpen</i>
+        <i>Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen risico</i>
     </div>
     <div class="landingSection secondLandingSection">
         <div class="leftSecond">
             <h2>🚀 Wat is RoTUer?</h2>
-            <p>🔗 RoTUer is een project gemaakt door (aanstaande) studenten van de TU Delft. Het belangrijkste doel is om andere studenten te helpen websites te vinden die informatie bevatten die ze zoeken en om alle mogelijke dingen te generaliseren die je in de Uni kunt gebruiken.</p>
-            <p>⚠️ DISCLAIMER: Dit project is hoe dan ook niet gelieerd aan de TU Delft zelf. Informatie wordt hier verzameld en gepresenteerd door ons (het team achter het project).<b>TU DELFT IS NIET VERANTWOORDELIJK VOOR ONNAUWKEURIGHEID OP DEZE WEBSITE</b>.</p>
+            <p>🔗 RoTUer is een project gemaakt door (aanstaande) studenten van de TU Delft. Het belangrijkste doel is om andere studenten te helpen websites te vinden die informatie bevatten die ze zoeken en om alle mogelijke dingen op een rijtje te zetten die je in de Uni kunt gebruiken.</p>
+            <p>⚠️ DISCLAIMER: Dit project is hoe dan ook niet gebonden aan de TU Delft zelf. Informatie wordt hier verzameld en gepresenteerd door ons (het team achter het project).<b>TU DELFT IS NIET VERANTWOORDELIJK VOOR ONNAUWKEURIGHEID OP DEZE WEBSITE</b>.</p>
             <p>‼️ Hoewel we ervoor zorgen dat elke link veilig is, <b>zorg ervoor dat u controleert waar de link naartoe leidt voordat u klikt!</b></p>
         </div>
         <div class="rightSecond">
             <div class="SecondBox">
                 <span>🌹</span>
                 <h3>Over ons</h3>
-                <p>Wij zijn studenten uit heel Europa die net samen aan een project zijn begonnen. We willen allemaal mensen helpen. Daarom hebben we RoTUer . ontwikkeld.</p>
+                <p>Wij zijn studenten uit heel Europa die net samen aan een project zijn begonnen. We willen allemaal mensen helpen. Daarom hebben we RoTUer ontwikkeld.</p>
                 <a href="/" class="AnchorBox">Lees verder</a>
             </div>
             <div class="SecondBox">
                 <span>🔥</span>
                 <h3>Over RoTUer</h3>
-                <p>RoTUer is gemaakt om mensen zoals ik te helpen die zich plotseling op een plek bevinden met eindeloze mogelijkheden - je kunt boeken boeken, kamers voor teams, drukmachines enz. Zelfs nu begin ik alle andere dingen te vergeten. Daarom wilden we al deze informatie in een samengevatte vorm met links presenteren.</p>
+                <p>RoTUer is gemaakt om mensen zoals ik te helpen die zich plotseling op een plek bevinden met eindeloze mogelijkheden - zo kan je onderandere boeken, werkruimtes, drukmachines en nog veel meer boeken. Zelfs nu begin ik al andere dingen te vergeten. Daarom wilden we al deze informatie in een samengevatte vorm met links presenteren.</p>
                 <a href="/" class="AnchorBox">Lees verder</a>
             </div>
         </div>
