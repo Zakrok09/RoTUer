@@ -14,7 +14,7 @@
             <!-- * Here we are loading 'links' as by destructing the inner arrays into 'text' and 'link'-->
             <div class="navItem">
                 <!-- Then we just create anchor tags that have href to link and text as text -->
-                <a class="navLink" href="{link}">{text}</a>
+                <a class="navLink" href={link}>{text}</a>
             </div>
         {/each}
     </nav>
