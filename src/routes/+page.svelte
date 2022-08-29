@@ -72,7 +72,7 @@
             <div class="linkSuggest">
                 <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">Send us an email</a>
                 <span>/</span>
-                <a href="https://github.com/Zakrok09/RoTUer/issues">Open an issue (with the Links label)</a>    
+                <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">Open an issue</a>
             </div>
         </div>
     </div>
