@@ -25,6 +25,8 @@ cd RoTUer
 npm install
 ```
 
+Make sure to run 'npm install' after you clone the repository.
+
 In order to run the website in your browser, use:
 
 ```batch
