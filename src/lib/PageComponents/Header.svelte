@@ -1,6 +1,6 @@
 <script>
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
-    export let links = [["Repo", "/"], ["To Links", "/links"], ["About", "/about"]];
+    export let links = [["Repo", "/"], ["To Links", "/links/"], ["About", "/about/"]];
 </script>
 
 <header>

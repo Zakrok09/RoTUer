@@ -1,5 +1,6 @@
 <script>
     import Header from "../lib/PageComponents/Header.svelte";
+    import Footer from "../lib/PageComponents/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -12,6 +13,7 @@
 
 <slot></slot>
 
+<Footer />
 <style>
 
 </style>

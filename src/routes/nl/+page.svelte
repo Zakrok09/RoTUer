@@ -62,6 +62,7 @@
     .secondLandingSection {
         /* Created with https://www.css-gradient.com */
         background-image: url("/bubbleBackground.svg");
+        background-size: cover;
         display: flex;
         justify-content: space-between;
         flex-flow: row nowrap;
