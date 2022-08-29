@@ -1,5 +1,5 @@
 <script>
-
+    import Linkbox from "../lib/Reusable/Linkbox.svelte";
 </script>
 
 <main>
@@ -33,24 +33,27 @@
     <div class="landingSection thirdLandingSection">
         <h2>🔍 Do you want to...</h2>
         <div class="ThirdBoxesContainer">
-            <div class="ThirdBox">
-                <span>📚</span>
-                <h3>...book a place to study in peace?</h3>
-                <img src="https://tudelft.mapiq.net/Content/images/iOSWebApp/apple-touch-icon-144x144.png" alt="Library Logo">
-                <a href="https://tudelft.mapiq.net" target="_blank" class="AnchorBox ThirdBoxLink"> TU Delft Library </a>
-            </div>
-            <div class="ThirdBox">
-                <span>🏀</span>
-                <h3>...use the most out of your X?</h3>
-                <img src="xlogo.png" alt="X Logo">
-                <a href="https://www.tudelft.nl/en/x/whats-on-offer/timetable" target="_blank" class="AnchorBox ThirdBoxLink"> X Timetable </a>
-            </div>
-            <div class="ThirdBox">
-                <span>🧑‍🎓</span>
-                <h3>...access student portal?</h3>
-                <img src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" alt="TUDelft Logo">
-                <a href="https://www.tudelft.nl/en/student" target="_blank" class="AnchorBox ThirdBoxLink"> Student Portal </a>
-            </div>
+            <Linkbox 
+                emoji="📚" 
+                title="...book a place to study in peace?" 
+                src="https://tudelft.mapiq.net/Content/images/iOSWebApp/apple-touch-icon-144x144.png" 
+                alt="Library Logo" 
+                href="https://tudelft.mapiq.net" 
+                anchorText="TU Delft Library"  />
+            <Linkbox 
+                emoji="🏀" 
+                title="...use the most out of your X?" 
+                src="xlogo.png" 
+                alt="X Logo" 
+                href="https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                anchorText="X Timetable"  />
+            <Linkbox 
+                emoji="🧑‍🎓" 
+                title="...access student portal?" 
+                src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" 
+                alt="TUDelft Logo" 
+                href="https://www.tudelft.nl/en/student" 
+                anchorText="Student Portal"  />
         </div>
         <a href="/links" id="moreLinks"><i>More...</i></a>
     </div>
@@ -199,37 +202,6 @@
         display: flex;
         flex-flow: row wrap;
         gap: 5vw;
-    }
-
-    .ThirdBox {
-        width: 300px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px hsla(0, 0%, 70%, 0.495);
-        background: white;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        h3 {
-            margin: 5px 20px;
-            font-size: 1.2em;
-            height: 50px;
-        }
-
-        img {
-            width: 100px;
-            border-radius: 10px;
-        }
-
-        a {
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-
-        span {
-            margin: 15px 0px;
-            font-size: 40px;
-        }
     }
 
     #moreLinks {
