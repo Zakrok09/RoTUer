@@ -41,13 +41,13 @@
             </div>
             <div class="ThirdBox">
                 <span>🏀</span>
-                <h3>...haal het meeste uit je X?</h3>
+                <h3>...het meeste halen uit je X abonnement?</h3>
                 <img src="xlogo.png" alt="X Logo">
                 <a href="https://www.tudelft.nl/en/x/whats-on-offer/timetable" target="_blank" class="AnchorBox ThirdBoxLink"> X Rooster </a>
             </div>
             <div class="ThirdBox">
                 <span>🧑‍🎓</span>
-                <h3>...toegang studentenportaal?</h3>
+                <h3>...toegang tot het studentenportaal?</h3>
                 <img src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" alt="TUDelft Logo">
                 <a href="https://www.tudelft.nl/en/student" target="_blank" class="AnchorBox ThirdBoxLink"> Studenten Portaal </a>
             </div>
@@ -61,18 +61,18 @@
             </svg>
         </div>
         <div class="centralFourth">
-            <h2>Een ontbrekende schakel gevonden?</h2>
-            <p>Als de link die we missen:</p>
+            <h2>Een website link gevonden die we moeten toevoegen?</h2>
+            <p>We zullen deze link toevoegen als het:</p>
             <ul>
-                <li>is een legitieme bron van informatie</li>
-                <li>is de officiële website van b.v. winkels voor schoolboeken en</li>
-                <li>bevat geen illegale inhoud...</li>
+                <li>een betrouwbare bron van informatie is</li>
+                <li>een officiële website van b.v. winkels voor schoolboeken is en</li>
+                <li>geen illegale inhoud bevat...</li>
             </ul>
 
             <div class="linkSuggest">
                 <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">Stuur ons een e-mail</a>
                 <span>/</span>
-                <a href="https://github.com/Zakrok09/RoTUer/issues">Een probleem openen (met het label Links)</a>    
+                <a href="https://github.com/Zakrok09/RoTUer/issues">Of creer een probleem of github (met het label Links)</a>    
             </div>
         </div>
     </div>
