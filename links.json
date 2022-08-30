@@ -1,7 +1,8 @@
 {
     "comments": "currently have not added img's and descriptions. Might put everything in alphabetical order if needed later ~ThijsH04",
     "categories": [{
-        "mall": {
+        "name": "mall",
+        "links": {
             "deHovenPassage": {
                 "img": false,
                 "nl": {
@@ -19,7 +20,8 @@
             }
         }
     }, {
-        "groceries": {
+        "name": "groceries",
+        "links": {
             "jumboAddress": {
                 "img": false,
                 "nl": {
@@ -53,7 +55,8 @@
         }
 
     }, {
-        "homeApliances": {
+        "name": "homeApliances",
+        "links": {
             "Aaction": {
                 "img": false,
                 "nl": {
@@ -116,7 +119,8 @@
             }
         }
     }, {
-        "clothes": {
+        "name": "clothes",
+        "links": {
             "kik": {
                 "img": false,
                 "nl": {
@@ -134,7 +138,8 @@
             }
         }
     }, {
-        "guides": {
+        "name": "guides",
+        "links": {
             "learnDutch": {
                 "img": false,
                 "nl": {
@@ -152,7 +157,8 @@
             }
         }
     }, {
-        "secondHand": {
+        "name": "Second Hand",
+        "links": {
             "yelp": {
                 "img": false,
                 "nl": {
@@ -200,7 +206,8 @@
             }
         }
     }, {
-        "work": {
+        "name": "Work",
+        "links": {
             "linkedin": {
                 "img": false,
                 "nl": {
@@ -293,7 +300,8 @@
             }
         }
     }, {
-        "accomodations": {
+        "name": "accomodations",
+        "links": {
             "delft": {
                 "img": false,
                 "nl": {
@@ -341,7 +349,8 @@
             }
         }
     }, {
-        "mobileProviders": {
+        "name": "Mobile Providers",
+        "links": {
             "lebara": {
                 "img": false,
                 "nl": {
@@ -404,7 +413,8 @@
             }
         }
     }, {
-        "takeaways": {
+        "name": "Takeaways",
+        "links": {
             "thuisbezorgd": {
                 "img": false,
                 "nl": {
@@ -467,7 +477,8 @@
             }
         }
     }, {
-        "software": {
+        "name": "Software",
+        "links": {
             "surfspot": {
                 "img": false,
                 "nl": {
@@ -485,7 +496,8 @@
             }
         }
     }, {
-        "domestic": {
+        "name": "Domestic",
+        "links": {
             "marktplaats": {
                 "img": false,
                 "nl": {
