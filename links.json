@@ -1,547 +1,743 @@
 {
-    "comments": "currently have not added img's and descriptions. Might put everything in alphabetical order if needed later ~ThijsH04",
-    "categories": [{
-        "name": "mall",
-        "links": [{
-            "name": "De Hoven",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.de-hovenpassage.nl/",
-                "presName": "Winkelcentrum De Hoven Passage",
-                "onlyEng": false
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.de-hovenpassage.nl/",
-                "presName": "Shoppingcenter De Hoven Passage",
-                "onlyNl": true
-            }
-        }]
-    }, {
-        "name": "groceries",
-        "links": [{
-            "name": "De Hoven",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
-                "presName": "Openingstijden Jumbo op het Bastiaansplein",
-                "onlyEng": false
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
-                "presName": "Openings hours of the Jumbo on the Bastiaansplein",
-                "onlyNl": true
-            }
-        }, {
-            "name": "jumboFree",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
-                "onlyEng": false
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                "presName": "Free products at Jumbo through the lowest price guarantee",
-                "onlyNl": true
-            }
-        }]
-
-    }, {
-        "name": "homeApliances",
-        "links": [{
-                "name": "Aaction",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
-                    "presName": "Action in Delft openingstijden",
-                    "onlyEng": false
+    "categories":[
+        {
+            "name": "Shopping",
+            "links": [
+                {
+                    "name":"De Hoven",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E91E63",
+                            "text": "Mall"
+                        }, {
+                            "color": "#40E91E",
+                            "text": "Food"
+                        }, {
+                            "color": "#E9AE1E",
+                            "text": "Home Appliances"
+                        }, {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        },
+                        {
+                            "color": "#9C27B0",
+                            "text": "Clothes"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.de-hovenpassage.nl/",
+                        "presName":"Winkelcentrum De Hoven Passage",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.de-hovenpassage.nl/",
+                        "presName":"Shoppingcenter De Hoven Passage",
+                        "onlyNl":true
+                    }
+                }, 
+                {
+                    "name":"Jumbo",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#40E91E",
+                            "text": "Food"
+                        }, {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
+                        "presName":"Openingstijden Jumbo op het Bastiaansplein",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
+                        "presName":"Openings hours of the Jumbo on the Bastiaansplein",
+                        "onlyNl":true
+                    }
+                }, 
+                {
+                    "name":"Jumbo Products",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#40E91E",
+                            "text": "Food"
+                        }, {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
+                        "presName":"Gratis producten bij Jumbo door laagsteprijsgarantie",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
+                        "presName":"Free products at Jumbo through the lowest price guarantee",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                    "presName": "Action in Delft openings hours",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "blokker",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.blokker.nl/winkels/delft",
-                    "presName": "Blokkers in Delft openingstijden",
-                    "onlyEng": false
+                {
+                    "name":"Action",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E9AE1E",
+                            "text": "Home Appliances"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
+                        "presName":"Action in Delft openingstijden",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
+                        "presName":"Action in Delft openings hours",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.blokker.nl/winkels/delft",
-                    "presName": "Blokkers in Delft openings hours",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "hema",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                    "presName": "Openingstijden van de Hema op de Molslaan",
-                    "onlyEng": false
+                {
+                    "name":"Blokker",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E9AE1E",
+                            "text": "Home Appliances"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.blokker.nl/winkels/delft",
+                        "presName":"Blokkers in Delft openingstijden",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.blokker.nl/winkels/delft",
+                        "presName":"Blokkers in Delft openings hours",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                    "presName": "Openings hours of the Hema on the Molslaan",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "hemaHovenPassage",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                    "presName": "Openingstijden van de Hema in winkelcentrum de Hoven Passage",
-                    "onlyEng": false
+                {
+                    "name":"Hema",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E9AE1E",
+                            "text": "Home Appliances"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName":"Openingstijden van de Hema op de Molslaan",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName":"Openings hours of the Hema on the Molslaan",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                    "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
-                    "onlyNl": true
-                }
-            }
-        ]
-    }, {
-        "name": "clothes",
-        "links": [{
-            "name": "kik",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                "presName": "Openingstijden KiK",
-                "onlyEng": false
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                "presName": "Openings hours KiK",
-                "onlyNl": true
-            }
-        }]
-    }, {
-        "name": "guides",
-        "links": [{
-            "name": "Learn Dutch",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.learndutch.org/",
-                "presName": "learndutch.org",
-                "onlyEng": true
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.learndutch.org/",
-                "presName": "learndutch.org",
-                "onlyNl": false
-            }
-        }]
-    }, {
-        "name": "Second Hand",
-        "links": [{
-                "name": "Yelp",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland",
-                    "presName": "Yelp kringloopwinkels",
-                    "onlyEng": false
+                {
+                    "name":"HemaHovenPassage",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E9AE1E",
+                            "text": "Home Appliances"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName":"Openingstijden van de Hema in winkelcentrum de Hoven Passage",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName":"Openings hours of the Hema in shopping center de Hoven Passage",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
-                    "presName": "Yelp thrift stores",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Rataplan",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
-                    "presName": "RataPlan openingstijden",
-                    "onlyEng": false
+                {
+                    "name":"kik",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#9C27B0",
+                            "text": "Clothes"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.de-hovenpassage.nl/winkels/kik/",
+                        "presName":"Openingstijden KiK",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.de-hovenpassage.nl/winkels/kik/",
+                        "presName":"Openings hours KiK",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
-                    "presName": "RataPlan openings hours",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Delta",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
-                    "presName": "Delta",
-                    "onlyEng": true
+                {
+                    "name":"Yelp",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#BCAAA4",
+                            "text": "Second Hand"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland",
+                        "presName":"Yelp kringloopwinkels",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
+                        "presName":"Yelp thrift stores",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
-                    "presName": "Delta",
-                    "onlyNl": false
-                }
-            }
-        ]
-    }, {
-        "name": "Work",
-        "links": [{
-                "name": "linkedin",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.linkedin.com/jobs/jobs-in-delft",
-                    "presName": "Linkedin",
-                    "onlyEng": true
+                {
+                    "name":"Rataplan",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#BCAAA4",
+                            "text": "Second Hand"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
+                        "presName":"RataPlan openingstijden",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
+                        "presName":"RataPlan openings hours",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.linkedin.com/jobs/jobs-in-delft",
-                    "presName": "linkedin",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "I am expat",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
-                    "presName": "I Am Expat",
-                    "onlyEng": true
+                {
+                    "name":"Delta",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#BCAAA4",
+                            "text": "Second Hand"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
+                        "presName":"Delta",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
+                        "presName":"Delta",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
-                    "presName": "I Am Expat",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Just landed",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.justlanded.com/nederlands/Nederland/Werk",
-                    "presName": "Just Landed",
-                    "onlyEng": false
+                {
+                    "name":"Marketplaats",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.marktplaats.nl/",
+                        "presName":"Marktplaats",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.marktplaats.nl/",
+                        "presName":"Marktplaats",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
-                    "presName": "Just Landed",
-                    "onlyNl": false
+                {
+                    "name":"Bol",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.bol.com/nl/nl/",
+                        "presName":"Bol.com",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.bol.com/nl/nl/",
+                        "presName":"Bol.com",
+                        "onlyNl":true
+                    }
                 }
-            },
-            {
-                "name": "Jobs.nl",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://jobs.nl/",
-                    "presName": "Jobs.nl",
-                    "onlyEng": false
+            ]
+        },
+        {
+            "name": "Services",
+            "links": [
+                {
+                    "name":"delft",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E57373",
+                            "text": "Housing"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.delft.nl/wonen/wonen-delft/huren-en-kopen/woning-huren",
+                        "presName":"gemeente Delft",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.delft.nl/en/housing/student-housing",
+                        "presName":"municipality Delft",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://jobs.nl/",
-                    "presName": "Jobs.nl",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "Jumbo jobs",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures",
-                    "presName": "Jumbo vacatures",
-                    "onlyEng": false
+                {
+                    "name":"Housing Anywhere",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E57373",
+                            "text": "Housing"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
+                        "presName":"Housing Anywhere",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
+                        "presName":"Housing Anywhere",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://nl.jobs.jumbo.com/en/",
-                    "presName": "Jumbo job offers",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Grab Jobs",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://grabjobs.co/netherlands/part-time-jobs",
-                    "presName": "Grab jobs",
-                    "onlyEng": true
+                {
+                    "name":"Kamernet",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E57373",
+                            "text": "Housing"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://kamernet.nl/",
+                        "presName":"Kamernet",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://kamernet.nl/en",
+                        "presName":"Kamernet",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://grabjobs.co/netherlands/part-time-jobs",
-                    "presName": "Grab jobs",
-                    "onlyNl": false
-                }
-            }
-        ]
-    }, {
-        "name": "accomodations",
-        "links": [{
-                "name": "delft",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.delft.nl/wonen/wonen-delft/huren-en-kopen/woning-huren",
-                    "presName": "gemeente Delft",
-                    "onlyEng": false
+                {
+                    "name":"Lebara",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#D1C4E9",
+                            "text": "Mobile Plans"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://mobile.lebara.com/nl/nl/sim-only?",
+                        "presName":"Lebara",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
+                        "presName":"Lebara",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.delft.nl/en/housing/student-housing",
-                    "presName": "municipality Delft",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "housing anywhere",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
-                    "presName": "Housing Anywhere",
-                    "onlyEng": true
+                {
+                    "name":"tmobile",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#D1C4E9",
+                            "text": "Mobile Plans"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
+                        "presName":"Openingstijden T-Mobile winkel Delft",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
+                        "presName":"Openings hours T-Mobile shop Delft",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
-                    "presName": "Housing Anywhere",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Kamernet",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://kamernet.nl/",
-                    "presName": "Kamernet",
-                    "onlyEng": false
+                {
+                    "name":"youfone",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#D1C4E9",
+                            "text": "Mobile Plans"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.youfone.nl/",
+                        "presName":"Youfone",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.youfone.nl/",
+                        "presName":"Youfone",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://kamernet.nl/en",
-                    "presName": "Kamernet",
-                    "onlyNl": false
-                }
-            }
-        ]
-    }, {
-        "name": "Mobile Providers",
-        "links": [{
-                "name": "lebara",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://mobile.lebara.com/nl/nl/sim-only?",
-                    "presName": "Lebara",
-                    "onlyEng": false
+                {
+                    "name":"simyo",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#D1C4E9",
+                            "text": "Mobile Plans"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.simyo.nl/",
+                        "presName":"Simyo",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.simyo.nl/",
+                        "presName":"Simyo",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
-                    "presName": "Lebara",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "tmobile",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
-                    "presName": "Openingstijden T-Mobile winkel Delft",
-                    "onlyEng": false
+                {
+                    "name":"Thuis",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#80DEEA",
+                            "text": "Order for home"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.thuisbezorgd.nl/",
+                        "presName":"thuisbezorgd.nl",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.thuisbezorgd.nl/en",
+                        "presName":"thuisbezorgd.nl",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
-                    "presName": "Openings hours T-Mobile shop Delft",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "youfone",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.youfone.nl/",
-                    "presName": "Youfone",
-                    "onlyEng": false
+                {
+                    "name":"Uber Eats",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#80DEEA",
+                            "text": "Order for home"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.ubereats.com/nl",
+                        "presName":"Uber Eats",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.ubereats.com/",
+                        "presName":"Uber Eats",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.youfone.nl/",
-                    "presName": "Youfone",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "simyo",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.simyo.nl/",
-                    "presName": "Simyo",
-                    "onlyEng": false
+                {
+                    "name":"Dominos",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#80DEEA",
+                            "text": "Order for home"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.dominos.nl/",
+                        "presName":"Dominos",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.dominos.nl/english-visitor",
+                        "presName":"Dominos",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.simyo.nl/",
-                    "presName": "Simyo",
-                    "onlyNl": true
+                {
+                    "name":"TripAdvisor",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#80DEEA",
+                            "text": "Order for home"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.tripadvisor.nl/Restaurants-g188626-Delft_South_Holland_Province.html",
+                        "presName":"Trip Advisor",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
+                        "presName":"Trip Advisor",
+                        "onlyNl":false
+                    }
                 }
-            }
-        ]
-    }, {
-        "name": "Takeaways",
-        "links": [{
-                "name": "Thuis",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.thuisbezorgd.nl/",
-                    "presName": "thuisbezorgd.nl",
-                    "onlyEng": false
+            ]
+        },
+        {
+            "name": "Other",
+            "links": [
+                {
+                    "name":"Learn Dutch",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#A5D6A7",
+                            "text": "Learning"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.learndutch.org/",
+                        "presName":"learndutch.org",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.learndutch.org/",
+                        "presName":"learndutch.org",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.thuisbezorgd.nl/en",
-                    "presName": "thuisbezorgd.nl",
-                    "onlyNl": false
-                }
-            },
-            {
-                "name": "Uber Eats",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.ubereats.com/nl",
-                    "presName": "Uber Eats",
-                    "onlyEng": false
+                
+                {
+                    "name":"linkedin",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.linkedin.com/jobs/jobs-in-delft",
+                        "presName":"Linkedin",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.linkedin.com/jobs/jobs-in-delft",
+                        "presName":"linkedin",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.ubereats.com/",
-                    "presName": "Uber Eats",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "Dominos",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.dominos.nl/",
-                    "presName": "Dominos",
-                    "onlyEng": false
+                {
+                    "name":"I am expat",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.iamexpat.nl/career/jobs-netherlands/delft",
+                        "presName":"I Am Expat",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.iamexpat.nl/career/jobs-netherlands/delft",
+                        "presName":"I Am Expat",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.dominos.nl/english-visitor",
-                    "presName": "Dominos",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "TripAdvisor",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.tripadvisor.nl/Restaurants-g188626-Delft_South_Holland_Province.html",
-                    "presName": "Trip Advisor",
-                    "onlyEng": false
+                {
+                    "name":"Just landed",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.justlanded.com/nederlands/Nederland/Werk",
+                        "presName":"Just Landed",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
+                        "presName":"Just Landed",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
-                    "presName": "Trip Advisor",
-                    "onlyNl": false
-                }
-            }
-        ]
-    }, {
-        "name": "Software",
-        "links": [{
-            "name": "surfspot",
-            "img": false,
-            "nl": {
-                "desc": "lorum ispum",
-                "link": "https://www.surfspot.nl/",
-                "presName": "SURFspot",
-                "onlyEng": false
-            },
-            "eng": {
-                "desc": "lorum ispum",
-                "link": "https://www.surfspot.nl/",
-                "presName": "SURFspot",
-                "onlyNl": false
-            }
-        }]
-    }, {
-        "name": "Domestic",
-        "links": [{
-                "name": "Marketplaats",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.marktplaats.nl/",
-                    "presName": "Marktplaats",
-                    "onlyEng": false
+                {
+                    "name":"Jobs.nl",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://jobs.nl/",
+                        "presName":"Jobs.nl",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://jobs.nl/",
+                        "presName":"Jobs.nl",
+                        "onlyNl":true
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.marktplaats.nl/",
-                    "presName": "Marktplaats",
-                    "onlyNl": true
-                }
-            },
-            {
-                "name": "Bol",
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.bol.com/nl/nl/",
-                    "presName": "Bol.com",
-                    "onlyEng": false
+                {
+                    "name":"Jumbo jobs",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures",
+                        "presName":"Jumbo vacatures",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://nl.jobs.jumbo.com/en/",
+                        "presName":"Jumbo job offers",
+                        "onlyNl":false
+                    }
                 },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.bol.com/nl/nl/",
-                    "presName": "Bol.com",
-                    "onlyNl": true
+                {
+                    "name":"Grab Jobs",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#90A4AE",
+                            "text": "Work"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://grabjobs.co/netherlands/part-time-jobs",
+                        "presName":"Grab jobs",
+                        "onlyEng":true
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://grabjobs.co/netherlands/part-time-jobs",
+                        "presName":"Grab jobs",
+                        "onlyNl":false
+                    }
+                },
+                {
+                    "name":"surfspot",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#E0E0E0",
+                            "text": "Software"
+                        }
+                    ],
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.surfspot.nl/",
+                        "presName":"SURFspot",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.surfspot.nl/",
+                        "presName":"SURFspot",
+                        "onlyNl":false
+                    }
                 }
-            }
-        ]
-    }]
+            ]
+        }
+    ]
 }
