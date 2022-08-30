@@ -3,61 +3,59 @@
     "categories": [{
         "name": "mall",
         "links": [{
-            "deHovenPassage": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.de-hovenpassage.nl/",
-                    "presName": "Winkelcentrum De Hoven Passage",
-                    "onlyEng": false
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.de-hovenpassage.nl/",
-                    "presName": "Shoppingcenter De Hoven Passage",
-                    "onlyNl": true
-                }
+            "name": "De Hoven",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.de-hovenpassage.nl/",
+                "presName": "Winkelcentrum De Hoven Passage",
+                "onlyEng": false
+            },
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.de-hovenpassage.nl/",
+                "presName": "Shoppingcenter De Hoven Passage",
+                "onlyNl": true
             }
         }]
     }, {
         "name": "groceries",
         "links": [{
-            "jumboAddress": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
-                    "presName": "Openingstijden Jumbo op het Bastiaansplein",
-                    "onlyEng": false
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
-                    "presName": "Openings hours of the Jumbo on the Bastiaansplein",
-                    "onlyNl": true
-                }
+            "name": "De Hoven",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
+                "presName": "Openingstijden Jumbo op het Bastiaansplein",
+                "onlyEng": false
             },
-            "jumboFree": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                    "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
-                    "onlyEng": false
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                    "presName": "Free products at Jumbo through the lowest price guarantee",
-                    "onlyNl": true
-                }
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
+                "presName": "Openings hours of the Jumbo on the Bastiaansplein",
+                "onlyNl": true
+            }
+        }, {
+            "name": "jumboFree",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
+                "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
+                "onlyEng": false
+            },
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
+                "presName": "Free products at Jumbo through the lowest price guarantee",
+                "onlyNl": true
             }
         }]
 
     }, {
         "name": "homeApliances",
         "links": [{
-            "Aaction": {
+                "name": "Aaction",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -72,7 +70,8 @@
                     "onlyNl": true
                 }
             },
-            "blokker": {
+            {
+                "name": "blokker",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -87,7 +86,8 @@
                     "onlyNl": true
                 }
             },
-            "hema": {
+            {
+                "name": "hema",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -102,7 +102,8 @@
                     "onlyNl": true
                 }
             },
-            "hemaHovenPassage": {
+            {
+                "name": "hemaHovenPassage",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -117,49 +118,47 @@
                     "onlyNl": true
                 }
             }
-        }]
+        ]
     }, {
         "name": "clothes",
         "links": [{
-            "kik": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                    "presName": "Openingstijden KiK",
-                    "onlyEng": false
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                    "presName": "Openings hours KiK",
-                    "onlyNl": true
-                }
+            "name": "kik",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.de-hovenpassage.nl/winkels/kik/",
+                "presName": "Openingstijden KiK",
+                "onlyEng": false
+            },
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.de-hovenpassage.nl/winkels/kik/",
+                "presName": "Openings hours KiK",
+                "onlyNl": true
             }
         }]
     }, {
         "name": "guides",
         "links": [{
-            "learnDutch": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.learndutch.org/",
-                    "presName": "learndutch.org",
-                    "onlyEng": true
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.learndutch.org/",
-                    "presName": "learndutch.org",
-                    "onlyNl": false
-                }
+            "name": "Learn Dutch",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.learndutch.org/",
+                "presName": "learndutch.org",
+                "onlyEng": true
+            },
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.learndutch.org/",
+                "presName": "learndutch.org",
+                "onlyNl": false
             }
         }]
     }, {
         "name": "Second Hand",
         "links": [{
-            "yelp": {
+                "name": "Yelp",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -174,7 +173,8 @@
                     "onlyNl": false
                 }
             },
-            "rataPlan": {
+            {
+                "name": "Rataplan",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -189,7 +189,8 @@
                     "onlyNl": false
                 }
             },
-            "delta": {
+            {
+                "name": "Delta",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -204,11 +205,11 @@
                     "onlyNl": false
                 }
             }
-        }]
+        ]
     }, {
         "name": "Work",
         "links": [{
-            "linkedin": {
+                "name": "linkedin",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -223,7 +224,8 @@
                     "onlyNl": false
                 }
             },
-            "iAmExpat": {
+            {
+                "name": "I am expat",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -238,7 +240,8 @@
                     "onlyNl": false
                 }
             },
-            "justLanded": {
+            {
+                "name": "Just landed",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -253,7 +256,8 @@
                     "onlyNl": false
                 }
             },
-            "jobs": {
+            {
+                "name": "Jobs.nl",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -268,7 +272,8 @@
                     "onlyNl": true
                 }
             },
-            "jumboVacatures": {
+            {
+                "name": "Jumbo jobs",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -283,7 +288,8 @@
                     "onlyNl": false
                 }
             },
-            "grabJobs": {
+            {
+                "name": "Grab Jobs",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -298,11 +304,11 @@
                     "onlyNl": false
                 }
             }
-        }]
+        ]
     }, {
         "name": "accomodations",
         "links": [{
-            "delft": {
+                "name": "delft",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -317,7 +323,8 @@
                     "onlyNl": false
                 }
             },
-            "housingAnywhere": {
+            {
+                "name": "housing anywhere",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -332,7 +339,8 @@
                     "onlyNl": false
                 }
             },
-            "kamernet": {
+            {
+                "name": "Kamernet",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -347,11 +355,11 @@
                     "onlyNl": false
                 }
             }
-        }]
+        ]
     }, {
         "name": "Mobile Providers",
         "links": [{
-            "lebara": {
+                "name": "lebara",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -366,7 +374,8 @@
                     "onlyNl": false
                 }
             },
-            "TMobile": {
+            {
+                "name": "tmobile",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -381,7 +390,8 @@
                     "onlyNl": true
                 }
             },
-            "youfone": {
+            {
+                "name": "youfone",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -396,7 +406,8 @@
                     "onlyNl": true
                 }
             },
-            "simyo": {
+            {
+                "name": "simyo",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -411,11 +422,11 @@
                     "onlyNl": true
                 }
             }
-        }]
+        ]
     }, {
         "name": "Takeaways",
         "links": [{
-            "thuisbezorgd": {
+                "name": "Thuis",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -430,7 +441,8 @@
                     "onlyNl": false
                 }
             },
-            "ubereats": {
+            {
+                "name": "Uber Eats",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -445,7 +457,8 @@
                     "onlyNl": true
                 }
             },
-            "dominos": {
+            {
+                "name": "Dominos",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -460,7 +473,8 @@
                     "onlyNl": true
                 }
             },
-            "tripAdvisor": {
+            {
+                "name": "TripAdvisor",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -475,30 +489,29 @@
                     "onlyNl": false
                 }
             }
-        }]
+        ]
     }, {
         "name": "Software",
         "links": [{
-            "surfspot": {
-                "img": false,
-                "nl": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.surfspot.nl/",
-                    "presName": "SURFspot",
-                    "onlyEng": false
-                },
-                "eng": {
-                    "desc": "lorum ispum",
-                    "link": "https://www.surfspot.nl/",
-                    "presName": "SURFspot",
-                    "onlyNl": false
-                }
+            "name": "surfspot",
+            "img": false,
+            "nl": {
+                "desc": "lorum ispum",
+                "link": "https://www.surfspot.nl/",
+                "presName": "SURFspot",
+                "onlyEng": false
+            },
+            "eng": {
+                "desc": "lorum ispum",
+                "link": "https://www.surfspot.nl/",
+                "presName": "SURFspot",
+                "onlyNl": false
             }
         }]
     }, {
         "name": "Domestic",
         "links": [{
-            "marktplaats": {
+                "name": "Marketplaats",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -513,7 +526,8 @@
                     "onlyNl": true
                 }
             },
-            "bol": {
+            {
+                "name": "Bol",
                 "img": false,
                 "nl": {
                     "desc": "lorum ispum",
@@ -528,6 +542,6 @@
                     "onlyNl": true
                 }
             }
-        }]
+        ]
     }]
 }
