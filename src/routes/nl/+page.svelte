@@ -190,9 +190,14 @@
         font-family: 'Oxygen' , sans-serif;
         font-weight: 500;
         text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.2s;
 
         justify-self: flex-end;
+    }
 
+    .AnchorBox:hover {
+            background-color: #374654;
     }
 
     .thirdLandingSection {
