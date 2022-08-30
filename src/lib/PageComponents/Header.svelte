@@ -1,7 +1,11 @@
 <script>
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
-    export let links = [["Repo", "/"], ["To Links", "/links/"], ["About", "/about/"]];
+    export let links = [["Home", "/"], ["To Links", "/links/"], ["About", "/about"] , ["Repo", "https://github.com/Zakrok09/RoTUer"]];
 </script>
+
+<svelte:head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</svelte:head>
 
 <header>
     <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
@@ -18,6 +22,7 @@
             </div>
         {/each}
     </nav>
+    <a href="https://github.com/Zakrok09/RoTUer" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
 </header>
 <div class="shapedivider shapedividers_com-3156"></div>
 
