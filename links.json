@@ -2,7 +2,7 @@
     "comments": "currently have not added img's and descriptions. Might put everything in alphabetical order if needed later ~ThijsH04",
     "categories": [{
         "name": "mall",
-        "links": {
+        "links": [{
             "deHovenPassage": {
                 "img": false,
                 "nl": {
@@ -18,10 +18,10 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
     }, {
         "name": "groceries",
-        "links": {
+        "links": [{
             "jumboAddress": {
                 "img": false,
                 "nl": {
@@ -52,11 +52,11 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
 
     }, {
         "name": "homeApliances",
-        "links": {
+        "links": [{
             "Aaction": {
                 "img": false,
                 "nl": {
@@ -117,7 +117,7 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
     }, {
         "name": "clothes",
         "links": {
@@ -139,7 +139,7 @@
         }
     }, {
         "name": "guides",
-        "links": {
+        "links": [{
             "learnDutch": {
                 "img": false,
                 "nl": {
@@ -155,10 +155,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "Second Hand",
-        "links": {
+        "links": [{
             "yelp": {
                 "img": false,
                 "nl": {
@@ -204,10 +204,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "Work",
-        "links": {
+        "links": [{
             "linkedin": {
                 "img": false,
                 "nl": {
@@ -298,10 +298,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "accomodations",
-        "links": {
+        "links": [{
             "delft": {
                 "img": false,
                 "nl": {
@@ -347,10 +347,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "Mobile Providers",
-        "links": {
+        "links": [{
             "lebara": {
                 "img": false,
                 "nl": {
@@ -411,10 +411,10 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
     }, {
         "name": "Takeaways",
-        "links": {
+        "links": [{
             "thuisbezorgd": {
                 "img": false,
                 "nl": {
@@ -475,10 +475,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "Software",
-        "links": {
+        "links": [{
             "surfspot": {
                 "img": false,
                 "nl": {
@@ -494,10 +494,10 @@
                     "onlyNl": false
                 }
             }
-        }
+        }]
     }, {
         "name": "Domestic",
-        "links": {
+        "links": [{
             "marktplaats": {
                 "img": false,
                 "nl": {
@@ -528,6 +528,6 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
     }]
 }
