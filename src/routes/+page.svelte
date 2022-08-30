@@ -1,4 +1,5 @@
 <script>
+    import { t, locale, locales } from "$lib/translations/i18n";
     import Linkbox from "$lib/Reusable/Linkbox.svelte";
 </script>
 
@@ -7,61 +8,61 @@
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
-        <i>Website is still under development and it currently not meant for use! Enter at your own responsibility</i>
+        <i>{$t("homepage.underheading")}</i>
     </div>
     <div class="landingSection secondLandingSection">
         <div class="leftSecond">
-            <h2>🚀 What is RoTUer?</h2>
-            <p>🔗 RoTUer is a project made by (soon-to-be) students of TU Delft. The main goal is to help other students find websites that contain information that they are searching and to generalize all possible things you can make use of in the Uni.</p>
-            <p>⚠️ DISCLAIMER: This project is not affiliated by anyway to TU Delft itself. Information here is gathered and presented by us (the team behind the project). <b>TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE</b>.</p>
-            <p>‼️ Although we make sure that every link is secure, <b>make sure to check where the link is leading to before clicking!</b></p>
+            <h2>🚀 {$t("homepage.first.question")}</h2>
+            <p>{$t("homepage.first.paragraph1")}</p>
+            <p>{$t("homepage.first.paragraph2")}</p>
+            <p>{$t("homepage.first.paragraph3")}</p>
         </div>
         <div class="rightSecond">
             <div class="SecondBox computer">
                 <span>🌹</span>
-                <h3>About us</h3>
-                <p>We are students from all over Europe who just started working on a project together. We all want to help people. This is why we developed RoTUer.</p>
-                <a href="/about/us" class="AnchorBox">About Us</a>
+                <h3>{$t("homepage.util1")}</h3>
+                <p>{$t("homepage.first.box1")}</p>
+                <a href="/about/us" class="AnchorBox">{$t("homepage.util1")}</a>
             </div>
             <div class="SecondBox computer">
                 <span>🔥</span>
-                <h3>About RoTUer</h3>
-                <p>RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities. This is why we wanted to present all this information in a summarized form with links.</p>
-                <a href="/about/RoTUer" class="AnchorBox">About RoTUer</a>
+                <h3>{$t("homepage.util2")}</h3>
+                <p>{$t("homepage.first.box2")}</p>
+                <a href="/about/RoTUer" class="AnchorBox">{$t("homepage.util2")}</a>
             </div>
 
             <div class="tablet SecondLinks">
-                <a href="/about/RoTUer" class="AnchorBox whitebg">About Us</a>
-                <a href="/about/RoTUer" class="AnchorBox whitebg">About RoTUer</a>
+                <a href="/about/RoTUer" class="AnchorBox whitebg">{$t("homepage.util1")}</a>
+                <a href="/about/RoTUer" class="AnchorBox whitebg">{$t("homepage.util2")}</a>
             </div>
         </div>
     </div>
     <div class="landingSection thirdLandingSection">
-        <h2 aria-label="This is the first half of the question. The next are headings in boxes.">🔍 Do you want to...</h2>
+        <h2 aria-label="This is the first half of the question. The next are headings in boxes.">🔍 {$t("homepage.questions")}...</h2>
         <div class="ThirdBoxesContainer" role="list">
             <Linkbox 
                 emoji="📚" 
-                title="...book a place to study in peace?" 
+                title={$t("homepage.questions.first")} 
                 src="https://tudelft.mapiq.net/Content/images/iOSWebApp/apple-touch-icon-144x144.png" 
                 alt="Library Logo" 
                 href="https://tudelft.mapiq.net" 
                 anchorText="TU Delft Library"  />
             <Linkbox 
                 emoji="🏀" 
-                title="...use the most out of your X?" 
+                title={$t("homepage.questions.second")} 
                 src="xlogo.png" 
                 alt="X Logo" 
                 href="https://www.tudelft.nl/en/x/whats-on-offer/timetable"
                 anchorText="X Timetable"  />
             <Linkbox 
                 emoji="🧑‍🎓" 
-                title="...access student portal?" 
+                title={$t("homepage.questions.third")} 
                 src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" 
                 alt="TUDelft Logo" 
                 href="https://www.tudelft.nl/en/student" 
                 anchorText="Student Portal"  />
         </div>
-        <a aria-label="This links sends you to our page with links" href="/links" id="moreLinks"><i>More...</i></a>
+        <a aria-label="This links sends you to our page with links" href="/links" id="moreLinks"><i>{$t("homepage.util3")} ...</i></a>
     </div>
     <div class="landingSection fourthLandingSection">
         <div class="custom-shape-divider-top-1661776277">
@@ -70,18 +71,18 @@
             </svg>
         </div>
         <div class="centralFourth">
-            <h2>Found a missing link?</h2>
-            <p>If the link we are missing:</p>
+            <h2>{$t("homepage.fourth.1")}?</h2>
+            <p>{$t("homepage.fourth.2")}:</p>
             <ul>
-                <li>is a legitimate source of information</li>
-                <li>is the official website of e.g. shops for texbooks and</li>
-                <li>does not contain any pirated content...</li>
+                <li>{$t("homepage.fourth.3")}</li>
+                <li>{$t("homepage.fourth.4")}</li>
+                <li>{$t("homepage.fourth.5")}...</li>
             </ul>
 
             <div class="linkSuggest">
-                <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">Send us an email</a>
+                <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">{$t("homepage.fourth.6")}</a>
                 <span>/</span>
-                <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">Open an issue</a>
+                <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">{$t("homepage.fourth.7")}</a>
             </div>
         </div>
     </div>
