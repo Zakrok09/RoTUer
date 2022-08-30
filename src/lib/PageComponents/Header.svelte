@@ -1,6 +1,10 @@
 <script>
+    import {locale} from "$lib/translations/i18n";
+
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
     export let links = [["Home", "/"], ["To Links", "/links/"], ["About", "/about"] , ["Repo", "https://github.com/Zakrok09/RoTUer"]];
+
+
 </script>
 
 <svelte:head>
@@ -8,10 +12,15 @@
 </svelte:head>
 
 <header>
-    <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
+    <select bind:value={$locale}>
+        <option value="en">🇬🇧</option>
+        <option value="nl">🇳🇱</option>
+        <!-- <option value="bg">🇧🇬</option> -->
+    </select>
+    <!-- <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
         <a aria-label="Change website language to English" href="/">🇬🇧</a>
         <a aria-label="Taal van website wijzigen in Nederlands" href="/nl/">🇳🇱</a>
-    </div>
+    </div> -->
     <nav>
         <!-- * This is a cool Svelte thing that will iterate over an array and do some html shit with it. -->
         {#each links as [text, link]}
@@ -42,24 +51,24 @@
         height: 100px;
     }
 
-    #langChange {
-        // border: 1px solid whitesmoke;
-        // border-radius: 100%;
-        // width: 40px;
-        // height: 40px;
-        display: flex;
-        gap: 10px;
-        // flex-flow: column nowrap;
-        // align-items: center;
-        // justify-content: center;
+    // #langChange {
+    //     // border: 1px solid whitesmoke;
+    //     // border-radius: 100%;
+    //     // width: 40px;
+    //     // height: 40px;
+    //     display: flex;
+    //     gap: 10px;
+    //     // flex-flow: column nowrap;
+    //     // align-items: center;
+    //     // justify-content: center;
 
-        a {
-            text-decoration: none;
-            font-size: 2em;
-            font-family: sans-serif;
-            color: whitesmoke;
-        }
-    }
+    //     a {
+    //         text-decoration: none;
+    //         font-size: 2em;
+    //         font-family: sans-serif;
+    //         color: whitesmoke;
+    //     }
+    // }
 
     nav {
         display: flex;
