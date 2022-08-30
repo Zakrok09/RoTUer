@@ -4,9 +4,9 @@
 </script>
 
 <header>
-    <div id="langChange">
-        <a href="/">🇬🇧</a>
-        <a href="/nl/">🇳🇱</a>
+    <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
+        <a aria-label="Change website language to English" href="/">🇬🇧</a>
+        <a aria-label="Taal van website wijzigen in Nederlands" href="/nl/">🇳🇱</a>
     </div>
     <nav>
         <!-- * This is a cool Svelte thing that will iterate over an array and do some html shit with it. -->
@@ -102,6 +102,16 @@
     @media (min-width:2100px){
         .shapedividers_com-3156::before{
           background-size: 100% calc(2vw + 47px);
+        }
+    }
+
+    @media (max-width:800px){
+        .navLink {
+            font-size: 1rem;
+        }
+
+        .navItem {
+            margin: 20px 0px;
         }
     }
  

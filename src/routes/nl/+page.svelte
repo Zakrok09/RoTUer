@@ -1,11 +1,12 @@
 <script>
-    
+    import Linkbox from "$lib/Reusable/Linkbox.svelte";
 </script>
 
 <main>
     <div class="landingSite">
-        <h1>Weet je niet zeker wat de volgende stap is?</h1>
-        <a href="/" class="navItem" id="logo">RoTUer</a><i>...is er om te helpen</i>
+        <img src="/logo.svg" height="100px" alt="The logo of RoTUer">
+        <h1>RoTUer</h1>
+        <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen risico</i>
     </div>
     <div class="landingSection secondLandingSection">
@@ -16,41 +17,49 @@
             <p>‼️ Hoewel we ervoor zorgen dat elke link veilig is, <b>zorg ervoor dat u controleert waar de link naartoe leidt voordat u klikt!</b></p>
         </div>
         <div class="rightSecond">
-            <div class="SecondBox">
+            <div class="SecondBox computer">
                 <span>🌹</span>
                 <h3>Over ons</h3>
                 <p>Wij zijn studenten uit heel Europa die net samen aan een project zijn begonnen. We willen allemaal mensen helpen. Daarom hebben we RoTUer ontwikkeld.</p>
                 <a href="/" class="AnchorBox">Lees verder</a>
             </div>
-            <div class="SecondBox">
+            <div class="SecondBox computer">
                 <span>🔥</span>
                 <h3>Over RoTUer</h3>
                 <p>RoTUer is gemaakt om mensen zoals ik te helpen die zich plotseling op een plek bevinden met eindeloze mogelijkheden - zo kan je onderandere boeken, werkruimtes, drukmachines en nog veel meer boeken. Zelfs nu begin ik al andere dingen te vergeten. Daarom wilden we al deze informatie in een samengevatte vorm met links presenteren.</p>
                 <a href="/" class="AnchorBox">Lees verder</a>
+            </div>
+
+            <div class="tablet SecondLinks">
+                <a href="/about/RoTUer" class="AnchorBox whitebg">About Us</a>
+                <a href="/about/RoTUer" class="AnchorBox whitebg">About RoTUer</a>
             </div>
         </div>
     </div>
     <div class="landingSection thirdLandingSection">
         <h2>🔍 Wil je...</h2>
         <div class="ThirdBoxesContainer">
-            <div class="ThirdBox">
-                <span>📚</span>
-                <h3>...een plek boeken om in alle rust te studeren?</h3>
-                <img src="https://tudelft.mapiq.net/Content/images/iOSWebApp/apple-touch-icon-144x144.png" alt="Library Logo">
-                <a href="https://tudelft.mapiq.net" target="_blank" class="AnchorBox ThirdBoxLink"> TU Delft Bibliotheek </a>
-            </div>
-            <div class="ThirdBox">
-                <span>🏀</span>
-                <h3>...het meeste halen uit je X abonnement?</h3>
-                <img src="xlogo.png" alt="X Logo">
-                <a href="https://www.tudelft.nl/x/aanbod/rooster" target="_blank" class="AnchorBox ThirdBoxLink"> X Rooster </a>
-            </div>
-            <div class="ThirdBox">
-                <span>🧑‍🎓</span>
-                <h3>...toegang tot het studentenportaal?</h3>
-                <img src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" alt="TUDelft Logo">
-                <a href="https://www.tudelft.nl/studenten" target="_blank" class="AnchorBox ThirdBoxLink"> Studenten Portaal </a>
-            </div>
+            <Linkbox 
+                emoji="📚" 
+                title="...een plek boeken om in alle rust te studeren?" 
+                src="https://tudelft.mapiq.net/Content/images/iOSWebApp/apple-touch-icon-144x144.png" 
+                alt="Library Logo" 
+                href="https://tudelft.mapiq.net" 
+                anchorText="TU Delft Bibliotheek"  />
+            <Linkbox 
+                emoji="🏀" 
+                title="...het meeste halen uit je X abonnement?" 
+                src="xlogo.png" 
+                alt="X Logo" 
+                href="https://www.tudelft.nl/x/aanbod/rooster"
+                anchorText="X Rooster"  />
+            <Linkbox 
+                emoji="🧑‍🎓" 
+                title="...toegang tot het studentenportaal?" 
+                src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" 
+                alt="TUDelft Logo" 
+                href="https://www.tudelft.nl/studenten" 
+                anchorText="Studenten Portaal"  />
         </div>
         <a href="/links" id="moreLinks"><i>Meer...</i></a>
     </div>
@@ -78,7 +87,6 @@
     </div>
 </main>
 
-
 <style lang="scss">
     $contrast_header: #24313d;
 
@@ -94,17 +102,22 @@
 
         display: flex;
         flex-flow: column nowrap;
+
+        i {
+            font-size: 0.9rem;
+        }
     }
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.6em;
+        color: #4e5166;
     }
 
-    #logo {
-        font-size: 5em;
-        text-decoration: none;
-        color: black;
-    }
+    // #logo {
+    //     font-size: 5em;
+    //     text-decoration: none;
+    //     color: black;
+    // }
 
     .secondLandingSection {
         background-image: url("/bubbleBackground.svg");
@@ -123,12 +136,12 @@
         justify-content: end;
 
         h2 {
-            font-size: 3rem;
+            font-size: 2.9rem;
         }
 
         p {
             color: whitesmoke;
-            font-size: 1.1em;
+            font-size: 1.1rem;
         }
     }
 
@@ -202,37 +215,6 @@
         gap: 5vw;
     }
 
-    .ThirdBox {
-        width: 300px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px hsla(0, 0%, 70%, 0.495);
-        background: white;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        h3 {
-            margin: 5px 20px;
-            font-size: 1.2em;
-            height: 50px;
-        }
-
-        img {
-            width: 100px;
-            border-radius: 10px;
-        }
-
-        a {
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-
-        span {
-            margin: 15px 0px;
-            font-size: 40px;
-        }
-    }
-
     #moreLinks {
         margin-top: 20px;
         color: #24313d;
@@ -268,8 +250,9 @@
         li {
             list-style-type: none;
             margin: 0px;
-            font-size: 1.1em;
             margin-bottom: 5px;
+            
+            font-size: 0.9rem !important;
         }
 
         p {
@@ -315,5 +298,154 @@
 
     .custom-shape-divider-top-1661776277 .shape-fill {
         fill: #FBFBFB;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .tablet {
+            display: block;
+        }
+
+        .computer {
+            display: none;
+        }
+
+        .secondLandingSection {
+            flex-flow: column;
+            align-items: center;
+
+            .leftSecond {
+                width: 70%;
+                padding-bottom: 50px;
+
+                h2 {
+                    font-size: 2.3rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .SecondLinks {
+            display: flex;
+            gap: 20px;
+            .whitebg {
+                background-color: white;
+                color: #24313d;
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+                border-radius: 5px;
+                transition: all 0.2s;
+            }
+
+            .whitebg:hover {
+                background-color: rgb(225, 225, 225);
+            }
+
+            padding-bottom: 100px;
+        }
+
+        .thirdLandingSection {
+            h2 {
+                display: inline-block;
+                width: auto;
+                font-size: 2rem;
+            }
+        }
+
+        .ThirdBoxesContainer {
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 0px 50px;
+        }
+
+        .centralFourth {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p, li {
+                font-size: 1.1rem;
+            }
+        }
+
+        .linkSuggest {
+            a, span {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .secondLandingSection {
+            .leftSecond {
+                width: 80%;
+                padding-bottom: 50px;
+
+                h2 {
+                    font-size: 2.2rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .SecondLinks {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .thirdLandingSection {
+            h2 {
+                margin: 100px 0px 60px 0px;
+                display: inline-block;
+                width: auto;
+                font-size: 2rem;
+            }
+        }
+
+        .ThirdBoxesContainer {
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 0px 50px;
+        }
+
+        .centralFourth {
+            padding: 150px 30px 50px 30px;
+        }
+
+        .centralFourth {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p, li {
+                font-size: 1.1rem;
+            }
+        }
+
+        .linkSuggest {
+            flex-flow: column;
+            align-items: center;
+            a {
+                font-size: 1.3rem;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        
     }
 </style>
