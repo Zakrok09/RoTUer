@@ -1,1 +1,6 @@
-<p>still no links, bro</p>
+
+<script>
+    export let data;
+</script>
+
+<p>{data.links}</p>
