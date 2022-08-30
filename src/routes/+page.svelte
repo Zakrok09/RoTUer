@@ -1,11 +1,12 @@
 <script>
-    import Linkbox from "../lib/Reusable/Linkbox.svelte";
+    import Linkbox from "$lib/Reusable/Linkbox.svelte";
 </script>
 
 <main>
     <div class="landingSite">
-        <h1>Not sure what to do next?</h1>
-        <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i>
+        <img src="/logo.svg" height="100px" alt="The logo of RoTUer">
+        <h1>RoTUer</h1>
+        <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>Website is still under development and it currently not meant for use! Enter at your own responsibility</i>
     </div>
     <div class="landingSection secondLandingSection">
@@ -16,17 +17,22 @@
             <p>‼️ Although we make sure that every link is secure, <b>make sure to check where the link is leading to before clicking!</b></p>
         </div>
         <div class="rightSecond">
-            <div class="SecondBox">
+            <div class="SecondBox computer">
                 <span>🌹</span>
                 <h3>About us</h3>
                 <p>We are students from all over Europe who just started working on a project together. We all want to help people. This is why we developed RoTUer.</p>
                 <a href="/about/us" class="AnchorBox">Read more</a>
             </div>
-            <div class="SecondBox">
+            <div class="SecondBox computer">
                 <span>🔥</span>
                 <h3>About RoTUer</h3>
                 <p>RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities - you can book books, rooms for teams, printing machines etc. Even now I start forgetting all the other stuff. This is why we wanted to present all this information in a summarized form with links.</p>
                 <a href="/about/RoTUer" class="AnchorBox">Read more</a>
+            </div>
+
+            <div class="tablet SecondLinks">
+                <a href="/about/RoTUer" class="AnchorBox whitebg">About Us</a>
+                <a href="/about/RoTUer" class="AnchorBox whitebg">About RoTUer</a>
             </div>
         </div>
     </div>
@@ -96,17 +102,22 @@
 
         display: flex;
         flex-flow: column nowrap;
+
+        i {
+            font-size: 0.9rem;
+        }
     }
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.6em;
+        color: #4e5166;
     }
 
-    #logo {
-        font-size: 5em;
-        text-decoration: none;
-        color: black;
-    }
+    // #logo {
+    //     font-size: 5em;
+    //     text-decoration: none;
+    //     color: black;
+    // }
 
     .secondLandingSection {
         background-image: url("/bubbleBackground.svg");
@@ -125,12 +136,12 @@
         justify-content: end;
 
         h2 {
-            font-size: 3rem;
+            font-size: 2.9rem;
         }
 
         p {
             color: whitesmoke;
-            font-size: 1.1em;
+            font-size: 1.1rem;
         }
     }
 
@@ -239,8 +250,9 @@
         li {
             list-style-type: none;
             margin: 0px;
-            font-size: 1.1em;
             margin-bottom: 5px;
+            
+            font-size: 0.9rem !important;
         }
 
         p {
@@ -286,5 +298,154 @@
 
     .custom-shape-divider-top-1661776277 .shape-fill {
         fill: #FBFBFB;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .tablet {
+            display: block;
+        }
+
+        .computer {
+            display: none;
+        }
+
+        .secondLandingSection {
+            flex-flow: column;
+            align-items: center;
+
+            .leftSecond {
+                width: 70%;
+                padding-bottom: 50px;
+
+                h2 {
+                    font-size: 2.3rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .SecondLinks {
+            display: flex;
+            gap: 20px;
+            .whitebg {
+                background-color: white;
+                color: #24313d;
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+                border-radius: 5px;
+                transition: all 0.2s;
+            }
+
+            .whitebg:hover {
+                background-color: rgb(225, 225, 225);
+            }
+
+            padding-bottom: 100px;
+        }
+
+        .thirdLandingSection {
+            h2 {
+                display: inline-block;
+                width: auto;
+                font-size: 2rem;
+            }
+        }
+
+        .ThirdBoxesContainer {
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 0px 50px;
+        }
+
+        .centralFourth {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p, li {
+                font-size: 1.1rem;
+            }
+        }
+
+        .linkSuggest {
+            a, span {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .secondLandingSection {
+            .leftSecond {
+                width: 80%;
+                padding-bottom: 50px;
+
+                h2 {
+                    font-size: 2.2rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .SecondLinks {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .thirdLandingSection {
+            h2 {
+                margin: 100px 0px 60px 0px;
+                display: inline-block;
+                width: auto;
+                font-size: 2rem;
+            }
+        }
+
+        .ThirdBoxesContainer {
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 0px 50px;
+        }
+
+        .centralFourth {
+            padding: 150px 30px 50px 30px;
+        }
+
+        .centralFourth {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p, li {
+                font-size: 1.1rem;
+            }
+        }
+
+        .linkSuggest {
+            flex-flow: column;
+            align-items: center;
+            a {
+                font-size: 1.3rem;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        
     }
 </style>

@@ -104,5 +104,15 @@
           background-size: 100% calc(2vw + 47px);
         }
     }
+
+    @media (max-width:800px){
+        .navLink {
+            font-size: 1rem;
+        }
+
+        .navItem {
+            margin: 20px 0px;
+        }
+    }
  
 </style>

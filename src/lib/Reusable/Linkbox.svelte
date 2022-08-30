@@ -57,8 +57,64 @@
         font-family: 'Oxygen' , sans-serif;
         font-weight: 500;
         text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.2s;
 
         justify-self: flex-end;
+    }
 
+    .AnchorBox:hover {
+            background-color: #374654;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .Linkbox {
+            width: 250px;
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            img {
+                width: 80px;
+            }
+
+            a {
+                margin-top: 40px;
+                font-size: 0.9rem;
+            }
+
+            span {
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .Linkbox {
+            width: 250px;
+            border-radius: 20px;
+
+            h3 {
+                font-size: 1rem;
+                margin: 0px 50px;
+                width: auto;
+                text-align: center;
+            }
+
+            img {
+                width: 60px;
+            }
+
+            a {
+                margin-top: 25px;
+                font-size: 0.8rem;
+
+            }
+
+            span {
+                font-size: 30px;
+            }
+        }
     }
 </style>
