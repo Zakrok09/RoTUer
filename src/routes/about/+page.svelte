@@ -1,21 +1,29 @@
 <script>
-    let number1;
-    let number2;
+    import BigLinkbox from "../../lib/Reusable/BigLinkbox.svelte";
 
-    $:num3 = Number.parseInt(number1) + Number.parseInt(number2);
 </script>
 
 <svelte:head>
     <title>About | RoTUer</title>
 </svelte:head>
 
-<div class="felx">
-    <input type="text" bind:value={number1}>
-    <input type="text" bind:value={number2}>
-    <p>{num3}</p>
-</div>
-
-<p>nothing hre bro</p>
+<main> 
+    <BigLinkbox src="/prax.png" title="About Us" alt="Praxidike Logo" anchorText="Read More" href="/about/us"/>
+    <BigLinkbox background="/stripes2.svg" src="logoR.png" title="About roTUer" alt="roTUer Logo" anchorText="Read More" href="/about/RoTUer" />
+</main>
 
 <style lang="scss">
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-bottom: 100px;
+    }
+
+    @media only screen and (max-width: 580px) {
+        main {
+            flex-flow: column nowrap;
+        }
+    }
 </style>

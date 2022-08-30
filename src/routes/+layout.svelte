@@ -10,7 +10,7 @@
 
     <title>RoTUer</title>
 
-    <link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/isometric/logo.svg" type="image/svg">
     
 </svelte:head>
 

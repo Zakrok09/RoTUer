@@ -4,7 +4,7 @@
 
 <main>
     <div class="landingSite">
-        <img src="/logo.svg" height="100px" alt="The logo of RoTUer">
+        <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>Website is still under development and it currently not meant for use! Enter at your own responsibility</i>
@@ -26,7 +26,7 @@
             <div class="SecondBox computer">
                 <span>🔥</span>
                 <h3>About RoTUer</h3>
-                <p>RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities - you can book books, rooms for teams, printing machines etc. Even now I start forgetting all the other stuff. This is why we wanted to present all this information in a summarized form with links.</p>
+                <p>RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities. This is why we wanted to present all this information in a summarized form with links.</p>
                 <a href="/about/RoTUer" class="AnchorBox">About RoTUer</a>
             </div>
 
@@ -102,9 +102,15 @@
 
         display: flex;
         flex-flow: column nowrap;
+        align-items: center;
 
         i {
             font-size: 0.9rem;
+        }
+
+        img {
+            width: 300px;
+            display: inline;
         }
     }
 
@@ -179,6 +185,7 @@
             text-align: center;
             padding: 10px 30px;
             font-size: 0.9em;
+            height: 100px;
         }
     }
 
