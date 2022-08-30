@@ -43,13 +43,13 @@
                 <span>🏀</span>
                 <h3>...het meeste halen uit je X abonnement?</h3>
                 <img src="xlogo.png" alt="X Logo">
-                <a href="https://www.tudelft.nl/en/x/whats-on-offer/timetable" target="_blank" class="AnchorBox ThirdBoxLink"> X Rooster </a>
+                <a href="https://www.tudelft.nl/x/aanbod/rooster" target="_blank" class="AnchorBox ThirdBoxLink"> X Rooster </a>
             </div>
             <div class="ThirdBox">
                 <span>🧑‍🎓</span>
                 <h3>...toegang tot het studentenportaal?</h3>
                 <img src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" alt="TUDelft Logo">
-                <a href="https://www.tudelft.nl/en/student" target="_blank" class="AnchorBox ThirdBoxLink"> Studenten Portaal </a>
+                <a href="https://www.tudelft.nl/studenten" target="_blank" class="AnchorBox ThirdBoxLink"> Studenten Portaal </a>
             </div>
         </div>
         <a href="/links" id="moreLinks"><i>Meer...</i></a>
