@@ -5,6 +5,10 @@
     $:num3 = Number.parseInt(number1) + Number.parseInt(number2);
 </script>
 
+<svelte:head>
+    <title>About | RoTUer</title>
+</svelte:head>
+
 <div class="felx">
     <input type="text" bind:value={number1}>
     <input type="text" bind:value={number2}>

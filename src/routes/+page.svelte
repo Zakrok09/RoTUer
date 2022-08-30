@@ -5,7 +5,7 @@
 <main>
     <div class="landingSite">
         <img src="/logo.svg" height="100px" alt="The logo of RoTUer">
-        <h1>RoTUer</h1>
+        <h1 tabindex="0">RoTUer</h1>
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>Website is still under development and it currently not meant for use! Enter at your own responsibility</i>
     </div>
@@ -21,13 +21,13 @@
                 <span>🌹</span>
                 <h3>About us</h3>
                 <p>We are students from all over Europe who just started working on a project together. We all want to help people. This is why we developed RoTUer.</p>
-                <a href="/about/us" class="AnchorBox">Read more</a>
+                <a href="/about/us" class="AnchorBox">About Us</a>
             </div>
             <div class="SecondBox computer">
                 <span>🔥</span>
                 <h3>About RoTUer</h3>
                 <p>RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities - you can book books, rooms for teams, printing machines etc. Even now I start forgetting all the other stuff. This is why we wanted to present all this information in a summarized form with links.</p>
-                <a href="/about/RoTUer" class="AnchorBox">Read more</a>
+                <a href="/about/RoTUer" class="AnchorBox">About RoTUer</a>
             </div>
 
             <div class="tablet SecondLinks">
@@ -37,8 +37,8 @@
         </div>
     </div>
     <div class="landingSection thirdLandingSection">
-        <h2>🔍 Do you want to...</h2>
-        <div class="ThirdBoxesContainer">
+        <h2 aria-label="This is the first half of the question. The next are headings in boxes.">🔍 Do you want to...</h2>
+        <div class="ThirdBoxesContainer" role="list">
             <Linkbox 
                 emoji="📚" 
                 title="...book a place to study in peace?" 
@@ -61,7 +61,7 @@
                 href="https://www.tudelft.nl/en/student" 
                 anchorText="Student Portal"  />
         </div>
-        <a href="/links" id="moreLinks"><i>More...</i></a>
+        <a aria-label="This links sends you to our page with links" href="/links" id="moreLinks"><i>More...</i></a>
     </div>
     <div class="landingSection fourthLandingSection">
         <div class="custom-shape-divider-top-1661776277">
@@ -278,6 +278,15 @@
         justify-content: center;
         align-items: flex-end;
         gap: 20px;
+
+        a {
+            text-decoration: underline;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            color: #c7c7c7;
+        }
     }
 
     .custom-shape-divider-top-1661776277 {
@@ -376,6 +385,7 @@
         }
 
         .linkSuggest {
+
             a, span {
                 font-size: 1.4rem;
             }
