@@ -2,7 +2,7 @@
     export let data;
     let categories = data.links.categories;
 
-    import Linkbox from "$lib/Reusable/Linkbox.svelte";
+    import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
 </script>
 
 {#each categories as cat }
@@ -12,7 +12,7 @@
         <div class="links">
             {#each cat.links as link }
                 <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                <Linkbox href={link.eng.link} title={link.eng.presName} />
+                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.eng.presName} />
             {/each}    
         </div>
             
