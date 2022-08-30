@@ -12,10 +12,10 @@
 </svelte:head>
 
 <header>
-    <select bind:value={$locale}>
+    <select bind:value={$locale} class="smallHeaderItem">
         <option value="en">🇬🇧</option>
         <option value="nl">🇳🇱</option>
-        <!-- <option value="bg">🇧🇬</option> -->
+        <option value="bg">🇧🇬</option>
     </select>
     <!-- <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
         <a aria-label="Change website language to English" href="/">🇬🇧</a>
@@ -31,7 +31,7 @@
             </div>
         {/each}
     </nav>
-    <a href="https://github.com/Zakrok09/RoTUer" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
+    <a href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
 </header>
 <div class="shapedivider shapedividers_com-3156"></div>
 
@@ -43,32 +43,12 @@
         background-color: $contrast_header; //Here is a perfect example
         padding: 10px;
         display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
+        justify-content: space-between;
     }
 
     .shapedivider {
         height: 100px;
     }
-
-    // #langChange {
-    //     // border: 1px solid whitesmoke;
-    //     // border-radius: 100%;
-    //     // width: 40px;
-    //     // height: 40px;
-    //     display: flex;
-    //     gap: 10px;
-    //     // flex-flow: column nowrap;
-    //     // align-items: center;
-    //     // justify-content: center;
-
-    //     a {
-    //         text-decoration: none;
-    //         font-size: 2em;
-    //         font-family: sans-serif;
-    //         color: whitesmoke;
-    //     }
-    // }
 
     nav {
         display: flex;
@@ -127,6 +107,24 @@
         .navItem {
             margin: 20px 0px;
         }
+    }
+
+    select {
+        appearance: none;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        font-size: 2rem;
+
+        option {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    .smallHeaderItem {
+        width: 100px;
+        text-align: center;
     }
  
 </style>
