@@ -12,7 +12,7 @@
         <div class="links">
             {#each cat.links as link }
                 <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.eng.presName} />
+                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
             {/each}    
         </div>
             
@@ -26,18 +26,23 @@
 
     h2 {
         padding: 20px 50px;
-        font-size: 2rem;
+        font-size: 2.5rem;
+        color: white;
     }
 
     .category {
         width: 100%;
         border-top: 1px solid black;
+        background-image: url("/background/wavy.svg");
+        background-size: cover;
+        padding: 0px 0px 40px 0px;
     }
 
     .links {
         margin: 50px;
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
         gap: 30px;
     }
 </style>
