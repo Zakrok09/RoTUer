@@ -51,14 +51,14 @@
                 title="...het meeste halen uit je X abonnement?" 
                 src="xlogo.png" 
                 alt="X Logo" 
-                href="https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                href="https://www.tudelft.nl/x/aanbod/rooster"
                 anchorText="X Rooster"  />
             <Linkbox 
                 emoji="🧑‍🎓" 
                 title="...toegang tot het studentenportaal?" 
                 src="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/apple-touch-icon-144x144.png" 
                 alt="TUDelft Logo" 
-                href="https://www.tudelft.nl/en/student" 
+                href="https://www.tudelft.nl/studenten" 
                 anchorText="Studenten Portaal"  />
         </div>
         <a href="/links" id="moreLinks"><i>Meer...</i></a>
