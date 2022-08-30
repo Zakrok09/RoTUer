@@ -120,7 +120,7 @@
         }]
     }, {
         "name": "clothes",
-        "links": {
+        "links": [{
             "kik": {
                 "img": false,
                 "nl": {
@@ -136,7 +136,7 @@
                     "onlyNl": true
                 }
             }
-        }
+        }]
     }, {
         "name": "guides",
         "links": [{
