@@ -1,14 +1,15 @@
 <script>
-
+    import { t } from "$lib/translations/i18n";
 </script>
 <!-- ! yo thijs check this -->
 <main>
-    <h1>🔗 About RoTUer</h1>
+    <h1>🔗 {$t("homepage.aboutRotuer")}</h1>
     <section>
         <div class="left">
-            <h2>🔥 What is RoTUer</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nesciunt repudiandae numquam neque quae, quod corrupti mollitia voluptates? Consequatur ex quidem rerum quisquam? Molestias corporis deserunt est magnam sit cupiditate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, suscipit tempore quidem nihil culpa rerum. Excepturi quia repellendus perspiciatis quisquam ab delectus in ipsa, neque, sunt soluta porro reprehenderit asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit, voluptas a sequi assumenda dicta fuga eaque ipsum consequuntur. Amet nesciunt odit, reprehenderit facere ex incidunt eius vel veniam doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum possimus sint quam nam, vel nulla ullam at voluptates voluptatem earum reiciendis voluptatum doloribus dolores magni asperiores eaque fugiat minus facere.</p>
+            <h2>🔥 {$t("aboutpages.titles.aboutRotuer")}</h2>
+            <p>{$t("aboutpages.paragraphs.aboutrotuer.shortIntro")}</p>
+            <p>{$t("aboutpages.paragraphs.aboutrotuer.howWeBeganWork")}.</p>
+            <p>{$t("aboutpages.paragraphs.aboutrotuer.finalWords")}.</p>
         </div>
         <aside class="right">
             <img src="/isometric/logo.svg" alt="Praxidike Logo">
