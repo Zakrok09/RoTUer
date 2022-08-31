@@ -12,7 +12,7 @@
             <p>{$t("aboutpages.paragraphs.aboutus.whatBringSUSTogether")}</p>
         </div>
         <aside class="right">
-            <img src="/praxidike.png" alt="Praxidike Logo">
+            <img src="/pngs/praxidike.png" alt="Praxidike Logo">
         </aside>
     </section>
 

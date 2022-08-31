@@ -127,7 +127,7 @@
     }
 
     .abovecategories {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         padding: 20px 15vw;
         position: sticky;

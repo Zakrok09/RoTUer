@@ -54,7 +54,7 @@
             <Linkbox 
                 emoji="🏀" 
                 title={$t("homepage.questions.second")} 
-                src="xlogo.png" 
+                src="/pngs/xlogo.png" 
                 alt="X Logo" 
                 href="https://www.tudelft.nl/en/x/whats-on-offer/timetable"
                 anchorText="X Timetable"  />
@@ -131,7 +131,7 @@
     // }
 
     .secondLandingSection {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         display: flex;
         justify-content: space-between;
@@ -216,7 +216,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
-        background-image: url("/stripesBackground.svg");
+        background-image: url("/background/stripesBackground.svg");
 
         h2 {
             margin-top: 200px;
@@ -239,7 +239,7 @@
     }
 
     .fourthLandingSection {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         display: flex;
         justify-content: space-between;

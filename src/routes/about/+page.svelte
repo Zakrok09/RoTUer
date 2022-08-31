@@ -9,8 +9,8 @@
 </svelte:head>
 
 <main> 
-    <BigLinkbox src="/prax.png" title={$t("homepage.aboutus")} alt="Praxidike Logo" anchorText={$t("homepage.more")} href="/about/us"/>
-    <BigLinkbox background="/stripes2.svg" src="logoR.png" title={$t("homepage.aboutRotuer")} alt="roTUer Logo" anchorText={$t("homepage.more")} href="/about/RoTUer" />
+    <BigLinkbox background="/background/stripes1.svg" src="/pngs/prax.png" title={$t("homepage.aboutus")} alt="Praxidike Logo" anchorText={$t("homepage.more")} href="/about/us"/>
+    <BigLinkbox background="/background/stripes2.svg" src="/pngs/logoR.png" title={$t("homepage.aboutRotuer")} alt="roTUer Logo" anchorText={$t("homepage.more")} href="/about/RoTUer" />
 </main>
 
 <style lang="scss">
