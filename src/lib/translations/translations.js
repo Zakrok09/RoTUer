@@ -1,6 +1,6 @@
 export default {
     en: {
-        "homepage.underheading" : "Website is still under development and it currently not meant for use! Enter at your own responsibility",
+        "homepage.underheading" : "Website is still under development and it is currently not meant for use! Enter at your own responsibility",
         "homepage.firstSection.question": "What is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is a project made by (soon-to-be) students of TU Delft. The main goal is to help other students find websites that contain information that they are searching and to generalize all possible things you can make use of in the Uni.",
         "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by anyway to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
