@@ -32,7 +32,7 @@
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
+                        "desc":"The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
                         "link":"https://www.de-hovenpassage.nl/",
                         "presName":"Shoppingcenter De Hoven Passage",
                         "onlyNl":true
@@ -52,14 +52,14 @@
                     ], 
                     "nl":{
                         "desc":"lorum ispum",
-                        "link":"https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
+                        "link":"https://www.jumbo.com",
                         "presName":"Openingstijden Jumbo op het Bastiaansplein",
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
-                        "link":"https://www.jumbo.com/winkel/jumbo-delft-bastiaansplein",
-                        "presName":"Openings hours of the Jumbo on the Bastiaansplein",
+                        "desc":"Jumbo is a hypermarket franchise with lots of shops in Delft.",
+                        "link":"https://www.jumbo.com",
+                        "presName":"",
                         "onlyNl":true
                     }
                 }, 
@@ -82,7 +82,7 @@
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
+                        "desc":"Free products at Jumbo through the lowest price guarantee",
                         "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
                         "presName":"Free products at Jumbo through the lowest price guarantee",
                         "onlyNl":true
@@ -104,8 +104,8 @@
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
-                        "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
+                        "desc":"Action is one of the many home appliance franchises while also being on the budget side.",
+                        "link":"https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
                         "presName":"Action in Delft openings hours",
                         "onlyNl":true
                     }
@@ -126,7 +126,7 @@
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
+                        "desc":"Blokker is one of the many home appliance franchises.",
                         "link":"https://www.blokker.nl/winkels/delft",
                         "presName":"Blokkers in Delft openings hours",
                         "onlyNl":true
@@ -142,13 +142,13 @@
                         }
                     ],
                     "nl":{
-                        "desc":"lorum ispum",
+                        "desc":"Hema is one of the many home appliance franchises.",
                         "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName":"Openingstijden van de Hema op de Molslaan",
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
+                        "desc":"Hema is one of the many home appliance franchises",
                         "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName":"Openings hours of the Hema on the Molslaan",
                         "onlyNl":true
@@ -170,14 +170,14 @@
                         "onlyEng":false
                     },
                     "eng":{
-                        "desc":"lorum ispum",
+                        "desc":"Hema is one of the many home appliance franchises",
                         "link":"https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName":"Openings hours of the Hema in shopping center de Hoven Passage",
                         "onlyNl":true
                     }
                 },
                 {
-                    "name":"kik",
+                    "name":"Kik",
                     "img":false,
                     "tags": [
                         {
