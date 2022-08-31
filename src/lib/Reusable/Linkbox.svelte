@@ -17,6 +17,10 @@
 
 <style lang="scss">
     $contrast_header: #24313d;
+
+    *  {
+        font-family: 'Oxygen', sans-serif;
+    }
     
     .Linkbox {
         width: 300px;
@@ -31,6 +35,7 @@
             margin: 5px 20px;
             font-size: 1.2em;
             height: 50px;
+            text-align: center;
         }
 
         img {

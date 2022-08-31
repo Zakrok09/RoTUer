@@ -2,7 +2,7 @@
     import {locale} from "$lib/translations/i18n";
 
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
-    export let links = [["Home", "/"], ["To Links", "/links/"], ["About", "/about"] , ["Repo", "https://github.com/Zakrok09/RoTUer"]];
+    export let links = [["Home", "/"], ["To Links", "/links/"], ["About", "/about"]];
 
 
 </script>
@@ -12,15 +12,12 @@
 </svelte:head>
 
 <header>
-    <select bind:value={$locale} class="smallHeaderItem">
-        <option value="en">🇬🇧</option>
-        <option value="nl">🇳🇱</option>
-        <option value="bg">🇧🇬</option>
-    </select>
     <!-- <div aria-label="Change website language / Websitetaal wijzigen" id="langChange">
         <a aria-label="Change website language to English" href="/">🇬🇧</a>
         <a aria-label="Taal van website wijzigen in Nederlands" href="/nl/">🇳🇱</a>
     </div> -->
+    
+    <a href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
     <nav>
         <!-- * This is a cool Svelte thing that will iterate over an array and do some html shit with it. -->
         {#each links as [text, link]}
@@ -31,7 +28,11 @@
             </div>
         {/each}
     </nav>
-    <a href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
+    <select bind:value={$locale} class="smallHeaderItem">
+        <option value="en">🇬🇧</option>
+        <option value="nl">🇳🇱</option>
+        <option value="bg">🇧🇬</option>
+    </select>
 </header>
 <div class="shapedivider shapedividers_com-3156"></div>
 
@@ -100,6 +101,11 @@
     }
 
     @media (max-width:800px){
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+
         .navLink {
             font-size: 1rem;
         }
