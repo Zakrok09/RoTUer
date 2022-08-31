@@ -29,10 +29,10 @@
 </div>
 <div class="abovecategories">
     <div class="filterButtons modeChoice">
-        <button class="filterButton" on:click={() => handleViewToggle()}>{buttontext}</button>
+        <button class="filterButton" on:click={handleViewToggle}>{buttontext}</button>
     </div>
 </div>
-{#each categories as cat, i }
+{#each categories as cat, i}
     <div class="category">
         <h2 class="supplementaryCatText">{cat.name}</h2>
         <p class="supplementaryCatText">{cat.description}</p>
@@ -43,14 +43,14 @@
         {#if cat.show}
             {#if boxView}
                 <div class="links" >
-                    {#each cat.links as link }
+                    {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
-                    {#each cat.links as link }
+                    {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
@@ -64,14 +64,14 @@
         {#if cat.showExtra}
             {#if boxView}
                 <div class="links" >
-                    {#each cat.extralinks as link }
+                    {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
-                    {#each cat.extralinks as link }
+                    {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
