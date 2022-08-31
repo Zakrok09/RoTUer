@@ -1,22 +1,27 @@
 <script>
-
+    import { t } from "$lib/translations/i18n";
 </script>
 <!-- ! yo thijs check this -->
 <main>
-    <h1>🪐 About Us</h1>
+    <h1>🪐 {$t("homepage.aboutus")}</h1>
     <section>
         <div class="left">
-            <h2>🔭 Who are we</h2>
-            <p>Praxidike is an IT team with great experience and knowledge in AI and Web Development. We take details into consideration and finalize a covet project.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nesciunt repudiandae numquam neque quae, quod corrupti mollitia voluptates? Consequatur ex quidem rerum quisquam? Molestias corporis deserunt est magnam sit cupiditate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, suscipit tempore quidem nihil culpa rerum. Excepturi quia repellendus perspiciatis quisquam ab delectus in ipsa, neque, sunt soluta porro reprehenderit asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit, voluptas a sequi assumenda dicta fuga eaque ipsum consequuntur. Amet nesciunt odit, reprehenderit facere ex incidunt eius vel veniam doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum possimus sint quam nam, vel nulla ullam at voluptates voluptatem earum reiciendis voluptatum doloribus dolores magni asperiores eaque fugiat minus facere.</p>
+            <h2>🔭 {$t("aboutpages.titles.whoarewe")}</h2>
+            <p>{$t("aboutpages.paragraphs.aboutus.shortIntro")}</p>
+            <p>{$t("aboutpages.paragraphs.aboutus.praxidikeTimeline")}</p>
+            <p>{$t("aboutpages.paragraphs.aboutus.whatBringSUSTogether")}</p>
         </div>
         <aside class="right">
-            <img src="/praxidike.png" alt="Praxidike Logo">
+            <img src="/pngs/praxidike.png" alt="Praxidike Logo">
         </aside>
     </section>
 
 
 </main>
+
+<svelte:head>
+    <title>About Us | RoTUer</title>
+</svelte:head>
 
 
 <style lang="scss">

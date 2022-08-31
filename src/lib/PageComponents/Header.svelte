@@ -39,7 +39,6 @@
 <style lang="scss">
     // This is a SCSS variable. Basically it works like a predefined colour.
     $contrast_header: #24313d;
-
     header {
         background-color: $contrast_header; //Here is a perfect example
         padding: 10px;
@@ -121,10 +120,12 @@
         border: none;
         margin: 0;
         font-size: 2rem;
+        color:whitesmoke;
 
         option {
             font-size: 2rem;
             text-align: center;
+            color:black;
         }
     }
 

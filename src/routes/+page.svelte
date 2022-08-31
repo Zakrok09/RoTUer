@@ -1,7 +1,11 @@
 <script>
-    import { t, locale, locales } from "$lib/translations/i18n";
+    import { t } from "$lib/translations/i18n";
     import Linkbox from "$lib/Reusable/Linkbox.svelte";
 </script>
+
+<svelte:head>
+    <title>RoTUer</title>
+</svelte:head>
 
 <main>
     <div class="landingSite">
@@ -20,20 +24,20 @@
         <div class="rightSecond">
             <div class="SecondBox computer">
                 <span>🌹</span>
-                <h3>{$t("homepage.util1")}</h3>
-                <p>{$t("homepage.firstSection.box1")}</p>
-                <a href="/about/us" class="AnchorBox">{$t("homepage.util1")}</a>
+                <h3>{$t("homepage.aboutus")}</h3>
+                <p>{$t("homepage.firstSection.boxDescriptionLeft")}</p>
+                <a href="/about/us" class="AnchorBox">{$t("homepage.aboutus")}</a>
             </div>
             <div class="SecondBox computer">
                 <span>🔥</span>
-                <h3>{$t("homepage.util2")}</h3>
-                <p>{$t("homepage.firstSection.box2")}</p>
-                <a href="/about/RoTUer" class="AnchorBox">{$t("homepage.util2")}</a>
+                <h3>{$t("homepage.aboutRotuer")}</h3>
+                <p>{$t("homepage.firstSection.boxDescriptionRight")}</p>
+                <a href="/about/RoTUer" class="AnchorBox">{$t("homepage.aboutRotuer")}</a>
             </div>
 
             <div class="tablet SecondLinks">
-                <a href="/about/RoTUer" class="AnchorBox whitebg">{$t("homepage.util1")}</a>
-                <a href="/about/RoTUer" class="AnchorBox whitebg">{$t("homepage.util2")}</a>
+                <a href="/about/us" class="AnchorBox whitebg">{$t("homepage.aboutus")}</a>
+                <a href="/about/RoTUer" class="AnchorBox whitebg">{$t("homepage.aboutRotuer")}</a>
             </div>
         </div>
     </div>
@@ -50,7 +54,7 @@
             <Linkbox 
                 emoji="🏀" 
                 title={$t("homepage.questions.second")} 
-                src="xlogo.png" 
+                src="/pngs/xlogo.png" 
                 alt="X Logo" 
                 href="https://www.tudelft.nl/en/x/whats-on-offer/timetable"
                 anchorText="X Timetable"  />
@@ -62,7 +66,7 @@
                 href="https://www.tudelft.nl/en/student" 
                 anchorText="Student Portal"  />
         </div>
-        <a aria-label="This links sends you to our page with links" href="/links" id="moreLinks"><i>{$t("homepage.util3")} ...</i></a>
+        <a aria-label="This links sends you to our page with links" href="/links" id="moreLinks"><i>{$t("homepage.more")} ...</i></a>
     </div>
     <div class="landingSection fourthLandingSection">
         <div class="custom-shape-divider-top-1661776277">
@@ -127,7 +131,7 @@
     // }
 
     .secondLandingSection {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         display: flex;
         justify-content: space-between;
@@ -162,7 +166,6 @@
 
     .SecondBox {
         width: 300px;
-        height: 350px;
         border-radius: 10px;
         background-color: whitesmoke;
         color: black;
@@ -170,6 +173,7 @@
         flex-flow: column nowrap;
         justify-content: baseline;
         align-items: center;
+        padding-bottom: 20px;
 
         span {
             margin-top: 30px;
@@ -186,7 +190,7 @@
             text-align: center;
             padding: 10px 30px;
             font-size: 0.9em;
-            height: 100px;
+            height: 150px;
         }
     }
 
@@ -212,7 +216,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
-        background-image: url("/stripesBackground.svg");
+        background-image: url("/background/stripesBackground.svg");
 
         h2 {
             margin-top: 200px;
@@ -235,7 +239,7 @@
     }
 
     .fourthLandingSection {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         display: flex;
         justify-content: space-between;

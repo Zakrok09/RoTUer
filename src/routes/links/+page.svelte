@@ -4,6 +4,15 @@
 
     export let data;
     let categories = data.links.categories;
+    let buttonStateText=[]
+    for(let i=0; i<categories.length;i++){
+        buttonStateText.push({
+            show:true,
+            showText:"Show More",
+            showExtra:true,
+            showExtraText:"+ Show More Extras"
+        })
+    }
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
@@ -16,12 +25,20 @@
 
     function handleToggle(section) {
         categories[section].show = !categories[section].show;
+        buttonStateText[section].show = !buttonStateText[section].show;
+        buttonStateText[section].showText = buttonStateText[section].show ? 'Show More' : 'Show Less';
     }
 
     function handleToggleExtra(section) {
         categories[section].showExtra = !categories[section].showExtra;
+        buttonStateText[section].showExtra = !buttonStateText[section].showExtra;
+        buttonStateText[section].showExtraText = buttonStateText[section].showExtra ? '+ Show More Extras' : '+ Show Less Extras';
     }
 </script>
+
+<svelte:head>
+    <title>Links | RoTUer</title>
+</svelte:head>
 
 <div class="landingSite">
     <img src="/isometric/logo.svg" alt="The logo of RoTUer">
@@ -39,7 +56,7 @@
         <p class="supplementaryCatText">{cat.description}</p>
         
         <div class="supplementaryCatText center">
-            <button class="showmore" on:click={()=> handleToggle(i)}>Show more</button>
+            <button class="showmore" on:click={()=> handleToggle(i)}>{buttonStateText[i].showText}</button>
         </div>
         {#if cat.show}
             {#if boxView}
@@ -60,7 +77,7 @@
         {/if}
         
         <div class="supplementaryCatText center" style="margin-top: 20px;">
-            <button class="showmore" on:click={()=> handleToggleExtra(i)}>+ Show Extra</button>
+            <button class="showmore" on:click={()=> handleToggleExtra(i)}>{buttonStateText[i].showExtraText}</button>
         </div>
         {#if cat.showExtra}
             {#if boxView}
@@ -110,7 +127,7 @@
     }
 
     .abovecategories {
-        background-image: url("/bubbleBackground.svg");
+        background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
         padding: 20px 15vw;
         position: sticky;
@@ -138,6 +155,7 @@
         cursor: pointer;
         font-size: 1rem;
         text-align: center;
+        margin-top:30px;
         background: #1b252e;
         padding: 10px 20px;
         border: none;
