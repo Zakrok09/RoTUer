@@ -5,16 +5,12 @@
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
     export let tagsObject;
-
-    function capitalizeFirstLetter(string) {
-        return string.toString().charAt(0).toUpperCase() + string.toString().slice(1);
-    }
 </script>
 
 
 <div class="Linkbox">
     <!-- <div class="blackbar"></div> -->
-    <div class="background" style="background-image: url('/background/links/{capitalizeFirstLetter(tagsObject[tags[0]].text)}.svg');">
+    <div class="background" style="background-image: url('/background/links/{tagsObject[tags[0]].text}.svg');">
     <!-- <div class="background"> -->
         <h3>{title}</h3>
     </div>
