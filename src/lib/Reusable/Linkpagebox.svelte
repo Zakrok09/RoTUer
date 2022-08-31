@@ -16,7 +16,7 @@
     </div>
     <p>{desc}</p>
     <!-- <img {src} {alt}> -->
-    <a {href} target="_blank" class="AnchorBox ThirdBoxLink"> {anchorText} </a>
+    <a {href} target="_blank" class="AnchorBox ThirdBoxLink">{anchorText}</a>
     <span id="tag">Tags:</span>
     <div class="tags">
         {#each tags as tag}

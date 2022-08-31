@@ -14,7 +14,7 @@
             <span class="tag" style="background-color: {tag.color};">{tag.text}</span>
         {/each}    
     </div>
-    <a href={href} target="_blank">{anchorText}</a>
+    <a {href} target="_blank">{anchorText}</a>
 
 </div>
 

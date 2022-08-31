@@ -1,7 +1,6 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
     import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
-	import { slide } from 'svelte/transition';
 
     export let data;
     let categories = data.links.categories;
@@ -23,30 +22,35 @@
     }
 </script>
 
+<div class="landingSite">
+    <img src="/isometric/logo.svg" alt="The logo of RoTUer">
+    <h1 tabindex="0">RoTUer</h1>
+    <i>Links are finally here</i>
+</div>
 <div class="abovecategories">
     <div class="filterButtons modeChoice">
-        <button class="filterButton" on:click={() => handleViewToggle()}>{buttontext}</button>
+        <button class="filterButton" on:click={handleViewToggle}>{buttontext}</button>
     </div>
 </div>
-{#each categories as cat, i }
+{#each categories as cat, i}
     <div class="category">
-        <h2>{cat.name}</h2>
-        <p>{cat.description}</p>
+        <h2 class="supplementaryCatText">{cat.name}</h2>
+        <p class="supplementaryCatText">{cat.description}</p>
         
-        <div class="leftpad">
+        <div class="supplementaryCatText center">
             <button class="showmore" on:click={()=> handleToggle(i)}>Show more</button>
         </div>
         {#if cat.show}
             {#if boxView}
                 <div class="links" >
-                    {#each cat.links as link }
+                    {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
-                    {#each cat.links as link }
+                    {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
@@ -54,20 +58,20 @@
             {/if}
         {/if}
         
-        <div class="leftpad" style="margin-top: 20px;">
+        <div class="supplementaryCatText center" style="margin-top: 20px;">
             <button class="showmore" on:click={()=> handleToggleExtra(i)}>+ Show Extra</button>
         </div>
         {#if cat.showExtra}
             {#if boxView}
                 <div class="links" >
-                    {#each cat.extralinks as link }
+                    {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
-                    {#each cat.extralinks as link }
+                    {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
                         <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
                     {/each}    
@@ -84,17 +88,38 @@
         font-family: 'Oxygen', sans-serif;
     }
 
+    .landingSite {
+        padding-top: 70px;
+        padding-bottom: 200px;
+        font-family: 'Oxygen', sans-serif;
+        text-align: center;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        i {
+            font-size: 0.9rem;
+        }
+
+        img {
+            width: 300px;
+            display: inline;
+        }
+    }
+
     .abovecategories {
-        background-image: url("/background/curvy.svg");
+        background-image: url("/bubbleBackground.svg");
         background-size: cover;
-        padding: 20px 50px;
+        padding: 20px 15vw;
         position: sticky;
         top: 0px;
     }
 
     .filterButton {
-        background: hsla(208, 100%, 97%, 0.827);
+        background: hsla(0, 2%, 100%, 0.827);
         border-radius: 15px;
+        border: none;
         color: rgb(0, 0, 0);
         width: 150px;
         font-weight: bold;
@@ -102,16 +127,18 @@
         font-size: 1.1rem;
         cursor: pointer;
     }
-
-    .leftpad {
-        padding-left: 50px;
+    .center {
+        width: 100%;
+        margin: 0px !important;
+        display: flex;
+        justify-content: center;
     }
-
     .showmore {
         cursor: pointer;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
-        background: none;
+        background: #1b252e;
+        padding: 10px 20px;
         border: none;
         color: aliceblue;
         margin-bottom: 30px;
@@ -122,22 +149,24 @@
     }
 
     p {
-        font-size: 1.3rem;
-        padding: 0px 0px 20px 50px;
+        font-size: 1.1rem;
         width: 70%;
         color: whitesmoke;
     }
 
     h2 {
-        padding: 20px 0px 10px 50px;
         font-size: 2.5rem;
         color: white;
+    }
+
+    .supplementaryCatText {
+        margin-left: 15vw;
     }
 
     .category {
         width: 100%;
         border-top: 1px solid black;
-        background-color: #24313d;
+        background-color: rgb(85, 103, 120);
         background-size: cover;
         padding: 0px 0px 40px 0px;
     }
