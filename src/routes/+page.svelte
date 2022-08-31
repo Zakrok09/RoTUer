@@ -12,22 +12,22 @@
     </div>
     <div class="landingSection secondLandingSection">
         <div class="leftSecond">
-            <h2>🚀 {$t("homepage.first.question")}</h2>
-            <p>{$t("homepage.first.paragraph1")}</p>
-            <p>{$t("homepage.first.paragraph2")}</p>
-            <p>{$t("homepage.first.paragraph3")}</p>
+            <h2>🚀 {$t("homepage.firstSection.question")}</h2>
+            <p>{$t("homepage.firstSection.paragraph1")}</p>
+            <p>{$t("homepage.firstSection.paragraph2")}</p>
+            <p>{$t("homepage.firstSection.paragraph3")}</p>
         </div>
         <div class="rightSecond">
             <div class="SecondBox computer">
                 <span>🌹</span>
                 <h3>{$t("homepage.util1")}</h3>
-                <p>{$t("homepage.first.box1")}</p>
+                <p>{$t("homepage.firstSection.box1")}</p>
                 <a href="/about/us" class="AnchorBox">{$t("homepage.util1")}</a>
             </div>
             <div class="SecondBox computer">
                 <span>🔥</span>
                 <h3>{$t("homepage.util2")}</h3>
-                <p>{$t("homepage.first.box2")}</p>
+                <p>{$t("homepage.firstSection.box2")}</p>
                 <a href="/about/RoTUer" class="AnchorBox">{$t("homepage.util2")}</a>
             </div>
 
@@ -71,18 +71,18 @@
             </svg>
         </div>
         <div class="centralFourth">
-            <h2>{$t("homepage.fourth.1")}?</h2>
-            <p>{$t("homepage.fourth.2")}:</p>
+            <h2>{$t("homepage.fourthSection.question")}?</h2>
+            <p>{$t("homepage.fourthSection.listTitle")}:</p>
             <ul>
-                <li>{$t("homepage.fourth.3")}</li>
-                <li>{$t("homepage.fourth.4")}</li>
-                <li>{$t("homepage.fourth.5")}...</li>
+                <li>{$t("homepage.fourthSection.item1")}</li>
+                <li>{$t("homepage.fourthSection.item2")}</li>
+                <li>{$t("homepage.fourthSection.item3")}...</li>
             </ul>
 
             <div class="linkSuggest">
-                <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">{$t("homepage.fourth.6")}</a>
+                <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">{$t("homepage.fourthSection.sendEmail")}</a>
                 <span>/</span>
-                <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">{$t("homepage.fourth.7")}</a>
+                <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">{$t("homepage.fourthSection.openIssue")}</a>
             </div>
         </div>
     </div>
