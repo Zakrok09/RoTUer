@@ -19,6 +19,10 @@
 
 </main>
 
+<svelte:head>
+    <title>About RoTUer | RoTUer</title>
+</svelte:head>
+
 
 <style lang="scss">
     * {

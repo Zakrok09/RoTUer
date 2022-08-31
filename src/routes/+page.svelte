@@ -3,6 +3,10 @@
     import Linkbox from "$lib/Reusable/Linkbox.svelte";
 </script>
 
+<svelte:head>
+    <title>RoTUer</title>
+</svelte:head>
+
 <main>
     <div class="landingSite">
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
