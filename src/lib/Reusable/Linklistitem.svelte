@@ -4,6 +4,7 @@
     export let desc = '';
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
+    export let tagsObject = {};
 </script>
 
 <div class="listItem">
@@ -11,8 +12,10 @@
     <p>{desc}</p>
     <div class="tags">
         {#each tags as tag}
-            <span class="tag" style="background-color: {tag.color};">{tag.text}</span>
-        {/each}    
+            {#if tagsObject[tag]}
+                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].text}</span>
+            {/if}
+        {/each} 
     </div>
     <a {href} target="_blank">{anchorText}</a>
 

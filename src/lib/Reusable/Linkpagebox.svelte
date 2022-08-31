@@ -1,17 +1,17 @@
 <script>
     export let title = 'no title specified';
-    // export let src = 'https://emoji.discadia.com/emojis/a912ec14-e8af-4bd6-9cbd-013c8e1380a5.jpeg';
-    // export let alt = 'supplementary image';
     export let anchorText = 'To website';
     export let desc = '';
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
+    export let tagsObject;
 </script>
 
 
 <div class="Linkbox">
     <!-- <div class="blackbar"></div> -->
-    <div class="background" style="background-image: url('/background/links/{tags[0].text}.svg');">
+    <div class="background" style="background-image: url('/background/links/{tagsObject[tags[0]].text}.svg');">
+    <!-- <div class="background"> -->
         <h3>{title}</h3>
     </div>
     <p>{desc}</p>
@@ -20,7 +20,9 @@
     <span id="tag">Tags:</span>
     <div class="tags">
         {#each tags as tag}
-            <span class="tag" style="background-color: {tag.color};">{tag.text}</span>
+            {#if tagsObject[tag]}
+                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].text}</span>
+            {/if}
         {/each}    
     </div>
 </div>

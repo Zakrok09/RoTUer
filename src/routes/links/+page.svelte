@@ -6,6 +6,7 @@
     let categories = data.links.categories;
     let boxView = true;
     let buttontext = "📅 Boxes";
+    let tagsObject = data.links.tags;
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -45,14 +46,14 @@
                 <div class="links" >
                     {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
                     {#each cat.links as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
                     {/each}    
                 </div>
             {/if}
@@ -66,14 +67,14 @@
                 <div class="links" >
                     {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
                     {/each}    
                 </div>
                 {:else}
                 <div class="linksCompact" >
                     {#each cat.extralinks as link}
                         <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
                     {/each}    
                 </div>
             {/if}  
