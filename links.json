@@ -1,7 +1,8 @@
 {
     "categories":[
         {
-            "name": "Shopping",
+            "name": "🛍️ Shopping",
+            "description": "🧾 This section is about websites related to shops, retail markets etc. The tags show what the shop related to this website sells, provides etc. The extra links section provides links to various budget recipe websites.",
             "links": [
                 {
                     "name":"De Hoven",
@@ -59,6 +60,31 @@
                     "eng":{
                         "desc":"Jumbo is a hypermarket franchise with lots of shops in Delft.",
                         "link":"https://www.jumbo.com",
+                        "presName":"",
+                        "onlyNl":true
+                    }
+                }, 
+                {
+                    "name":"Albert Heijn",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#40E91E",
+                            "text": "Food"
+                        }, {
+                            "color": "#5897F4",
+                            "text": "Domestic"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.ah.nl/",
+                        "presName":"Openingstijden Jumbo op het Bastiaansplein",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"Albert Heijn is a hypermarket franchise with lots of shops in Delft.",
+                        "link":"https://www.ah.nl/",
                         "presName":"",
                         "onlyNl":true
                     }
@@ -308,10 +334,35 @@
                         "onlyNl":true
                     }
                 }
+            ],
+            "extralinks": [
+                {
+                    "name":"AH Budget Recipes",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#AFB42B",
+                            "text": "Recipe"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.ah.nl/allerhande/recepten/budget-recepten",
+                        "presName":"Winkelcentrum De Hoven Passage",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"Albert Heijn is known for its budget recipes.",
+                        "link":"https://www.ah.nl/allerhande/recepten/budget-recepten",
+                        "presName":"Shoppingcenter De Hoven Passage",
+                        "onlyNl":true
+                    }
+                }
             ]
         },
         {
-            "name": "Services",
+            "name": "👝 Services",
+            "description": "🧾 This section is about websites related to subscription services (housing, mobile plans etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to comparisons between plans.",
             "links": [
                 {
                     "name":"delft",
@@ -555,10 +606,35 @@
                         "onlyNl":false
                     }
                 }
+            ],
+            "extralinks": [
+                {
+                    "name":"Mobile plan comparison",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#AFB42B",
+                            "text": "Recipe"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName":"Winkelcentrum De Hoven Passage",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"A mobile plan comparison done by Prijsvergelijken.",
+                        "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName":"Shoppingcenter De Hoven Passage",
+                        "onlyNl":true
+                    }
+                }
             ]
         },
         {
-            "name": "Other",
+            "name": "📓 Other",
+            "description": "🧾 This section is about websites related to other sources of information (like guides, places to find a job etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to cool Front-end tools.",
             "links": [
                 {
                     "name":"Learn Dutch",
@@ -735,6 +811,30 @@
                         "link":"https://www.surfspot.nl/",
                         "presName":"SURFspot",
                         "onlyNl":false
+                    }
+                }
+            ],
+            "extralinks": [
+                {
+                    "name":"Mobile plan comparison",
+                    "img":false,
+                    "tags": [
+                        {
+                            "color": "#AFB42B",
+                            "text": "Recipe"
+                        }
+                    ], 
+                    "nl":{
+                        "desc":"lorum ispum",
+                        "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName":"Winkelcentrum De Hoven Passage",
+                        "onlyEng":false
+                    },
+                    "eng":{
+                        "desc":"A mobile plan comparison done by Prijsvergelijken.",
+                        "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName":"Shoppingcenter De Hoven Passage",
+                        "onlyNl":true
                     }
                 }
             ]
