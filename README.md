@@ -48,3 +48,7 @@ You can contribute to this project by:
 You can find further documentation in the CODE.md file (will be provided soon)
 
 This website uses sveltekit
+
+_________________
+
+Special thanks to Arraying
