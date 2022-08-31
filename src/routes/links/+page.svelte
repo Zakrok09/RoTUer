@@ -25,7 +25,7 @@
 <div class="landingSite">
     <img src="/isometric/logo.svg" alt="The logo of RoTUer">
     <h1 tabindex="0">RoTUer</h1>
-    <i>Links are finally here yo</i>
+    <i>Links are finally here</i>
 </div>
 <div class="abovecategories">
     <div class="filterButtons modeChoice">
