@@ -101,6 +101,11 @@
     }
 
     @media (max-width:800px){
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+
         .navLink {
             font-size: 1rem;
         }

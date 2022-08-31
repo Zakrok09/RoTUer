@@ -428,6 +428,10 @@
             justify-content: center;
         }
 
+        .leftSecond {
+            padding: 50px 0px;
+        }
+
         .thirdLandingSection {
             h2 {
                 margin: 100px 0px 60px 0px;
