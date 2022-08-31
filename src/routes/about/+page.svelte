@@ -18,7 +18,7 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
-        padding-bottom: 100px;
+        padding-bottom: 200px;
     }
 
     @media only screen and (max-width: 580px) {
