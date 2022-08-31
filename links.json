@@ -11,8 +11,8 @@
         "domestic": {
             "color": "#5897F4",
             "text": "Domestic"
-        },
-    }
+        }
+    },
     "categories":[
         {
             "name": "🛍️ Shopping",
