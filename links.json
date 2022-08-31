@@ -11,19 +11,6 @@
                         {
                             "color": "#E91E63",
                             "text": "Mall"
-                        }, {
-                            "color": "#40E91E",
-                            "text": "Food"
-                        }, {
-                            "color": "#E9AE1E",
-                            "text": "Home Appliances"
-                        }, {
-                            "color": "#5897F4",
-                            "text": "Domestic"
-                        },
-                        {
-                            "color": "#9C27B0",
-                            "text": "Clothes"
                         }
                     ], 
                     "nl":{
@@ -342,7 +329,7 @@
                     "tags": [
                         {
                             "color": "#AFB42B",
-                            "text": "Recipe"
+                            "text": "Extra"
                         }
                     ], 
                     "nl":{
@@ -614,9 +601,9 @@
                     "tags": [
                         {
                             "color": "#AFB42B",
-                            "text": "Recipe"
+                            "text": "Extra"
                         }
-                    ], 
+                    ],
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
@@ -821,9 +808,9 @@
                     "tags": [
                         {
                             "color": "#AFB42B",
-                            "text": "Recipe"
+                            "text": "Extra"
                         }
-                    ], 
+                    ],
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
