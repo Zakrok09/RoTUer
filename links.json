@@ -1,4 +1,18 @@
 {
+    "tags": {
+        "mall": {
+            "color": "#E91E63",
+            "text": "Mall"
+        },
+        "food": {
+            "color": "#40E91E",
+            "text": "Food"
+        },
+        "domestic": {
+            "color": "#5897F4",
+            "text": "Domestic"
+        },
+    }
     "categories":[
         {
             "name": "🛍️ Shopping",
@@ -7,12 +21,7 @@
                 {
                     "name":"De Hoven",
                     "img":false,
-                    "tags": [
-                        {
-                            "color": "#E91E63",
-                            "text": "Mall"
-                        }
-                    ], 
+                    "tags": ["mall"], 
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.de-hovenpassage.nl/",
@@ -29,15 +38,7 @@
                 {
                     "name":"Jumbo",
                     "img":false,
-                    "tags": [
-                        {
-                            "color": "#40E91E",
-                            "text": "Food"
-                        }, {
-                            "color": "#5897F4",
-                            "text": "Domestic"
-                        }
-                    ], 
+                    "tags": [ "food", "domestic" ], 
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.jumbo.com",
@@ -54,15 +55,7 @@
                 {
                     "name":"Albert Heijn",
                     "img":false,
-                    "tags": [
-                        {
-                            "color": "#40E91E",
-                            "text": "Food"
-                        }, {
-                            "color": "#5897F4",
-                            "text": "Domestic"
-                        }
-                    ], 
+                    "tags": [ "food", "domestic" ],
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.ah.nl/",
@@ -79,15 +72,7 @@
                 {
                     "name":"Jumbo Products",
                     "img":false,
-                    "tags": [
-                        {
-                            "color": "#40E91E",
-                            "text": "Food"
-                        }, {
-                            "color": "#5897F4",
-                            "text": "Domestic"
-                        }
-                    ], 
+                    "tags": [ "food", "domestic" ],
                     "nl":{
                         "desc":"lorum ispum",
                         "link":"https://www.jumbo.com/inspiratie/voordeel/lpg",
