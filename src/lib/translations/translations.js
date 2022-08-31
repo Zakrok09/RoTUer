@@ -35,7 +35,7 @@ export default {
         "homepage.firstSection.question": "Wat is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is een project gemaakt door (aanstaande) studenten van de TU Delft. Het belangrijkste doel is om andere studenten te helpen websites te vinden die informatie bevatten die ze zoeken en om alle mogelijke dingen op een rijtje te zetten die je in de Uni kunt gebruiken.",
         "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: Dit project is hoe dan ook niet gebonden aan de TU Delft zelf. Informatie wordt hier verzameld en gepresenteerd door ons (het team achter het project).TU DELFT IS NIET VERANTWOORDELIJK VOOR ONNAUWKEURIGHEID OP DEZE WEBSITE.",
-        "homepage.firstSection.paragraph3": "‼️ Hoewel we ervoor zorgen dat elke link veilig is, zorg ervoor dat u controleert waar de link naartoe leidt voordat u klikt!",
+        "homepage.firstSection.paragraph3": "‼️ Hoewel we ervoor zorgen dat elke link veilig is, zorg ervoor dat je controleert waar de link naartoe leidt voordat je klikt!",
         "homepage.firstSection.boxDescriptionLeft": "Wij zijn studenten uit heel Europa die net samen aan een project zijn begonnen. We willen allemaal mensen helpen. Daarom hebben we RoTUer ontwikkeld.",
         "homepage.firstSection.boxDescriptionRight": "RoTUer is gemaakt om mensen zoals ik te helpen die zich plotseling op een plek bevinden met eindeloze mogelijkheden. Daarom wilden we al deze informatie in een samengevatte vorm met links presenteren.",
         "homepage.aboutus": "Over ons",
@@ -54,12 +54,12 @@ export default {
         "homepage.fourthSection.openIssue": "Of creer een probleem of github (met het label Links)",
         "aboutpages.titles.whoarewe": "Wie zijn we",
         "aboutpages.titles.aboutRotuer": "Wat is RoTUer",
-        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is een project dat als doel heeft studenten van de TU Delft te helpen door hen veel gecategoriseerde links naar websites te bieden, waardoor het voor gebruikers eenvoudiger wordt om naar informatie te bladeren. ",
-        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We zijn aan dit project begonnen om mensen te helpen die net als wij ongemakken hebben/hebben/zullen ervaren. We willen ervoor zorgen dat studenten toegang hebben tot informatie en de middelen om deze snel te verzamelen",
-        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoUTer is hier om uit te breiden en meer manieren op te nemen om studenten te helpen. Blijf kijken!",
-        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is een IT-team met ervaring in AI en webontwikkeling. We houden rekening met details en ronden een begeerd project af.",
+        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is een project dat als doel heeft studenten van de TU Delft te helpen door hen veel gecategoriseerde links naar websites te bieden, waardoor het voor gebruikers eenvoudiger wordt om informatieve websites te vinden. ",
+        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We zijn aan dit project begonnen om mensen te helpen die net als wij problemen hebben of zullen hebben tijdens hun studietijd in Delft. We willen ervoor zorgen dat studenten toegang hebben tot informatie en de middelen om deze snel te verzamelen",
+        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer is er om uit te breiden en meer manieren op te nemen om studenten te helpen. Blijf dus zeker van tijd tot tijd terugkomen!",
+        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is een IT-team met ervaring in AI en webontwikkeling. We houden rekening met details en ronden met veel inspanning en liefde projecten af.",
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is een team dat oorspronkelijk uit Bulgarije komt, maar nu leden uit heel Europa heeft, samengebracht door de TU Delft. In eerste instantie werd het team gevormd door klasgenoten op een Bulgaarse school en presteerde het goed op Hackathons. Nu heeft Praxidike nieuwe leden van de TU Delft.",
-        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Zorg ervoor dat u onze GitHub-organisatie controleert."
+        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Als je geintresseerd bent check dan zeker onze GitHub-organisatie."
     },
     bg: {
         "homepage.underheading" : "Уебсайтът е все още в разработъчна версия и не е предназначен за потребление! Използвайте на собствен риск!",
