@@ -57,6 +57,7 @@
         {
             "name": "🛍️ Shopping",
             "description": "🧾 This section is about websites related to shops, retail markets etc. The tags show what the shop related to this website sells, provides etc. The extra links section provides links to various budget recipe websites.",
+            "descriptionnl":"🧾 Dit onderdeel van de website gaat over winkels, winkelcentra etc. De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met verschillende budgetrecepten" ,
             "links": [
                 {
                     "name": "De Hoven",
@@ -65,7 +66,7 @@
                         "mall"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "De Hoven is een winkelcentrum met super veel verschillende winkels voor alles van kleding tot snoep.",
                         "link": "https://www.de-hovenpassage.nl/",
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
@@ -85,13 +86,13 @@
                         "domestic"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Jumbo is een supermarkt keten met veel verschillende winkels in Delft",
                         "link": "https://www.jumbo.com",
                         "presName": "Openingstijden Jumbo op het Bastiaansplein",
                         "onlyEng": false
                     },
                     "eng": {
-                        "desc": "Jumbo is a hypermarket franchise with lots of shops in Delft.",
+                        "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
                         "link": "https://www.jumbo.com",
                         "presName": "",
                         "onlyNl": true
@@ -105,13 +106,13 @@
                         "domestic"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Albert Heijn is een supermarkt keten met veel verschillende winkels in Delft",
                         "link": "https://www.ah.nl/",
                         "presName": "Openingstijden Jumbo op het Bastiaansplein",
                         "onlyEng": false
                     },
                     "eng": {
-                        "desc": "Albert Heijn is a hypermarket franchise with lots of shops in Delft.",
+                        "desc": "Albert Heijn is a supermarket franchise with lots of shops in Delft.",
                         "link": "https://www.ah.nl/",
                         "presName": "",
                         "onlyNl": true
@@ -125,13 +126,13 @@
                         "domestic"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Gratis producten bij Jumbo door de laagsteprijsgarantie.",
                         "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
                         "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
                         "onlyEng": false
                     },
                     "eng": {
-                        "desc": "Free products at Jumbo through the lowest price guarantee",
+                        "desc": "Free products at Jumbo through the lowest price guarantee.",
                         "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
                         "presName": "Free products at Jumbo through the lowest price guarantee",
                         "onlyNl": true
@@ -144,7 +145,7 @@
                         "home appliances"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Action is een van de vele huishoudapparatuur ketens en is ook relatief goedkoop.",
                         "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
                         "presName": "Action in Delft openingstijden",
                         "onlyEng": false
@@ -163,7 +164,7 @@
                         "home appliances"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Blokker is een van de vele huishoudapparatuur ketens.",
                         "link": "https://www.blokker.nl/winkels/delft",
                         "presName": "Blokkers in Delft openingstijden",
                         "onlyEng": false
@@ -182,7 +183,7 @@
                         "home appliances"
                     ],
                     "nl": {
-                        "desc": "Hema is one of the many home appliance franchises.",
+                        "desc": "Hema is een van de vele huishoudapparatuur ketens.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openingstijden van de Hema op de Molslaan",
                         "onlyEng": false
@@ -201,7 +202,7 @@
                         "home appliances"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Hema is een van de vele huishoudapparatuur ketens.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openingstijden van de Hema in winkelcentrum de Hoven Passage",
                         "onlyEng": false
@@ -353,6 +354,7 @@
         {
             "name": "👝 Services",
             "description": "🧾 This section is about websites related to subscription services (housing, mobile plans etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to comparisons between plans.",
+            "descriptionnl":"🧾 Dit onderdeel van de website bestaat uit websites met subscriptie services (huisvesting, telefoon abonnementen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites die verschillende subscripties vergelijken.",
             "links": [
                 {
                     "name": "delft",
@@ -589,6 +591,7 @@
         {
             "name": "📓 Other",
             "description": "🧾 This section is about websites related to other sources of information (like guides, places to find a job etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to cool Front-end tools.",
+            "descriptionnl":"🧾 Dit onderdeel van de website bestaat uit websites met verschillende informatie bronnen (gidsen, plekken voor werk/bijbanen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met coole Front-end hulpmiddelen.",
             "links": [
                 {
                     "name": "Learn Dutch",
