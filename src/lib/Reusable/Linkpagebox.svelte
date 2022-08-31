@@ -10,11 +10,14 @@
 
 
 <div class="Linkbox">
-    <h3>{title}</h3>
+    <div class="blackbar"></div>
+    <div class="background" style="background-image: url('/background/links/{tags[0].text}.svg');">
+        <h3>{title}</h3>
+    </div>
     <p>{desc}</p>
     <!-- <img {src} {alt}> -->
     <a {href} target="_blank" class="AnchorBox ThirdBoxLink"> {anchorText} </a>
-    <p>Tags:</p>
+    <span id="tag">Tags:</span>
     <div class="tags">
         {#each tags as tag}
             <span class="tag" style="background-color: {tag.color};">{tag.text}</span>
@@ -27,6 +30,37 @@
     $grey: #e6e6e6;
     *  {
         font-family: 'Oxygen', sans-serif;
+    }
+
+    #tag {
+        margin: 30px 0px 5px 0px;
+    }
+
+    .background {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+
+        h3 {
+            font-size: 1.6em;
+            height: 50px;
+            color: whitesmoke;
+            font-weight: 800;
+            text-align: center;
+        }
+    }
+
+    .blackbar {
+        background-image: url("/background/curvy.svg");
+        background-size: cover;
+        width: 100%;
+        height: 50px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        
     }
 
     .tags {
@@ -58,15 +92,14 @@
         flex-flow: column nowrap;
         align-items: center;
 
-        h3 {
-            margin: 40px 20px 10px 20px;
-            font-size: 1.2em;
-            height: 50px;
-            text-align: center;
+        a {
+            margin-top: 20px;
         }
 
-        a {
+        p {
+            height: 40px;
             margin-top: 50px;
+            padding: 0px 30px;
         }
     }
 
