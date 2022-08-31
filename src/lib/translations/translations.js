@@ -26,8 +26,8 @@ export default {
         "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is a project that aims to help students at TU Delft by providing them with loads of categorized links to websites, thus making it simpler for users to browse for information. ",
         "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We began working on this project to help people who are/have/will experiences inconveniences like we did. We want to make sure that students have access to information and the means to gather it quickly",
         "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer is here to expand and incorporate more ways of helping students. Stay tuned!",
-        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is an IT team with great experience and knowledge in AI and Web Development. We take details into consideration and finalize a covet project.",
-        "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is a team that originats from Bulgaria but now has members from all over Europe brought together by TU Delft. At first, the team was formed by classmates from PPMG Burgas and performed well on Hackathons. Now, Praxidike has new members from TU Delft.",
+        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is an IT team with experience in AI and Web Development. We take details into consideration and finalize a covet project.",
+        "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is a team that originates from Bulgaria but now has members from all over Europe brought together by TU Delft. At first, the team was formed by classmates from PPMG Burgas and performed well on Hackathons. Now, Praxidike has new members from TU Delft.",
         "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We are brought together by the joy of helping other people, our common interests and TU Delft. We have fun doing projects together and we are looking for people like us. Make sure to check our GitHub organization."
     },
     nl: {
@@ -52,14 +52,14 @@ export default {
         "homepage.fourthSection.item3": "geen illegale inhoud bevat",
         "homepage.fourthSection.sendEmail": "Stuur ons een e-mail",
         "homepage.fourthSection.openIssue": "Of creer een probleem of github (met het label Links)",
-        "aboutpages.titles.whoarewe": "Who are we",
-        "aboutpages.titles.aboutRotuer": "What is RoTUer",
-        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is a project that aims to help students at TU Delft by providing them with loads of categorized links to websites, thus making it simpler for users to browse for information. ",
-        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We began working on this project to help people who are/have/will experiences inconveniences like we did. We want to make sure that students have access to information and the means to gather it quickly",
-        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer is here to expand and incorporate more ways of helping students. Stay tuned!",
-        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is an IT team with experienc in AI and Web Development. We take details into consideration and finalize a covet project.",
-        "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is a team that originatеs from Bulgaria but now has members from all over Europe brought together by TU Delft. At first, the team was formed by classmates in a Bulgarian school and performed well on Hackathons. Now, Praxidike has new members from TU Delft.",
-        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We are brought together by the joy of helping other people, our common interests and TU Delft. We have fun doing projects together and we are looking for people like us. Make sure to check our GitHub organization."
+        "aboutpages.titles.whoarewe": "Wie zijn we",
+        "aboutpages.titles.aboutRotuer": "Wat is RoTUer",
+        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is een project dat als doel heeft studenten van de TU Delft te helpen door hen veel gecategoriseerde links naar websites te bieden, waardoor het voor gebruikers eenvoudiger wordt om naar informatie te bladeren. ",
+        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We zijn aan dit project begonnen om mensen te helpen die net als wij ongemakken hebben/hebben/zullen ervaren. We willen ervoor zorgen dat studenten toegang hebben tot informatie en de middelen om deze snel te verzamelen",
+        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoUTer is hier om uit te breiden en meer manieren op te nemen om studenten te helpen. Blijf kijken!",
+        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is een IT-team met ervaring in AI en webontwikkeling. We houden rekening met details en ronden een begeerd project af.",
+        "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is een team dat oorspronkelijk uit Bulgarije komt, maar nu leden uit heel Europa heeft, samengebracht door de TU Delft. In eerste instantie werd het team gevormd door klasgenoten op een Bulgaarse school en presteerde het goed op Hackathons. Nu heeft Praxidike nieuwe leden van de TU Delft.",
+        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Zorg ervoor dat u onze GitHub-organisatie controleert."
     },
     bg: {
         "homepage.underheading" : "Уебсайтът е все още в разработъчна версия и не е предназначен за потребление! Използвайте на собствен риск!",
