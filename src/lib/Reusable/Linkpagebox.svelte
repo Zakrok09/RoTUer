@@ -10,7 +10,7 @@
 
 
 <div class="Linkbox">
-    <div class="blackbar"></div>
+    <!-- <div class="blackbar"></div> -->
     <div class="background" style="background-image: url('/background/links/{tags[0].text}.svg');">
         <h3>{title}</h3>
     </div>
@@ -43,6 +43,8 @@
         justify-content: center;
         align-items: center;
         background-size: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
 
         h3 {
             font-size: 1.6em;
@@ -53,15 +55,15 @@
         }
     }
 
-    .blackbar {
-        background-image: url("/background/curvy.svg");
-        background-size: cover;
-        width: 100%;
-        height: 50px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+    // .blackbar {
+    //     background-image: url("/background/curvy.svg");
+    //     background-size: cover;
+    //     width: 100%;
+    //     height: 50px;
+    //     border-top-left-radius: 5px;
+    //     border-top-right-radius: 5px;
         
-    }
+    // }
 
     .tags {
         display: flex;

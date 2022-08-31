@@ -1,46 +1,78 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
+    import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
 	import { slide } from 'svelte/transition';
 
     export let data;
     let categories = data.links.categories;
+    let boxView = true;
+    let buttontext = "📅 Boxes";
+
+    function handleViewToggle() {
+        boxView = !boxView;
+        
+        buttontext = boxView ? '📅 Boxes' : '📄 Compact';
+    }
 
     function handleToggle(section) {
-        categories[section].show ? categories[section].show = false : categories[section].show = true;
+        categories[section].show = !categories[section].show;
     }
 
     function handleToggleExtra(section) {
-        categories[section].showExtra ? categories[section].showExtra = false : categories[section].showExtra = true;
+        categories[section].showExtra = !categories[section].showExtra;
     }
 </script>
 
+<div class="abovecategories">
+    <div class="filterButtons modeChoice">
+        <button class="filterButton" on:click={() => handleViewToggle()}>{buttontext}</button>
+    </div>
+</div>
 {#each categories as cat, i }
     <div class="category">
         <h2>{cat.name}</h2>
         <p>{cat.description}</p>
         
-        <div class="center">
+        <div class="leftpad">
             <button class="showmore" on:click={()=> handleToggle(i)}>Show more</button>
         </div>
         {#if cat.show}
-            <div class="links" transition:slide={{duration: 500}}>
-                {#each cat.links as link }
-                    <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                    <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
-                {/each}    
-            </div>
+            {#if boxView}
+                <div class="links" >
+                    {#each cat.links as link }
+                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
+                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                    {/each}    
+                </div>
+                {:else}
+                <div class="linksCompact" >
+                    {#each cat.links as link }
+                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
+                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                    {/each}    
+                </div>
+            {/if}
         {/if}
         
-        <div class="center">
+        <div class="leftpad" style="margin-top: 20px;">
             <button class="showmore" on:click={()=> handleToggleExtra(i)}>+ Show Extra</button>
         </div>
         {#if cat.showExtra}
-            <div class="links" transition:slide={{duration: 500}}>
-                {#each cat.extralinks as link }
-                    <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                    <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
-                {/each}    
-            </div>
+            {#if boxView}
+                <div class="links" >
+                    {#each cat.extralinks as link }
+                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
+                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                    {/each}    
+                </div>
+                {:else}
+                <div class="linksCompact" >
+                    {#each cat.extralinks as link }
+                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
+                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags}/>
+                    {/each}    
+                </div>
+            {/if}  
         {/if}
         
             
@@ -52,10 +84,27 @@
         font-family: 'Oxygen', sans-serif;
     }
 
-    .center {
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    .abovecategories {
+        background-image: url("/background/curvy.svg");
+        background-size: cover;
+        padding: 20px 50px;
+        position: sticky;
+        top: 0px;
+    }
+
+    .filterButton {
+        background: hsla(208, 100%, 97%, 0.827);
+        border-radius: 15px;
+        color: rgb(0, 0, 0);
+        width: 150px;
+        font-weight: bold;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .leftpad {
+        padding-left: 50px;
     }
 
     .showmore {
@@ -94,10 +143,17 @@
     }
 
     .links {
-        margin: 50px;
+        padding: 70px 0px;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         gap: 30px;
+        background-color: #1b252e;
+    }
+
+    .linksCompact {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
     }
 </style>
