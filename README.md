@@ -45,7 +45,7 @@ You can contribute to this project by:
 
 ## ⚙️ How the website works
 
-You can find further documentation in the CODE.md file (will be provided soon)
+You can find further documentation in the [CODE.md](./CODE.md) file
 
 This website uses sveltekit
 
