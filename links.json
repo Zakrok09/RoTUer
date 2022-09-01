@@ -2,55 +2,120 @@
     "tags": {
         "mall": {
             "color": "#E91E63",
-            "text": "Mall"
+            "text": "Mall",
+            "pressNames":{
+                "nl":"Winkelcentrum",
+                "en":"Mall",
+                "bg":"Mall"
+            }
         },
         "food": {
             "color": "#40E91E",
-            "text": "Food"
+            "text": "Food",
+            "pressNames":{
+                "nl":"Eten",
+                "en":"Food",
+                "bg":"Food"
+            }
         },
         "domestic": {
             "color": "#5897F4",
-            "text": "Domestic"
+            "text": "Domestic",
+            "pressNames":{
+                "nl":"Huishoudelijk",
+                "en":"Domestic",
+                "bg":"Domestic"
+            }
         },
         "home appliances": {
             "color": "#E9AE1E",
-            "text": "Home Appliances"
+            "text": "Home Appliances",
+            "pressNames":{
+                "nl":"Huishoudelijke Apparaten",
+                "en":"Home Appliances",
+                "bg":"Home Appliances"
+            }
         },
         "clothes": {
             "color": "#9C27B0",
-            "text": "Clothes"
+            "text": "Clothes",
+            "pressNames":{
+                "nl":"Kleding",
+                "en":"Clothes",
+                "bg":"Clothes"
+            }
         },
         "second hand": {
             "color": "#BCAAA4",
-            "text": "Second Hand"
+            "text": "Second Hand",
+            "pressNames":{
+                "nl":"Tweedehands ",
+                "en":"Second Hand",
+                "bg":"Second Hand"
+            }
         },
         "extra": {
             "color": "#AFB42B",
-            "text": "Extra"
+            "text": "Extra",
+            "pressNames":{
+                "nl":"Extra",
+                "en":"Extra",
+                "bg":"Extra"
+            }
         },
         "housing": {
             "color": "#E57373",
-            "text": "Housing"
+            "text": "Housing",
+            "pressNames":{
+                "nl":"Huisvesting",
+                "en":"Housing",
+                "bg":"Housing"
+            }
         },
         "mobile plans": {
             "color": "#D1C4E9",
-            "text": "Mobile Plans"
+            "text": "Mobile Plans",
+            "pressNames":{
+                "nl":"Mobiele abonnementen",
+                "en":"Mobile Plans",
+                "bg":"Moblie Plans"
+            }
         },
         "order for home": {
             "color": "#80DEEA",
-            "text": "Order for home"
+            "text": "Order For Home",
+            "pressNames":{
+                "nl":"Bestel Voor Thuis",
+                "en":"Order For Home",
+                "bg":"Order For Home"
+            }
         },
         "learning": {
             "color": "#A5D6A7",
-            "text": "Learning"
+            "text": "Learning",
+            "pressNames":{
+                "nl":"Educatief",
+                "en":"Learning",
+                "bg":"Learning"
+            }
         },
         "work": {
             "color": "#90A4AE",
-            "text": "Work"
+            "text": "Work",
+            "pressNames":{
+                "nl":"Werk",
+                "en":"Work",
+                "bg":"Work"
+            }
         },
         "software": {
             "color": "#E0E0E0",
-            "text": "Software"
+            "text": "Software",
+            "pressNames":{
+                "nl":"Software",
+                "en":"Software",
+                "bg":"Software"
+            }
         }
     },
     "categories": [
@@ -225,13 +290,13 @@
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "Hema is one of the many home appliance franchises",
+                        "desc": "Hema is one of the many home appliance franchises.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema on the Molslaan",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "Hema is one of the many home appliance franchises",
+                        "desc": "Hema is one of the many home appliance franchises.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema on the Molslaan",
                         "onlyNl": true
@@ -250,13 +315,13 @@
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "Hema is one of the many home appliance franchises",
+                        "desc": "Hema is one of the many home appliance franchises.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "Hema is one of the many home appliance franchises",
+                        "desc": "Hema is one of the many home appliance franchises.",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
                         "onlyNl": true
@@ -269,19 +334,19 @@
                         "clothes"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "KiK is een voordelige kledingwinkel.",
                         "link": "https://www.de-hovenpassage.nl/winkels/kik/",
                         "presName": "Openingstijden KiK",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Kik is a clothing store on the budget side.",
                         "link": "https://www.de-hovenpassage.nl/winkels/kik/",
                         "presName": "Openings hours KiK",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Kik is a clothing store on the budget side.",
                         "link": "https://www.de-hovenpassage.nl/winkels/kik/",
                         "presName": "Openings hours KiK",
                         "onlyNl": true
@@ -294,19 +359,19 @@
                         "second hand"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Yelp is een website die helpt met het ontdekken van locale ondernemingen.",
                         "link": "https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland",
                         "presName": "Yelp kringloopwinkels",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Yelp is a website that helps to discover local businesses.",
                         "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
                         "presName": "Yelp thrift stores",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Yelp is a website that helps to discover local businesses.",
                         "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
                         "presName": "Yelp thrift stores",
                         "onlyNl": false
@@ -319,19 +384,19 @@
                         "second hand"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "RataPlan is een kringloopwinkel.",
                         "link": "https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
                         "presName": "RataPlan openingstijden",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "RataPlan is a thrift store.",
                         "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
                         "presName": "RataPlan openings hours",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "RataPlan is a thrift store.",
                         "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
                         "presName": "RataPlan openings hours",
                         "onlyNl": false
@@ -344,44 +409,44 @@
                         "second hand"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Delta bevat informatie over verschillende kringloopwinkels in Delft.",
                         "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
                         "presName": "Delta",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Delta contains information about different thrift stores in Delft.",
                         "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
                         "presName": "Delta",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Delta contains information about different thrift stores in Delft.",
                         "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
                         "presName": "Delta",
                         "onlyNl": false
                     }
                 },
                 {
-                    "name": "Marketplaats",
+                    "name": "Marktplaats",
                     "img": false,
                     "tags": [
                         "domestic"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Op Marktplaats kan je tweedehands spullen kopen of verkopen.",
                         "link": "https://www.marktplaats.nl/",
                         "presName": "Marktplaats",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Marktplaats is a website where you can buy or sell second hand items.",
                         "link": "https://www.marktplaats.nl/",
                         "presName": "Marktplaats",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Marktplaats is a website where you can buy or sell second hand items.",
                         "link": "https://www.marktplaats.nl/",
                         "presName": "Marktplaats",
                         "onlyNl": true
@@ -394,19 +459,19 @@
                         "domestic"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Bol.com is een webwinkel waar je bijna alles kan bestellen.",
                         "link": "https://www.bol.com/nl/nl/",
                         "presName": "Bol.com",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Bol.com is a webshop where you can order almost anything.",
                         "link": "https://www.bol.com/nl/nl/",
                         "presName": "Bol.com",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Bol.com is a webshop where you can order almost anything.",
                         "link": "https://www.bol.com/nl/nl/",
                         "presName": "Bol.com",
                         "onlyNl": true
@@ -421,19 +486,19 @@
                         "extra"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Op deze website kan je recepten vinden die goedkoop zijn om te bereiden.",
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "Albert Heijn is known for its budget recipes.",
+                        "desc": "On this website you can find recipes that are cheap to cook.",
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "Albert Heijn is known for its budget recipes.",
+                        "desc": "On this website you can find recipes that are cheap to cook.",
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
@@ -453,19 +518,19 @@
                         "housing"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "De Gemeente Delft website bevat informatie over het huren van woniningen in Delft.",
                         "link": "https://www.delft.nl/wonen/wonen-delft/huren-en-kopen/woning-huren",
                         "presName": "gemeente Delft",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "The Gemeente Delft website conatains information about how to get student housing in Delft.",
                         "link": "https://www.delft.nl/en/housing/student-housing",
                         "presName": "municipality Delft",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "The Gemeente Delft website conatains information about how to get student housing in Delft.",
                         "link": "https://www.delft.nl/en/housing/student-housing",
                         "presName": "municipality Delft",
                         "onlyNl": false
@@ -478,19 +543,19 @@
                         "housing"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Housing Anywhere biedt verschillende huur appartementen in Delft aan.",
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
                         "presName": "Housing Anywhere",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Housing Anywhere offers rented housing in Delft.",
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
                         "presName": "Housing Anywhere",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Housing Anywhere offers rented housing in Delft.",
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
                         "presName": "Housing Anywhere",
                         "onlyNl": false
@@ -503,19 +568,19 @@
                         "housing"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Kamernet biedt studenten huisvesting aan door heel Nederland.",
                         "link": "https://kamernet.nl/",
                         "presName": "Kamernet",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Kamernet offers student housing throughout the Neterlands.",
                         "link": "https://kamernet.nl/en",
                         "presName": "Kamernet",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Kamernet offers student housing throughout the Neterlands.",
                         "link": "https://kamernet.nl/en",
                         "presName": "Kamernet",
                         "onlyNl": false
@@ -528,19 +593,19 @@
                         "mobile plans"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Lebara is een mobiele en internet provider.",
                         "link": "https://mobile.lebara.com/nl/nl/sim-only?",
                         "presName": "Lebara",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Lebara is a mobile and internet provider.",
                         "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
                         "presName": "Lebara",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Lebara is a mobile and internet provider.",
                         "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
                         "presName": "Lebara",
                         "onlyNl": false
@@ -553,19 +618,19 @@
                         "mobile plans"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "T-mobile is een mobiele provider en verkoopt mobiele telefoons.",
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
                         "presName": "Openingstijden T-Mobile winkel Delft",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "T-mobile is a mobile provider and sells mobile phones.",
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
                         "presName": "Openings hours T-Mobile shop Delft",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "T-mobile is a mobile provider and sells mobile phones.",
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
                         "presName": "Openings hours T-Mobile shop Delft",
                         "onlyNl": true
@@ -578,19 +643,19 @@
                         "mobile plans"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "youfone is een mobiele provider.",
                         "link": "https://www.youfone.nl/",
                         "presName": "Youfone",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "youfone is a mobile provider.",
                         "link": "https://www.youfone.nl/",
                         "presName": "Youfone",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "youfone is a mobile provider.",
                         "link": "https://www.youfone.nl/",
                         "presName": "Youfone",
                         "onlyNl": true
@@ -603,44 +668,44 @@
                         "mobile plans"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Simyo is een mobiele provider en verkoopt mobiele telefoons.",
                         "link": "https://www.simyo.nl/",
                         "presName": "Simyo",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Simyo is a mobile provider and sells mobile phones.",
                         "link": "https://www.simyo.nl/",
                         "presName": "Simyo",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Simyo is a mobile provider and sells mobile phones.",
                         "link": "https://www.simyo.nl/",
                         "presName": "Simyo",
                         "onlyNl": true
                     }
                 },
                 {
-                    "name": "Thuis",
+                    "name": "Thuisbezorgd.nl",
                     "img": false,
                     "tags": [
                         "order for home"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Thuisbezorgd.nl is een website waarop je online gemakkelijk eten kunt bestellen.",
                         "link": "https://www.thuisbezorgd.nl/",
                         "presName": "thuisbezorgd.nl",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Thuisbezorg.nl is a service through which you can easily order food online.",
                         "link": "https://www.thuisbezorgd.nl/en",
                         "presName": "thuisbezorgd.nl",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Thuisbezorg.nl is a service through which you can easily order food online.",
                         "link": "https://www.thuisbezorgd.nl/en",
                         "presName": "thuisbezorgd.nl",
                         "onlyNl": false
@@ -653,19 +718,19 @@
                         "order for home"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Uber Eats is een website waarop je online gemakkelijk eten kunt bestellen.",
                         "link": "https://www.ubereats.com/nl",
                         "presName": "Uber Eats",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Uber Eats is a service through which you can easily order food online.",
                         "link": "https://www.ubereats.com/",
                         "presName": "Uber Eats",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Uber Eats is a service through which you can easily order food online.",
                         "link": "https://www.ubereats.com/",
                         "presName": "Uber Eats",
                         "onlyNl": true
@@ -678,19 +743,19 @@
                         "order for home"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Dominos is een pizzeria waar je goedkoop pizza's kunt bestellen.",
                         "link": "https://www.dominos.nl/",
                         "presName": "Dominos",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Dominos is a pizzeria where you can order relatively cheap pizzas.",
                         "link": "https://www.dominos.nl/english-visitor",
                         "presName": "Dominos",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Dominos is a pizzeria where you can order relatively cheap pizzas.",
                         "link": "https://www.dominos.nl/english-visitor",
                         "presName": "Dominos",
                         "onlyNl": true
@@ -703,19 +768,19 @@
                         "order for home"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Tripadvisor is een website die helpt met het ontdekken van locale restaurants.",
                         "link": "https://www.tripadvisor.nl/Restaurants-g188626-Delft_South_Holland_Province.html",
                         "presName": "Trip Advisor",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Tripadvisor is a website where you can easily find local restaurants.",
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
                         "presName": "Trip Advisor",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Tripadvisor is a website where you can easily find local restaurants.",
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
                         "presName": "Trip Advisor",
                         "onlyNl": false
@@ -730,19 +795,19 @@
                         "extra"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "desc": "prijsvergelijken.nl is een website waar je prijzen van verschillende abonnementen kan vergelijken.",
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL",
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
@@ -762,19 +827,19 @@
                         "learning"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Learndutch.org is een website waar je Nederlands kan leren.",
                         "link": "https://www.learndutch.org/",
                         "presName": "learndutch.org",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Learndutch.org is a website where you can study Dutch.",
                         "link": "https://www.learndutch.org/",
                         "presName": "learndutch.org",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Learndutch.org is a website where you can study Dutch.",
                         "link": "https://www.learndutch.org/",
                         "presName": "learndutch.org",
                         "onlyNl": false
@@ -787,19 +852,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "LinkedIn is een sociaal media platform voor professioneel netwerken.",
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft",
                         "presName": "Linkedin",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "LinkedIn is a social media platform for professional networking.",
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft",
                         "presName": "linkedin",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "LinkedIn is a social media platform for professional networking.",
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft",
                         "presName": "linkedin",
                         "onlyNl": false
@@ -812,19 +877,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "I am expat biedt openstaande vacatures aan in Delft.",
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
                         "presName": "I Am Expat",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "I am expat offers jobs in Delft.",
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
                         "presName": "I Am Expat",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "I am expat offers jobs in Delft.",
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
                         "presName": "I Am Expat",
                         "onlyNl": false
@@ -837,19 +902,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Just landed biedt gidsen aan voor het vinden van werk, woonruimte etc. in Nederland.",
                         "link": "https://www.justlanded.com/nederlands/Nederland/Werk",
                         "presName": "Just Landed",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
                         "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
                         "presName": "Just Landed",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
                         "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
                         "presName": "Just Landed",
                         "onlyNl": false
@@ -862,19 +927,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Jobs.nl is een website die vacatures aanbiedt.",
                         "link": "https://jobs.nl/",
                         "presName": "Jobs.nl",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Jobs.nl is a website that offers jobs.",
                         "link": "https://jobs.nl/",
                         "presName": "Jobs.nl",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Jobs.nl is a website that offers jobs.",
                         "link": "https://jobs.nl/",
                         "presName": "Jobs.nl",
                         "onlyNl": true
@@ -887,19 +952,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Op deze website vindt je de vacatures van supermarkt Jubmo.",
                         "link": "https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures",
                         "presName": "Jumbo vacatures",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "On this website you can find the available jobs at supermarket Jubmo.",
                         "link": "https://nl.jobs.jumbo.com/en/",
                         "presName": "Jumbo job offers",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "On this website you can find the available jobs at supermarket Jubmo.",
                         "link": "https://nl.jobs.jumbo.com/en/",
                         "presName": "Jumbo job offers",
                         "onlyNl": false
@@ -912,19 +977,19 @@
                         "work"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Grab Jobs biedt part-time vacatures aan voor werk door heel Nederland.",
                         "link": "https://grabjobs.co/netherlands/part-time-jobs",
                         "presName": "Grab jobs",
                         "onlyEng": true
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
                         "link": "https://grabjobs.co/netherlands/part-time-jobs",
                         "presName": "Grab jobs",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
                         "link": "https://grabjobs.co/netherlands/part-time-jobs",
                         "presName": "Grab jobs",
                         "onlyNl": false
@@ -937,19 +1002,19 @@
                         "software"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
+                        "desc": "Surfspot verkoopt software en hardware.",
                         "link": "https://www.surfspot.nl/",
                         "presName": "SURFspot",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "lorum ispum",
+                        "desc": "Surfspot sells software and hardware.",
                         "link": "https://www.surfspot.nl/",
                         "presName": "SURFspot",
                         "onlyNl": false
                     },
                     "bg": {
-                        "desc": "lorum ispum",
+                        "desc": "Surfspot sells software and hardware.",
                         "link": "https://www.surfspot.nl/",
                         "presName": "SURFspot",
                         "onlyNl": false
@@ -964,19 +1029,19 @@
                         "extra"
                     ],
                     "nl": {
-                        "desc": "lorum ispum",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "desc": "prijsvergelijken.nl is een website waar je prijzen van verschillende abonnementen kan vergelijken.",
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL",
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
                     "en": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
                     },
                     "bg": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
                         "onlyNl": true
