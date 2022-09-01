@@ -21,7 +21,7 @@
     const tagsArray = [allTag, ...Object.entries(tagsObject)];
     let activeTag = allTag[0];
     let searchString = '';
-    $:searchArray = searchString.toLocaleLowerCase().split(' ');
+    $:searchArray = [''];
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -69,6 +69,10 @@
         if (linkKeywords.some(linkKeyword => searchBoxKeywords.includes(linkKeyword))) return true;
         return result;
     }
+
+    function updateSearchArray() {
+        searchArray = searchString.toLocaleLowerCase().split(' ');
+    }
 </script>
 
 <svelte:head>
@@ -90,7 +94,10 @@
             {/if}
         {/each}
     </select>
-    <input class="filterButtons searchBox" type="text" bind:value={searchString} placeholder="Search...">
+    <form class="searchForm" on:submit|preventDefault={updateSearchArray}>
+        <input type="text" bind:value={searchString} placeholder="Search...">
+        <button type="submit">🔎</button>
+    </form>
 </div>
 {#each categories as cat, i}
     <div class="category">
@@ -201,6 +208,7 @@
         padding: 10px 20px;
         font-size: 1.1rem;
         cursor: pointer;
+        height: 40px;
     }
 
     .tagFilter {
@@ -279,6 +287,35 @@
         justify-content: center;
     }
 
+    .searchForm {
+        display: inline-block;
+        position: relative;
+        padding: 0px;
+        width: 200px;
+
+        input {
+            width: 190px;
+            height: 30px;
+            padding: 5px 0px 5px 10px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        button {
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto 0;
+            background-color: #e8e8e8;
+            cursor: pointer;
+            border: none;
+            font-size: 2rem;
+            border-radius: 15px;
+        }
+    }
+
     @media only screen and (max-width: 550px) {
         .abovecategories {
             display: flex;
@@ -293,9 +330,12 @@
             font-size: 0.9rem;
         }
 
-        .searchBox {
-            width: 280px;
-            padding: 10px 10px;
+        .searchForm {
+            width: 300px;
+
+            input {
+                width: 290px;
+            }
         }
     }
 </style>
