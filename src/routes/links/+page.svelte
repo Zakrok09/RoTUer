@@ -17,8 +17,9 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
-    const tagsArray = [['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
-    let activeTag = 'all'; 
+    const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)'}];
+    const tagsArray = [allTag, ...Object.entries(tagsObject)];
+    let activeTag = allTag; 
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -41,6 +42,7 @@
     /**
      * This function checks if the chosen tag exists in the links tags. 
      * As a first parametar you should always use the tags array of a link (e.g. link.tags)
+     * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag[0])
      * @param {array} linksTags Array of tags that a links contain
      * @param {string} chosenTag String, representing the tag to be used for comparison
      */
