@@ -1,6 +1,7 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
     import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
+    import {locale} from "$lib/translations/i18n"
 
     export let data;
     let categories = data.links.categories;
@@ -16,8 +17,8 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
-    const tagsArray = [["none", {name: 'none', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
-    let activeTag = 'none'; 
+    const tagsArray = [['all', {name: 'all', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
+    let activeTag = 'all'; 
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -43,7 +44,7 @@
      * @param {string} chosenTag String, representing the tag to be used for comparison
      */
     function containsTag(linksTags, chosenTag) {
-        if (chosenTag === 'none') return true;
+        if (chosenTag === 'all') return true;
         let result = false;
         linksTags.forEach(linkTag => {
             if (linkTag.toLowerCase() === chosenTag.toString()) {
@@ -66,8 +67,9 @@
 <div class="abovecategories">
     <button class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
     <select class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
+        <option value="all" selected disabled hidden>Choose a tag</option>
         {#each tagsArray as tagEntry}
-            <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[0]}</option>
+            <option style="cursor: pointer; background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[0]}</option>
         {/each}
     </select>
 </div>
@@ -85,7 +87,7 @@
                     <div class="links">
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -96,7 +98,7 @@
                     <div class="linksCompact" >
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
@@ -114,7 +116,7 @@
                     <div class="links">
                         {#each cat.extralinks as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -125,7 +127,7 @@
                     <div class="linksCompact" >
                         {#each cat.extralinks as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
