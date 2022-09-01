@@ -3,7 +3,7 @@ export default {
         "homepage.underheading" : "Website is still under development and it is currently not meant for use! Enter at your own responsibility",
         "homepage.firstSection.question": "What is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is a project made by (soon-to-be) students of TU Delft. The main goal is to help other students find websites that contain information that they are searching and to generalize all possible things you can make use of in the Uni.",
-        "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by anyway to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
+        "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by any way to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
         "homepage.firstSection.paragraph3": "‼️ Although we make sure that every link is secure, make sure to check where the link is leading to before clicking!",
         "homepage.firstSection.boxDescriptionLeft": "We are students from all over Europe who just started working on a project together. We all want to help people. This is why we developed RoTUer.",
         "homepage.firstSection.boxDescriptionRight": "RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities. This is why we wanted to present all this information in a summarized form with links.",
