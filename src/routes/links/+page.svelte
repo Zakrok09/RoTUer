@@ -17,7 +17,7 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
-    const tagsArray = [['all', {name: 'all', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
+    const tagsArray = [['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
     let activeTag = 'all'; 
 
     function handleViewToggle() {
@@ -39,18 +39,15 @@
     }
     
     /**
-     * 
+     * This function checks if the chosen tag exists in the links tags. 
+     * As a first parametar you should always use the tags array of a link (e.g. link.tags)
      * @param {array} linksTags Array of tags that a links contain
      * @param {string} chosenTag String, representing the tag to be used for comparison
      */
     function containsTag(linksTags, chosenTag) {
         if (chosenTag === 'all') return true;
         let result = false;
-        linksTags.forEach(linkTag => {
-            if (linkTag.toLowerCase() === chosenTag.toString()) {
-                result = true;
-            }
-        });
+        if (linksTags.some(linkTag => linkTag.toLowerCase() === chosenTag.toString())) result = true;
         return result;
     }
 </script>
@@ -69,7 +66,7 @@
     <select class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
         <option value="all" selected disabled hidden>Choose a tag</option>
         {#each tagsArray as tagEntry}
-            <option style="cursor: pointer; background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[0]}</option>
+            <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].text}</option>
         {/each}
     </select>
 </div>
