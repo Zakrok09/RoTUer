@@ -1,6 +1,7 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
     import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
+    import {t, locale} from "$lib/translations/i18n"
 
     export let data;
     let categories = data.links.categories;
@@ -16,6 +17,9 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
+    const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)'}];
+    const tagsArray = [allTag, ...Object.entries(tagsObject)];
+    let activeTag = allTag; 
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -34,6 +38,20 @@
         buttonStateText[section].showExtra = !buttonStateText[section].showExtra;
         buttonStateText[section].showExtraText = buttonStateText[section].showExtra ? '+ Show More Extras' : '+ Show Less Extras';
     }
+    
+    /**
+     * This function checks if the chosen tag exists in the links tags. 
+     * As a first parametar you should always use the tags array of a link (e.g. link.tags)
+     * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag[0])
+     * @param {array} linksTags Array of tags that a links contain
+     * @param {string} chosenTag String, representing the tag to be used for comparison
+     */
+    function containsTag(linksTags, chosenTag) {
+        if (chosenTag === 'all') return true;
+        let result = false;
+        if (linksTags.some(linkTag => linkTag.toLowerCase() === chosenTag.toString())) result = true;
+        return result;
+    }
 </script>
 
 <svelte:head>
@@ -41,14 +59,18 @@
 </svelte:head>
 
 <div class="landingSite">
-    <img src="/isometric/logo.svg" alt="The logo of RoTUer">
+    <img src="/isometric/arrow.svg" alt="The logo of RoTUer">
     <h1 tabindex="0">RoTUer</h1>
-    <i>Links are finally here</i>
+    <i>{$t("linkspage.titles.undertitle")}</i>
 </div>
 <div class="abovecategories">
-    <div class="filterButtons modeChoice">
-        <button class="filterButton" on:click={handleViewToggle}>{buttontext}</button>
-    </div>
+    <button aria-label="Choose view (compact or box). Compact might be better for screen readers" class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
+    <select aria-label="Select active tag when searching" class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
+        <option value="all" selected disabled hidden>Choose a tag</option>
+        {#each tagsArray as tagEntry}
+            <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].text}</option>
+        {/each}
+    </select>
 </div>
 {#each categories as cat, i}
     <div class="category">
@@ -60,18 +82,26 @@
         </div>
         {#if cat.show}
             {#if boxView}
-                <div class="links" >
-                    {#each cat.links as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+                <div class="linksBg">
+                    <div class="links">
+                        {#each cat.links as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}
+                    </div>
+                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                 </div>
-                {:else}
-                <div class="linksCompact" >
-                    {#each cat.links as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+            {:else}
+                <div class="linksBg">
+                    <div class="linksCompact" >
+                        {#each cat.links as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}   
+                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                    </div>
                 </div>
             {/if}
         {/if}
@@ -81,18 +111,26 @@
         </div>
         {#if cat.showExtra}
             {#if boxView}
-                <div class="links" >
-                    {#each cat.extralinks as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+                <div class="linksBg">
+                    <div class="links">
+                        {#each cat.extralinks as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}
+                    </div>
+                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                 </div>
-                {:else}
-                <div class="linksCompact" >
-                    {#each cat.extralinks as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+            {:else}
+                <div class="linksBg">
+                    <div class="linksCompact" >
+                        {#each cat.extralinks as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}   
+                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                    </div>
                 </div>
             {/if}  
         {/if}
@@ -134,17 +172,22 @@
         top: 0px;
     }
 
-    .filterButton {
-        background: hsla(0, 2%, 100%, 0.827);
+    .filterButtons {
         border-radius: 15px;
         border: none;
         color: rgb(0, 0, 0);
-        width: 150px;
+        width: 170px;
         font-weight: bold;
         padding: 10px 20px;
         font-size: 1.1rem;
         cursor: pointer;
     }
+
+    .modeChoice {
+        background: hsla(0, 0%, 100%, 0.951);
+        text-align: left;
+    }
+
     .center {
         width: 100%;
         margin: 0px !important;
@@ -196,7 +239,14 @@
         flex-flow: row wrap;
         justify-content: center;
         gap: 30px;
+    }
+
+    .linksBg {
         background-color: #1b252e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
     }
 
     .linksCompact {

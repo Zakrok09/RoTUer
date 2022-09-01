@@ -3,7 +3,7 @@ export default {
         "homepage.underheading" : "Website is still under development and it is currently not meant for use! Enter at your own responsibility",
         "homepage.firstSection.question": "What is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is a project made by (soon-to-be) students of TU Delft. The main goal is to help other students find websites that contain information that they are searching and to generalize all possible things you can make use of in the Uni.",
-        "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by anyway to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
+        "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by any way to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
         "homepage.firstSection.paragraph3": "‼️ Although we make sure that every link is secure, make sure to check where the link is leading to before clicking!",
         "homepage.firstSection.boxDescriptionLeft": "We are students from all over Europe who just started working on a project together. We all want to help people. This is why we developed RoTUer.",
         "homepage.firstSection.boxDescriptionRight": "RoTUer was made to help people like me who just suddenly find themselves in a place with endless possibilities. This is why we wanted to present all this information in a summarized form with links.",
@@ -28,14 +28,16 @@ export default {
         "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer is here to expand and incorporate more ways of helping students. Stay tuned!",
         "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is an IT team with experience in AI and Web Development. We take details into consideration and finalize a covet project.",
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is a team that originates from Bulgaria but now has members from all over Europe brought together by TU Delft. At first, the team was formed by classmates from PPMG Burgas and performed well on Hackathons. Now, Praxidike has new members from TU Delft.",
-        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We are brought together by the joy of helping other people, our common interests and TU Delft. We have fun doing projects together and we are looking for people like us. Make sure to check our GitHub organization."
+        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We are brought together by the joy of helping other people, our common interests and TU Delft. We have fun doing projects together and we are looking for people like us. Make sure to check our GitHub organization.",
+        "linkspage.titles.undertitle": "Links are finally here",
+        "linkspage.texts.nolinks": "No links? Maybe you have filtered a tag that no link from this category has. Check other categories"
     },
     nl: {
         "homepage.underheading" : "Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen risico",
         "homepage.firstSection.question": "Wat is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is een project gemaakt door (aanstaande) studenten van de TU Delft. Het belangrijkste doel is om andere studenten te helpen websites te vinden die informatie bevatten die ze zoeken en om alle mogelijke dingen op een rijtje te zetten die je in de Uni kunt gebruiken.",
         "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: Dit project is hoe dan ook niet gebonden aan de TU Delft zelf. Informatie wordt hier verzameld en gepresenteerd door ons (het team achter het project).TU DELFT IS NIET VERANTWOORDELIJK VOOR ONNAUWKEURIGHEID OP DEZE WEBSITE.",
-        "homepage.firstSection.paragraph3": "‼️ Hoewel we ervoor zorgen dat elke link veilig is, zorg ervoor dat u controleert waar de link naartoe leidt voordat u klikt!",
+        "homepage.firstSection.paragraph3": "‼️ Hoewel we ervoor zorgen dat elke link veilig is, zorg ervoor dat je controleert waar de link naartoe leidt voordat je klikt!",
         "homepage.firstSection.boxDescriptionLeft": "Wij zijn studenten uit heel Europa die net samen aan een project zijn begonnen. We willen allemaal mensen helpen. Daarom hebben we RoTUer ontwikkeld.",
         "homepage.firstSection.boxDescriptionRight": "RoTUer is gemaakt om mensen zoals ik te helpen die zich plotseling op een plek bevinden met eindeloze mogelijkheden. Daarom wilden we al deze informatie in een samengevatte vorm met links presenteren.",
         "homepage.aboutus": "Over ons",
@@ -54,12 +56,14 @@ export default {
         "homepage.fourthSection.openIssue": "Of creer een probleem of github (met het label Links)",
         "aboutpages.titles.whoarewe": "Wie zijn we",
         "aboutpages.titles.aboutRotuer": "Wat is RoTUer",
-        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is een project dat als doel heeft studenten van de TU Delft te helpen door hen veel gecategoriseerde links naar websites te bieden, waardoor het voor gebruikers eenvoudiger wordt om naar informatie te bladeren. ",
-        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We zijn aan dit project begonnen om mensen te helpen die net als wij ongemakken hebben/hebben/zullen ervaren. We willen ervoor zorgen dat studenten toegang hebben tot informatie en de middelen om deze snel te verzamelen",
-        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoUTer is hier om uit te breiden en meer manieren op te nemen om studenten te helpen. Blijf kijken!",
-        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is een IT-team met ervaring in AI en webontwikkeling. We houden rekening met details en ronden een begeerd project af.",
+        "aboutpages.paragraphs.aboutrotuer.shortIntro": "RoTUer is een project dat als doel heeft studenten van de TU Delft te helpen door hen veel gecategoriseerde links naar websites te bieden, waardoor het voor gebruikers eenvoudiger wordt om informatieve websites te vinden. ",
+        "aboutpages.paragraphs.aboutrotuer.howWeBeganWork": "We zijn aan dit project begonnen om mensen te helpen die net als wij problemen hebben of zullen hebben tijdens hun studietijd in Delft. We willen ervoor zorgen dat studenten toegang hebben tot informatie en de middelen om deze snel te verzamelen",
+        "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer is er om uit te breiden en meer manieren op te nemen om studenten te helpen. Blijf dus zeker van tijd tot tijd terugkomen!",
+        "aboutpages.paragraphs.aboutus.shortIntro": "Praxidike is een IT-team met ervaring in AI en webontwikkeling. We houden rekening met details en ronden met veel inspanning en liefde projecten af.",
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is een team dat oorspronkelijk uit Bulgarije komt, maar nu leden uit heel Europa heeft, samengebracht door de TU Delft. In eerste instantie werd het team gevormd door klasgenoten op een Bulgaarse school en presteerde het goed op Hackathons. Nu heeft Praxidike nieuwe leden van de TU Delft.",
-        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Zorg ervoor dat u onze GitHub-organisatie controleert."
+        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Als je geintresseerd bent check dan zeker onze GitHub-organisatie.",
+        "linkspage.titles.undertitle": "Links zijn er eindelijk",
+        "linkspage.texts.nolinks": "Geen koppelingen? Misschien heb je een tag gefilterd die geen enkele link uit deze categorie heeft. Bekijk andere categorieën"
     },
     bg: {
         "homepage.underheading" : "Уебсайтът е все още в разработъчна версия и не е предназначен за потребление! Използвайте на собствен риск!",
@@ -90,6 +94,8 @@ export default {
         "aboutpages.paragraphs.aboutrotuer.finalWords": "RoTUer ще търси нови начини да помага на студентите. Бъдете готови!",
         "aboutpages.paragraphs.aboutus.shortIntro": "Праксидика е ИT отбор с опит в работата с изкуствен интелект и уеб девелъпмент. Ние взимаме детайлите предвид и финализираме готов, работещ проект.",
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Праксидика е отбор с корени в България, но сега има членове от цяла Европа събрани заедно от ТУ Делфт. Първоначално, отборът беше формиран от съученици в ППМГ Бургас и имаше големи успехи в Хакатони. Сега, Праксидика има нови членове от ТУ Делфт.",
-        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "Ние сме събрани заедно заради радостта от това да помагаме на хората, нашите общи интереси и ТУ Делфт. Забавляваме се докато правим проекти заедно и търсим други хора като нас. Не забравяйте да видите страницата ни в GitHub."
+        "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "Ние сме събрани заедно заради радостта от това да помагаме на хората, нашите общи интереси и ТУ Делфт. Забавляваме се докато правим проекти заедно и търсим други хора като нас. Не забравяйте да видите страницата ни в GitHub.",
+        "linkspage.titles.undertitle": "Линковете са най-после тук",
+        "linkspage.texts.nolinks": "Не виждате линкове? Може би сте избрали филтър за таг, който не принадлежи на никой линк. Проверете в другите категории"
     }
 }
