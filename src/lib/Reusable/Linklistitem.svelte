@@ -5,7 +5,9 @@
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
     export let tagsObject = {};
-    export let language = "en";
+
+    import {locale} from "$lib/translations/i18n";
+
 </script>
 
 <div class="listItem">
@@ -14,7 +16,7 @@
     <div class="tags">
         {#each tags as tag}
             {#if tagsObject[tag]}
-                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[language]}</span>
+                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[$locale.toString()]}</span>
             {/if}
         {/each} 
     </div>

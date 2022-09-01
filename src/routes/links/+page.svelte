@@ -88,7 +88,7 @@
                     <div class="links">
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} language={$locale.toString()} tags={link.tags} {tagsObject}/>
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -99,7 +99,7 @@
                     <div class="linksCompact" >
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} language={$locale.toString()} tags={link.tags} {tagsObject}/>
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
