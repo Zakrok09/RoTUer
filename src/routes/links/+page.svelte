@@ -20,6 +20,8 @@
     const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)', pressNames:{nl:"Alle tags",en:"All tags",bg:"All tags"}}];
     const tagsArray = [allTag, ...Object.entries(tagsObject)];
     let activeTag = allTag[0];
+    let searchString = '';
+    $:searchArray = searchString.toLocaleLowerCase().split(' ');
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -60,6 +62,13 @@
         if (tagsOfLink.some(linkTag => linkTag === chosenTag)) result = true;
         return result;
     }
+
+    function containsKeyword(linkKeywords, searchBoxKeywords) {
+        if (searchBoxKeywords.length === 1 && searchBoxKeywords[0] === "" ) return true;
+        let result = false;
+        if (linkKeywords.some(linkKeyword => searchBoxKeywords.includes(linkKeyword))) return true;
+        return result;
+    }
 </script>
 
 <svelte:head>
@@ -81,6 +90,7 @@
             {/if}
         {/each}
     </select>
+    <input class="filterButtons searchBox" type="text" bind:value={searchString} placeholder="Search...">
 </div>
 {#each categories as cat, i}
     <div class="category">
@@ -95,7 +105,7 @@
                 <div class="linksBg">
                     <div class="links">
                         {#each cat.links as link}
-                            {#if containsTag(link.tags, activeTag)}
+                            {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
                                 <Linkpagebox on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
@@ -278,8 +288,14 @@
         }
 
         .filterButtons {
-            width: 200px !important;
+            width: 300px;
+            padding: 10px 10px;
             font-size: 0.9rem;
+        }
+
+        .searchBox {
+            width: 280px;
+            padding: 10px 10px;
         }
     }
 </style>
