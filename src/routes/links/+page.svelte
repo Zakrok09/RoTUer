@@ -51,13 +51,13 @@
      * This function checks if the chosen tag exists in the links tags. 
      * As a first parametar you should always use the tags array of a link (e.g. link.tags)
      * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag)
-     * @param {array} linksTags Array of tags that a links contain
+     * @param {array} tagsOfLink Array of tags that a links contain
      * @param {string} chosenTag String, representing the tag to be used for comparison
      */
-    function containsTag(linksTags, chosenTag) {
+    function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
         let result = false;
-        if (linksTags.some(linkTag => linkTag.toLowerCase() === chosenTag.toString())) result = true;
+        if (tagsOfLink.some(linkTag => linkTag === chosenTag)) result = true;
         return result;
     }
 </script>
