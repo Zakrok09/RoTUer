@@ -23,7 +23,7 @@
         <h3>{title}</h3>
     </div>
     <p>{desc}</p>
-    <a {href} target="_blank" class="AnchorBox ThirdBoxLink">{anchorText}</a>
+    <a {href} target="_blank" class="AnchorBox">{anchorText}</a>
     <span id="tag">Tags:</span>
     <div class="tags">
         {#each tags as tag}
@@ -42,7 +42,7 @@
     }
 
     #tag {
-        margin: 30px 0px 5px 0px;
+        margin: 10px 0px 5px 0px;
     }
 
     .background {
@@ -63,16 +63,6 @@
             text-align: center;
         }
     }
-
-    // .blackbar {
-    //     background-image: url("/background/curvy.svg");
-    //     background-size: cover;
-    //     width: 100%;
-    //     height: 50px;
-    //     border-top-left-radius: 5px;
-    //     border-top-right-radius: 5px;
-        
-    // }
 
     .tags {
         display: flex;
@@ -103,12 +93,8 @@
         flex-flow: column nowrap;
         align-items: center;
 
-        a {
-            margin-top: 20px;
-        }
-
         p {
-            height: 40px;
+            height: 100px;
             margin-top: 50px;
             padding: 0px 30px;
         }
@@ -140,12 +126,11 @@
                 font-size: 1.1rem;
             }
 
-            // img {
-            //     width: 80px;
-            // }
-
             a {
-                margin-top: 40px;
+                font-size: 0.9rem;
+            }
+
+            p {
                 font-size: 0.9rem;
             }
         }

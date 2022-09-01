@@ -193,6 +193,10 @@
         cursor: pointer;
     }
 
+    .tagFilter {
+        width: 200px;
+    }
+
     .modeChoice {
         background: hsla(0, 0%, 100%, 0.951);
         text-align: left;
@@ -263,5 +267,19 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+
+    @media only screen and (max-width: 550px) {
+        .abovecategories {
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .filterButtons {
+            width: 200px !important;
+            font-size: 0.9rem;
+        }
     }
 </style>
