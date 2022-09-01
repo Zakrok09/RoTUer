@@ -1,5 +1,14 @@
 {
     "tags": {
+        "new": {
+            "color": "#056AF7",
+            "text": "New",
+            "pressNames":{
+                "nl":"Nieuwe!",
+                "en":"New!",
+                "bg":"Ново!"
+            }
+        },
         "mall": {
             "color": "#E91E63",
             "text": "Mall",
@@ -146,6 +155,32 @@
                         "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
                         "link": "https://www.de-hovenpassage.nl/",
                         "presName": "Shoppingcenter De Hoven Passage",
+                        "onlyNl": true
+                    }
+                },
+                {
+                    "name": "COOP",
+                    "img": false,
+                    "tags": [
+                        "new",
+                        "food"
+                    ],
+                    "nl": {
+                        "desc": "COOP is een supermarkt keten met veel verschillende winkels in Delft",
+                        "link": "https://www.ah.nl/",
+                        "presName": "Openingstijden Jumbo op het Bastiaansplein",
+                        "onlyEng": false
+                    },
+                    "en": {
+                        "desc": "COOP is a supermarket franchise with lots of shops in Delft.",
+                        "link": "https://www.ah.nl/",
+                        "presName": "",
+                        "onlyNl": true
+                    },
+                    "bg": {
+                        "desc": "COOP са верига супермаркети с много магазини в Делфт.",
+                        "link": "https://www.ah.nl",
+                        "presName": "",
                         "onlyNl": true
                     }
                 },
