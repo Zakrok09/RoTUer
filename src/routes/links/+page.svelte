@@ -19,7 +19,7 @@
     let tagsObject = data.links.tags;
     const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)', pressNames:{nl:"Alle tags",en:"All tags",bg:"All tags"}}];
     const tagsArray = [allTag, ...Object.entries(tagsObject)];
-    let activeTag = allTag; 
+    let activeTag = allTag[0];
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -38,11 +38,19 @@
         buttonStateText[section].showExtra = !buttonStateText[section].showExtra;
         buttonStateText[section].showExtraText = buttonStateText[section].showExtra ? '+ Show More Extras' : '+ Show Less Extras';
     }
+
+    function changeActive(e) {
+        if (activeTag === e.detail) {
+            activeTag = "all"
+        } else {
+            activeTag = e.detail;
+        }
+    }
     
     /**
      * This function checks if the chosen tag exists in the links tags. 
      * As a first parametar you should always use the tags array of a link (e.g. link.tags)
-     * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag[0])
+     * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag)
      * @param {array} linksTags Array of tags that a links contain
      * @param {string} chosenTag String, representing the tag to be used for comparison
      */
@@ -65,11 +73,11 @@
 </div>
 <div class="abovecategories">
     <button aria-label="Choose view (compact or box). Compact might be better for screen readers" class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
-    <select aria-label="Select active tag when searching" class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
+    <select aria-label="Select active tag when searching" class="filterButtons tagFilter" bind:value={activeTag}>
         <option value="all" selected disabled hidden>Choose a tag</option>
         {#each tagsArray as tagEntry}
             {#if tagEntry[1].pressNames != undefined}
-                <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].pressNames[$locale.toString()]}</option>
+                <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry[0]}>{tagEntry[1].pressNames[$locale.toString()]}</option>
             {/if}
         {/each}
     </select>
@@ -87,8 +95,8 @@
                 <div class="linksBg">
                     <div class="links">
                         {#each cat.links as link}
-                            {#if containsTag(link.tags, activeTag[0])}
-                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {#if containsTag(link.tags, activeTag)}
+                                <Linkpagebox on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -98,7 +106,7 @@
                 <div class="linksBg">
                     <div class="linksCompact" >
                         {#each cat.links as link}
-                            {#if containsTag(link.tags, activeTag[0])}
+                            {#if containsTag(link.tags, activeTag)}
                                 <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
@@ -116,7 +124,7 @@
                 <div class="linksBg">
                     <div class="links">
                         {#each cat.extralinks as link}
-                            {#if containsTag(link.tags, activeTag[0])}
+                            {#if containsTag(link.tags, activeTag)}
                                 <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
@@ -127,7 +135,7 @@
                 <div class="linksBg">
                     <div class="linksCompact" >
                         {#each cat.extralinks as link}
-                            {#if containsTag(link.tags, activeTag[0])}
+                            {#if containsTag(link.tags, activeTag)}
                                 <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   

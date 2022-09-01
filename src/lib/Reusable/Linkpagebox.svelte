@@ -1,4 +1,7 @@
 <script>
+    import {locale} from "$lib/translations/i18n";
+    import { createEventDispatcher } from "svelte";
+
     export let title = 'no title specified';
     export let anchorText = 'To website';
     export let desc = '';
@@ -6,7 +9,12 @@
     export let tags = [];
     export let tagsObject;
 
-import {locale} from "$lib/translations/i18n";
+    let dispatch = createEventDispatcher();
+
+    const handleClick = clickedTag => {
+        let toSend = clickedTag.text;
+        dispatch('changeActiveTag', toSend.toLowerCase());
+    } 
 </script>
 
 
@@ -20,7 +28,7 @@ import {locale} from "$lib/translations/i18n";
     <div class="tags">
         {#each tags as tag}
             {#if tagsObject[tag]}
-                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[$locale.toString()]}</span>
+                <span on:click={() => handleClick(tagsObject[tag])} class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[$locale.toString()]}</span>
             {/if}
         {/each}    
     </div>
