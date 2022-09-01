@@ -5,6 +5,7 @@
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
     export let tagsObject = {};
+    export let language = "en";
 </script>
 
 <div class="listItem">
@@ -13,7 +14,7 @@
     <div class="tags">
         {#each tags as tag}
             {#if tagsObject[tag]}
-                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].text}</span>
+                <span class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[language]}</span>
             {/if}
         {/each} 
     </div>

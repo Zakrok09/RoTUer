@@ -17,7 +17,7 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
-    const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)'}];
+    const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)', pressNames:{nl:"Alle tags",en:"All tags",bg:"All tags"}}];
     const tagsArray = [allTag, ...Object.entries(tagsObject)];
     let activeTag = allTag; 
 
@@ -68,7 +68,9 @@
     <select aria-label="Select active tag when searching" class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
         <option value="all" selected disabled hidden>Choose a tag</option>
         {#each tagsArray as tagEntry}
-            <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].text}</option>
+            {#if tagEntry[1].pressNames != undefined}
+                <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].pressNames[$locale.toString()]}</option>
+            {/if}
         {/each}
     </select>
 </div>
@@ -86,7 +88,7 @@
                     <div class="links">
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} language={$locale.toString()} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -97,7 +99,7 @@
                     <div class="linksCompact" >
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag[0])}
-                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} language={$locale.toString()} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
