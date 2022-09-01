@@ -107,7 +107,7 @@
                     <div class="linksCompact" >
                         {#each cat.links as link}
                             {#if containsTag(link.tags, activeTag)}
-                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linklistitem on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
@@ -125,7 +125,7 @@
                     <div class="links">
                         {#each cat.extralinks as link}
                             {#if containsTag(link.tags, activeTag)}
-                                <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linkpagebox on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
                     </div>
@@ -136,7 +136,7 @@
                     <div class="linksCompact" >
                         {#each cat.extralinks as link}
                             {#if containsTag(link.tags, activeTag)}
-                                <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
+                                <Linklistitem on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
                         <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
