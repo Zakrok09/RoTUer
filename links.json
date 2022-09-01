@@ -136,6 +136,11 @@
                 {
                     "name": "De Hoven",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link", "de hoven", "mall"],
+                        "nl": ["tag", "link", "de hoven", "mall"],
+                        "bg": ["таг", "линк", "de hoven", "мол"]
+                    },
                     "tags": [
                         "mall"
                     ],
@@ -161,6 +166,11 @@
                 {
                     "name": "COOP",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "new",
                         "food"
@@ -187,6 +197,11 @@
                 {
                     "name": "Jumbo",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "food",
                         "domestic"
@@ -213,6 +228,11 @@
                 {
                     "name": "Albert Heijn",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "food",
                         "domestic"
@@ -239,6 +259,11 @@
                 {
                     "name": "Jumbo Products",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "food",
                         "domestic"
@@ -265,6 +290,11 @@
                 {
                     "name": "Action",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "home appliances"
                     ],
@@ -290,6 +320,11 @@
                 {
                     "name": "Blokker",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "home appliances"
                     ],
@@ -315,6 +350,11 @@
                 {
                     "name": "Hema",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "home appliances"
                     ],
@@ -340,6 +380,11 @@
                 {
                     "name": "HemaHovenPassage",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "home appliances"
                     ],
@@ -365,6 +410,11 @@
                 {
                     "name": "Kik",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "clothes"
                     ],
@@ -390,6 +440,11 @@
                 {
                     "name": "Yelp",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "second hand"
                     ],
@@ -415,6 +470,11 @@
                 {
                     "name": "Rataplan",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "second hand"
                     ],
@@ -440,6 +500,11 @@
                 {
                     "name": "Delta",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "second hand"
                     ],
@@ -465,6 +530,11 @@
                 {
                     "name": "Marktplaats",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "domestic"
                     ],
@@ -490,6 +560,11 @@
                 {
                     "name": "Bol",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "domestic"
                     ],
@@ -517,6 +592,11 @@
                 {
                     "name": "AH Budget Recipes",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "extra"
                     ],
@@ -549,6 +629,11 @@
                 {
                     "name": "delft",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "housing"
                     ],
@@ -574,6 +659,11 @@
                 {
                     "name": "Housing Anywhere",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "housing"
                     ],
@@ -599,6 +689,11 @@
                 {
                     "name": "Kamernet",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "housing"
                     ],
@@ -624,6 +719,11 @@
                 {
                     "name": "Lebara",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "mobile plans"
                     ],
@@ -649,6 +749,11 @@
                 {
                     "name": "tmobile",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "mobile plans"
                     ],
@@ -674,6 +779,11 @@
                 {
                     "name": "youfone",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "mobile plans"
                     ],
@@ -699,6 +809,11 @@
                 {
                     "name": "simyo",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "mobile plans"
                     ],
@@ -724,6 +839,11 @@
                 {
                     "name": "Thuisbezorgd.nl",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "order for home"
                     ],
@@ -749,6 +869,11 @@
                 {
                     "name": "Uber Eats",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "order for home"
                     ],
@@ -774,6 +899,11 @@
                 {
                     "name": "Dominos",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "order for home"
                     ],
@@ -799,6 +929,11 @@
                 {
                     "name": "TripAdvisor",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "order for home"
                     ],
@@ -826,6 +961,11 @@
                 {
                     "name": "Mobile plan comparison",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "extra"
                     ],
@@ -858,6 +998,11 @@
                 {
                     "name": "Learn Dutch",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "learning"
                     ],
@@ -883,6 +1028,11 @@
                 {
                     "name": "linkedin",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -908,6 +1058,11 @@
                 {
                     "name": "I am expat",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -933,6 +1088,11 @@
                 {
                     "name": "Just landed",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -958,6 +1118,11 @@
                 {
                     "name": "Jobs.nl",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -983,6 +1148,11 @@
                 {
                     "name": "Jumbo jobs",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -1008,6 +1178,11 @@
                 {
                     "name": "Grab Jobs",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "work"
                     ],
@@ -1033,6 +1208,11 @@
                 {
                     "name": "surfspot",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "software"
                     ],
@@ -1060,6 +1240,11 @@
                 {
                     "name": "Mobile plan comparison",
                     "img": false,
+                    "keywords": {
+                        "en": ["tag", "link"],
+                        "nl": ["tag", "link"],
+                        "bg": ["таг", "линк"]
+                    },
                     "tags": [
                         "extra"
                     ],
