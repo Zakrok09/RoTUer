@@ -6,7 +6,7 @@
             "pressNames":{
                 "nl":"Winkelcentrum",
                 "en":"Mall",
-                "bg":"Mall"
+                "bg":"Мол"
             }
         },
         "food": {
@@ -15,7 +15,7 @@
             "pressNames":{
                 "nl":"Eten",
                 "en":"Food",
-                "bg":"Food"
+                "bg":"Храна"
             }
         },
         "domestic": {
@@ -24,7 +24,7 @@
             "pressNames":{
                 "nl":"Huishoudelijk",
                 "en":"Domestic",
-                "bg":"Domestic"
+                "bg":"Домашни"
             }
         },
         "home appliances": {
@@ -33,7 +33,7 @@
             "pressNames":{
                 "nl":"Huishoudelijke Apparaten",
                 "en":"Home Appliances",
-                "bg":"Home Appliances"
+                "bg":"Бяла Техника"
             }
         },
         "clothes": {
@@ -51,7 +51,7 @@
             "pressNames":{
                 "nl":"Tweedehands ",
                 "en":"Second Hand",
-                "bg":"Second Hand"
+                "bg":"Втора Ръка"
             }
         },
         "extra": {
@@ -60,7 +60,7 @@
             "pressNames":{
                 "nl":"Extra",
                 "en":"Extra",
-                "bg":"Extra"
+                "bg":"Екстра"
             }
         },
         "housing": {
@@ -69,7 +69,7 @@
             "pressNames":{
                 "nl":"Huisvesting",
                 "en":"Housing",
-                "bg":"Housing"
+                "bg":"Жилища"
             }
         },
         "mobile plans": {
@@ -78,7 +78,7 @@
             "pressNames":{
                 "nl":"Mobiele abonnementen",
                 "en":"Mobile Plans",
-                "bg":"Moblie Plans"
+                "bg":"Мобилни Планове"
             }
         },
         "order for home": {
@@ -87,7 +87,7 @@
             "pressNames":{
                 "nl":"Bestel Voor Thuis",
                 "en":"Order For Home",
-                "bg":"Order For Home"
+                "bg":"Поръчай За Вкъщи"
             }
         },
         "learning": {
@@ -96,7 +96,7 @@
             "pressNames":{
                 "nl":"Educatief",
                 "en":"Learning",
-                "bg":"Learning"
+                "bg":"Учебни"
             }
         },
         "work": {
@@ -105,7 +105,7 @@
             "pressNames":{
                 "nl":"Werk",
                 "en":"Work",
-                "bg":"Work"
+                "bg":"Работа"
             }
         },
         "software": {
@@ -114,7 +114,7 @@
             "pressNames":{
                 "nl":"Software",
                 "en":"Software",
-                "bg":"Software"
+                "bg":"Софтуер"
             }
         }
     },
