@@ -20,6 +20,8 @@
     const allTag = ['all', {text: 'All tags', color: 'hsla(0, 0%, 100%, 0.951)', pressNames:{nl:"Alle tags",en:"All tags",bg:"All tags"}}];
     const tagsArray = [allTag, ...Object.entries(tagsObject)];
     let activeTag = allTag[0];
+    let searchString = '';
+    $:searchArray = [''];
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -60,6 +62,17 @@
         if (tagsOfLink.some(linkTag => linkTag === chosenTag)) result = true;
         return result;
     }
+
+    function containsKeyword(linkKeywords, searchBoxKeywords) {
+        if (searchBoxKeywords.length === 1 && searchBoxKeywords[0] === "" ) return true;
+        let result = false;
+        if (linkKeywords.some(linkKeyword => searchBoxKeywords.includes(linkKeyword))) return true;
+        return result;
+    }
+
+    function updateSearchArray() {
+        searchArray = searchString.toLocaleLowerCase().split(' ');
+    }
 </script>
 
 <svelte:head>
@@ -81,6 +94,10 @@
             {/if}
         {/each}
     </select>
+    <form class="searchForm" on:submit|preventDefault={updateSearchArray}>
+        <input type="text" bind:value={searchString} placeholder="Search...">
+        <button type="submit">🔎</button>
+    </form>
 </div>
 {#each categories as cat, i}
     <div class="category">
@@ -95,7 +112,7 @@
                 <div class="linksBg">
                     <div class="links">
                         {#each cat.links as link}
-                            {#if containsTag(link.tags, activeTag)}
+                            {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
                                 <Linkpagebox on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}
@@ -191,6 +208,11 @@
         padding: 10px 20px;
         font-size: 1.1rem;
         cursor: pointer;
+        height: 40px;
+    }
+
+    .tagFilter {
+        width: 200px;
     }
 
     .modeChoice {
@@ -263,5 +285,57 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+
+    .searchForm {
+        display: inline-block;
+        position: relative;
+        padding: 0px;
+        width: 200px;
+
+        input {
+            width: 190px;
+            height: 30px;
+            padding: 5px 0px 5px 10px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        button {
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto 0;
+            background-color: #e8e8e8;
+            cursor: pointer;
+            border: none;
+            font-size: 2rem;
+            border-radius: 15px;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        .abovecategories {
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .filterButtons {
+            width: 300px;
+            padding: 10px 10px;
+            font-size: 0.9rem;
+        }
+
+        .searchForm {
+            width: 300px;
+
+            input {
+                width: 290px;
+            }
+        }
     }
 </style>

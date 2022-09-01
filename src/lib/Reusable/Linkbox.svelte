@@ -34,7 +34,7 @@
         h3 {
             margin: 5px 20px;
             font-size: 1.2em;
-            height: 50px;
+            height: 100px;
             text-align: center;
         }
 

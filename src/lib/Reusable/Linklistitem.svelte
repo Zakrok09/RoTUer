@@ -90,4 +90,48 @@
         background-color: #1b252e;
     }
 
+    @media only screen and (max-width: 950px) {
+        .listItem {
+            height: auto;
+            justify-content: left;
+            padding: 0px;
+            flex-flow: column;
+            align-items: center;
+            
+            h3 {
+                font-size: 1rem;
+                height: auto;
+                width: auto;
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: center;
+                width: 30vw;
+                height: auto;
+                width: auto;
+                margin: 0px 40px;
+            }
+
+            a {
+                margin-left: 0px;
+                width: auto;
+                margin-bottom: 20px;
+            }
+
+            .tags {
+                width: 15vw;
+                min-width: 100px;
+                flex-flow: column nowrap;
+                text-align: center;
+                width: auto;
+                margin-right: 0px;
+            }
+
+            .tag {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
 </style>
