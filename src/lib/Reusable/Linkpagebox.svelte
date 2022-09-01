@@ -9,13 +9,10 @@
 
 
 <div class="Linkbox">
-    <!-- <div class="blackbar"></div> -->
     <div class="background" style="background-image: url('/background/links/{tagsObject[tags[0]].text}.svg');">
-    <!-- <div class="background"> -->
         <h3>{title}</h3>
     </div>
     <p>{desc}</p>
-    <!-- <img {src} {alt}> -->
     <a {href} target="_blank" class="AnchorBox ThirdBoxLink">{anchorText}</a>
     <span id="tag">Tags:</span>
     <div class="tags">

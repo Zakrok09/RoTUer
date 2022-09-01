@@ -16,6 +16,8 @@
     let boxView = true;
     let buttontext = "📅 Boxes";
     let tagsObject = data.links.tags;
+    const tagsArray = [["none", {name: 'none', color: 'hsla(0, 0%, 100%, 0.951)'}], ...Object.entries(tagsObject)];
+    let activeTag = 'none'; 
 
     function handleViewToggle() {
         boxView = !boxView;
@@ -34,6 +36,22 @@
         buttonStateText[section].showExtra = !buttonStateText[section].showExtra;
         buttonStateText[section].showExtraText = buttonStateText[section].showExtra ? '+ Show More Extras' : '+ Show Less Extras';
     }
+    
+    /**
+     * 
+     * @param {array} linksTags Array of tags that a links contain
+     * @param {string} chosenTag String, representing the tag to be used for comparison
+     */
+    function containsTag(linksTags, chosenTag) {
+        if (chosenTag === 'none') return true;
+        let result = false;
+        linksTags.forEach(linkTag => {
+            if (linkTag.toLowerCase() === chosenTag.toString()) {
+                result = true;
+            }
+        });
+        return result;
+    }
 </script>
 
 <svelte:head>
@@ -46,9 +64,12 @@
     <i>Links are finally here</i>
 </div>
 <div class="abovecategories">
-    <div class="filterButtons modeChoice">
-        <button class="filterButton" on:click={handleViewToggle}>{buttontext}</button>
-    </div>
+    <button class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
+    <select class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
+        {#each tagsArray as tagEntry}
+            <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[0]}</option>
+        {/each}
+    </select>
 </div>
 {#each categories as cat, i}
     <div class="category">
@@ -60,18 +81,26 @@
         </div>
         {#if cat.show}
             {#if boxView}
-                <div class="links" >
-                    {#each cat.links as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+                <div class="linksBg">
+                    <div class="links">
+                        {#each cat.links as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}
+                    </div>
+                    <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
                 </div>
-                {:else}
-                <div class="linksCompact" >
-                    {#each cat.links as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+            {:else}
+                <div class="linksBg">
+                    <div class="linksCompact" >
+                        {#each cat.links as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}   
+                        <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                    </div>
                 </div>
             {/if}
         {/if}
@@ -81,18 +110,26 @@
         </div>
         {#if cat.showExtra}
             {#if boxView}
-                <div class="links" >
-                    {#each cat.extralinks as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+                <div class="linksBg">
+                    <div class="links">
+                        {#each cat.extralinks as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linkpagebox desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}
+                    </div>
+                    <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
                 </div>
-                {:else}
-                <div class="linksCompact" >
-                    {#each cat.extralinks as link}
-                        <!-- <a href={link.eng.link}>{link.eng.presName}</a> -->
-                        <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
-                    {/each}    
+            {:else}
+                <div class="linksBg">
+                    <div class="linksCompact" >
+                        {#each cat.extralinks as link}
+                            {#if containsTag(link.tags, activeTag[0])}
+                                <Linklistitem desc={link.eng.desc} href={link.eng.link} title={link.name} tags={link.tags} {tagsObject}/>
+                            {/if}
+                        {/each}   
+                        <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                    </div>
                 </div>
             {/if}  
         {/if}
@@ -134,17 +171,22 @@
         top: 0px;
     }
 
-    .filterButton {
-        background: hsla(0, 2%, 100%, 0.827);
+    .filterButtons {
         border-radius: 15px;
         border: none;
         color: rgb(0, 0, 0);
-        width: 150px;
+        width: 170px;
         font-weight: bold;
         padding: 10px 20px;
         font-size: 1.1rem;
         cursor: pointer;
     }
+
+    .modeChoice {
+        background: hsla(0, 0%, 100%, 0.951);
+        text-align: left;
+    }
+
     .center {
         width: 100%;
         margin: 0px !important;
@@ -196,7 +238,14 @@
         flex-flow: row wrap;
         justify-content: center;
         gap: 30px;
+    }
+
+    .linksBg {
         background-color: #1b252e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
     }
 
     .linksCompact {
