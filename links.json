@@ -71,7 +71,13 @@
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
+                        "link": "https://www.de-hovenpassage.nl/",
+                        "presName": "Shoppingcenter De Hoven Passage",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
                         "link": "https://www.de-hovenpassage.nl/",
                         "presName": "Shoppingcenter De Hoven Passage",
@@ -91,7 +97,13 @@
                         "presName": "Openingstijden Jumbo op het Bastiaansplein",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
+                        "link": "https://www.jumbo.com",
+                        "presName": "",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
                         "link": "https://www.jumbo.com",
                         "presName": "",
@@ -111,9 +123,15 @@
                         "presName": "Openingstijden Jumbo op het Bastiaansplein",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
                         "desc": "Albert Heijn is a supermarket franchise with lots of shops in Delft.",
                         "link": "https://www.ah.nl/",
+                        "presName": "",
+                        "onlyNl": true
+                    },
+                    "bg": {
+                        "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
+                        "link": "https://www.ah.nl",
                         "presName": "",
                         "onlyNl": true
                     }
@@ -131,7 +149,13 @@
                         "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Free products at Jumbo through the lowest price guarantee.",
+                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
+                        "presName": "Free products at Jumbo through the lowest price guarantee",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Free products at Jumbo through the lowest price guarantee.",
                         "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
                         "presName": "Free products at Jumbo through the lowest price guarantee",
@@ -150,7 +174,13 @@
                         "presName": "Action in Delft openingstijden",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Action is one of the many home appliance franchises while also being on the budget side.",
+                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
+                        "presName": "Action in Delft openings hours",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Action is one of the many home appliance franchises while also being on the budget side.",
                         "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
                         "presName": "Action in Delft openings hours",
@@ -169,7 +199,13 @@
                         "presName": "Blokkers in Delft openingstijden",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Blokker is one of the many home appliance franchises.",
+                        "link": "https://www.blokker.nl/winkels/delft",
+                        "presName": "Blokkers in Delft openings hours",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Blokker is one of the many home appliance franchises.",
                         "link": "https://www.blokker.nl/winkels/delft",
                         "presName": "Blokkers in Delft openings hours",
@@ -188,7 +224,13 @@
                         "presName": "Openingstijden van de Hema op de Molslaan",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Hema is one of the many home appliance franchises",
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName": "Openings hours of the Hema on the Molslaan",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Hema is one of the many home appliance franchises",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema on the Molslaan",
@@ -207,7 +249,13 @@
                         "presName": "Openingstijden van de Hema in winkelcentrum de Hoven Passage",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Hema is one of the many home appliance franchises",
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
+                        "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Hema is one of the many home appliance franchises",
                         "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
                         "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
@@ -226,7 +274,13 @@
                         "presName": "Openingstijden KiK",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.de-hovenpassage.nl/winkels/kik/",
+                        "presName": "Openings hours KiK",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.de-hovenpassage.nl/winkels/kik/",
                         "presName": "Openings hours KiK",
@@ -245,7 +299,13 @@
                         "presName": "Yelp kringloopwinkels",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
+                        "presName": "Yelp thrift stores",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
                         "presName": "Yelp thrift stores",
@@ -264,7 +324,13 @@
                         "presName": "RataPlan openingstijden",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
+                        "presName": "RataPlan openings hours",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
                         "presName": "RataPlan openings hours",
@@ -283,7 +349,13 @@
                         "presName": "Delta",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
+                        "presName": "Delta",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
                         "presName": "Delta",
@@ -302,7 +374,13 @@
                         "presName": "Marktplaats",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.marktplaats.nl/",
+                        "presName": "Marktplaats",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.marktplaats.nl/",
                         "presName": "Marktplaats",
@@ -321,7 +399,13 @@
                         "presName": "Bol.com",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.bol.com/nl/nl/",
+                        "presName": "Bol.com",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.bol.com/nl/nl/",
                         "presName": "Bol.com",
@@ -342,7 +426,13 @@
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "Albert Heijn is known for its budget recipes.",
+                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
+                        "presName": "Shoppingcenter De Hoven Passage",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "Albert Heijn is known for its budget recipes.",
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
                         "presName": "Shoppingcenter De Hoven Passage",
@@ -368,7 +458,13 @@
                         "presName": "gemeente Delft",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.delft.nl/en/housing/student-housing",
+                        "presName": "municipality Delft",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.delft.nl/en/housing/student-housing",
                         "presName": "municipality Delft",
@@ -387,7 +483,13 @@
                         "presName": "Housing Anywhere",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
+                        "presName": "Housing Anywhere",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
                         "presName": "Housing Anywhere",
@@ -406,7 +508,13 @@
                         "presName": "Kamernet",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://kamernet.nl/en",
+                        "presName": "Kamernet",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://kamernet.nl/en",
                         "presName": "Kamernet",
@@ -425,7 +533,13 @@
                         "presName": "Lebara",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
+                        "presName": "Lebara",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
                         "presName": "Lebara",
@@ -444,7 +558,13 @@
                         "presName": "Openingstijden T-Mobile winkel Delft",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
+                        "presName": "Openings hours T-Mobile shop Delft",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
                         "presName": "Openings hours T-Mobile shop Delft",
@@ -463,7 +583,13 @@
                         "presName": "Youfone",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.youfone.nl/",
+                        "presName": "Youfone",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.youfone.nl/",
                         "presName": "Youfone",
@@ -482,7 +608,13 @@
                         "presName": "Simyo",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.simyo.nl/",
+                        "presName": "Simyo",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.simyo.nl/",
                         "presName": "Simyo",
@@ -501,7 +633,13 @@
                         "presName": "thuisbezorgd.nl",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.thuisbezorgd.nl/en",
+                        "presName": "thuisbezorgd.nl",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.thuisbezorgd.nl/en",
                         "presName": "thuisbezorgd.nl",
@@ -520,7 +658,13 @@
                         "presName": "Uber Eats",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.ubereats.com/",
+                        "presName": "Uber Eats",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.ubereats.com/",
                         "presName": "Uber Eats",
@@ -539,7 +683,13 @@
                         "presName": "Dominos",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.dominos.nl/english-visitor",
+                        "presName": "Dominos",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.dominos.nl/english-visitor",
                         "presName": "Dominos",
@@ -558,7 +708,13 @@
                         "presName": "Trip Advisor",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
+                        "presName": "Trip Advisor",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
                         "presName": "Trip Advisor",
@@ -579,7 +735,13 @@
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName": "Shoppingcenter De Hoven Passage",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
@@ -605,7 +767,13 @@
                         "presName": "learndutch.org",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.learndutch.org/",
+                        "presName": "learndutch.org",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.learndutch.org/",
                         "presName": "learndutch.org",
@@ -624,7 +792,13 @@
                         "presName": "Linkedin",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.linkedin.com/jobs/jobs-in-delft",
+                        "presName": "linkedin",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft",
                         "presName": "linkedin",
@@ -643,7 +817,13 @@
                         "presName": "I Am Expat",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
+                        "presName": "I Am Expat",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
                         "presName": "I Am Expat",
@@ -662,7 +842,13 @@
                         "presName": "Just Landed",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
+                        "presName": "Just Landed",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
                         "presName": "Just Landed",
@@ -681,7 +867,13 @@
                         "presName": "Jobs.nl",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://jobs.nl/",
+                        "presName": "Jobs.nl",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://jobs.nl/",
                         "presName": "Jobs.nl",
@@ -700,7 +892,13 @@
                         "presName": "Jumbo vacatures",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://nl.jobs.jumbo.com/en/",
+                        "presName": "Jumbo job offers",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://nl.jobs.jumbo.com/en/",
                         "presName": "Jumbo job offers",
@@ -719,7 +917,13 @@
                         "presName": "Grab jobs",
                         "onlyEng": true
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://grabjobs.co/netherlands/part-time-jobs",
+                        "presName": "Grab jobs",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://grabjobs.co/netherlands/part-time-jobs",
                         "presName": "Grab jobs",
@@ -738,7 +942,13 @@
                         "presName": "SURFspot",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "lorum ispum",
+                        "link": "https://www.surfspot.nl/",
+                        "presName": "SURFspot",
+                        "onlyNl": false
+                    },
+                    "bg": {
                         "desc": "lorum ispum",
                         "link": "https://www.surfspot.nl/",
                         "presName": "SURFspot",
@@ -759,7 +969,13 @@
                         "presName": "Winkelcentrum De Hoven Passage",
                         "onlyEng": false
                     },
-                    "eng": {
+                    "en": {
+                        "desc": "A mobile plan comparison done by Prijsvergelijken.",
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
+                        "presName": "Shoppingcenter De Hoven Passage",
+                        "onlyNl": true
+                    },
+                    "bg": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
                         "presName": "Shoppingcenter De Hoven Passage",
