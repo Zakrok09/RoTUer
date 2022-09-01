@@ -1,7 +1,7 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
     import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
-    import {locale} from "$lib/translations/i18n"
+    import {t, locale} from "$lib/translations/i18n"
 
     export let data;
     let categories = data.links.categories;
@@ -61,7 +61,7 @@
 <div class="landingSite">
     <img src="/isometric/logo.svg" alt="The logo of RoTUer">
     <h1 tabindex="0">RoTUer</h1>
-    <i>Links are finally here</i>
+    <i>{$t("linkspage.titles.undertitle")}</i>
 </div>
 <div class="abovecategories">
     <button aria-label="Choose view (compact or box). Compact might be better for screen readers" class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
@@ -90,7 +90,7 @@
                             {/if}
                         {/each}
                     </div>
-                    <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                 </div>
             {:else}
                 <div class="linksBg">
@@ -100,7 +100,7 @@
                                 <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
-                        <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                     </div>
                 </div>
             {/if}
@@ -119,7 +119,7 @@
                             {/if}
                         {/each}
                     </div>
-                    <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                 </div>
             {:else}
                 <div class="linksBg">
@@ -129,7 +129,7 @@
                                 <Linklistitem desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
-                        <p id="noLinks?">No links? Maybe you have filtered a tag that no link from this category has. Check other categories</p>
+                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
                     </div>
                 </div>
             {/if}  

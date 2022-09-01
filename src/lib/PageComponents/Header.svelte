@@ -1,8 +1,12 @@
 <script>
-    import {locale} from "$lib/translations/i18n";
-
+    import {t, locale} from "$lib/translations/i18n";
+    // ["Home", "/"], ["To Links", "/links/"], ["About", "/about"]
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
-    export let links = [["Home", "/"], ["To Links", "/links/"], ["About", "/about"]];
+    export let links = {
+        en: [["Home", "/"], ["Links", "/links/"], ["About", "/about"]],
+        nl: [["Startpagina", "/"], ["Links", "/links/"], ["Over", "/about"]],
+        bg: [["Начало", "/"], ["Линкове", "/links/"], ["Относно", "/about"]]
+    };
 
 
 </script>
@@ -15,7 +19,7 @@
     <a href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
     <nav>
         <!-- * This is a cool Svelte thing that will iterate over an array and do some html shit with it. -->
-        {#each links as [text, link]}
+        {#each links[$locale.toString()] as [text, link]}
             <!-- * Here we are loading 'links' as by destructing the inner arrays into 'text' and 'link'-->
             <div class="navItem">
                 <!-- * Then we just create anchor tags that have href to link and text as text -->
