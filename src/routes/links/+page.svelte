@@ -64,8 +64,8 @@
     <i>Links are finally here</i>
 </div>
 <div class="abovecategories">
-    <button class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
-    <select class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
+    <button aria-label="Choose view (compact or box). Compact might be better for screen readers" class="filterButtons modeChoice" on:click={handleViewToggle}>{buttontext}</button>
+    <select aria-label="Select active tag when searching" class="filterButtons tagFilter" style="background-color: {activeTag[1].color};" bind:value={activeTag}>
         <option value="all" selected disabled hidden>Choose a tag</option>
         {#each tagsArray as tagEntry}
             <option style="background-color: hsla(0, 0%, 100%, 0.951);" value={tagEntry}>{tagEntry[1].text}</option>
