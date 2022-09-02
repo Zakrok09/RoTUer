@@ -1,12 +1,11 @@
 <script>
     import BigLinkbox from "../../lib/Reusable/BigLinkbox.svelte";
     import { t } from "$lib/translations/i18n";
+    import HEAD from "$lib/Metadata/HEAD.svelte";
 
 </script>
 
-<svelte:head>
-    <title>About | RoTUer</title>
-</svelte:head>
+<HEAD title="About" metadescription="Find out about who we are, what our goal is, what RoTUer is & much more! " />
 
 <main> 
     <BigLinkbox background="/background/stripes1.svg" src="/pngs/prax.png" title={$t("homepage.aboutus")} alt="Praxidike Logo" anchorText={$t("homepage.more")} href="/about/us"/>

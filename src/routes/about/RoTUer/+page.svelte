@@ -1,5 +1,6 @@
 <script>
     import { t } from "$lib/translations/i18n";
+    import HEAD from "$lib/Metadata/HEAD.svelte";
 </script>
 <!-- ! yo thijs check this -->
 <main>
@@ -19,9 +20,7 @@
 
 </main>
 
-<svelte:head>
-    <title>About RoTUer | RoTUer</title>
-</svelte:head>
+<HEAD title="About RoTUer" metadescription="RoTUer is a project that aims to help students at TU Delft by providing them with loads of categorized links to websites" />
 
 
 <style lang="scss">

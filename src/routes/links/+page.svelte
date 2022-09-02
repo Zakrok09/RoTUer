@@ -1,6 +1,7 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
     import Linklistitem from "$lib/Reusable/Linklistitem.svelte"
+    import HEAD from "$lib/Metadata/HEAD.svelte"
     import {t, locale} from "$lib/translations/i18n"
 
     export let data;
@@ -75,9 +76,7 @@
     }
 </script>
 
-<svelte:head>
-    <title>Links | RoTUer</title>
-</svelte:head>
+<HEAD title="Links" metadescription="All the links a student needs! We are constantly expanding this section so expect more!" />
 
 <div class="landingSite">
     <img src="/isometric/arrow.svg" alt="The logo of RoTUer">
