@@ -2,6 +2,7 @@
     export let article;
     export let tagsObject;
     import {locale} from "$lib/translations/i18n";
+    export let untrustedSource = false;
 </script>
 
 <article>
@@ -23,7 +24,11 @@
         </div>
     </div>
     <div class="articleContent">
-        {@html article.text}
+        {#if untrustedSource}
+            {article.text}
+        {:else}
+            {@html article.text}
+        {/if}
     </div>
 </article>
 

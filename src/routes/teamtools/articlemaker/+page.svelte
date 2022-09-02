@@ -11,15 +11,15 @@
     
     
     //{"name":"De Hoven","img":false,"keywords":{"en":["tag","link","de hoven","mall"],"nl":["tag","link","de hoven","mall"],"bg":["таг","линк","de hoven","мол"]},"tags":["mall"],"nl":{"desc":"De Hoven is een winkelcentrum met super veel verschillende winkels voor alles van kleding tot snoep.","link":"https://www.de-hovenpassage.nl/","presName":"Winkelcentrum De Hoven Passage","onlyEng":false},"en":{"desc":"The Hoven is a mall with loads of different shops and products ranging from clothing to candy.","link":"https://www.de-hovenpassage.nl/","presName":"Shoppingcenter De Hoven Passage","onlyNl":true},"bg":{"desc":"The Hoven is a mall with loads of different shops and products ranging from clothing to candy.","link":"https://www.de-hovenpassage.nl/","presName":"Shoppingcenter De Hoven Passage","onlyNl":true}}
-    let name = "test";
-    let author = 'You';
-    let authorlink = 'no one';
-    let date = 'dwa';
-    let enKeywords = "test";
-    let nlKeywords = "test";
-    let bgKeywords = "test";
-    let tags = "new";
-    let text = "test";
+    let name = "";
+    let author = '';
+    let authorlink = '';
+    let date = '';
+    let enKeywords = "";
+    let nlKeywords = "";
+    let bgKeywords = "";
+    let tags = "";
+    let text = "";
     
     $:linksArray = [];
 
@@ -128,7 +128,7 @@
     {#key articleArray}
         {#each articleArray as article}
             {#if article.author}
-                <Article {tagsObject} {article}/>
+                <Article {tagsObject} {article} untrustedSource={true}/>
             {/if}
         {/each}
     {/key}
