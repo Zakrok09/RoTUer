@@ -22,7 +22,9 @@
             </div>
         </div>
     </div>
-    <p>{article.text}</p>
+    <div class="articleContent">
+        {@html article.text}
+    </div>
 </article>
 
 <style lang="scss">
@@ -38,11 +40,6 @@
     h2 {
         font-size: 1.9rem;
         margin-bottom: 0px;
-    }
-
-    p {
-        white-space: pre-line;
-        font-family: 'Oxygen', sans-serif;
     }
 
     .metaData {
@@ -69,6 +66,10 @@
 
     .date {
         gap: 5px;
+    }
+
+    .articleContent {
+        margin: 50px 20px;
     }
 
     #date {
