@@ -31,7 +31,8 @@ export default {
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is a team that originates from Bulgaria but now has members from all over Europe brought together by TU Delft. At first, the team was formed by classmates from PPMG Burgas and performed well on Hackathons. Now, Praxidike has new members from TU Delft.",
         "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We are brought together by the joy of helping other people, our common interests and TU Delft. We have fun doing projects together and we are looking for people like us. Make sure to check our GitHub organization.",
         "linkspage.titles.undertitle": "Links are finally here",
-        "linkspage.texts.nolinks": "No links? Maybe you have filtered a tag that no link from this category has. Check other categories"
+        "linkspage.texts.nolinks": "No links? Maybe you have filtered a tag that no link from this category has. Check other categories",
+        "dashboard.underheading": "Welcome to the Dashboard, yo!"
     },
     nl: {
         "homepage.underheading" : "Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen risico",
@@ -65,7 +66,8 @@ export default {
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Praxidike is een team dat oorspronkelijk uit Bulgarije komt, maar nu leden uit heel Europa heeft, samengebracht door de TU Delft. In eerste instantie werd het team gevormd door klasgenoten op een Bulgaarse school en presteerde het goed op Hackathons. Nu heeft Praxidike nieuwe leden van de TU Delft.",
         "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "We zijn samengebracht door de vreugde om andere mensen te helpen, onze gemeenschappelijke interesses en de TU Delft. We vinden het leuk om samen projecten te doen en we zijn op zoek naar mensen zoals wij. Als je geintresseerd bent check dan zeker onze GitHub-organisatie.",
         "linkspage.titles.undertitle": "Links zijn er eindelijk",
-        "linkspage.texts.nolinks": "Geen koppelingen? Misschien heb je een tag gefilterd die geen enkele link uit deze categorie heeft. Bekijk andere categorieën"
+        "linkspage.texts.nolinks": "Geen koppelingen? Misschien heb je een tag gefilterd die geen enkele link uit deze categorie heeft. Bekijk andere categorieën",
+        "dashboard.underheading": "Welcome to the Dashboard, yo!"
     },
     bg: {
         "homepage.underheading" : "Уебсайтът е все още в разработъчна версия и не е предназначен за потребление! Използвайте на собствен риск!",
@@ -99,6 +101,7 @@ export default {
         "aboutpages.paragraphs.aboutus.praxidikeTimeline": "Праксидика е отбор с корени в България, но сега има членове от цяла Европа събрани заедно от ТУ Делфт. Първоначално, отборът беше формиран от съученици в ППМГ Бургас и имаше големи успехи в Хакатони. Сега, Праксидика има нови членове от ТУ Делфт.",
         "aboutpages.paragraphs.aboutus.whatBringSUSTogether": "Ние сме събрани заедно заради радостта от това да помагаме на хората, нашите общи интереси и ТУ Делфт. Забавляваме се докато правим проекти заедно и търсим други хора като нас. Не забравяйте да видите страницата ни в GitHub.",
         "linkspage.titles.undertitle": "Линковете са най-после тук",
-        "linkspage.texts.nolinks": "Не виждате линкове? Може би сте избрали филтър за таг, който не принадлежи на никой линк. Проверете в другите категории"
+        "linkspage.texts.nolinks": "Не виждате линкове? Може би сте избрали филтър за таг, който не принадлежи на никой линк. Проверете в другите категории",
+        "dashboard.underheading": "Добре дошли в таблото, йо!"
     }
 }
