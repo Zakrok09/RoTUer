@@ -13,7 +13,7 @@
             "color": "#056AF7",
             "text": "Guide",
             "pressNames":{
-                "nl":"Guide",
+                "nl":"Gids",
                 "en":"Guide",
                 "bg":"Наръчник"
             }
@@ -22,7 +22,7 @@
             "color": "#056AF7",
             "text": "Story",
             "pressNames":{
-                "nl":"Story",
+                "nl":"verhaal",
                 "en":"Story",
                 "bg":"Разказ"
             }

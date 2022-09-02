@@ -1,0 +1,97 @@
+{
+    "tags": {
+        "new": {
+            "color": "#056AF7",
+            "text": "New",
+            "pressNames":{
+                "nl":"Nieuwe!",
+                "en":"New!",
+                "bg":"Ново!"
+            }
+        },
+        "interested": {
+            "color": "#056AF7",
+            "text": "Interested in Delft",
+            "pressNames":{
+                "nl":"Geinteresseerd in Delft",
+                "en":"Interested in Delft",
+                "bg":"Interested in Delft"
+            }
+        },
+        "coming": {
+            "color": "#056AF7",
+            "text": "Coming to Delft",
+            "pressNames":{
+                "nl":"Komt naar Delft",
+                "en":"Coming to Delft",
+                "bg":"Coming to Delft"
+            }
+        },
+        "justArrived": {
+            "color": "#056AF7",
+            "text": "Just arrived",
+            "pressNames":{
+                "nl":"Net aangekomen",
+                "en":"Just arrived",
+                "bg":"Just arrived"
+            }
+        },
+        "Settled": {
+            "color": "#056AF7",
+            "text": "Settled",
+            "pressNames":{
+                "nl":"Gevistigd",
+                "en":"Settled",
+                "bg":"Settled"
+            }
+        }
+    },
+    "checkies":[
+        {
+            "name": "Testing",
+            "keywords": {
+                "en": [
+                    "test",
+                    "checkie"
+                ],
+                "nl": [
+                    "test",
+                    "checkie"
+                ],
+                "bg": [
+                    "test",
+                    "checkie"
+                ]
+            },
+            "tags": [
+                "interested",
+                "new"
+            ],
+            "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88",
+            "releveantLinks":["Just landed","I am expat"]
+        },
+        {
+            "name": "Testing Again",
+            "keywords": {
+                "en": [
+                    "test",
+                    "checkie"
+                ],
+                "nl": [
+                    "test",
+                    "checkie"
+                ],
+                "bg": [
+                    "test",
+                    "checkie"
+                ]
+            },
+            "tags": [
+                "coming",
+                "new"
+            ],
+            "text": "mneakjfnapoij pakje poiajfpaije pofjlkmnvlckpaeoif poijplakjfpaoije paojd f;alksjd fa;oie fjpalksjd f;alskj fpeiohgpasi",
+            "releveantLinks":["linkedin","Learn Dutch"]
+        }
+    ]
+}
