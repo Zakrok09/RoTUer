@@ -8,3 +8,4 @@ node_modules
 .env.*
 !.env.example
 .vite/deps_temp/package.json
+/.idea
