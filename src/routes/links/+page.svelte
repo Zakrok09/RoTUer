@@ -117,7 +117,7 @@
                             {/if}
                         {/each}
                     </div>
-                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                    <p>{$t("linkspage.texts.nolinks")}</p>
                 </div>
             {:else}
                 <div class="linksBg">
@@ -127,7 +127,7 @@
                                 <Linklistitem on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
-                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                        <p>{$t("linkspage.texts.nolinks")}</p>
                     </div>
                 </div>
             {/if}
@@ -146,7 +146,7 @@
                             {/if}
                         {/each}
                     </div>
-                    <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                    <p>{$t("linkspage.texts.nolinks")}</p>
                 </div>
             {:else}
                 <div class="linksBg">
@@ -156,7 +156,7 @@
                                 <Linklistitem on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} {tagsObject}/>
                             {/if}
                         {/each}   
-                        <p id="noLinks?">{$t("linkspage.texts.nolinks")}</p>
+                        <p>{$t("linkspage.texts.nolinks")}</p>
                     </div>
                 </div>
             {/if}  
