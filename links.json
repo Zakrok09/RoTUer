@@ -135,7 +135,6 @@
             "links": [
                 {
                     "name": "De Hoven",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link", "de hoven", "mall"],
                         "nl": ["tag", "link", "de hoven", "mall"],
@@ -146,26 +145,19 @@
                     ],
                     "nl": {
                         "desc": "De Hoven is een winkelcentrum met super veel verschillende winkels voor alles van kleding tot snoep.",
-                        "link": "https://www.de-hovenpassage.nl/",
-                        "presName": "Winkelcentrum De Hoven Passage",
-                        "onlyEng": false
+                        "link": "https://www.de-hovenpassage.nl/"
                     },
                     "en": {
                         "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
-                        "link": "https://www.de-hovenpassage.nl/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.de-hovenpassage.nl/"
                     },
                     "bg": {
                         "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
-                        "link": "https://www.de-hovenpassage.nl/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.de-hovenpassage.nl/"
                     }
                 },
                 {
                     "name": "COOP",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -177,26 +169,19 @@
                     ],
                     "nl": {
                         "desc": "COOP is een supermarkt keten met veel verschillende winkels in Delft",
-                        "link": "https://www.ah.nl/",
-                        "presName": "Openingstijden Jumbo op het Bastiaansplein",
-                        "onlyEng": false
+                        "link": "https://www.ah.nl/"
                     },
                     "en": {
                         "desc": "COOP is a supermarket franchise with lots of shops in Delft.",
-                        "link": "https://www.ah.nl/",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl/"
                     },
                     "bg": {
                         "desc": "COOP са верига супермаркети с много магазини в Делфт.",
-                        "link": "https://www.ah.nl",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl"
                     }
                 },
                 {
                     "name": "Jumbo",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -208,26 +193,19 @@
                     ],
                     "nl": {
                         "desc": "Jumbo is een supermarkt keten met veel verschillende winkels in Delft",
-                        "link": "https://www.jumbo.com",
-                        "presName": "Openingstijden Jumbo op het Bastiaansplein",
-                        "onlyEng": false
+                        "link": "https://www.jumbo.com"
                     },
                     "en": {
                         "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
-                        "link": "https://www.jumbo.com",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.jumbo.com"
                     },
                     "bg": {
                         "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
-                        "link": "https://www.jumbo.com",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.jumbo.com"
                     }
                 },
                 {
                     "name": "Albert Heijn",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -245,20 +223,15 @@
                     },
                     "en": {
                         "desc": "Albert Heijn is a supermarket franchise with lots of shops in Delft.",
-                        "link": "https://www.ah.nl/",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl/"
                     },
                     "bg": {
                         "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
-                        "link": "https://www.ah.nl",
-                        "presName": "",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl"
                     }
                 },
                 {
                     "name": "Jumbo Products",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -270,26 +243,19 @@
                     ],
                     "nl": {
                         "desc": "Gratis producten bij Jumbo door de laagsteprijsgarantie.",
-                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                        "presName": "Gratis producten bij Jumbo door laagsteprijsgarantie",
-                        "onlyEng": false
+                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
                     },
                     "en": {
                         "desc": "Free products at Jumbo through the lowest price guarantee.",
-                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                        "presName": "Free products at Jumbo through the lowest price guarantee",
-                        "onlyNl": true
+                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
                     },
                     "bg": {
                         "desc": "Free products at Jumbo through the lowest price guarantee.",
-                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg",
-                        "presName": "Free products at Jumbo through the lowest price guarantee",
-                        "onlyNl": true
+                        "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
                     }
                 },
                 {
                     "name": "Action",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -300,26 +266,19 @@
                     ],
                     "nl": {
                         "desc": "Action is een van de vele huishoudapparatuur ketens en is ook relatief goedkoop.",
-                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
-                        "presName": "Action in Delft openingstijden",
-                        "onlyEng": false
+                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
                     },
                     "en": {
                         "desc": "Action is one of the many home appliance franchises while also being on the budget side.",
-                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
-                        "presName": "Action in Delft openings hours",
-                        "onlyNl": true
+                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
                     },
                     "bg": {
                         "desc": "Action is one of the many home appliance franchises while also being on the budget side.",
-                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/",
-                        "presName": "Action in Delft openings hours",
-                        "onlyNl": true
+                        "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
                     }
                 },
                 {
                     "name": "Blokker",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -330,26 +289,19 @@
                     ],
                     "nl": {
                         "desc": "Blokker is een van de vele huishoudapparatuur ketens.",
-                        "link": "https://www.blokker.nl/winkels/delft",
-                        "presName": "Blokkers in Delft openingstijden",
-                        "onlyEng": false
+                        "link": "https://www.blokker.nl/winkels/delft"
                     },
                     "en": {
                         "desc": "Blokker is one of the many home appliance franchises.",
-                        "link": "https://www.blokker.nl/winkels/delft",
-                        "presName": "Blokkers in Delft openings hours",
-                        "onlyNl": true
+                        "link": "https://www.blokker.nl/winkels/delft"
                     },
                     "bg": {
                         "desc": "Blokker is one of the many home appliance franchises.",
-                        "link": "https://www.blokker.nl/winkels/delft",
-                        "presName": "Blokkers in Delft openings hours",
-                        "onlyNl": true
+                        "link": "https://www.blokker.nl/winkels/delft"
                     }
                 },
                 {
                     "name": "Hema",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -360,26 +312,19 @@
                     ],
                     "nl": {
                         "desc": "Hema is een van de vele huishoudapparatuur ketens.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openingstijden van de Hema op de Molslaan",
-                        "onlyEng": false
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     },
                     "en": {
                         "desc": "Hema is one of the many home appliance franchises.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openings hours of the Hema on the Molslaan",
-                        "onlyNl": true
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     },
                     "bg": {
                         "desc": "Hema is one of the many home appliance franchises.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openings hours of the Hema on the Molslaan",
-                        "onlyNl": true
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     }
                 },
                 {
                     "name": "HemaHovenPassage",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -390,26 +335,19 @@
                     ],
                     "nl": {
                         "desc": "Hema is een van de vele huishoudapparatuur ketens.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openingstijden van de Hema in winkelcentrum de Hoven Passage",
-                        "onlyEng": false
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     },
                     "en": {
                         "desc": "Hema is one of the many home appliance franchises.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     },
                     "bg": {
                         "desc": "Hema is one of the many home appliance franchises.",
-                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08",
-                        "presName": "Openings hours of the Hema in shopping center de Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
                     }
                 },
                 {
                     "name": "Kik",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -420,26 +358,19 @@
                     ],
                     "nl": {
                         "desc": "KiK is een voordelige kledingwinkel.",
-                        "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                        "presName": "Openingstijden KiK",
-                        "onlyEng": false
+                        "link": "https://www.de-hovenpassage.nl/winkels/kik/"
                     },
                     "en": {
                         "desc": "Kik is a clothing store on the budget side.",
-                        "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                        "presName": "Openings hours KiK",
-                        "onlyNl": true
+                        "link": "https://www.de-hovenpassage.nl/winkels/kik/"
                     },
                     "bg": {
                         "desc": "Kik is a clothing store on the budget side.",
-                        "link": "https://www.de-hovenpassage.nl/winkels/kik/",
-                        "presName": "Openings hours KiK",
-                        "onlyNl": true
+                        "link": "https://www.de-hovenpassage.nl/winkels/kik/"
                     }
                 },
                 {
                     "name": "Yelp",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -450,26 +381,19 @@
                     ],
                     "nl": {
                         "desc": "Yelp is een website die helpt met het ontdekken van locale ondernemingen.",
-                        "link": "https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland",
-                        "presName": "Yelp kringloopwinkels",
-                        "onlyEng": false
+                        "link": "https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland"
                     },
                     "en": {
                         "desc": "Yelp is a website that helps to discover local businesses.",
-                        "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
-                        "presName": "Yelp thrift stores",
-                        "onlyNl": false
+                        "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland"
                     },
                     "bg": {
                         "desc": "Yelp is a website that helps to discover local businesses.",
-                        "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland",
-                        "presName": "Yelp thrift stores",
-                        "onlyNl": false
+                        "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland"
                     }
                 },
                 {
                     "name": "Rataplan",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -480,26 +404,19 @@
                     ],
                     "nl": {
                         "desc": "RataPlan is een kringloopwinkel.",
-                        "link": "https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
-                        "presName": "RataPlan openingstijden",
-                        "onlyEng": false
+                        "link": "https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
                     },
                     "en": {
                         "desc": "RataPlan is a thrift store.",
-                        "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
-                        "presName": "RataPlan openings hours",
-                        "onlyNl": false
+                        "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
                     },
                     "bg": {
                         "desc": "RataPlan is a thrift store.",
-                        "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/",
-                        "presName": "RataPlan openings hours",
-                        "onlyNl": false
+                        "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
                     }
                 },
                 {
                     "name": "Delta",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -510,26 +427,19 @@
                     ],
                     "nl": {
                         "desc": "Delta bevat informatie over verschillende kringloopwinkels in Delft.",
-                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
-                        "presName": "Delta",
-                        "onlyEng": true
+                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
                     },
                     "en": {
                         "desc": "Delta contains information about different thrift stores in Delft.",
-                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
-                        "presName": "Delta",
-                        "onlyNl": false
+                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
                     },
                     "bg": {
                         "desc": "Delta contains information about different thrift stores in Delft.",
-                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping",
-                        "presName": "Delta",
-                        "onlyNl": false
+                        "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
                     }
                 },
                 {
                     "name": "Marktplaats",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -540,26 +450,19 @@
                     ],
                     "nl": {
                         "desc": "Op Marktplaats kan je tweedehands spullen kopen of verkopen.",
-                        "link": "https://www.marktplaats.nl/",
-                        "presName": "Marktplaats",
-                        "onlyEng": false
+                        "link": "https://www.marktplaats.nl/"
                     },
                     "en": {
                         "desc": "Marktplaats is a website where you can buy or sell second hand items.",
-                        "link": "https://www.marktplaats.nl/",
-                        "presName": "Marktplaats",
-                        "onlyNl": true
+                        "link": "https://www.marktplaats.nl/"
                     },
                     "bg": {
                         "desc": "Marktplaats is a website where you can buy or sell second hand items.",
-                        "link": "https://www.marktplaats.nl/",
-                        "presName": "Marktplaats",
-                        "onlyNl": true
+                        "link": "https://www.marktplaats.nl/"
                     }
                 },
                 {
                     "name": "Bol",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -570,28 +473,21 @@
                     ],
                     "nl": {
                         "desc": "Bol.com is een webwinkel waar je bijna alles kan bestellen.",
-                        "link": "https://www.bol.com/nl/nl/",
-                        "presName": "Bol.com",
-                        "onlyEng": false
+                        "link": "https://www.bol.com/nl/nl/"
                     },
                     "en": {
                         "desc": "Bol.com is a webshop where you can order almost anything.",
-                        "link": "https://www.bol.com/nl/nl/",
-                        "presName": "Bol.com",
-                        "onlyNl": true
+                        "link": "https://www.bol.com/nl/nl/"
                     },
                     "bg": {
                         "desc": "Bol.com is a webshop where you can order almost anything.",
-                        "link": "https://www.bol.com/nl/nl/",
-                        "presName": "Bol.com",
-                        "onlyNl": true
+                        "link": "https://www.bol.com/nl/nl/"
                     }
                 }
             ],
             "extralinks": [
                 {
                     "name": "AH Budget Recipes",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -602,21 +498,15 @@
                     ],
                     "nl": {
                         "desc": "Op deze website kan je recepten vinden die goedkoop zijn om te bereiden.",
-                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
-                        "presName": "Winkelcentrum De Hoven Passage",
-                        "onlyEng": false
+                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten"
                     },
                     "en": {
                         "desc": "On this website you can find recipes that are cheap to cook.",
-                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten"
                     },
                     "bg": {
                         "desc": "On this website you can find recipes that are cheap to cook.",
-                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.ah.nl/allerhande/recepten/budget-recepten"
                     }
                 }
             ]
@@ -628,7 +518,6 @@
             "links": [
                 {
                     "name": "delft",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -639,26 +528,19 @@
                     ],
                     "nl": {
                         "desc": "De Gemeente Delft website bevat informatie over het huren van woniningen in Delft.",
-                        "link": "https://www.delft.nl/wonen/wonen-delft/huren-en-kopen/woning-huren",
-                        "presName": "gemeente Delft",
-                        "onlyEng": false
+                        "link": "https://www.delft.nl/wonen/wonen-delft/huren-en-kopen/woning-huren"
                     },
                     "en": {
                         "desc": "The Gemeente Delft website conatains information about how to get student housing in Delft.",
-                        "link": "https://www.delft.nl/en/housing/student-housing",
-                        "presName": "municipality Delft",
-                        "onlyNl": false
+                        "link": "https://www.delft.nl/en/housing/student-housing"
                     },
                     "bg": {
                         "desc": "The Gemeente Delft website conatains information about how to get student housing in Delft.",
-                        "link": "https://www.delft.nl/en/housing/student-housing",
-                        "presName": "municipality Delft",
-                        "onlyNl": false
+                        "link": "https://www.delft.nl/en/housing/student-housing"
                     }
                 },
                 {
                     "name": "Housing Anywhere",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -669,26 +551,19 @@
                     ],
                     "nl": {
                         "desc": "Housing Anywhere biedt verschillende huur appartementen in Delft aan.",
-                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
-                        "presName": "Housing Anywhere",
-                        "onlyEng": true
+                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation"
                     },
                     "en": {
                         "desc": "Housing Anywhere offers rented housing in Delft.",
-                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
-                        "presName": "Housing Anywhere",
-                        "onlyNl": false
+                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation"
                     },
                     "bg": {
                         "desc": "Housing Anywhere offers rented housing in Delft.",
-                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation",
-                        "presName": "Housing Anywhere",
-                        "onlyNl": false
+                        "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation"
                     }
                 },
                 {
                     "name": "Kamernet",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -699,26 +574,19 @@
                     ],
                     "nl": {
                         "desc": "Kamernet biedt studenten huisvesting aan door heel Nederland.",
-                        "link": "https://kamernet.nl/",
-                        "presName": "Kamernet",
-                        "onlyEng": false
+                        "link": "https://kamernet.nl/"
                     },
                     "en": {
                         "desc": "Kamernet offers student housing throughout the Neterlands.",
-                        "link": "https://kamernet.nl/en",
-                        "presName": "Kamernet",
-                        "onlyNl": false
+                        "link": "https://kamernet.nl/en"
                     },
                     "bg": {
                         "desc": "Kamernet offers student housing throughout the Neterlands.",
-                        "link": "https://kamernet.nl/en",
-                        "presName": "Kamernet",
-                        "onlyNl": false
+                        "link": "https://kamernet.nl/en"
                     }
                 },
                 {
                     "name": "Lebara",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -729,26 +597,19 @@
                     ],
                     "nl": {
                         "desc": "Lebara is een mobiele en internet provider.",
-                        "link": "https://mobile.lebara.com/nl/nl/sim-only?",
-                        "presName": "Lebara",
-                        "onlyEng": false
+                        "link": "https://mobile.lebara.com/nl/nl/sim-only?"
                     },
                     "en": {
                         "desc": "Lebara is a mobile and internet provider.",
-                        "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
-                        "presName": "Lebara",
-                        "onlyNl": false
+                        "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true"
                     },
                     "bg": {
                         "desc": "Lebara is a mobile and internet provider.",
-                        "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true",
-                        "presName": "Lebara",
-                        "onlyNl": false
+                        "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true"
                     }
                 },
                 {
                     "name": "tmobile",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -759,26 +620,19 @@
                     ],
                     "nl": {
                         "desc": "T-mobile is een mobiele provider en verkoopt mobiele telefoons.",
-                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
-                        "presName": "Openingstijden T-Mobile winkel Delft",
-                        "onlyEng": false
+                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat"
                     },
                     "en": {
                         "desc": "T-mobile is a mobile provider and sells mobile phones.",
-                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
-                        "presName": "Openings hours T-Mobile shop Delft",
-                        "onlyNl": true
+                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat"
                     },
                     "bg": {
                         "desc": "T-mobile is a mobile provider and sells mobile phones.",
-                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat",
-                        "presName": "Openings hours T-Mobile shop Delft",
-                        "onlyNl": true
+                        "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat"
                     }
                 },
                 {
                     "name": "youfone",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -789,26 +643,19 @@
                     ],
                     "nl": {
                         "desc": "youfone is een mobiele provider.",
-                        "link": "https://www.youfone.nl/",
-                        "presName": "Youfone",
-                        "onlyEng": false
+                        "link": "https://www.youfone.nl/"
                     },
                     "en": {
                         "desc": "youfone is a mobile provider.",
-                        "link": "https://www.youfone.nl/",
-                        "presName": "Youfone",
-                        "onlyNl": true
+                        "link": "https://www.youfone.nl/"
                     },
                     "bg": {
                         "desc": "youfone is a mobile provider.",
-                        "link": "https://www.youfone.nl/",
-                        "presName": "Youfone",
-                        "onlyNl": true
+                        "link": "https://www.youfone.nl/"
                     }
                 },
                 {
                     "name": "simyo",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -819,26 +666,19 @@
                     ],
                     "nl": {
                         "desc": "Simyo is een mobiele provider en verkoopt mobiele telefoons.",
-                        "link": "https://www.simyo.nl/",
-                        "presName": "Simyo",
-                        "onlyEng": false
+                        "link": "https://www.simyo.nl/"
                     },
                     "en": {
                         "desc": "Simyo is a mobile provider and sells mobile phones.",
-                        "link": "https://www.simyo.nl/",
-                        "presName": "Simyo",
-                        "onlyNl": true
+                        "link": "https://www.simyo.nl/"
                     },
                     "bg": {
                         "desc": "Simyo is a mobile provider and sells mobile phones.",
-                        "link": "https://www.simyo.nl/",
-                        "presName": "Simyo",
-                        "onlyNl": true
+                        "link": "https://www.simyo.nl/"
                     }
                 },
                 {
                     "name": "Thuisbezorgd.nl",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -849,26 +689,19 @@
                     ],
                     "nl": {
                         "desc": "Thuisbezorgd.nl is een website waarop je online gemakkelijk eten kunt bestellen.",
-                        "link": "https://www.thuisbezorgd.nl/",
-                        "presName": "thuisbezorgd.nl",
-                        "onlyEng": false
+                        "link": "https://www.thuisbezorgd.nl/"
                     },
                     "en": {
                         "desc": "Thuisbezorg.nl is a service through which you can easily order food online.",
-                        "link": "https://www.thuisbezorgd.nl/en",
-                        "presName": "thuisbezorgd.nl",
-                        "onlyNl": false
+                        "link": "https://www.thuisbezorgd.nl/en"
                     },
                     "bg": {
                         "desc": "Thuisbezorg.nl is a service through which you can easily order food online.",
-                        "link": "https://www.thuisbezorgd.nl/en",
-                        "presName": "thuisbezorgd.nl",
-                        "onlyNl": false
+                        "link": "https://www.thuisbezorgd.nl/en"
                     }
                 },
                 {
                     "name": "Uber Eats",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -879,26 +712,19 @@
                     ],
                     "nl": {
                         "desc": "Uber Eats is een website waarop je online gemakkelijk eten kunt bestellen.",
-                        "link": "https://www.ubereats.com/nl",
-                        "presName": "Uber Eats",
-                        "onlyEng": false
+                        "link": "https://www.ubereats.com/nl"
                     },
                     "en": {
                         "desc": "Uber Eats is a service through which you can easily order food online.",
-                        "link": "https://www.ubereats.com/",
-                        "presName": "Uber Eats",
-                        "onlyNl": true
+                        "link": "https://www.ubereats.com/"
                     },
                     "bg": {
                         "desc": "Uber Eats is a service through which you can easily order food online.",
-                        "link": "https://www.ubereats.com/",
-                        "presName": "Uber Eats",
-                        "onlyNl": true
+                        "link": "https://www.ubereats.com/"
                     }
                 },
                 {
                     "name": "Dominos",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -909,26 +735,19 @@
                     ],
                     "nl": {
                         "desc": "Dominos is een pizzeria waar je goedkoop pizza's kunt bestellen.",
-                        "link": "https://www.dominos.nl/",
-                        "presName": "Dominos",
-                        "onlyEng": false
+                        "link": "https://www.dominos.nl/"
                     },
                     "en": {
                         "desc": "Dominos is a pizzeria where you can order relatively cheap pizzas.",
-                        "link": "https://www.dominos.nl/english-visitor",
-                        "presName": "Dominos",
-                        "onlyNl": true
+                        "link": "https://www.dominos.nl/english-visitor"
                     },
                     "bg": {
                         "desc": "Dominos is a pizzeria where you can order relatively cheap pizzas.",
-                        "link": "https://www.dominos.nl/english-visitor",
-                        "presName": "Dominos",
-                        "onlyNl": true
+                        "link": "https://www.dominos.nl/english-visitor"
                     }
                 },
                 {
                     "name": "TripAdvisor",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -939,28 +758,21 @@
                     ],
                     "nl": {
                         "desc": "Tripadvisor is een website die helpt met het ontdekken van locale restaurants.",
-                        "link": "https://www.tripadvisor.nl/Restaurants-g188626-Delft_South_Holland_Province.html",
-                        "presName": "Trip Advisor",
-                        "onlyEng": false
+                        "link": "https://www.tripadvisor.nl/Restaurants-g188626-Delft_South_Holland_Province.html"
                     },
                     "en": {
                         "desc": "Tripadvisor is a website where you can easily find local restaurants.",
-                        "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
-                        "presName": "Trip Advisor",
-                        "onlyNl": false
+                        "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     },
                     "bg": {
                         "desc": "Tripadvisor is a website where you can easily find local restaurants.",
-                        "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html",
-                        "presName": "Trip Advisor",
-                        "onlyNl": false
+                        "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     }
                 }
             ],
             "extralinks": [
                 {
                     "name": "Mobile plan comparison",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -971,21 +783,15 @@
                     ],
                     "nl": {
                         "desc": "prijsvergelijken.nl is een website waar je prijzen van verschillende abonnementen kan vergelijken.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL",
-                        "presName": "Winkelcentrum De Hoven Passage",
-                        "onlyEng": false
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL"
                     },
                     "en": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     },
                     "bg": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     }
                 }
             ]
@@ -997,7 +803,6 @@
             "links": [
                 {
                     "name": "Learn Dutch",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1008,26 +813,19 @@
                     ],
                     "nl": {
                         "desc": "Learndutch.org is een website waar je Nederlands kan leren.",
-                        "link": "https://www.learndutch.org/",
-                        "presName": "learndutch.org",
-                        "onlyEng": true
+                        "link": "https://www.learndutch.org/"
                     },
                     "en": {
                         "desc": "Learndutch.org is a website where you can study Dutch.",
-                        "link": "https://www.learndutch.org/",
-                        "presName": "learndutch.org",
-                        "onlyNl": false
+                        "link": "https://www.learndutch.org/"
                     },
                     "bg": {
                         "desc": "Learndutch.org is a website where you can study Dutch.",
-                        "link": "https://www.learndutch.org/",
-                        "presName": "learndutch.org",
-                        "onlyNl": false
+                        "link": "https://www.learndutch.org/"
                     }
                 },
                 {
                     "name": "linkedin",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1038,26 +836,19 @@
                     ],
                     "nl": {
                         "desc": "LinkedIn is een sociaal media platform voor professioneel netwerken.",
-                        "link": "https://www.linkedin.com/jobs/jobs-in-delft",
-                        "presName": "Linkedin",
-                        "onlyEng": true
+                        "link": "https://www.linkedin.com/jobs/jobs-in-delft"
                     },
                     "en": {
                         "desc": "LinkedIn is a social media platform for professional networking.",
-                        "link": "https://www.linkedin.com/jobs/jobs-in-delft",
-                        "presName": "linkedin",
-                        "onlyNl": false
+                        "link": "https://www.linkedin.com/jobs/jobs-in-delft"
                     },
                     "bg": {
                         "desc": "LinkedIn is a social media platform for professional networking.",
-                        "link": "https://www.linkedin.com/jobs/jobs-in-delft",
-                        "presName": "linkedin",
-                        "onlyNl": false
+                        "link": "https://www.linkedin.com/jobs/jobs-in-delft"
                     }
                 },
                 {
                     "name": "I am expat",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1068,26 +859,19 @@
                     ],
                     "nl": {
                         "desc": "I am expat biedt openstaande vacatures aan in Delft.",
-                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
-                        "presName": "I Am Expat",
-                        "onlyEng": true
+                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
                     },
                     "en": {
                         "desc": "I am expat offers jobs in Delft.",
-                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
-                        "presName": "I Am Expat",
-                        "onlyNl": false
+                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
                     },
                     "bg": {
                         "desc": "I am expat offers jobs in Delft.",
-                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft",
-                        "presName": "I Am Expat",
-                        "onlyNl": false
+                        "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
                     }
                 },
                 {
                     "name": "Just landed",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1098,26 +882,19 @@
                     ],
                     "nl": {
                         "desc": "Just landed biedt gidsen aan voor het vinden van werk, woonruimte etc. in Nederland.",
-                        "link": "https://www.justlanded.com/nederlands/Nederland/Werk",
-                        "presName": "Just Landed",
-                        "onlyEng": false
+                        "link": "https://www.justlanded.com/nederlands/Nederland/Werk"
                     },
                     "en": {
                         "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
-                        "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
-                        "presName": "Just Landed",
-                        "onlyNl": false
+                        "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
                     },
                     "bg": {
                         "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
-                        "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft",
-                        "presName": "Just Landed",
-                        "onlyNl": false
+                        "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
                     }
                 },
                 {
                     "name": "Jobs.nl",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1128,26 +905,19 @@
                     ],
                     "nl": {
                         "desc": "Jobs.nl is een website die vacatures aanbiedt.",
-                        "link": "https://jobs.nl/",
-                        "presName": "Jobs.nl",
-                        "onlyEng": false
+                        "link": "https://jobs.nl/"
                     },
                     "en": {
                         "desc": "Jobs.nl is a website that offers jobs.",
-                        "link": "https://jobs.nl/",
-                        "presName": "Jobs.nl",
-                        "onlyNl": true
+                        "link": "https://jobs.nl/"
                     },
                     "bg": {
                         "desc": "Jobs.nl is a website that offers jobs.",
-                        "link": "https://jobs.nl/",
-                        "presName": "Jobs.nl",
-                        "onlyNl": true
+                        "link": "https://jobs.nl/"
                     }
                 },
                 {
                     "name": "Jumbo jobs",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1158,26 +928,19 @@
                     ],
                     "nl": {
                         "desc": "Op deze website vindt je de vacatures van supermarkt Jubmo.",
-                        "link": "https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures",
-                        "presName": "Jumbo vacatures",
-                        "onlyEng": false
+                        "link": "https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures"
                     },
                     "en": {
                         "desc": "On this website you can find the available jobs at supermarket Jubmo.",
-                        "link": "https://nl.jobs.jumbo.com/en/",
-                        "presName": "Jumbo job offers",
-                        "onlyNl": false
+                        "link": "https://nl.jobs.jumbo.com/en/"
                     },
                     "bg": {
                         "desc": "On this website you can find the available jobs at supermarket Jubmo.",
-                        "link": "https://nl.jobs.jumbo.com/en/",
-                        "presName": "Jumbo job offers",
-                        "onlyNl": false
+                        "link": "https://nl.jobs.jumbo.com/en/"
                     }
                 },
                 {
                     "name": "Grab Jobs",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1188,26 +951,19 @@
                     ],
                     "nl": {
                         "desc": "Grab Jobs biedt part-time vacatures aan voor werk door heel Nederland.",
-                        "link": "https://grabjobs.co/netherlands/part-time-jobs",
-                        "presName": "Grab jobs",
-                        "onlyEng": true
+                        "link": "https://grabjobs.co/netherlands/part-time-jobs"
                     },
                     "en": {
                         "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
-                        "link": "https://grabjobs.co/netherlands/part-time-jobs",
-                        "presName": "Grab jobs",
-                        "onlyNl": false
+                        "link": "https://grabjobs.co/netherlands/part-time-jobs"
                     },
                     "bg": {
                         "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
-                        "link": "https://grabjobs.co/netherlands/part-time-jobs",
-                        "presName": "Grab jobs",
-                        "onlyNl": false
+                        "link": "https://grabjobs.co/netherlands/part-time-jobs"
                     }
                 },
                 {
                     "name": "surfspot",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1218,28 +974,21 @@
                     ],
                     "nl": {
                         "desc": "Surfspot verkoopt software en hardware.",
-                        "link": "https://www.surfspot.nl/",
-                        "presName": "SURFspot",
-                        "onlyEng": false
+                        "link": "https://www.surfspot.nl/"
                     },
                     "en": {
                         "desc": "Surfspot sells software and hardware.",
-                        "link": "https://www.surfspot.nl/",
-                        "presName": "SURFspot",
-                        "onlyNl": false
+                        "link": "https://www.surfspot.nl/"
                     },
                     "bg": {
                         "desc": "Surfspot sells software and hardware.",
-                        "link": "https://www.surfspot.nl/",
-                        "presName": "SURFspot",
-                        "onlyNl": false
+                        "link": "https://www.surfspot.nl/"
                     }
                 }
             ],
             "extralinks": [
                 {
                     "name": "Mobile plan comparison",
-                    "img": false,
                     "keywords": {
                         "en": ["tag", "link"],
                         "nl": ["tag", "link"],
@@ -1250,21 +999,15 @@
                     ],
                     "nl": {
                         "desc": "prijsvergelijken.nl is een website waar je prijzen van verschillende abonnementen kan vergelijken.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL",
-                        "presName": "Winkelcentrum De Hoven Passage",
-                        "onlyEng": false
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/?lang=nl_NL"
                     },
                     "en": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     },
                     "bg": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
-                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/",
-                        "presName": "Shoppingcenter De Hoven Passage",
-                        "onlyNl": true
+                        "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     }
                 }
             ]
