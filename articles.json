@@ -10,7 +10,7 @@
             }
         },
         "guide": {
-            "color": "#e3e034",
+            "color": "#39b52d",
             "text": "Guide",
             "pressNames":{
                 "nl":"Gids",
@@ -26,11 +26,25 @@
                 "en":"Story",
                 "bg":"Разказ"
             }
+        },
+        "special": {
+            "color": "#fc031c",
+            "text": "Special",
+            "pressNames":{
+                "nl":"Special",
+                "en":"Special",
+                "bg":"Специално"
+            }
         }
     },
     "articles": [
         {
-            "name": "Testing again",
+            "name": "HAPPY BIRTHDAY DINU! 🥳🥳🥳",
+            "author": {
+                "name": "Zakrok09",
+                "link": "https://github.com/zakrok09"
+            },
+            "date": "September 2nd, 2022",
             "keywords": {
                 "en": [
                     "test",
@@ -46,13 +60,18 @@
                 ]
             },
             "tags": [
-                "story",
-                "new"
+                "new",
+                "special"
             ],
-            "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88"
+            "text": "Happy birthday, Dinu! 🥳🥳🥳 \n We wish you all good things possible & to have the best of birthdays too!"
         },
         {
             "name": "Testing",
+            "author": {
+                "name": "Zakrok09",
+                "link": "https://github.com/zakrok09"
+            },
+            "date": "September 2nd, 2022",
             "keywords": {
                 "en": [
                     "test",
@@ -71,7 +90,7 @@
                 "guide",
                 "new"
             ],
-            "text": "lorem ipsum dolor is aoaoib oaeb oaa AMEEEEEEEEEEEEEEEEEEEEEEEEEET"
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices lobortis vestibulum. Ut sodales orci ex, non eleifend turpis pharetra vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget ligula maximus, efficitur sapien in, vehicula est. Etiam blandit at tellus ut dictum. Praesent tempus sollicitudin orci sollicitudin consequat. Duis blandit pulvinar fringilla. \n Curabitur fermentum elementum eros, ac elementum turpis fermentum iaculis. Ut id commodo lacus, eget efficitur felis. Maecenas aliquam dictum quam luctus ornare. Nam et dignissim lacus. Etiam feugiat volutpat bibendum. Pellentesque ut sapien at elit rutrum rhoncus. Donec pretium sodales quam, at egestas nulla vulputate quis. Curabitur vitae metus mi. Fusce enim mauris, maximus vel neque sit amet, tincidunt semper urna. Maecenas accumsan lacus aliquet elit rutrum, eget rhoncus massa molestie. Nullam sagittis nibh et neque euismod aliquet. Nulla gravida auctor tellus, a feugiat tortor convallis blandit. Donec hendrerit, erat quis tristique elementum, felis ex tincidunt lectus, at rutrum massa ipsum at odio. \n Aenean malesuada rhoncus consectetur. Cras maximus lectus ut lacus viverra, in aliquam turpis finibus. Duis tellus turpis, auctor rhoncus nulla id, sollicitudin volutpat neque. Ut arcu ante, bibendum eget nisl a, semper egestas sapien. Duis at arcu eget metus interdum volutpat in ut metus. Phasellus sit amet sem nec est semper luctus. Donec et dapibus tortor. Quisque non purus justo. Etiam at felis justo. Nulla pulvinar eu est sed tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla fermentum turpis eros, sit amet ultricies purus ultrices nec. Sed fermentum risus mattis euismod varius."
         }
     ]
 }
