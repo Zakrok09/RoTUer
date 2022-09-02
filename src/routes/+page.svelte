@@ -86,6 +86,8 @@
                 <a href="mailto:teampraxidike@protonmail.com?subject=Link Suggestion">{$t("homepage.fourthSection.sendEmail")}</a>
                 <span>/</span>
                 <a href="https://github.com/Zakrok09/RoTUer/issues/new?labels=link">{$t("homepage.fourthSection.openIssue")}</a>
+                <span>/</span>
+                <a href="https://rotuer.praxidike.org/teamtools/linksmaker">{$t("homepage.fourthSection.createLinkObejct")}</a>
             </div>
         </div>
     </div>
