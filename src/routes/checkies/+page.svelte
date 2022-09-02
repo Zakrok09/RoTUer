@@ -1,5 +1,15 @@
 <script>
     import HEAD from "$lib/Metadata/HEAD.svelte";
+    import { each } from "svelte/internal";
+    import Checkies from "../../lib/Reusable/Checkies.svelte";
+    export let data;
+    const db = data.database;
+    const tags = db.tags;
+    const checkies = db.checkies;
+
+    function handleToggle(id){
+        
+    }
 </script>
 
 <HEAD title="Checkies" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
@@ -11,10 +21,11 @@
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>We make it simple, people!</i>
     </div>
-     <div class="landingSection secondLandingSection">
-            <div class="test"></div>
-     </div>
-
+    <div class="behindCheckies">
+        {#each checkies as checkie, id}
+            <Checkies title={checkie.name} id={id} tagsObject= {tags} tags={checkie.tags} text={checkie.text} relevantLinks={checkie.relevantLinks} ></Checkies>
+        {/each}
+    </div>
 </main>
 
 <style lang="scss">
@@ -44,22 +55,11 @@
         }
     }
 
-    .secondLandingSection {
+    .behindCheckies {
         background-image: url("/background/bubbleBackground.svg");
         background-size: cover;
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row nowrap;
         color: whitesmoke;
     }
 
-    .test {
-        background-color: rgb(85, 103, 120);
-        background-size: cover;
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row nowrap;
-        color: whitesmoke;
-    }
     
 </style>
