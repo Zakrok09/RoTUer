@@ -101,7 +101,7 @@
 {#each categories as cat, i}
     <div class="category">
         <h2 class="supplementaryCatText">{cat.name}</h2>
-        <p class="supplementaryCatText">{cat.description}</p>
+        <p class="supplementaryCatText">{cat.description[$locale.toString()]}</p>
         
         <div class="supplementaryCatText center">
             <button class="showmore" on:click={()=> handleToggle(i)}>{buttonStateText[i].showText}</button>
