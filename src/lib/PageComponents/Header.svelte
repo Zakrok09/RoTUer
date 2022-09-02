@@ -3,9 +3,9 @@
     // ["Home", "/"], ["To Links", "/links/"], ["About", "/about"]
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
     export let links = {
-        en: [["Home", "/"], ["Dashboard", "/dashboard"], ["Checkies", "/checkies"], ["Links", "/links/"], ["About", "/about"]],
-        nl: [["Startpagina", "/"], ["Dashboard", "/dashboard"], ["Checklist", "/checkies"], ["Links", "/links/"], ["Over", "/about"]],
-        bg: [["Начало", "/"], ["Табло", "/dashboard"], ["Checkies", "/checkies"], ["Линкове", "/links/"], ["Относно", "/about"]]
+        en: [["Home", "/"], ["Articles", "/articles"], ["Checkies", "/checkies"], ["Dashboard", "/dashboard"], ["Links", "/links/"], ["About", "/about"]],
+        nl: [["Startpagina", "/"], ["Articles", "/articles"], ["Checkies", "/checkies"], ["Dashboard", "/dashboard"], ["Links", "/links/"], ["Over", "/about"]],
+        bg: [["Начало", "/"], ["Статии", "/articles"], ["Чекита", "/checkies"], ["Табло", "/dashboard"], ["Линкове", "/links/"], ["Относно", "/about"]]
     };
 
 
