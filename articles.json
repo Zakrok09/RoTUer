@@ -1,0 +1,77 @@
+{
+    "tags": {
+        "new": {
+            "color": "#056AF7",
+            "text": "New",
+            "pressNames":{
+                "nl":"Nieuwe!",
+                "en":"New!",
+                "bg":"Ново!"
+            }
+        },
+        "guide": {
+            "color": "#056AF7",
+            "text": "Guide",
+            "pressNames":{
+                "nl":"Guide",
+                "en":"Guide",
+                "bg":"Наръчник"
+            }
+        },
+        "story": {
+            "color": "#056AF7",
+            "text": "Story",
+            "pressNames":{
+                "nl":"Story",
+                "en":"Story",
+                "bg":"Разказ"
+            }
+        }
+    },
+    "articles": [
+        {
+            "name": "Testing again",
+            "keywords": {
+                "en": [
+                    "test",
+                    "article"
+                ],
+                "nl": [
+                    "test",
+                    "article"
+                ],
+                "bg": [
+                    "test",
+                    "article"
+                ]
+            },
+            "tags": [
+                "test",
+                "new"
+            ],
+            "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88"
+        },
+        {
+            "name": "Testing",
+            "keywords": {
+                "en": [
+                    "test",
+                    "article"
+                ],
+                "nl": [
+                    "test",
+                    "article"
+                ],
+                "bg": [
+                    "test",
+                    "article"
+                ]
+            },
+            "tags": [
+                "test",
+                "new"
+            ],
+            "text": "lorem ipsum dolor is aoaoib oaeb oaa AMEEEEEEEEEEEEEEEEEEEEEEEEEET"
+        }
+    ]
+}
