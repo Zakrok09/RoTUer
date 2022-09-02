@@ -130,8 +130,11 @@
     "categories": [
         {
             "name": "🛍️ Shopping",
-            "description": "🧾 This section is about websites related to shops, retail markets etc. The tags show what the shop related to this website sells, provides etc. The extra links section provides links to various budget recipe websites.",
-            "descriptionnl":"🧾 Dit onderdeel van de website gaat over winkels, winkelcentra etc. De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met verschillende budgetrecepten" ,
+            "description": {
+                "en": "🧾 This section is about websites related to shops, retail markets etc. The tags show what the shop related to this website sells, provides etc. The extra links section provides links to various budget recipe websites.",
+                "nl": "🧾 Dit onderdeel van de website gaat over winkels, winkelcentra etc. De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met verschillende budgetrecepten.",
+                "bg": "🧾 Тази секция е за страници на магазини, пазари и т.н. Таговете показват какъв е видът магазин, към който води линкът. В секцията Екстра ще видите линкове към различни сайтове за рецепти."
+            },
             "links": [
                 {
                     "name": "De Hoven",
@@ -513,8 +516,11 @@
         },
         {
             "name": "👝 Services",
-            "description": "🧾 This section is about websites related to subscription services (housing, mobile plans etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to comparisons between plans.",
-            "descriptionnl":"🧾 Dit onderdeel van de website bestaat uit websites met subscriptie services (huisvesting, telefoon abonnementen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites die verschillende subscripties vergelijken.",
+            "description": {
+                "en": "🧾 This section is about websites related to subscription services (housing, mobile plans etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to comparisons between plans.",
+                "nl": "🧾 Dit onderdeel van de website bestaat uit websites met subscriptie services (huisvesting, telefoon abonnementen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites die verschillende subscripties vergelijken.",
+                "bg": "🧾 Тази секция е за страници за различни видове абонаменти (напр. жилище, мобилни планове и т.н.) Таговете показват какво предлага сайтът, чийто линк е сложен тук. В секцията Екстра ще видите съпоставки между плановете."
+            },
             "links": [
                 {
                     "name": "delft",
@@ -798,8 +804,11 @@
         },
         {
             "name": "📓 Other",
-            "description": "🧾 This section is about websites related to other sources of information (like guides, places to find a job etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to cool Front-end tools.",
-            "descriptionnl":"🧾 Dit onderdeel van de website bestaat uit websites met verschillende informatie bronnen (gidsen, plekken voor werk/bijbanen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met coole Front-end hulpmiddelen.",
+            "description": {
+                "en": "🧾 This section is about websites related to other sources of information (like guides, places to find a job etc.) The tags show what the shop related to this website sells, provides etc. The extra links section provides links to cool Front-end tools.",
+                "nl": "🧾 Dit onderdeel van de website bestaat uit websites met verschillende informatie bronnen (gidsen, plekken voor werk/bijbanen etc.) De tags laten zien wat de winkels die op deze website staan verkopen, aanbieden etc. De extra links sectie biedt links aan naar websites met coole Front-end hulpmiddelen.",
+                "bg": "🧾 Тази секция е за страници за други видове информация (като наръчници, предложения за работа и т.н.) Таговете показват какво предлага сайтът, чийто линк е сложен тук. В секцията Екстра ще видите готини инструменти за Front End разработчици."
+            },
             "links": [
                 {
                     "name": "Learn Dutch",
