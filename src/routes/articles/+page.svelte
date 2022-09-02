@@ -27,7 +27,7 @@
         <div class="wannaWrite">
             <h2>Wanna make an article?</h2>
             <p>Use the editor and send us the JSON code!</p>
-            <a href="/teamtools/articlemaker">Article Maker</a>
+            <a href="/">Article Maker</a>
         </div>
     </div>
     
