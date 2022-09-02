@@ -10,7 +10,7 @@
             }
         },
         "guide": {
-            "color": "#056AF7",
+            "color": "#e3e034",
             "text": "Guide",
             "pressNames":{
                 "nl":"Guide",
@@ -19,7 +19,7 @@
             }
         },
         "story": {
-            "color": "#056AF7",
+            "color": "#bb08c4",
             "text": "Story",
             "pressNames":{
                 "nl":"Story",
@@ -46,7 +46,7 @@
                 ]
             },
             "tags": [
-                "test",
+                "story",
                 "new"
             ],
             "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88"
@@ -68,7 +68,7 @@
                 ]
             },
             "tags": [
-                "test",
+                "guide",
                 "new"
             ],
             "text": "lorem ipsum dolor is aoaoib oaeb oaa AMEEEEEEEEEEEEEEEEEEEEEEEEEET"
