@@ -1,5 +1,6 @@
 <script>
     import { t } from "$lib/translations/i18n";
+    import HEAD from "$lib/Metadata/HEAD.svelte";
 </script>
 <!-- ! yo thijs check this -->
 <main>
@@ -19,9 +20,7 @@
 
 </main>
 
-<svelte:head>
-    <title>About Us | RoTUer</title>
-</svelte:head>
+<HEAD title="About us" metadescription={$t("aboutpages.paragraphs.aboutus.shortIntro")} />
 
 
 <style lang="scss">

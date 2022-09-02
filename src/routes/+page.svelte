@@ -1,11 +1,10 @@
 <script>
     import { t } from "$lib/translations/i18n";
     import Linkbox from "$lib/Reusable/Linkbox.svelte";
+    import HEAD from "$lib/Metadata/HEAD.svelte";
 </script>
 
-<svelte:head>
-    <title>RoTUer</title>
-</svelte:head>
+<HEAD title="Home" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
 
 <main>
     <div class="landingSite">

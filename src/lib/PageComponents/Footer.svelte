@@ -23,5 +23,9 @@
             padding: 0px;
             margin: 0px;
         }
+
+        a {
+            color: white;
+        }
     }
 </style>
