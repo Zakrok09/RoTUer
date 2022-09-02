@@ -11,7 +11,10 @@
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>We make it simple, people!</i>
     </div>
-    
+     <div class="landingSection secondLandingSection">
+            <div class="test"></div>
+     </div>
+
 </main>
 
 <style lang="scss">
@@ -41,5 +44,22 @@
         }
     }
 
+    .secondLandingSection {
+        background-image: url("/background/bubbleBackground.svg");
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        color: whitesmoke;
+    }
+
+    .test {
+        background-color: rgb(85, 103, 120);
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        color: whitesmoke;
+    }
     
 </style>
