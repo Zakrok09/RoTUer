@@ -16,7 +16,7 @@
 </svelte:head>
 
 <header>
-    <a href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
+    <a aria-label="GitHub Repository" href="https://github.com/Zakrok09/RoTUer" class="smallHeaderItem" target="_blank"><i class="fa fa-github" style="margin-top:15px ; font-size:40px;color:white;"></i></a>
     <nav>
         <!-- * This is a cool Svelte thing that will iterate over an array and do some html shit with it. -->
         {#each links[$locale.toString()] as [text, link]}
@@ -27,7 +27,8 @@
             </div>
         {/each}
     </nav>
-    <select bind:value={$locale} class="smallHeaderItem">
+    <select id="languageChoice" aria-label="Choose a language" bind:value={$locale} class="smallHeaderItem">
+        <label for="languageChoice">Choose a language</label>
         <option aria-label="English" value="en">🇬🇧</option>
         <option aria-label="Dutch" value="nl">🇳🇱</option>
         <option aria-label="Bulgarian" value="bg">🇧🇬</option>

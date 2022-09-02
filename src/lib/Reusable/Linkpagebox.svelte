@@ -58,6 +58,7 @@
         h3 {
             font-size: 1.6em;
             height: 50px;
+            margin: 0px 40px;
             color: whitesmoke;
             font-weight: 800;
             text-align: center;
