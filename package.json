@@ -16,5 +16,8 @@
 		"svelte-preprocess": "^4.10.7",
 		"vite": "^3.0.4"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"showdown": "^2.1.0"
+	}
 }
