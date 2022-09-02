@@ -1,16 +1,15 @@
 <script>
-    import { t } from "$lib/translations/i18n";
     import HEAD from "$lib/Metadata/HEAD.svelte";
 </script>
 
-<HEAD title="Dashboard" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
+<HEAD title="Articles" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
 
 <main>
     <div class="landingSite">
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
         <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
-        <i>{$t("dashboard.underheading")}</i>
+        <i>Read carefully!</i>
     </div>
     
 </main>
