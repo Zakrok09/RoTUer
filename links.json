@@ -125,6 +125,15 @@
                 "en":"Software",
                 "bg":"Софтуер"
             }
+        },
+        "uni": {
+            "color": "#2e18ab",
+            "text": "Uni",
+            "pressNames":{
+                "nl":"Uni",
+                "en":"Uni",
+                "bg":"Уни"
+            }
         }
     },
     "categories": [
@@ -136,6 +145,48 @@
                 "bg": "🧾 Тази секция е за страници на магазини, пазари и т.н. Таговете показват какъв е видът магазин, към който води линкът. В секцията Екстра ще видите линкове към различни сайтове за рецепти."
             },
             "links": [
+                {
+                    "name": "MyTimetable",
+                    "keywords": {
+                        "en": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "nl": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "bg": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "en": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "bg": {
+                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    }
+                },
                 {
                     "name": "De Hoven",
                     "keywords": {
