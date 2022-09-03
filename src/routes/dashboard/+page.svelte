@@ -46,7 +46,7 @@
     }
 </script>
 
-<HEAD title="Dashboard" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
+<HEAD title="Dashboard" metadescription="The dashboard is that cool place where you have quick access to all the links related to your study program! Come to read or contribute!" />
 
 <main>
     <div class="landingSite">

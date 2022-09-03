@@ -10,7 +10,6 @@
     <div class="landingSite">
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
-        <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>{$t("homepage.underheading")}</i>
     </div>
     <div class="landingSection secondLandingSection">
