@@ -4,10 +4,10 @@
     import Dashboardlink from "$lib/Reusable/Dashboardlink.svelte"
 	import { fly } from 'svelte/transition';
     export let data;
-    const faculty = data.faculty;
-    const programmeTags = data.dbPrgmTags;
-    const tags = data.dbTags;
-    const programmes = faculty.programmes;
+    const db = data.database;
+    const programmeTags = db.programmesTags;
+    const tags = db.tags;
+    const programmes = db.programmes;
     
     
     let activeProgrammeString = "common";
