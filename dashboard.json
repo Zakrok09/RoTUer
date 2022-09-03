@@ -1,0 +1,110 @@
+{
+    "tags": {
+        "new": {
+            "color": "#056AF7",
+            "text": "New",
+            "pressNames":{
+                "nl":"Nieuwe!",
+                "en":"New!",
+                "bg":"Ново!"
+            }
+        },
+        "cse": {
+            "color": "#056AF7",
+            "text": "CSE",
+            "pressNames":{
+                "nl":"CSE",
+                "en":"CSE",
+                "bg":"CSE"
+            }
+        },
+        "ae": {
+            "color": "#056AF7",
+            "text": "AE",
+            "pressNames":{
+                "nl":"AE",
+                "en":"AE",
+                "bg":"AE"
+            }
+        },
+        "common": {
+            "color": "#056AF7",
+            "text": "Common",
+            "pressNames":{
+                "nl":"Common",
+                "en":"Common",
+                "bg":"Общи"
+            }
+        }
+    },
+    "programmes": [
+        {
+            "name": "Computer Science & Engineering",
+            "abbr": "CSE",
+            "links": [
+                {
+                    "name": "CSHub",
+                    "keywords": {
+                        "en": [
+                            "cshub"
+                        ],
+                        "nl": [
+                            "cshub"
+                        ],
+                        "bg": [
+                            "cshub"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "still none",
+                        "link": "https://cshub.nl"
+                    },
+                    "en": {
+                        "desc": "Very useful website for Computer Science",
+                        "link": "https://cshub.nl"
+                    },
+                    "bg": {
+                        "desc": "Много полезен уебсайт за CSE",
+                        "link": "https://cshub.nl"
+                    }
+                },{
+                    "name": "W.I.S.V. ‘Christiaan Huygens’",
+                    "keywords": {
+                        "en": [
+                            "study",
+                            "association"
+                        ],
+                        "nl": [
+                            "study",
+                            "association"
+                        ],
+                        "bg": [
+                            "study",
+                            "association"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "Website of CH - the study association for CSE & Math",
+                        "link": "https://ch.tudelft.nl/"
+                    },
+                    "en": {
+                        "desc": "Website of CH - the study association for CSE & Math",
+                        "link": "https://ch.tudelft.nl/"
+                    },
+                    "bg": {
+                        "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
+                        "link": "https://ch.tudelft.nl/"
+                    }
+                }
+            ]
+        }
+    ]
+}
