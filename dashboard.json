@@ -1,33 +1,4 @@
 {
-    "programmesTags": {
-        "common": {
-            "color": "#056AF7",
-            "text": "Common",
-            "pressNames":{
-                "nl":"Common",
-                "en":"Common",
-                "bg":"Общи"
-            }
-        },
-        "cse": {
-            "color": "#056AF7",
-            "text": "CSE",
-            "pressNames":{
-                "nl":"CSE",
-                "en":"CSE",
-                "bg":"CSE"
-            }
-        },
-        "ae": {
-            "color": "#056AF7",
-            "text": "AE",
-            "pressNames":{
-                "nl":"AE",
-                "en":"AE",
-                "bg":"AE"
-            }
-        }
-    },
     "tags": {
         "new": {
             "color": "#056AF7",
@@ -61,6 +32,17 @@
         "tudelft": {
             "name": "Common links",
             "abbr": "EEMCS",
+            "programmesTags": {
+                "common": {
+                    "color": "#056AF7",
+                    "text": "Common",
+                    "pressNames":{
+                        "nl":"Common",
+                        "en":"Common",
+                        "bg":"Общи"
+                    }
+                }
+            },
             "programmes": {
                 "common": {
                     "name": "Common",
@@ -223,6 +205,35 @@
         "eemcs": {
             "name": "Electrical Engineering, Mathematics and Computer Science",
             "abbr": "EEMCS",
+            "programmesTags": {
+                "common": {
+                    "color": "#056AF7",
+                    "text": "Common",
+                    "pressNames":{
+                        "nl":"Common",
+                        "en":"Common",
+                        "bg":"Общи"
+                    }
+                },
+                "cse": {
+                    "color": "#056AF7",
+                    "text": "CSE",
+                    "pressNames":{
+                        "nl":"CSE",
+                        "en":"CSE",
+                        "bg":"CSE"
+                    }
+                },
+                "ae": {
+                    "color": "#056AF7",
+                    "text": "AE",
+                    "pressNames":{
+                        "nl":"AE",
+                        "en":"AE",
+                        "bg":"AE"
+                    }
+                }
+            },
             "programmes": {
                 "cse": {
                     "name": "Computer Science & Engineering",
@@ -336,6 +347,17 @@
         "aero": {
             "name": "Aerospace Engineering",
             "abbr": "AE",
+            "programmesTags": {
+                "space": {
+                    "color": "#056AF7",
+                    "text": "Space",
+                    "pressNames":{
+                        "nl":"Space",
+                        "en":"Space",
+                        "bg":"Космос"
+                    }
+                }
+            },
             "programmes": {
                 "space": {
                     "name": "Space Flight",
