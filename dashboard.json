@@ -38,6 +38,55 @@
         }
     },
     "programmes": [
+        
+        {
+            "name": "Common",
+            "abbr": "All",
+            "links": [
+                {
+                    "name": "MyTimetable",
+                    "keywords": {
+                        "en": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "nl": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "bg": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "en": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "bg": {
+                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    }
+                }
+            ]
+        },
         {
             "name": "Computer Science & Engineering",
             "abbr": "CSE",
@@ -102,6 +151,46 @@
                     "bg": {
                         "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
                         "link": "https://ch.tudelft.nl/"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Aerospace Engineering",
+            "abbr": "AE",
+            "links": [
+                {
+                    "name": "Aero something",
+                    "keywords": {
+                        "en": [
+                            "school",
+                            "tudelft",
+                            "schedule"
+                        ],
+                        "nl": [
+                            "school",
+                            "tudelft"
+                        ],
+                        "bg": [
+                            "school",
+                            "tudelft"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "en": {
+                        "desc": "Aero website or sumting?",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "bg": {
+                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
                     }
                 }
             ]
