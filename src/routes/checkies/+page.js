@@ -1,9 +1,12 @@
 export async function load({ fetch }) {
     const res = await fetch('https://raw.githubusercontent.com/Zakrok09/RoTUer/data-branch/checkies.json');
     const database = await res.json();
-    if (res.ok) {
+    const res2 = await fetch('https://raw.githubusercontent.com/Zakrok09/RoTUer/data-branch/links.json');
+    const links = await res2.json();
+    if (res.ok && res2.ok) {
         return {
-            database
+            database,
+            links
         }
     }
 

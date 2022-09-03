@@ -6,10 +6,25 @@
     const db = data.database;
     const tags = db.tags;
     const checkies = db.checkies;
-
-    function handleToggle(id){
-        
+    const links = data.links
+    console.log(links.tags)
+    let relevantLink = [];
+    let relevantLinksDataPart = [];    
+    let relevantLinksData = [];
+    for(let checkie of checkies){
+        relevantLinksDataPart = [];
+        for(let checkieLink of checkie.relevantLinks){
+            console.log(checkieLink)
+            for(let categorie of links.categories){
+                relevantLink = categorie.links.filter(link => link.name==checkieLink)
+                for(let link of relevantLink){
+                    relevantLinksDataPart.push(link)
+                }
+            }
+        }
+        relevantLinksData.push(relevantLinksDataPart)
     }
+    console.log(relevantLinksData)
 </script>
 
 <HEAD title="Checkies" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
@@ -22,8 +37,8 @@
         <i>We make it simple, people!</i>
     </div>
     <div class="behindCheckies">
-        {#each checkies as checkie, id}
-            <Checkies title={checkie.name} id={id} tagsObject= {tags} tags={checkie.tags} text={checkie.text} relevantLinks={checkie.relevantLinks} ></Checkies>
+        {#each checkies as checkie, i}
+            <Checkies title={checkie.name} tagsObject= {tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
         {/each}
     </div>
 </main>
