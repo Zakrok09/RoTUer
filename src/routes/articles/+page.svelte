@@ -92,5 +92,10 @@
         }
     }
 
+    @media only screen and (max-width: 700px) {
+        .articles {
+            padding: 50px 20px;
+        }
+    }
     
 </style>

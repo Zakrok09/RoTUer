@@ -110,7 +110,15 @@
         }
 
         .navItem {
-            margin: 20px 0px;
+            margin: 0px;
+        }
+
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 10px;
         }
     }
 
