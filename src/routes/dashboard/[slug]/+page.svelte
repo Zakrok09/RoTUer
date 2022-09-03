@@ -4,15 +4,15 @@
     import Dashboardlink from "$lib/Reusable/Dashboardlink.svelte"
 	import { fly } from 'svelte/transition';
     export let data;
-    const db = data.database;
-    const programmeTags = db.programmesTags;
-    const tags = db.tags;
-    const programmes = db.programmes;
+    const faculty = data.faculty;
+    const programmeTags = faculty.programmesTags;
+    const tags = data.dbTags;
+    const programmes = faculty.programmes;
     
     
-    let activeProgrammeString = "common";
-    $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
     let programmeTagsArray = Object.keys(programmeTags);
+    let activeProgrammeString = programmeTagsArray[0];
+    $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
     let searchString = '';
     $:searchArray = [''];
     $:activeTag = "all";
@@ -50,7 +50,6 @@
     <div class="landingSite">
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
-        <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>{$t("dashboard.underheading")}</i>
     </div>
     
@@ -69,22 +68,23 @@
             </div>
             <div class="displayPanel">
                 <div class="panelHead">
-                    <h2>{activeProgrammeObject.name}</h2>
+                    {console.log(programmeTagsArray[1])}
+                    <!-- <h2>{activeProgrammeObject.name}</h2>
                     <p>Showing links for {activeProgrammeObject.abbr}</p>
                     {#if activeTag !== "all"}    
                         <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {tags[activeTag].color};">{tags[activeTag].pressNames[$locale.toString()]}</span></p>
                     {:else}
                         <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
-                    {/if}
+                    {/if} -->
                 </div>
                 <div class="links">
-                    {#each activeProgrammeObject.links as link}
+                    <!-- {#each activeProgrammeObject.links as link}
                         {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
                             <div transition:fly="{{ y: 10, duration: 100 }}">
                                 <Dashboardlink on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={tags}/>
                             </div>
                         {/if}
-                    {/each}
+                    {/each} -->
                 </div>
             </div>
         </div>

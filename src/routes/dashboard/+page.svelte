@@ -5,7 +5,7 @@
 	import { fly } from 'svelte/transition';
     export let data;
     const faculty = data.faculty;
-    const programmeTags = data.dbPrgmTags;
+    const programmeTags = faculty.programmesTags;
     const tags = data.dbTags;
     const programmes = faculty.programmes;
     
@@ -50,7 +50,6 @@
     <div class="landingSite">
         <img src="/isometric/logo.svg" alt="The logo of RoTUer">
         <h1 tabindex="0">RoTUer</h1>
-        <!-- <a href="/" class="navItem" id="logo">RoTUer</a><i>...is here</i> -->
         <i>{$t("dashboard.underheading")}</i>
     </div>
     
