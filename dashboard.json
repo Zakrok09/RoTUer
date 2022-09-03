@@ -39,12 +39,10 @@
             }
         }
     },
-    "programmes": [
-        
-        {
+    "programmes": {
+        "common": {
             "name": "Common",
             "abbr": "All",
-            "programmeTag": "common",
             "links": [
                 {
                     "name": "MyTimetable",
@@ -90,10 +88,9 @@
                 }
             ]
         },
-        {
+        "cse": {
             "name": "Computer Science & Engineering",
             "abbr": "CSE",
-            "programmeTag": "cse",
             "links": [
                 {
                     "name": "CSHub",
@@ -159,10 +156,9 @@
                 }
             ]
         },
-        {
+        "ae": {
             "name": "Aerospace Engineering",
             "abbr": "AE",
-            "programmeTag": "ae",
             "links": [
                 {
                     "name": "Aero something",
@@ -200,5 +196,5 @@
                 }
             ]
         }
-    ]
+    }
 }
