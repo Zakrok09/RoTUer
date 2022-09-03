@@ -15,7 +15,7 @@
     let programmeTagsArray = Object.keys(programmeTags);
     let searchString = '';
     $:searchArray = [''];
-    let activeTag = "all";
+    $:activeTag = "all";
 
     function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
@@ -71,6 +71,11 @@
                 <div class="panelHead">
                     <h2>{activeProgrammeObject.name}</h2>
                     <p>Showing links for {activeProgrammeObject.abbr}</p>
+                    {#if activeTag !== "all"}    
+                        <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {tags[activeTag].color};">{tags[activeTag].pressNames[$locale.toString()]}</span></p>
+                    {:else}
+                        <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
+                    {/if}
                 </div>
                 <div class="links">
                     {#each activeProgrammeObject.links as link}
@@ -103,6 +108,18 @@
         flex-flow: row wrap;
         gap: 20px;
         justify-content: center;
+    }
+
+    .tag {
+        cursor: pointer;
+        padding: 5px 12px;
+        border-radius: 20px;
+        color: #24313dc3;
+        font-size: 0.8rem;
+        color: white;
+        font-weight: 800;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: rgb(94, 94, 94);
     }
 
     .dashboardBg {

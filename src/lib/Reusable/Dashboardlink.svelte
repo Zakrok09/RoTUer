@@ -19,7 +19,7 @@
 
 
 <div class="Linkbox">
-    <div class="topStripe" style="background-color: blue;"></div>
+    <div class="topStripe" style="background-color: {tagsObject[tags[0]].color};"></div>
     <h3>{title}</h3>
     <p>{desc}</p>
     <a {href} target="_blank" class="AnchorBox">{anchorText}</a>
@@ -56,8 +56,9 @@
     }
 
     h3 {
-        font-size: 1.6em;
-        margin: 20px 40px;
+        font-size: 1.3rem;
+        height: 30px;
+        margin: 20px 0px;
         color: Black;
         font-weight: 800;
         text-align: center;
@@ -81,7 +82,6 @@
         font-weight: 800;
         -webkit-text-stroke-width: 0.1px;
         -webkit-text-stroke-color: rgb(94, 94, 94);
-        
     }
     
     .Linkbox {
@@ -91,6 +91,7 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+        box-shadow: 0px 5px 3px #818182;
 
         p {
             height: 100px;
