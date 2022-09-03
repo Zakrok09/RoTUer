@@ -337,4 +337,32 @@
             }
         }
     }
+
+    @media only screen and (max-height: 600px) {
+        .abovecategories {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .filterButtons {
+            width: auto;
+            padding: 10px 10px;
+            font-size: 0.75rem;
+        }
+
+        .searchForm {
+            width: 200px;
+
+            input {
+                font-size: 0.75rem;
+                width: 190px;
+            }
+            button {
+                
+                font-size: 1.3rem;
+            }
+        }
+    }
 </style>

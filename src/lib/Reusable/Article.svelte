@@ -50,7 +50,7 @@
     .metaData {
         display: flex;
         gap: 15px;
-        flex-flow: row;
+        flex-flow: row wrap;
         font-size: 0.8rem;
         color:#5e5e5e;
 
@@ -95,5 +95,21 @@
         -webkit-text-stroke-width: 0.1px;
         -webkit-text-stroke-color: rgb(94, 94, 94);
         
+    }
+
+    @media only screen and (max-width: 700px) {
+
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        .metaData {
+            margin-top: 10px;
+            font-size: 0.7rem;
+        }
+
+        .articleContent {
+            margin: 30px 0px;
+        }
     }
 </style>
