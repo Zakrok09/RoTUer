@@ -1,6 +1,6 @@
 export default {
     en: {
-        "homepage.underheading" : "Website is still under development and it is currently not meant for use! Enter at your own responsibility",
+        "homepage.underheading" : "RoTUer - a free, open-source dashboard that students need!",
         "homepage.firstSection.question": "What is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is a project made by (soon-to-be) students of TU Delft. The main goal is to help other students find websites that contain information that they are searching and to generalize all possible things you can make use of in the Uni.",
         "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: This project is not affiliated by any way to TU Delft itself. Information here is gathered and presented by us (the team behind the project). TU DELFT IS NOT RESPONSIBLE FOR INACCURACY ON THIS WEBSITE.",
@@ -35,7 +35,7 @@ export default {
         "dashboard.underheading": "Welcome to the Dashboard, yo!"
     },
     nl: {
-        "homepage.underheading" : "Website is nog in ontwikkeling en is momenteel niet bedoeld voor gebruik! Betreden op eigen risico",
+        "homepage.underheading" : "RoUTer - een gratis, open-source dashboard dat studenten nodig hebben",
         "homepage.firstSection.question": "Wat is RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer is een project gemaakt door (aanstaande) studenten van de TU Delft. Het belangrijkste doel is om andere studenten te helpen websites te vinden die informatie bevatten die ze zoeken en om alle mogelijke dingen op een rijtje te zetten die je in de Uni kunt gebruiken.",
         "homepage.firstSection.paragraph2": "⚠️ DISCLAIMER: Dit project is hoe dan ook niet gebonden aan de TU Delft zelf. Informatie wordt hier verzameld en gepresenteerd door ons (het team achter het project).TU DELFT IS NIET VERANTWOORDELIJK VOOR ONNAUWKEURIGHEID OP DEZE WEBSITE.",
@@ -70,7 +70,7 @@ export default {
         "dashboard.underheading": "Welcome to the Dashboard, yo!"
     },
     bg: {
-        "homepage.underheading" : "Уебсайтът е все още в разработъчна версия и не е предназначен за потребление! Използвайте на собствен риск!",
+        "homepage.underheading" : "RoUTer - един безплатен, open-source сайт, от който студентите се нуждаят!",
         "homepage.firstSection.question": "Какво е RoTUer?",
         "homepage.firstSection.paragraph1": "🔗 RoTUer е проект от (бъдещи) студенти в ТУ Делфт. Главната цел е да се предостави на учениците сайт, в който са събрани колкото се може повече линкове и да обобщи всички готини неща, които може да се ползват от университета.",
         "homepage.firstSection.paragraph2": "⚠️ ВНИМАНИЕ: Този проект по никакъв начин не е обвързан с ТУ Делфт. Информацията тук е събирана от нас (разработчиците на сайта). ТУ ДЕЛФТ НЕ НОСИ ОТГОВОРНОСТ ЗА КАКВИТО И ДА Е НЕТОЧНОСТИ В ИНФОРМАЦИЯТА В ТОЗИ САЙТ.",

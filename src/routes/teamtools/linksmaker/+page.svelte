@@ -108,5 +108,7 @@
     textarea {
         resize: none;
         height: auto;
+        margin-bottom: 20px;
     }
+
 </style>

@@ -1,14 +1,13 @@
 import { error } from '@sveltejs/kit';
  
 /** @type {import('./$types').PageLoad} */
-export async function load({ fetch }) {
+export async function load({ params }) {
     const res = await fetch('https://raw.githubusercontent.com/Zakrok09/RoTUer/data-branch/dashboard.json');
     const db = await res.json();
     if (res.ok) {
         return {
-            faculty: db.faculties["tudelft"],
-            dbTags: db.tags,
-            faculties: Object.keys(db.faculties)
+            faculty: db.faculties[params.slug],
+            dbTags: db.tags
         }
     }
 

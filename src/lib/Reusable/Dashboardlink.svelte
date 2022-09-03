@@ -143,7 +143,8 @@
 
             h3 {
                 font-size: 1rem;
-                margin: 0px 50px;
+                margin: 20px 50px;
+                height: auto;
                 width: auto;
                 text-align: center;
             }
