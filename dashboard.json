@@ -1,12 +1,12 @@
 {
-    "tags": {
-        "new": {
+    "programmesTags": {
+        "common": {
             "color": "#056AF7",
-            "text": "New",
+            "text": "Common",
             "pressNames":{
-                "nl":"Nieuwe!",
-                "en":"New!",
-                "bg":"Ново!"
+                "nl":"Common",
+                "en":"Common",
+                "bg":"Общи"
             }
         },
         "cse": {
@@ -26,14 +26,16 @@
                 "en":"AE",
                 "bg":"AE"
             }
-        },
-        "common": {
+        }
+    },
+    "tags": {
+        "new": {
             "color": "#056AF7",
-            "text": "Common",
+            "text": "new",
             "pressNames":{
-                "nl":"Common",
-                "en":"Common",
-                "bg":"Общи"
+                "nl":"new",
+                "en":"new",
+                "bg":"new"
             }
         }
     },
@@ -42,6 +44,7 @@
         {
             "name": "Common",
             "abbr": "All",
+            "programmeTag": "common",
             "links": [
                 {
                     "name": "MyTimetable",
@@ -90,6 +93,7 @@
         {
             "name": "Computer Science & Engineering",
             "abbr": "CSE",
+            "programmeTag": "cse",
             "links": [
                 {
                     "name": "CSHub",
@@ -158,6 +162,7 @@
         {
             "name": "Aerospace Engineering",
             "abbr": "AE",
+            "programmeTag": "ae",
             "links": [
                 {
                     "name": "Aero something",
