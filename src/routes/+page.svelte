@@ -42,7 +42,7 @@
     </div>
     <div class="landingSection thirdLandingSection">
         <h2 aria-label="This is the first half of the question. The next are headings in boxes.">🔍 {$t("homepage.questions")}...</h2>
-        <div class="ThirdBoxesContainer" role="list">
+        <div class="ThirdBoxesContainer">
             <Linkbox 
                 emoji="📚" 
                 title={$t("homepage.questions.first")} 
@@ -112,6 +112,7 @@
 
         i {
             font-size: 0.9rem;
+            margin: 0px 20px;
         }
 
         img {
@@ -449,7 +450,7 @@
         .ThirdBoxesContainer {
             flex-flow: row wrap;
             justify-content: center;
-            padding: 0px 50px;
+            padding: 0px 2vw;
         }
 
         .centralFourth {

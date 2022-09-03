@@ -27,7 +27,7 @@
         <div class="wannaWrite">
             <h2>Wanna make an article?</h2>
             <p>Use the editor and send us the JSON code!</p>
-            <a href="/">Article Maker</a>
+            <a href="https://github.com/Zakrok09/rotuer-tools">RoTUer Tools</a>
         </div>
     </div>
     
@@ -92,5 +92,10 @@
         }
     }
 
+    @media only screen and (max-width: 700px) {
+        .articles {
+            padding: 50px 20px;
+        }
+    }
     
 </style>
