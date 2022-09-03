@@ -57,269 +57,385 @@
             }
         }
     },
-    "programmes": {
-        "common": {
-            "name": "Common",
-            "abbr": "all programmes",
-            "links": [
-                {
-                    "name": "MyTimetable",
-                    "keywords": {
-                        "en": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ],
-                        "nl": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ],
-                        "bg": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ]
-                    },
-                    "tags": [
-                        "new",
-                        "tudelft"
-                    ],
-                    "nl": {
-                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "en": {
-                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "bg": {
-                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    }
+    "faculties": {
+        "tudelft": {
+            "name": "Common links",
+            "abbr": "EEMCS",
+            "programmes": {
+                "common": {
+                    "name": "Common",
+                    "abbr": "all programmes",
+                    "links": [
+                        {
+                            "name": "MyTimetable",
+                            "keywords": {
+                                "en": [
+                                    "school",
+                                    "tudelft",
+                                    "schedule",
+                                    "MyTimetable",
+                                    "timetable"
+                                ],
+                                "nl": [
+                                    "school",
+                                    "tudelft",
+                                    "schedule",
+                                    "MyTimetable",
+                                    "timetable"
+                                ],
+                                "bg": [
+                                    "school",
+                                    "tudelft",
+                                    "schedule",
+                                    "MyTimetable",
+                                    "timetable"
+                                ]
+                            },
+                            "tags": [
+                                "new",
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            },
+                            "en": {
+                                "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            },
+                            "bg": {
+                                "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            }
+                        },
+                        {
+                            "name": "Student Portal",
+                            "keywords": {
+                                "en": [
+                                    "portal",
+                                    "school",
+                                    "tudelft",
+                                    "student"
+                                ],
+                                "nl": [
+                                    "portal",
+                                    "school",
+                                    "tudelft",
+                                    "student"
+                                ],
+                                "bg": [
+                                    "portal",
+                                    "school",
+                                    "tudelft",
+                                    "student"
+                                ]
+                            },
+                            "tags": [
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "The student portal with loads of information from TUD",
+                                "link": "https://www.tudelft.nl/en/student/"
+                            },
+                            "en": {
+                                "desc": "The student portal with loads of information from TUD",
+                                "link": "https://www.tudelft.nl/en/student/"
+                            },
+                            "bg": {
+                                "desc": "Студентски портал с много информацич от ТУД",
+                                "link": "https://www.tudelft.nl/en/student/"
+                            }
+                        },{
+                            "name": "TU Delft Library",
+                            "keywords": {
+                                "en": [
+                                    "library",
+                                    "room",
+                                    "project"
+                                ],
+                                "nl": [
+                                    "library",
+                                    "room",
+                                    "project"
+                                ],
+                                "bg": [
+                                    "library",
+                                    "room",
+                                    "project"
+                                ]
+                            },
+                            "tags": [
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                                "link": "https://tudelftlibrary.mapiq.net/library"
+                            },
+                            "en": {
+                                "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                                "link": "https://tudelftlibrary.mapiq.net/library"
+                            },
+                            "bg": {
+                                "desc": "Библиотеката на ТУД. Можете да запзвате книги и стаи тук.",
+                                "link": "https://tudelftlibrary.mapiq.net/library"
+                            }
+                        },{
+                            "name": "TU Delft Webmail",
+                            "keywords": {
+                                "en": [
+                                    "mail",
+                                    "web",
+                                    "tudelft"
+                                ],
+                                "nl": [
+                                    "mail",
+                                    "web",
+                                    "tudelft"
+                                ],
+                                "bg": [
+                                    "mail",
+                                    "web",
+                                    "tudelft"
+                                ]
+                            },
+                            "tags": [
+                                "new",
+                                "tool",
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "Your student webmail",
+                                "link": "https://webmail.tudelft.nl"
+                            },
+                            "en": {
+                                "desc": "Your student webmail",
+                                "link": "https://webmail.tudelft.nl"
+                            },
+                            "bg": {
+                                "desc": "Студентския Ви мейл",
+                                "link": "https://webmail.tudelft.nl"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "eemcs": {
+            "name": "Electrical Engineering, Mathematics and Computer Science",
+            "abbr": "EEMCS",
+            "programmes": {
+                "cse": {
+                    "name": "Computer Science & Engineering",
+                    "abbr": "CSE",
+                    "links": [
+                        {
+                            "name": "CSHub",
+                            "keywords": {
+                                "en": [
+                                    "cshub"
+                                ],
+                                "nl": [
+                                    "cshub"
+                                ],
+                                "bg": [
+                                    "cshub"
+                                ]
+                            },
+                            "tags": [
+                                "new",
+                                "tool"
+                            ],
+                            "nl": {
+                                "desc": "still none",
+                                "link": "https://cshub.nl"
+                            },
+                            "en": {
+                                "desc": "Very useful website for Computer Science",
+                                "link": "https://cshub.nl"
+                            },
+                            "bg": {
+                                "desc": "Много полезен уебсайт за CSE",
+                                "link": "https://cshub.nl"
+                            }
+                        },{
+                            "name": "W.I.S.V. ‘Christiaan Huygens’",
+                            "keywords": {
+                                "en": [
+                                    "study",
+                                    "association"
+                                ],
+                                "nl": [
+                                    "study",
+                                    "association"
+                                ],
+                                "bg": [
+                                    "study",
+                                    "association"
+                                ]
+                            },
+                            "tags": [
+                                "new"
+                            ],
+                            "nl": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "en": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "bg": {
+                                "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
+                                "link": "https://ch.tudelft.nl/"
+                            }
+                        }
+                    ]
                 },
-                {
-                    "name": "Student Portal",
-                    "keywords": {
-                        "en": [
-                            "portal",
-                            "school",
-                            "tudelft",
-                            "student"
-                        ],
-                        "nl": [
-                            "portal",
-                            "school",
-                            "tudelft",
-                            "student"
-                        ],
-                        "bg": [
-                            "portal",
-                            "school",
-                            "tudelft",
-                            "student"
-                        ]
-                    },
-                    "tags": [
-                        "tudelft"
-                    ],
-                    "nl": {
-                        "desc": "The student portal with loads of information from TUD",
-                        "link": "https://www.tudelft.nl/en/student/"
-                    },
-                    "en": {
-                        "desc": "The student portal with loads of information from TUD",
-                        "link": "https://www.tudelft.nl/en/student/"
-                    },
-                    "bg": {
-                        "desc": "Студентски портал с много информацич от ТУД",
-                        "link": "https://www.tudelft.nl/en/student/"
-                    }
-                },{
-                    "name": "TU Delft Library",
-                    "keywords": {
-                        "en": [
-                            "library",
-                            "room",
-                            "project"
-                        ],
-                        "nl": [
-                            "library",
-                            "room",
-                            "project"
-                        ],
-                        "bg": [
-                            "library",
-                            "room",
-                            "project"
-                        ]
-                    },
-                    "tags": [
-                        "tudelft"
-                    ],
-                    "nl": {
-                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
-                        "link": "https://tudelftlibrary.mapiq.net/library"
-                    },
-                    "en": {
-                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
-                        "link": "https://tudelftlibrary.mapiq.net/library"
-                    },
-                    "bg": {
-                        "desc": "Библиотеката на ТУД. Можете да запзвате книги и стаи тук.",
-                        "link": "https://tudelftlibrary.mapiq.net/library"
-                    }
-                },{
-                    "name": "TU Delft Webmail",
-                    "keywords": {
-                        "en": [
-                            "mail",
-                            "web",
-                            "tudelft"
-                        ],
-                        "nl": [
-                            "mail",
-                            "web",
-                            "tudelft"
-                        ],
-                        "bg": [
-                            "mail",
-                            "web",
-                            "tudelft"
-                        ]
-                    },
-                    "tags": [
-                        "new",
-                        "tool",
-                        "tudelft"
-                    ],
-                    "nl": {
-                        "desc": "Your student webmail",
-                        "link": "https://webmail.tudelft.nl"
-                    },
-                    "en": {
-                        "desc": "Your student webmail",
-                        "link": "https://webmail.tudelft.nl"
-                    },
-                    "bg": {
-                        "desc": "Студентския Ви мейл",
-                        "link": "https://webmail.tudelft.nl"
-                    }
+                "ae": {
+                    "name": "Aerospace Engineering",
+                    "abbr": "AE",
+                    "links": [
+                        {
+                            "name": "Aero something",
+                            "keywords": {
+                                "en": [
+                                    "school",
+                                    "tudelft",
+                                    "schedule"
+                                ],
+                                "nl": [
+                                    "school",
+                                    "tudelft"
+                                ],
+                                "bg": [
+                                    "school",
+                                    "tudelft"
+                                ]
+                            },
+                            "tags": [
+                                "new",
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            },
+                            "en": {
+                                "desc": "Aero website or sumting?",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            },
+                            "bg": {
+                                "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                                "link": "https://mytimetable.tudelft.nl/schedule"
+                            }
+                        }
+                    ]
                 }
-            ]
+            }
         },
-        "cse": {
-            "name": "Computer Science & Engineering",
-            "abbr": "CSE",
-            "links": [
-                {
-                    "name": "CSHub",
-                    "keywords": {
-                        "en": [
-                            "cshub"
-                        ],
-                        "nl": [
-                            "cshub"
-                        ],
-                        "bg": [
-                            "cshub"
-                        ]
-                    },
-                    "tags": [
-                        "new",
-                        "tool"
-                    ],
-                    "nl": {
-                        "desc": "still none",
-                        "link": "https://cshub.nl"
-                    },
-                    "en": {
-                        "desc": "Very useful website for Computer Science",
-                        "link": "https://cshub.nl"
-                    },
-                    "bg": {
-                        "desc": "Много полезен уебсайт за CSE",
-                        "link": "https://cshub.nl"
-                    }
-                },{
-                    "name": "W.I.S.V. ‘Christiaan Huygens’",
-                    "keywords": {
-                        "en": [
-                            "study",
-                            "association"
-                        ],
-                        "nl": [
-                            "study",
-                            "association"
-                        ],
-                        "bg": [
-                            "study",
-                            "association"
-                        ]
-                    },
-                    "tags": [
-                        "new"
-                    ],
-                    "nl": {
-                        "desc": "Website of CH - the study association for CSE & Math",
-                        "link": "https://ch.tudelft.nl/"
-                    },
-                    "en": {
-                        "desc": "Website of CH - the study association for CSE & Math",
-                        "link": "https://ch.tudelft.nl/"
-                    },
-                    "bg": {
-                        "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
-                        "link": "https://ch.tudelft.nl/"
-                    }
-                }
-            ]
-        },
-        "ae": {
+        "aero": {
             "name": "Aerospace Engineering",
             "abbr": "AE",
-            "links": [
-                {
-                    "name": "Aero something",
-                    "keywords": {
-                        "en": [
-                            "school",
-                            "tudelft",
-                            "schedule"
-                        ],
-                        "nl": [
-                            "school",
-                            "tudelft"
-                        ],
-                        "bg": [
-                            "school",
-                            "tudelft"
-                        ]
-                    },
-                    "tags": [
-                        "new",
-                        "tudelft"
-                    ],
-                    "nl": {
-                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "en": {
-                        "desc": "Aero website or sumting?",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "bg": {
-                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    }
+            "programmes": {
+                "space": {
+                    "name": "Space Flight",
+                    "abbr": "SF",
+                    "links": [
+                        {
+                            "name": "CSHub",
+                            "keywords": {
+                                "en": [
+                                    "cshub"
+                                ],
+                                "nl": [
+                                    "cshub"
+                                ],
+                                "bg": [
+                                    "cshub"
+                                ]
+                            },
+                            "tags": [
+                                "new",
+                                "tool"
+                            ],
+                            "nl": {
+                                "desc": "still none",
+                                "link": "https://cshub.nl"
+                            },
+                            "en": {
+                                "desc": "Very useful website for Computer Science",
+                                "link": "https://cshub.nl"
+                            },
+                            "bg": {
+                                "desc": "Много полезен уебсайт за CSE",
+                                "link": "https://cshub.nl"
+                            }
+                        }, {
+                            "name": "W.I.S.V. ‘Christiaan Huygens’",
+                            "keywords": {
+                                "en": [
+                                    "study",
+                                    "association"
+                                ],
+                                "nl": [
+                                    "study",
+                                    "association"
+                                ],
+                                "bg": [
+                                    "study",
+                                    "association"
+                                ]
+                            },
+                            "tags": [
+                                "new"
+                            ],
+                            "nl": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "en": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "bg": {
+                                "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
+                                "link": "https://ch.tudelft.nl/"
+                            }
+                        }, {
+                            "name": "W.I.S.V. ‘Christiaan Huygens’",
+                            "keywords": {
+                                "en": [
+                                    "study",
+                                    "association"
+                                ],
+                                "nl": [
+                                    "study",
+                                    "association"
+                                ],
+                                "bg": [
+                                    "study",
+                                    "association"
+                                ]
+                            },
+                            "tags": [
+                                "new"
+                            ],
+                            "nl": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "en": {
+                                "desc": "Website of CH - the study association for CSE & Math",
+                                "link": "https://ch.tudelft.nl/"
+                            },
+                            "bg": {
+                                "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
+                                "link": "https://ch.tudelft.nl/"
+                            }
+                        }
+                    ]
                 }
-            ]
+            }
         }
     }
 }
