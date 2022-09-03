@@ -39,6 +39,39 @@
     },
     "articles": [
         {
+            "name": "State of RoTUer",
+            "author": {
+                "name": "Zakrok09",
+                "link": "https://github.com/zakrok09"
+            },
+            "date": "September 3rd, 2022",
+            "keywords": {
+                "en": [
+                    "current",
+                    "state",
+                    "RoTUer",
+                    "dev"
+                ],
+                "nl": [
+                    "current",
+                    "state",
+                    "RoTUer",
+                    "dev"
+                ],
+                "bg": [
+                    "current",
+                    "state",
+                    "RoTUer",
+                    "dev"
+                ]
+            },
+            "tags": [
+                "new",
+                "story"
+            ],
+            "text": "<h2 id=\"whatwillcomenext\">What will come next?</h2>\n<p>Currently RoTUer is focused on building the web structure. This is because when it is done, the only work left to do is just to push the new links and articles in the JSON database we have.</p>\n<p>The things we are looking forward to building before school starts are:</p>\n<ul>\n<li>The Dashboard</li>\n<li>The Checkies</li>\n</ul>\n<h3 id=\"dashboard\">Dashboard</h3>\n<p>This page will load program-related links for each study program in TU Delft. Since there is a lot of information, the ones that will be presented first are Common, CSE and ASE.</p>\n<p>Things that will come later (maybe at 1.2.0) are:</p>\n<ul>\n<li>Recipes (you are going to love this one)</li>\n<li>Better Campus Map</li>\n<li><em>…an app!?</em></li>\n</ul>\n<h2 id=\"howwewillworkonceschoolstarts\">How we will work once school starts?</h2>\n<p>The thing is that most of us don't know how much will we have on our schedule. Our free time will get significantly shortened, therefore future updates will take longer to implement. </p>\n<p>This isn't the case with the Guidelines, Articles &amp; Links however! Those will be updated often since our Link gathering team is finding new links every day!</p>\n<h2 id=\"therotuertoolsapp\">The RoTUer Tools app</h2>\n<p>This is an app built in Tauri and SvelteKit. You can take a look at it here: <a href=\"https://github.com/Zakrok09/rotuer-tools\">RoTUer Tools Repo</a></p>\n<h6 id=\"thanksforreading\">Thanks for reading!</h6>"
+        },
+        {
             "name": "HAPPY BIRTHDAY DINU! 🥳🥳🥳",
             "author": {
                 "name": "Zakrok09",
@@ -64,33 +97,6 @@
                 "special"
             ],
             "text": "Happy birthday, Dinu! 🥳🥳🥳 \n \n We wish you all good things possible & to have the best of birthdays too! \n \n (also come back we need code reviews)"
-        },
-        {
-            "name": "Testing",
-            "author": {
-                "name": "Zakrok09",
-                "link": "https://github.com/zakrok09"
-            },
-            "date": "September 2nd, 2022",
-            "keywords": {
-                "en": [
-                    "test",
-                    "article"
-                ],
-                "nl": [
-                    "test",
-                    "article"
-                ],
-                "bg": [
-                    "test",
-                    "article"
-                ]
-            },
-            "tags": [
-                "guide",
-                "new"
-            ],
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices lobortis vestibulum. Ut sodales orci ex, non eleifend turpis pharetra vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget ligula maximus, efficitur sapien in, vehicula est. Etiam blandit at tellus ut dictum. Praesent tempus sollicitudin orci sollicitudin consequat. Duis blandit pulvinar fringilla. \n \n Curabitur fermentum elementum eros, ac elementum turpis fermentum iaculis. Ut id commodo lacus, eget efficitur felis. Maecenas aliquam dictum quam luctus ornare. Nam et dignissim lacus. Etiam feugiat volutpat bibendum. Pellentesque ut sapien at elit rutrum rhoncus. Donec pretium sodales quam, at egestas nulla vulputate quis. Curabitur vitae metus mi. Fusce enim mauris, maximus vel neque sit amet, tincidunt semper urna. Maecenas accumsan lacus aliquet elit rutrum, eget rhoncus massa molestie. Nullam sagittis nibh et neque euismod aliquet. Nulla gravida auctor tellus, a feugiat tortor convallis blandit. Donec hendrerit, erat quis tristique elementum, felis ex tincidunt lectus, at rutrum massa ipsum at odio. \n \n Aenean malesuada rhoncus consectetur. Cras maximus lectus ut lacus viverra, in aliquam turpis finibus. Duis tellus turpis, auctor rhoncus nulla id, sollicitudin volutpat neque. Ut arcu ante, bibendum eget nisl a, semper egestas sapien. Duis at arcu eget metus interdum volutpat in ut metus. Phasellus sit amet sem nec est semper luctus. Donec et dapibus tortor. Quisque non purus justo. Etiam at felis justo. Nulla pulvinar eu est sed tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla fermentum turpis eros, sit amet ultricies purus ultrices nec. Sed fermentum risus mattis euismod varius."
         }
     ]
 }
