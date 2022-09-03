@@ -206,15 +206,6 @@
             "name": "Electrical Engineering, Mathematics and Computer Science",
             "abbr": "EEMCS",
             "programmesTags": {
-                "common": {
-                    "color": "#056AF7",
-                    "text": "Common",
-                    "pressNames":{
-                        "nl":"Common",
-                        "en":"Common",
-                        "bg":"Общи"
-                    }
-                },
                 "cse": {
                     "color": "#056AF7",
                     "text": "CSE",
