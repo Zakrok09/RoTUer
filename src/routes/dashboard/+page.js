@@ -7,7 +7,8 @@ export async function load({ fetch }) {
     if (res.ok) {
         return {
             faculty: db.faculties["tudelft"],
-            dbTags: db.tags
+            dbTags: db.tags,
+            faculties: Object.keys(db.faculties)
         }
     }
 

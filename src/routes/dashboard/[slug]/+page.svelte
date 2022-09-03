@@ -11,7 +11,7 @@
     
     
     let programmeTagsArray = Object.keys(programmeTags);
-    let activeProgrammeString = programmeTagsArray[0];
+    let activeProgrammeString = programmeTagsArray[0].toString();
     $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
     let searchString = '';
     $:searchArray = [''];
@@ -68,23 +68,22 @@
             </div>
             <div class="displayPanel">
                 <div class="panelHead">
-                    {console.log(programmeTagsArray[1])}
-                    <!-- <h2>{activeProgrammeObject.name}</h2>
+                    <h2>{activeProgrammeObject.name}</h2>
                     <p>Showing links for {activeProgrammeObject.abbr}</p>
                     {#if activeTag !== "all"}    
                         <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {tags[activeTag].color};">{tags[activeTag].pressNames[$locale.toString()]}</span></p>
                     {:else}
                         <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
-                    {/if} -->
+                    {/if}
                 </div>
                 <div class="links">
-                    <!-- {#each activeProgrammeObject.links as link}
+                    {#each activeProgrammeObject.links as link}
                         {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
                             <div transition:fly="{{ y: 10, duration: 100 }}">
                                 <Dashboardlink on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={tags}/>
                             </div>
                         {/if}
-                    {/each} -->
+                    {/each}
                 </div>
             </div>
         </div>
