@@ -192,7 +192,9 @@
     .dashboardBg {
         background-image: url("/background/bubbleBackground.svg");
         width: 100vw;
-        padding: 5vw;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
         position: relative; 
     }
 
