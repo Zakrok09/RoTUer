@@ -37,12 +37,30 @@
                 "en":"new",
                 "bg":"new"
             }
+        }, 
+        "tudelft": {
+            "color": "#00a6d6",
+            "text": "tudelft",
+            "pressNames":{
+                "nl":"TU Delft",
+                "en":"TU Delft",
+                "bg":"ТУ Делфт"
+            }
+        }, 
+        "tool": {
+            "color": "#eb6628",
+            "text": "tool",
+            "pressNames":{
+                "nl":"Tool",
+                "en":"Tool",
+                "bg":"Инструмент"
+            }
         }
     },
     "programmes": {
         "common": {
             "name": "Common",
-            "abbr": "All",
+            "abbr": "all programmes",
             "links": [
                 {
                     "name": "MyTimetable",
@@ -71,7 +89,7 @@
                     },
                     "tags": [
                         "new",
-                        "uni"
+                        "tudelft"
                     ],
                     "nl": {
                         "desc": "The MyTimetable website shows the timetable at TU Delft.",
@@ -84,6 +102,114 @@
                     "bg": {
                         "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
                         "link": "https://mytimetable.tudelft.nl/schedule"
+                    }
+                },
+                {
+                    "name": "Student Portal",
+                    "keywords": {
+                        "en": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ],
+                        "nl": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ],
+                        "bg": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ]
+                    },
+                    "tags": [
+                        "tudelft"
+                    ],
+                    "nl": {
+                        "desc": "The student portal with loads of information from TUD",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    },
+                    "en": {
+                        "desc": "The student portal with loads of information from TUD",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    },
+                    "bg": {
+                        "desc": "Студентски портал с много информацич от ТУД",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    }
+                },{
+                    "name": "TU Delft Library",
+                    "keywords": {
+                        "en": [
+                            "library",
+                            "room",
+                            "project"
+                        ],
+                        "nl": [
+                            "library",
+                            "room",
+                            "project"
+                        ],
+                        "bg": [
+                            "library",
+                            "room",
+                            "project"
+                        ]
+                    },
+                    "tags": [
+                        "tudelft"
+                    ],
+                    "nl": {
+                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    },
+                    "en": {
+                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    },
+                    "bg": {
+                        "desc": "Библиотеката на ТУД. Можете да запзвате книги и стаи тук.",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    }
+                },{
+                    "name": "TU Delft Webmail",
+                    "keywords": {
+                        "en": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ],
+                        "nl": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ],
+                        "bg": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ]
+                    },
+                    "tags": [
+                        "new",
+                        "tool",
+                        "tudelft"
+                    ],
+                    "nl": {
+                        "desc": "Your student webmail",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "en": {
+                        "desc": "Your student webmail",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "bg": {
+                        "desc": "Студентския Ви мейл",
+                        "link": "https://webmail.tudelft.nl"
                     }
                 }
             ]
@@ -107,7 +233,7 @@
                     },
                     "tags": [
                         "new",
-                        "uni"
+                        "tool"
                     ],
                     "nl": {
                         "desc": "still none",
@@ -138,8 +264,7 @@
                         ]
                     },
                     "tags": [
-                        "new",
-                        "uni"
+                        "new"
                     ],
                     "nl": {
                         "desc": "Website of CH - the study association for CSE & Math",
@@ -179,7 +304,7 @@
                     },
                     "tags": [
                         "new",
-                        "uni"
+                        "tudelft"
                     ],
                     "nl": {
                         "desc": "The MyTimetable website shows the timetable at TU Delft.",
