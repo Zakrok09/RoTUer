@@ -49,11 +49,6 @@
     "checkies":[
         {
             "name": "Testing",
-            "pressNames": {
-                "en":"testing",
-                "nl":"testen",
-                "bg":"testing"
-            },
             "keywords": {
                 "en": [
                     "test",
@@ -78,11 +73,6 @@
         },
         {
             "name": "Testing Again",
-            "pressNames": {
-                "en":"testing Again",
-                "nl":"testen opnieuw",
-                "bg":"testing Again"
-            },
             "keywords": {
                 "en": [
                     "test",
