@@ -195,6 +195,33 @@
                         "bg":"Общи"
                     }
                 },
+                "food": {
+                    "color": "#056AF7",
+                    "text": "Food",
+                    "pressNames":{
+                        "nl":"Food",
+                        "en":"Food",
+                        "bg":"Храна"
+                    }
+                },
+                "housing": {
+                    "color": "#056AF7",
+                    "text": "Housing",
+                    "pressNames":{
+                        "nl":"Housing",
+                        "en":"Housing",
+                        "bg":"За Жилища"
+                    }
+                },
+                "services": {
+                    "color": "#056AF7",
+                    "text": "Services",
+                    "pressNames":{
+                        "nl":"Services",
+                        "en":"Services",
+                        "bg":"Услуги"
+                    }
+                },
                 "others": {
                     "color": "#056AF7",
                     "text": "Others",
@@ -208,8 +235,8 @@
             },
             "programmes": {
                 "common": {
-                    "name": "Common",
-                    "abbr": "all programmes",
+                    "name": "TU Delft Common",
+                    "abbr": "all TU Delft programmes",
                     "links": [
                         {
                             "name": "MyTimetable",
@@ -449,8 +476,22 @@
                         }
                     ]
                 },
-                "others": {
-                    "name": "Others",
+                "food": {
+                    "name": "Food & supermarkets",
+                    "abbr": "all things supermarket related",
+                    "links": [
+
+                    ]
+                },
+                "housing": {
+                    "name": "Housing & more",
+                    "abbr": "all things housing related",
+                    "links": [
+                        
+                    ]
+                },
+                "services": {
+                    "name": "Services",
                     "abbr": "Dutch/Delft services",
                     "links": [
                         {
@@ -488,6 +529,13 @@
                                 "link": "https://www.ov-chipkaart.nl/home.htm#/"
                             }
                         }
+                    ]
+                },
+                "others": {
+                    "name": "Housing & more",
+                    "abbr": "all things housing related",
+                    "links": [
+                        
                     ]
                 }
             }
