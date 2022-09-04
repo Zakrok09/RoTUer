@@ -540,8 +540,8 @@
                 {
                     "name": "delft",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "information", "registration", "housing", "municipality", "delft", "council", "service"],
+                        "nl": ["tag", "link", "information", "registration", "housing", "municipality", "delft", "council", "service"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -556,15 +556,15 @@
                         "link": "https://www.delft.nl/en/housing/student-housing"
                     },
                     "bg": {
-                        "desc": "The Gemeente Delft website conatains information about how to get student housing in Delft.",
+                        "desc": "Gemeente Delft е уебстраница, съдържаща информация как да си намериш жилище в Делфт.",
                         "link": "https://www.delft.nl/en/housing/student-housing"
                     }
                 },
                 {
                     "name": "Housing Anywhere",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "housing", "accommodation", "apartments", "room", "furnished", "unfurnished", "anywhere", "service"],
+                        "nl": ["tag", "link", "housing", "accommodation", "apartments", "room", "furnished", "unfurnished", "anywhere", "service"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -579,15 +579,15 @@
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation"
                     },
                     "bg": {
-                        "desc": "Housing Anywhere offers rented housing in Delft.",
+                        "desc": "Housing Anywhere предлага жилища за наем в Делфт.",
                         "link": "https://housinganywhere.com/s/Delft--Netherlands/student-accommodation"
                     }
                 },
                 {
                     "name": "Kamernet",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "housing", "accommodation", "apartments", "room", "furnished", "unfurnished", "kamernet", "service"],
+                        "nl": ["tag", "link", "housing", "accommodation", "apartments", "room", "furnished", "unfurnished", "kamernet", "service"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -602,15 +602,15 @@
                         "link": "https://kamernet.nl/en"
                     },
                     "bg": {
-                        "desc": "Kamernet offers student housing throughout the Neterlands.",
+                        "desc": "Kamernet предлага жилища за студенти в цяла Нидерландия.",
                         "link": "https://kamernet.nl/en"
                     }
                 },
                 {
                     "name": "Lebara",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "lebara", "phone", "service", "calls"],
+                        "nl": ["tag", "link", "lebara", "phone", "service", "calls"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -625,15 +625,15 @@
                         "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true"
                     },
                     "bg": {
-                        "desc": "Lebara is a mobile and internet provider.",
+                        "desc": "Lebara е мобилен и интернет доставчик.",
                         "link": "https://mobile.lebara.com/nl/en/sim-only?duration=24&internetLimit=5&unlimited=true"
                     }
                 },
                 {
                     "name": "tmobile",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "tmobile", "phone", "service", "calls"],
+                        "nl": ["tag", "link", "tmobile", "phone", "service", "calls"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -648,15 +648,15 @@
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat"
                     },
                     "bg": {
-                        "desc": "T-mobile is a mobile provider and sells mobile phones.",
+                        "desc": "T-mobile е мобилен доставчик, които разполагат и с телефони.",
                         "link": "https://www.t-mobile.nl/winkels/delft/jacob-gerrit-straat"
                     }
                 },
                 {
                     "name": "youfone",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "youfone", "phone", "service", "calls"],
+                        "nl": ["tag", "link", "youfone", "phone", "service", "calls"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -671,15 +671,15 @@
                         "link": "https://www.youfone.nl/"
                     },
                     "bg": {
-                        "desc": "youfone is a mobile provider.",
+                        "desc": "youfone е мобилен доставчик.",
                         "link": "https://www.youfone.nl/"
                     }
                 },
                 {
                     "name": "simyo",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "simyo", "phone", "service", "calls"],
+                        "nl": ["tag", "link", "simyo", "phone", "service", "calls"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -694,15 +694,15 @@
                         "link": "https://www.simyo.nl/"
                     },
                     "bg": {
-                        "desc": "Simyo is a mobile provider and sells mobile phones.",
+                        "desc": "Simyo е мобилен доставчик, които разполагат и с телефони.",
                         "link": "https://www.simyo.nl/"
                     }
                 },
                 {
                     "name": "Thuisbezorgd.nl",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "thuisbezorgd.nl", "thuisbezorgd", "delivery", "food", "fast"],
+                        "nl": ["tag", "link", "thuisbezorgd.nl", "thuisbezorgd", "delivery", "food", "fast"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -717,15 +717,15 @@
                         "link": "https://www.thuisbezorgd.nl/en"
                     },
                     "bg": {
-                        "desc": "Thuisbezorg.nl is a service through which you can easily order food online.",
+                        "desc": "Thuisbezorg.nl е услуга, чрез която лесно може да си поръчаш храна. Нашият любим работник е Йоан. Моля дайде му бакшиш ако го видите!",
                         "link": "https://www.thuisbezorgd.nl/en"
                     }
                 },
                 {
                     "name": "Uber Eats",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "uber", "eats", "delivery", "food", "fast"],
+                        "nl": ["tag", "link", "uber", "eats", "delivery", "food", "fast"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -740,15 +740,15 @@
                         "link": "https://www.ubereats.com/"
                     },
                     "bg": {
-                        "desc": "Uber Eats is a service through which you can easily order food online.",
+                        "desc": "Uber Eats е услуга, чрез която лесно може да си поръчаш храна.",
                         "link": "https://www.ubereats.com/"
                     }
                 },
                 {
                     "name": "Dominos",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "dominos", "delivery", "food", "fast", "pizza"],
+                        "nl": ["tag", "link", "dominos", "delivery", "food", "fast", "pizza"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -763,15 +763,15 @@
                         "link": "https://www.dominos.nl/english-visitor"
                     },
                     "bg": {
-                        "desc": "Dominos is a pizzeria where you can order relatively cheap pizzas.",
+                        "desc": "Dominos е пицария, където може да намериш приблизително евтина пица.",
                         "link": "https://www.dominos.nl/english-visitor"
                     }
                 },
                 {
                     "name": "TripAdvisor",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
+                        "en": ["tag", "link", "tripadvisor", "trip", "advisor", "food", "fast", "restaurants"],
+                        "nl": ["tag", "link", "tripadvisor", "trip", "advisor", "food", "fast", "restaurants"],
                         "bg": ["таг", "линк"]
                     },
                     "tags": [
@@ -786,7 +786,7 @@
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     },
                     "bg": {
-                        "desc": "Tripadvisor is a website where you can easily find local restaurants.",
+                        "desc": "Tripadvisor е лебстраница, където лесно може да намериш ресторанти около теб.",
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     }
                 }
@@ -811,7 +811,7 @@
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     },
                     "bg": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
+                        "desc": "Сравнение на мобилни планове, направено от Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     }
                 }
@@ -844,7 +844,7 @@
                         "link": "https://www.learndutch.org/"
                     },
                     "bg": {
-                        "desc": "Learndutch.org is a website where you can study Dutch.",
+                        "desc": "Learndutch.org е лебстраница, където може да научиш Нидерландски.",
                         "link": "https://www.learndutch.org/"
                     }
                 },
@@ -867,7 +867,7 @@
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft"
                     },
                     "bg": {
-                        "desc": "LinkedIn is a social media platform for professional networking.",
+                        "desc": "LinkedIn е социална платформа, където може да намериш много възможности за работа.",
                         "link": "https://www.linkedin.com/jobs/jobs-in-delft"
                     }
                 },
@@ -890,7 +890,7 @@
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
                     },
                     "bg": {
-                        "desc": "I am expat offers jobs in Delft.",
+                        "desc": "I am expat предлага работа в Делфт.",
                         "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
                     }
                 },
@@ -913,7 +913,7 @@
                         "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
                     },
                     "bg": {
-                        "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
+                        "desc": "Just landed предлага помощ с търсенето на работа, жилище и др. в Нидерландия.",
                         "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
                     }
                 },
