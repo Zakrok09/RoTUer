@@ -132,7 +132,7 @@
 <svelte:head>
     <style>
         body {
-            background-color: black;
+            background-color: #24313d;
         }
     </style>
 </svelte:head>
@@ -140,7 +140,6 @@
 <HEAD title="Dashboard" metadescription="The dashboard is that cool place where you have quick access to all the links related to your study program! Come to read or contribute!" />
 
 <main>
-    
     <div class="restOfPage">
         <div class="dashboardBg">
             <div class="dashboard">
