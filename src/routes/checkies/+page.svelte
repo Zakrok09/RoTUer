@@ -1,6 +1,6 @@
 <script>
     import HEAD from "$lib/Metadata/HEAD.svelte";
-    import { each } from "svelte/internal";
+    import LandingSite from "$lib/PageComponents/LandingSite.svelte";
     import Checkies from "../../lib/Reusable/Checkies.svelte";
     export let data;
     const db = data.database;
@@ -27,11 +27,7 @@
 <HEAD title="Checkies" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
 
 <main>
-    <div class="landingSite">
-        <img src="/isometric/logo.svg" alt="The logo of RoTUer">
-        <h1 tabindex="0">RoTUer</h1>
-        <i>We make it simple, people!</i>
-    </div>
+    <LandingSite src="/isometric/arrow.svg" underheading="We make it simple, people!" />
     <div class="behindCheckies">
         <h2>Checkies:</h2>
         {#each checkies as checkie, i}
@@ -45,26 +41,6 @@
 
     * {
         font-family: 'Oxygen', sans-serif;
-    }
-
-    .landingSite {
-        padding-top: 70px;
-        padding-bottom: 200px;
-        font-family: 'Oxygen', sans-serif;
-        text-align: center;
-
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        i {
-            font-size: 0.9rem;
-        }
-
-        img {
-            width: 300px;
-            display: inline;
-        }
     }
 
     .behindCheckies {
