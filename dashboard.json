@@ -62,6 +62,123 @@
                 "en":"External",
                 "bg":"Външен сайт"
             }
+        },
+        "mall": {
+            "color": "#E91E63",
+            "text": "Mall",
+            "pressNames":{
+                "nl":"Winkelcentrum",
+                "en":"Mall",
+                "bg":"Мол"
+            }
+        },
+        "food": {
+            "color": "#40E91E",
+            "text": "Food",
+            "pressNames":{
+                "nl":"Eten",
+                "en":"Food",
+                "bg":"Храна"
+            }
+        },
+        "domestic": {
+            "color": "#5897F4",
+            "text": "Domestic",
+            "pressNames":{
+                "nl":"Huishoudelijk",
+                "en":"Domestic",
+                "bg":"Домашни"
+            }
+        },
+        "home appliances": {
+            "color": "#E9AE1E",
+            "text": "Home Appliances",
+            "pressNames":{
+                "nl":"Huishoudelijke Apparaten",
+                "en":"Home Appliances",
+                "bg":"Бяла Техника"
+            }
+        },
+        "clothes": {
+            "color": "#9C27B0",
+            "text": "Clothes",
+            "pressNames":{
+                "nl":"Kleding",
+                "en":"Clothes",
+                "bg":"Облекло"
+            }
+        },
+        "second hand": {
+            "color": "#BCAAA4",
+            "text": "Second Hand",
+            "pressNames":{
+                "nl":"Tweedehands ",
+                "en":"Second Hand",
+                "bg":"Втора Ръка"
+            }
+        },
+        "extra": {
+            "color": "#AFB42B",
+            "text": "Extra",
+            "pressNames":{
+                "nl":"Extra",
+                "en":"Extra",
+                "bg":"Екстра"
+            }
+        },
+        "housing": {
+            "color": "#E57373",
+            "text": "Housing",
+            "pressNames":{
+                "nl":"Huisvesting",
+                "en":"Housing",
+                "bg":"Жилища"
+            }
+        },
+        "mobile plans": {
+            "color": "#D1C4E9",
+            "text": "Mobile Plans",
+            "pressNames":{
+                "nl":"Mobiele abonnementen",
+                "en":"Mobile Plans",
+                "bg":"Мобилни Планове"
+            }
+        },
+        "order for home": {
+            "color": "#80DEEA",
+            "text": "Order For Home",
+            "pressNames":{
+                "nl":"Bestel Voor Thuis",
+                "en":"Order For Home",
+                "bg":"Поръчай За Вкъщи"
+            }
+        },
+        "learning": {
+            "color": "#A5D6A7",
+            "text": "Learning",
+            "pressNames":{
+                "nl":"Educatief",
+                "en":"Learning",
+                "bg":"Учебни"
+            }
+        },
+        "work": {
+            "color": "#90A4AE",
+            "text": "Work",
+            "pressNames":{
+                "nl":"Werk",
+                "en":"Work",
+                "bg":"Работа"
+            }
+        },
+        "software": {
+            "color": "#E0E0E0",
+            "text": "Software",
+            "pressNames":{
+                "nl":"Software",
+                "en":"Software",
+                "bg":"Софтуер"
+            }
         }
     },
     "faculties": {
@@ -87,6 +204,7 @@
                         "bg":"Други"
                     }
                 }
+                
             },
             "programmes": {
                 "common": {
