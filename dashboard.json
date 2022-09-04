@@ -480,7 +480,125 @@
                     "name": "Food & supermarkets",
                     "abbr": "all things supermarket related",
                     "links": [
-
+                        {
+                            "name": "De Hoven",
+                            "keywords": {
+                                "en": ["tag", "link", "mall", "hoven", "products"],
+                                "nl": ["tag", "link", "mall", "hoven", "products"],
+                                "bg": ["таг", "линк", "мол", "ховен", "продукти"]
+                            },
+                            "tags": [
+                                "mall"
+                            ],
+                            "nl": {
+                                "desc": "De Hoven is een winkelcentrum met super veel verschillende winkels voor alles van kleding tot snoep.",
+                                "link": "https://www.de-hovenpassage.nl/"
+                            },
+                            "en": {
+                                "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
+                                "link": "https://www.de-hovenpassage.nl/"
+                            },
+                            "bg": {
+                                "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
+                                "link": "https://www.de-hovenpassage.nl/"
+                            }
+                        },
+                        {
+                            "name": "COOP",
+                            "keywords": {
+                                "en": ["tag", "link", "supermarket", "groceries", "coop", "food"],
+                                "nl": ["tag", "link", "supermarket", "groceries", "coop", "food"],
+                                "bg": ["таг", "линк", "супермаркет", "стоки", "кооп", "храна", "кууп"]
+                            },
+                            "tags": [
+                                "food"
+                            ],
+                            "nl": {
+                                "desc": "COOP is een supermarkt keten met veel verschillende winkels in Delft",
+                                "link": "https://www.ah.nl/"
+                            },
+                            "en": {
+                                "desc": "COOP is a supermarket franchise with lots of shops in Delft.",
+                                "link": "https://www.ah.nl/"
+                            },
+                            "bg": {
+                                "desc": "COOP са верига супермаркети с много магазини в Делфт.",
+                                "link": "https://www.ah.nl"
+                            }
+                        },
+                        {
+                            "name": "Jumbo",
+                            "keywords": {
+                                "en": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                                "nl": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                                "bg": ["таг", "линк", "супермаркет", "стоки", "джъмбо", "храна"]
+                            },
+                            "tags": [
+                                "food",
+                                "domestic"
+                            ],
+                            "nl": {
+                                "desc": "Jumbo is een supermarkt keten met veel verschillende winkels in Delft",
+                                "link": "https://www.jumbo.com"
+                            },
+                            "en": {
+                                "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
+                                "link": "https://www.jumbo.com"
+                            },
+                            "bg": {
+                                "desc": "Jumbo е верига супермаркети с много магазини в Делфт.",
+                                "link": "https://www.jumbo.com"
+                            }
+                        },
+                        {
+                            "name": "Albert Heijn",
+                            "keywords": {
+                                "en": ["tag", "link", "supermarket", "groceries", "albert", "heijn", "food"],
+                                "nl": ["tag", "link", "supermarket", "groceries", "albert", "heijn", "food"],
+                                "bg": ["таг", "линк", "супермаркет", "стоки", "албърт", "хайн", "храна", "хейн", "албарт"]
+                            },
+                            "tags": [
+                                "food",
+                                "domestic"
+                            ],
+                            "nl": {
+                                "desc": "Albert Heijn is een supermarkt keten met veel verschillende winkels in Delft",
+                                "link": "https://www.ah.nl/",
+                                "presName": "Openingstijden Jumbo op het Bastiaansplein",
+                                "onlyEng": false
+                            },
+                            "en": {
+                                "desc": "Albert Heijn is a supermarket franchise with lots of shops in Delft.",
+                                "link": "https://www.ah.nl/"
+                            },
+                            "bg": {
+                                "desc": "Albert Heijn е верига супермаркети с много магазини в Делфт.",
+                                "link": "https://www.ah.nl"
+                            }
+                        },
+                        {
+                            "name": "Jumbo Products",
+                            "keywords": {
+                                "en": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                                "nl": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                                "bg": ["таг", "линк", "супермаркет", "стоки", "джъмбо", "храна"]
+                            },
+                            "tags": [
+                                "food"
+                            ],
+                            "nl": {
+                                "desc": "Gratis producten bij Jumbo door de laagsteprijsgarantie.",
+                                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
+                            },
+                            "en": {
+                                "desc": "Free products at Jumbo through the lowest price guarantee.",
+                                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
+                            },
+                            "bg": {
+                                "desc": "Безплатни продукти в Jumbo чрез услугата the lowest price guarantee (гарантирано най-ниска цена).",
+                                "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
+                            }
+                        }
                     ]
                 },
                 "housing": {
