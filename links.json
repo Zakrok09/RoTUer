@@ -146,48 +146,6 @@
             },
             "links": [
                 {
-                    "name": "MyTimetable",
-                    "keywords": {
-                        "en": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ],
-                        "nl": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ],
-                        "bg": [
-                            "school",
-                            "tudelft",
-                            "schedule",
-                            "MyTimetable",
-                            "timetable"
-                        ]
-                    },
-                    "tags": [
-                        "new",
-                        "uni"
-                    ],
-                    "nl": {
-                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "en": {
-                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    },
-                    "bg": {
-                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
-                        "link": "https://mytimetable.tudelft.nl/schedule"
-                    }
-                },
-                {
                     "name": "De Hoven",
                     "keywords": {
                         "en": ["tag", "link", "de hoven", "mall"],
@@ -540,6 +498,35 @@
                 }
             ],
             "extralinks": [
+                {
+                    "name": "Daily life in the Netherlands",
+                    "keywords": {
+                        "en": [
+                            "test"
+                        ],
+                        "nl": [
+                            "test"
+                        ],
+                        "bg": [
+                            "test"
+                        ]
+                    },
+                    "tags": [
+                        "Extra"
+                    ],
+                    "nl": {
+                        "desc": "A general guide to living in the Netherlands as an expatriate",
+                        "link": "https://www.xpat.nl/expat-netherlands/living-in-holland/"
+                    },
+                    "en": {
+                        "desc": "A general guide to living in the Netherlands as an expatriate",
+                        "link": "https://www.xpat.nl/expat-netherlands/living-in-holland/"
+                    },
+                    "bg": {
+                        "desc": "Общ наръчник за живота в Нидерландия като чужденец",
+                        "link": "https://www.xpat.nl/expat-netherlands/living-in-holland/"
+                    }
+                },
                 {
                     "name": "AH Budget Recipes",
                     "keywords": {
@@ -1068,6 +1055,283 @@
                     "bg": {
                         "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "🔥 TU Delft",
+            "description": {
+                "en": "🧾 This section contains links related to TU Delft itself. Those links can be accessed easier from the dashboard",
+                "nl": "🧾 Deze sectie bevat links over de TU Delft zelf. Het is makkelijker om gebruik te maken van deze links in het dashboard.",
+                "bg": "🧾 Тази секция е за линкове свързани със самия университет. Можете да ги разгледате по-лесно чрез таблото"
+            },
+            "links": [
+                {
+                    "name": "MyTimetable",
+                    "keywords": {
+                        "en": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "nl": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ],
+                        "bg": [
+                            "school",
+                            "tudelft",
+                            "schedule",
+                            "MyTimetable",
+                            "timetable"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "en": {
+                        "desc": "The MyTimetable website shows the timetable at TU Delft.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    },
+                    "bg": {
+                        "desc": "Уебстраницата MyTimetable показва графика в ТУ Делфт.",
+                        "link": "https://mytimetable.tudelft.nl/schedule"
+                    }
+                },
+                {
+                    "name": "Student Portal",
+                    "keywords": {
+                        "en": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ],
+                        "nl": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ],
+                        "bg": [
+                            "portal",
+                            "school",
+                            "tudelft",
+                            "student"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The student portal with loads of information from TUD",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    },
+                    "en": {
+                        "desc": "The student portal with loads of information from TUD",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    },
+                    "bg": {
+                        "desc": "Студентски портал с много информацич от ТУД",
+                        "link": "https://www.tudelft.nl/en/student/"
+                    }
+                },{
+                    "name": "TU Delft Library",
+                    "keywords": {
+                        "en": [
+                            "library",
+                            "room",
+                            "project"
+                        ],
+                        "nl": [
+                            "library",
+                            "room",
+                            "project"
+                        ],
+                        "bg": [
+                            "library",
+                            "room",
+                            "project"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    },
+                    "en": {
+                        "desc": "The library of TU Delft. You can book books and rooms for teams here",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    },
+                    "bg": {
+                        "desc": "Библиотеката на ТУД. Можете да запзвате книги и стаи тук.",
+                        "link": "https://tudelftlibrary.mapiq.net/library"
+                    }
+                },{
+                    "name": "TU Delft Webmail",
+                    "keywords": {
+                        "en": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ],
+                        "nl": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ],
+                        "bg": [
+                            "mail",
+                            "web",
+                            "tudelft"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "Your student webmail",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "en": {
+                        "desc": "Your student webmail",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "bg": {
+                        "desc": "Студентския Ви мейл",
+                        "link": "https://webmail.tudelft.nl"
+                    }
+                },{
+                    "name": "TU Delft X",
+                    "keywords": {
+                        "en": [
+                            "x",
+                            "sport",
+                            "tudelft",
+                            "timetable"
+                        ],
+                        "nl": [
+                            "x",
+                            "sport",
+                            "tudelft",
+                            "timetable"
+                        ],
+                        "bg": [
+                            "x",
+                            "sport",
+                            "tudelft",
+                            "timetable"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "The timetable of the X subscription of TU Delft. From here you can book a cool ticket hour.",
+                        "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                    },
+                    "en": {
+                        "desc": "The timetable of the X subscription of TU Delft. From here you can book a cool ticket hour.",
+                        "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                    },
+                    "bg": {
+                        "desc": "Разписанието на абонамента X в ТУ Делфт. От тук може да се запишете на готин урок.",
+                        "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                    }
+                },{
+                    "name": "Study Start",
+                    "keywords": {
+                        "en": [
+                            "start",
+                            "help",
+                            "website",
+                            "study",
+                            "where",
+                            "info",
+                            "tudelft"
+                        ],
+                        "nl": [
+                            "start",
+                            "help",
+                            "website",
+                            "study",
+                            "where",
+                            "info",
+                            "tudelft"
+                        ],
+                        "bg": [
+                            "start",
+                            "help",
+                            "website",
+                            "study",
+                            "where",
+                            "info",
+                            "tudelft"
+                        ]
+                    },
+                    "tags": [
+                        "uni"
+                    ],
+                    "nl": {
+                        "desc": "TU Delft website with loads of information about the start of your study",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "en": {
+                        "desc": "TU Delft website with loads of information about the start of your study",
+                        "link": "https://webmail.tudelft.nl"
+                    },
+                    "bg": {
+                        "desc": "Сайт на университета с много информация относно началото на Вашето обучение",
+                        "link": "https://webmail.tudelft.nl"
+                    }
+                }
+            ],
+            "extralinks": [
+                {
+                    "name": "OV Chipkaart",
+                    "keywords": {
+                        "en": [
+                            "chipkaart",
+                            "ov",
+                            "transport"
+                        ],
+                        "nl": [
+                            "chipkaart",
+                            "ov",
+                            "transport"
+                        ],
+                        "bg": [
+                            "chipkaart",
+                            "ov",
+                            "transport"
+                        ]
+                    },
+                    "tags": [
+                        "service"
+                    ],
+                    "nl": {
+                        "desc": "The OV-Chipkaart is a convenient way to use the public transport in NL.",
+                        "link": "https://www.ov-chipkaart.nl/home.htm#/"
+                    },
+                    "en": {
+                        "desc": "The OV-Chipkaart is a convenient way to use the public transport in NL.",
+                        "link": "https://www.ov-chipkaart.nl/home.htm#/"
+                    },
+                    "bg": {
+                        "desc": "ОВ-Чипкаарт-а е удобен начин да ползвате градския транспорт в Нидерландия",
+                        "link": "https://www.ov-chipkaart.nl/home.htm#/"
                     }
                 }
             ]
