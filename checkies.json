@@ -48,7 +48,7 @@
     },
     "checkies":[
         {
-            "name": "Testing",
+            "name": "Groceries",
             "keywords": {
                 "en": [
                     "test",
@@ -64,15 +64,15 @@
                 ]
             },
             "tags": [
-                "interested",
                 "new",
-                "justArrived"
+                "justArrived",
+                "settled"
             ],
-            "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88",
-            "relevantLinks":["Just landed","I am expat","Jumbo","De Hoven"]
+            "text": "When living in the Netherlands it is important that you know where to get your groceries. In the Netherlands most people get there groceries from supermarkets such as Jumbo and Albert Heijn. We suggest that you visit each of these supermarkets atleast once so you can find out which one you prefer. Some information about supermarkets in Delft is provided under relevant links.",
+            "relevantLinks":["COOP","Jumbo","Albert Heijn"]
         },
         {
-            "name": "Testing Again",
+            "name": "Home Appliances",
             "keywords": {
                 "en": [
                     "test",
@@ -88,11 +88,36 @@
                 ]
             },
             "tags": [
-                "coming",
-                "new"
+                "new",
+                "justArrived",
+                "settled"
             ],
-            "text": "mneakjfnapoij pakje poiajfpaije pofjlkmnvlckpaeoif poijplakjfpaoije paojd f;alksjd fa;oie fjpalksjd f;alskj fpeiohgpasi",
-            "relevantLinks":["linkedin","Learn Dutch"]
+            "text": "It is important that you have home appliances such as a microwave, fridge etc. It might be difficult to find these home appliances for a cheap price and or high quality. That is why we suggest you take a look at Action, Blokker or Hema.",
+            "relevantLinks":["Action","Blokker","Hema"]
+        },
+        {
+            "name": "Job",
+            "keywords": {
+                "en": [
+                    "test",
+                    "checkie"
+                ],
+                "nl": [
+                    "test",
+                    "checkie"
+                ],
+                "bg": [
+                    "test",
+                    "checkie"
+                ]
+            },
+            "tags": [
+                "new",
+                "justArrived",
+                "settled"
+            ],
+            "text": "It is important that you have a job so that you can finance the student life. It can be quite hard to find a job so we hope that you are able to find something that fits with you under the relevant links.",
+            "relevantLinks":["Jobs.nl","Jumbo Jobs","Grab Jobs"]
         }
     ]
 }
