@@ -2,11 +2,11 @@
     "tags": {
         "new": {
             "color": "#056AF7",
-            "text": "new",
+            "text": "New",
             "pressNames":{
-                "nl":"new",
-                "en":"new",
-                "bg":"new"
+                "nl":"New",
+                "en":"Neuwe",
+                "bg":"Ново"
             }
         }, 
         "tudelft": {
@@ -18,13 +18,40 @@
                 "bg":"ТУ Делфт"
             }
         }, 
+        "service": {
+            "color": "#448c42",
+            "text": "service",
+            "pressNames":{
+                "nl":"Service",
+                "en":"Service",
+                "bg":"Услуга"
+            }
+        }, 
         "tool": {
             "color": "#eb6628",
             "text": "tool",
             "pressNames":{
-                "nl":"Tool",
+                "nl":"Hulpmiddel",
                 "en":"Tool",
                 "bg":"Инструмент"
+            }
+        }, 
+        "association": {
+            "color": "#cf179e",
+            "text": "association",
+            "pressNames":{
+                "nl":"Studentenvereniging",
+                "en":"Student Association",
+                "bg":"Студентска Асоциация"
+            }
+        }, 
+        "external": {
+            "color": "#5e5e5e",
+            "text": "external",
+            "pressNames":{
+                "nl":"External",
+                "en":"External",
+                "bg":"Външен сайт"
             }
         }
     },
@@ -74,7 +101,6 @@
                                 ]
                             },
                             "tags": [
-                                "new",
                                 "tudelft"
                             ],
                             "nl": {
@@ -181,9 +207,8 @@
                                 ]
                             },
                             "tags": [
-                                "new",
-                                "tool",
-                                "tudelft"
+                                "tudelft",
+                                "tool"
                             ],
                             "nl": {
                                 "desc": "Your student webmail",
@@ -195,6 +220,90 @@
                             },
                             "bg": {
                                 "desc": "Студентския Ви мейл",
+                                "link": "https://webmail.tudelft.nl"
+                            }
+                        },{
+                            "name": "TU Delft X",
+                            "keywords": {
+                                "en": [
+                                    "x",
+                                    "sport",
+                                    "tudelft",
+                                    "timetable"
+                                ],
+                                "nl": [
+                                    "x",
+                                    "sport",
+                                    "tudelft",
+                                    "timetable"
+                                ],
+                                "bg": [
+                                    "x",
+                                    "sport",
+                                    "tudelft",
+                                    "timetable"
+                                ]
+                            },
+                            "tags": [
+                                "tudelft",
+                                "service"
+                            ],
+                            "nl": {
+                                "desc": "The timetable of the X subscription of TU Delft. From here you can book a cool ticket hour.",
+                                "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                            },
+                            "en": {
+                                "desc": "The timetable of the X subscription of TU Delft. From here you can book a cool ticket hour.",
+                                "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                            },
+                            "bg": {
+                                "desc": "Разписанието на абонамента X в ТУ Делфт. От тук може да се запишете на готин урок.",
+                                "link": "https://www.tudelft.nl/en/x/whats-on-offer/timetable"
+                            }
+                        },{
+                            "name": "Study Start",
+                            "keywords": {
+                                "en": [
+                                    "start",
+                                    "help",
+                                    "website",
+                                    "study",
+                                    "where",
+                                    "info",
+                                    "tudelft"
+                                ],
+                                "nl": [
+                                    "start",
+                                    "help",
+                                    "website",
+                                    "study",
+                                    "where",
+                                    "info",
+                                    "tudelft"
+                                ],
+                                "bg": [
+                                    "start",
+                                    "help",
+                                    "website",
+                                    "study",
+                                    "where",
+                                    "info",
+                                    "tudelft"
+                                ]
+                            },
+                            "tags": [
+                                "tudelft"
+                            ],
+                            "nl": {
+                                "desc": "TU Delft website with loads of information about the start of your study",
+                                "link": "https://webmail.tudelft.nl"
+                            },
+                            "en": {
+                                "desc": "TU Delft website with loads of information about the start of your study",
+                                "link": "https://webmail.tudelft.nl"
+                            },
+                            "bg": {
+                                "desc": "Сайт на университета с много информация относно началото на Вашето обучение",
                                 "link": "https://webmail.tudelft.nl"
                             }
                         }
@@ -244,8 +353,8 @@
                                 ]
                             },
                             "tags": [
-                                "new",
-                                "tool"
+                                "tool",
+                                "new"
                             ],
                             "nl": {
                                 "desc": "still none",
@@ -276,6 +385,7 @@
                                 ]
                             },
                             "tags": [
+                                "association",
                                 "new"
                             ],
                             "nl": {
@@ -289,6 +399,39 @@
                             "bg": {
                                 "desc": "Страницата на CH - студенстката асоциация за CSE и математика",
                                 "link": "https://ch.tudelft.nl/"
+                            }
+                        },{
+                            "name": "Codecademy",
+                            "keywords": {
+                                "en": [
+                                    "study",
+                                    "coding"
+                                ],
+                                "nl": [
+                                    "study",
+                                    "coding"
+                                ],
+                                "bg": [
+                                    "study",
+                                    "coding"
+                                ]
+                            },
+                            "tags": [
+                                "external",
+                                "tool",
+                                "new"
+                            ],
+                            "nl": {
+                                "desc": "A cool website for programming courses (used by some of the developers of RoTUer)",
+                                "link": "https://www.codecademy.com/"
+                            },
+                            "en": {
+                                "desc": "A cool website for programming courses (used by some of the developers of RoTUer)",
+                                "link": "https://www.codecademy.com/"
+                            },
+                            "bg": {
+                                "desc": "Готин уебсайт за курсове по програмиране (позлван от някои от разработчиците на RoTUer)",
+                                "link": "https://www.codecademy.com/"
                             }
                         }
                     ]
