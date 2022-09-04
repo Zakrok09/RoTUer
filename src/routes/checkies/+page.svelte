@@ -67,8 +67,9 @@
     }
 
     .behindCheckies {
-        background-image: url("/background/bubbleBackground.svg");
-        background-size: cover;
+        background-image: url("/background/curvy3.svg");
+        background-size: 100%;
+        background-repeat: repeat-y;
         color: whitesmoke;
     }
 

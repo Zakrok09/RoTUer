@@ -9,7 +9,6 @@
     export let linkTagsObject = [];
     export let relevantLinks = [];
 
-    console.log(linkTagsObject)
     let checked = false;
     let showDesc = false;
     let showVariable = "show";
@@ -42,7 +41,6 @@
                     {/if}
                 {/each}
             </div>
-            <!-- <button disabled="true" class="showmore" on:click={()=> handleCheck(id)}>Show description</button> -->
         </div>    
     </div>
 {:else}
