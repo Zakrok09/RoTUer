@@ -4,8 +4,8 @@
             "color": "#056AF7",
             "text": "New",
             "pressNames":{
-                "nl":"New",
-                "en":"Neuwe",
+                "nl":"Neuwe",
+                "en":"New",
                 "bg":"Ново"
             }
         }, 
@@ -16,6 +16,15 @@
                 "nl":"TU Delft",
                 "en":"TU Delft",
                 "bg":"ТУ Делфт"
+            }
+        }, 
+        "info": {
+            "color": "#a62e98",
+            "text": "info",
+            "pressNames":{
+                "nl":"Info",
+                "en":"Info",
+                "bg":"Инфо"
             }
         }, 
         "service": {
@@ -101,7 +110,8 @@
                                 ]
                             },
                             "tags": [
-                                "tudelft"
+                                "tudelft",
+                                "tool"
                             ],
                             "nl": {
                                 "desc": "The MyTimetable website shows the timetable at TU Delft.",
@@ -139,7 +149,8 @@
                                 ]
                             },
                             "tags": [
-                                "tudelft"
+                                "tudelft",
+                                "info"
                             ],
                             "nl": {
                                 "desc": "The student portal with loads of information from TUD",
@@ -173,7 +184,8 @@
                                 ]
                             },
                             "tags": [
-                                "tudelft"
+                                "tudelft",
+                                "service"
                             ],
                             "nl": {
                                 "desc": "The library of TU Delft. You can book books and rooms for teams here",
@@ -292,7 +304,8 @@
                                 ]
                             },
                             "tags": [
-                                "tudelft"
+                                "tudelft",
+                                "info"
                             ],
                             "nl": {
                                 "desc": "TU Delft website with loads of information about the start of your study",
@@ -515,7 +528,7 @@
                                 "tool"
                             ],
                             "nl": {
-                                "desc": "still none",
+                                "desc": "Very useful website for Computer Science",
                                 "link": "https://cshub.nl"
                             },
                             "en": {
