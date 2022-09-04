@@ -148,9 +148,9 @@
                 {
                     "name": "De Hoven",
                     "keywords": {
-                        "en": ["tag", "link", "mall"],
-                        "nl": ["tag", "link", "mall"],
-                        "bg": ["таг", "линк", "мол"]
+                        "en": ["tag", "link", "mall", "hoven", "products"],
+                        "nl": ["tag", "link", "mall", "hoven", "products"],
+                        "bg": ["таг", "линк", "мол", "ховен", "продукти"]
                     },
                     "tags": [
                         "mall"
@@ -171,9 +171,9 @@
                 {
                     "name": "COOP",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "supermarket", "groceries", "coop", "food"],
+                        "nl": ["tag", "link", "supermarket", "groceries", "coop", "food"],
+                        "bg": ["таг", "линк", "супермаркет", "стоки", "кооп", "храна", "кууп"]
                     },
                     "tags": [
                         "new",
@@ -195,9 +195,9 @@
                 {
                     "name": "Jumbo",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                        "nl": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                        "bg": ["таг", "линк", "супермаркет", "стоки", "джъмбо", "храна"]
                     },
                     "tags": [
                         "food",
@@ -212,16 +212,16 @@
                         "link": "https://www.jumbo.com"
                     },
                     "bg": {
-                        "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
+                        "desc": "Jumbo е верига супермаркети с много магазини в Делфт.",
                         "link": "https://www.jumbo.com"
                     }
                 },
                 {
                     "name": "Albert Heijn",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "supermarket", "groceries", "albert", "heijn", "food"],
+                        "nl": ["tag", "link", "supermarket", "groceries", "albert", "heijn", "food"],
+                        "bg": ["таг", "линк", "супермаркет", "стоки", "албърт", "хайн", "храна", "хейн", "албарт"]
                     },
                     "tags": [
                         "food",
@@ -238,20 +238,19 @@
                         "link": "https://www.ah.nl/"
                     },
                     "bg": {
-                        "desc": "Jumbo is a supermarket franchise with lots of shops in Delft.",
+                        "desc": "Albert Heijn е верига супермаркети с много магазини в Делфт.",
                         "link": "https://www.ah.nl"
                     }
                 },
                 {
                     "name": "Jumbo Products",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                        "nl": ["tag", "link", "supermarket", "groceries", "jumbo", "food"],
+                        "bg": ["таг", "линк", "супермаркет", "стоки", "джъмбо", "храна"]
                     },
                     "tags": [
-                        "food",
-                        "domestic"
+                        "food"
                     ],
                     "nl": {
                         "desc": "Gratis producten bij Jumbo door de laagsteprijsgarantie.",
@@ -262,16 +261,16 @@
                         "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
                     },
                     "bg": {
-                        "desc": "Free products at Jumbo through the lowest price guarantee.",
+                        "desc": "Безплатни продукти в Jumbo чрез услугата the lowest price guarantee (гарантирано най-ниска цена).",
                         "link": "https://www.jumbo.com/inspiratie/voordeel/lpg"
                     }
                 },
                 {
                     "name": "Action",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "action", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                        "nl": ["tag", "link", "action", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                        "bg": ["таг", "линк", "акшън", "акшан", "технологии", "дом", "потреби", "домашни", "джаджи", "уреди"]
                     },
                     "tags": [
                         "home appliances"
@@ -292,9 +291,9 @@
                 {
                     "name": "Blokker",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "blokker", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                        "nl": ["tag", "link", "blokker", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                        "bg": ["таг", "линк", "акшън", "акшан", "технологии", "дом", "потреби", "домашни", "джаджи", "уреди", "кухня"]
                     },
                     "tags": [
                         "home appliances"
