@@ -71,6 +71,8 @@
         background-size: 100%;
         background-repeat: repeat-y;
         color: whitesmoke;
+        padding-bottom: 15px;
+        padding-top: 10px;
     }
 
     
