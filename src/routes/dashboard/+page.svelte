@@ -129,16 +129,31 @@
     }
 </script>
 
+<svelte:head>
+    <style>
+        body {
+            background-color: #24313d;
+        }
+    </style>
+</svelte:head>
+
 <HEAD title="Dashboard" metadescription="The dashboard is that cool place where you have quick access to all the links related to your study program! Come to read or contribute!" />
 
 <main>
-    <div class="landingSite">
-        <img src="/isometric/logo.svg" alt="The logo of RoTUer">
-        <h1 tabindex="0">RoTUer</h1>
-        <i>{$t("dashboard.underheading")}</i>
-    </div>
-    
     <div class="restOfPage">
+        <div class="underDashBg">
+            <div class="linkToFaculties">
+                <h2>Need something related to your faculty?</h2>
+                <p>Currently available faculties:</p>
+                <div class="facultyLinks">
+                    {#each facultiesArray as faculty}
+                        {#if faculty !== "tudelft"}
+                            <a class="linkToFaculty" href="/dashboard/{faculty}">{faculty}</a>
+                        {/if}
+                    {/each}
+                </div>
+            </div>
+        </div>
         <div class="dashboardBg">
             <div class="dashboard">
                 <div class="filters">
@@ -174,24 +189,16 @@
                 </div>
             </div>
         </div>
-        <div class="underDashBg">
-            <div class="linkToFaculties">
-                <h2>Need something related to your faculty?</h2>
-                <p>Currently available faculties:</p>
-                <div class="facultyLinks">
-                    {#each facultiesArray as faculty}
-                        {#if faculty !== "tudelft"}
-                            <a class="linkToFaculty" href="/dashboard/{faculty}">{faculty}</a>
-                        {/if}
-                    {/each}
-                </div>
-            </div>
-        </div>
     </div>
 </main>
 
 <style lang="scss">
     $contrast_header: #24313d;
+
+    .restOfPage {
+        background-image: url("/background/dashboard.svg");
+        background-size: cover;
+    }
 
     .facultyLinks {
         display: flex;
@@ -222,7 +229,6 @@
     .underDashBg {
         position: relative;
         margin-top: -1px;
-        background-image: url("/background/simpleshiny.svg");
         background-size: cover;
     }
 
@@ -273,7 +279,6 @@
     }
 
     .dashboardBg {
-        background-image: url("/background/bubbleBackground.svg");
         width: 100vw;
         padding-top: 20px;
         display: flex;
@@ -334,26 +339,6 @@
         font-size: 0.8rem;
         cursor: pointer;
         height: 40px;
-    }
-
-    .landingSite {
-        padding-top: 70px;
-        padding-bottom: 200px;
-        font-family: 'Oxygen', sans-serif;
-        text-align: center;
-
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        i {
-            font-size: 0.9rem;
-        }
-
-        img {
-            width: 300px;
-            display: inline;
-        }
     }
 
     

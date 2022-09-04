@@ -2,16 +2,13 @@
     import { t } from "$lib/translations/i18n";
     import Linkbox from "$lib/Reusable/Linkbox.svelte";
     import HEAD from "$lib/Metadata/HEAD.svelte";
+    import LandingSite from "$lib/PageComponents/LandingSite.svelte";
 </script>
 
 <HEAD title="Home" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
 
 <main>
-    <div class="landingSite">
-        <img src="/isometric/logo.svg" alt="The logo of RoTUer">
-        <h1 tabindex="0">RoTUer</h1>
-        <i>{$t("homepage.underheading")}</i>
-    </div>
+    <LandingSite underheading={$t("homepage.underheading")} />
     <div class="landingSection secondLandingSection">
         <div class="leftSecond">
             <h2>🚀 {$t("homepage.firstSection.question")}</h2>
@@ -98,38 +95,6 @@
     * {
         font-family: 'Oxygen', sans-serif;
     }
-
-    .landingSite {
-        padding-top: 70px;
-        padding-bottom: 200px;
-        font-family: 'Oxygen', sans-serif;
-        text-align: center;
-
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        i {
-            font-size: 0.9rem;
-            margin: 0px 20px;
-        }
-
-        img {
-            width: 300px;
-            display: inline;
-        }
-    }
-
-    h1 {
-        font-size: 1.6em;
-        color: #4e5166;
-    }
-
-    // #logo {
-    //     font-size: 5em;
-    //     text-decoration: none;
-    //     color: black;
-    // }
 
     .secondLandingSection {
         background-image: url("/background/bubbleBackground.svg");

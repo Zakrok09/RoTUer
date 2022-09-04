@@ -128,15 +128,17 @@
     }
 </script>
 
+<svelte:head>
+    <style>
+        body {
+            background-color: #24313d;
+        }
+    </style>
+</svelte:head>
+
 <HEAD title="Dashboard {faculty.abbr}" metadescription="This is the dashboard for students from {faculty.name} ({faculty.abbr})" />
 
 <main>
-    <div class="landingSite">
-        <img src="/isometric/logo.svg" alt="The logo of RoTUer">
-        <h1 tabindex="0">RoTUer</h1>
-        <i>{$t("dashboard.underheading")}</i>
-    </div>
-    
     <div class="dashboardBg">
         <div class="dashboard">
             <div class="filters">
@@ -177,6 +179,11 @@
 <style lang="scss">
     $contrast_header: #24313d;
 
+    .dashboardBg {
+        background-image: url("/background/dashboard.svg");
+        background-size: cover;
+    }
+
     .panelHead {
         h2, p {
             color: #24313d;
@@ -206,7 +213,6 @@
     }
 
     .dashboardBg {
-        background-image: url("/background/bubbleBackground.svg");
         width: 100vw;
         padding-top: 20px;
         display: flex;
@@ -267,26 +273,6 @@
         font-size: 0.8rem;
         cursor: pointer;
         height: 40px;
-    }
-
-    .landingSite {
-        padding-top: 70px;
-        padding-bottom: 200px;
-        font-family: 'Oxygen', sans-serif;
-        text-align: center;
-
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-
-        i {
-            font-size: 0.9rem;
-        }
-
-        img {
-            width: 300px;
-            display: inline;
-        }
     }
 
     
