@@ -230,6 +230,15 @@
                         "en":"Others",
                         "bg":"Други"
                     }
+                },
+                "extrahelpful": {
+                    "color": "#056AF7",
+                    "text": "Extra Helpful",
+                    "pressNames":{
+                        "nl":"Extra Helpful",
+                        "en":"Extra Helpful",
+                        "bg":"Екстра полезно"
+                    }
                 }
                 
             },
