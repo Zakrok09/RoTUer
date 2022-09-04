@@ -318,15 +318,15 @@
                             ],
                             "nl": {
                                 "desc": "TU Delft website with loads of information about the start of your study",
-                                "link": "https://webmail.tudelft.nl"
+                                "link": "https://www.tudelft.nl/studenten/onderwijs/studiestart"
                             },
                             "en": {
                                 "desc": "TU Delft website with loads of information about the start of your study",
-                                "link": "https://webmail.tudelft.nl"
+                                "link": "https://www.tudelft.nl/en/student/education/study-start"
                             },
                             "bg": {
                                 "desc": "Сайт на университета с много информация относно началото на Вашето обучение",
-                                "link": "https://webmail.tudelft.nl"
+                                "link": "https://www.tudelft.nl/en/student/education/study-start"
                             }
                         }
                     ]
