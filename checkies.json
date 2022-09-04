@@ -36,7 +36,7 @@
                 "bg":"Just arrived"
             }
         },
-        "Settled": {
+        "settled": {
             "color": "#056AF7",
             "text": "Settled",
             "pressNames":{
@@ -65,7 +65,8 @@
             },
             "tags": [
                 "interested",
-                "new"
+                "new",
+                "justArrived"
             ],
             "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88",
             "relevantLinks":["Just landed","I am expat"]
