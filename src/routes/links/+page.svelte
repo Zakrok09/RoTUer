@@ -50,13 +50,13 @@
             activeTag = e.detail;
         }
     }
-    
+
     /**
-     * This function checks if the chosen tag exists in the links tags. 
-     * As a first parametar you should always use the tags array of a link (e.g. link.tags)
-     * As a second you must provide the 'text'/'title' of the tag in lower case (e.g. activeTag)
-     * @param {array} tagsOfLink Array of tags that a links contain
-     * @param {string} chosenTag String, representing the tag to be used for comparison
+     * This function filters out links that don't have the selected tag in their tags array.
+     * 
+     * This works by checking if an element (string) of the tags array of the link is the same (has the same text) as the chosenTag (String)
+     * @param {string[]} tagsOfLink - the array that holds the tags of the link
+     * @param {string} chosenTag - the tag will be used for sorting
      */
     function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
@@ -65,6 +65,13 @@
         return result;
     }
 
+    /**
+     * This function filters out links that don't have any keywords matching with the searchBoxKeywords array.
+     * 
+     * This works by checking if an element (string) of the keywords array of the link is the same (has the same text) as any element of the search box words array
+     * @param {string[]} linkKeywords - the array that holds the keywords of the link
+     * @param {string[]} searchBoxKeywords - the array that holds the keywords of the searchbox
+     */
     function containsKeyword(linkKeywords, searchBoxKeywords) {
         if (searchBoxKeywords.length === 1 && searchBoxKeywords[0] === "" ) return true;
         let result = false;
