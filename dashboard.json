@@ -222,6 +222,15 @@
                         "bg":"Услуги"
                     }
                 },
+                "jobs": {
+                    "color": "#056AF7",
+                    "text": "jobs",
+                    "pressNames":{
+                        "nl":"Jobs",
+                        "en":"Jobs",
+                        "bg":"Работа"
+                    }
+                },
                 "others": {
                     "color": "#056AF7",
                     "text": "Others",
@@ -1164,10 +1173,177 @@
                         }
                     ]
                 },
+                "jobs": {
+                    "name": "Jobs and work",
+                    "abbr": "all things jobs related",
+                    "links": [
+                        {
+                            "name": "linkedin",
+                            "keywords": {
+                                "en": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"],
+                                "nl": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"],
+                                "bg": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "LinkedIn is een sociaal media platform voor professioneel netwerken.",
+                                "link": "https://www.linkedin.com/jobs/jobs-in-delft"
+                            },
+                            "en": {
+                                "desc": "LinkedIn is a social media platform for professional networking.",
+                                "link": "https://www.linkedin.com/jobs/jobs-in-delft"
+                            },
+                            "bg": {
+                                "desc": "LinkedIn е социална платформа, където може да намериш много възможности за работа.",
+                                "link": "https://www.linkedin.com/jobs/jobs-in-delft"
+                            }
+                        },
+                        {
+                            "name": "I am expat",
+                            "keywords": {
+                                "en": ["tag", "link", "work", "jobs", "i", "am", "expat", "money", "job"],
+                                "nl": ["tag", "link", "work", "jobs", "i", "am", "expat", "money", "job"],
+                                "bg": ["tag", "link", "work", "jobs", "i", "am", "expat", "money"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "I am expat biedt openstaande vacatures aan in Delft.",
+                                "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
+                            },
+                            "en": {
+                                "desc": "I am expat offers jobs in Delft.",
+                                "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
+                            },
+                            "bg": {
+                                "desc": "I am expat предлага работа в Делфт.",
+                                "link": "https://www.iamexpat.nl/career/jobs-netherlands/delft"
+                            }
+                        },
+                        {
+                            "name": "Just landed",
+                            "keywords": {
+                                "en": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"],
+                                "nl": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"],
+                                "bg": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "Just landed biedt gidsen aan voor het vinden van werk, woonruimte etc. in Nederland.",
+                                "link": "https://www.justlanded.com/nederlands/Nederland/Werk"
+                            },
+                            "en": {
+                                "desc": "Just landed offers guides about how to find a job, housing etc. in the Netherlands.",
+                                "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
+                            },
+                            "bg": {
+                                "desc": "Just landed предлага помощ с търсенето на работа, жилище и др. в Нидерландия.",
+                                "link": "https://jobs.justlanded.com/en/Netherlands_South-Holland_Delft"
+                            }
+                        },
+                        {
+                            "name": "Jobs.nl",
+                            "keywords": {
+                                "en": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"],
+                                "nl": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"],
+                                "bg": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "Jobs.nl is een website die vacatures aanbiedt.",
+                                "link": "https://jobs.nl/"
+                            },
+                            "en": {
+                                "desc": "Jobs.nl is a website that offers jobs.",
+                                "link": "https://jobs.nl/"
+                            },
+                            "bg": {
+                                "desc": "Jobs.nl предлага оферти за работа.",
+                                "link": "https://jobs.nl/"
+                            }
+                        },
+                        {
+                            "name": "Jumbo jobs",
+                            "keywords": {
+                                "en": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"],
+                                "nl": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"],
+                                "bg": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "Op deze website vindt je de vacatures van supermarkt Jubmo.",
+                                "link": "https://nl.jobs.jumbo.com/nl/?ib=winkel_bekijk_alle_vacatures"
+                            },
+                            "en": {
+                                "desc": "On this website you can find the available jobs at supermarket Jubmo.",
+                                "link": "https://nl.jobs.jumbo.com/en/"
+                            },
+                            "bg": {
+                                "desc": "Jumbo jobs е уебстраница, който показва свободни позиций за работа в Jumbo.",
+                                "link": "https://nl.jobs.jumbo.com/en/"
+                            }
+                        },
+                        {
+                            "name": "Grab Jobs",
+                            "keywords": {
+                                "en": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"],
+                                "nl": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"],
+                                "bg": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"]
+                            },
+                            "tags": [
+                                "work"
+                            ],
+                            "nl": {
+                                "desc": "Grab Jobs biedt part-time vacatures aan voor werk door heel Nederland.",
+                                "link": "https://grabjobs.co/netherlands/part-time-jobs"
+                            },
+                            "en": {
+                                "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
+                                "link": "https://grabjobs.co/netherlands/part-time-jobs"
+                            },
+                            "bg": {
+                                "desc": "Grab Jobs предлага временни работи в цяла Нидерландия.",
+                                "link": "https://grabjobs.co/netherlands/part-time-jobs"
+                            }
+                        }
+                    ]
+                },
                 "others": {
                     "name": "Others",
                     "abbr": "Other cool links",
                     "links": [
+                        {
+                            "name": "Learn Dutch",
+                            "keywords": {
+                                "en": ["tag", "link", "dutch", "netherlands", "language", "speaking"],
+                                "nl": ["tag", "link", "dutch", "netherlands", "language", "speaking"],
+                                "bg": ["tag", "link", "dutch", "netherlands", "language", "speaking"]
+                            },
+                            "tags": [
+                                "learning"
+                            ],
+                            "nl": {
+                                "desc": "Learndutch.org is een website waar je Nederlands kan leren.",
+                                "link": "https://www.learndutch.org/"
+                            },
+                            "en": {
+                                "desc": "Learndutch.org is a website where you can study Dutch.",
+                                "link": "https://www.learndutch.org/"
+                            },
+                            "bg": {
+                                "desc": "Learndutch.org е уебстраница, където може да научиш Нидерландски.",
+                                "link": "https://www.learndutch.org/"
+                            }
+                        },
                         {
                             "name": "Marktplaats",
                             "keywords": {
@@ -1212,6 +1388,29 @@
                             "bg": {
                                 "desc": "Bol.com е онлайн магазин, където може да си поръчаш почти всичко.",
                                 "link": "https://www.bol.com/nl/nl/"
+                            }
+                        },
+                        {
+                            "name": "surfspot",
+                            "keywords": {
+                                "en": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"],
+                                "nl": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"],
+                                "bg": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"]
+                            },
+                            "tags": [
+                                "software"
+                            ],
+                            "nl": {
+                                "desc": "Surfspot verkoopt software en hardware.",
+                                "link": "https://www.surfspot.nl/"
+                            },
+                            "en": {
+                                "desc": "Surfspot sells software and hardware.",
+                                "link": "https://www.surfspot.nl/"
+                            },
+                            "bg": {
+                                "desc": "Surfspot предлага софтуери и хардуери.",
+                                "link": "https://www.surfspot.nl/"
                             }
                         }
                     ]
