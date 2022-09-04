@@ -605,7 +605,168 @@
                     "name": "Housing & more",
                     "abbr": "all things housing related",
                     "links": [
-                        
+                        {
+                            "name": "Action",
+                            "keywords": {
+                                "en": ["tag", "link", "action", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                                "nl": ["tag", "link", "action", "tech", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                                "bg": ["таг", "линк", "акшън", "акшан", "технологии", "дом", "потреби", "домашни", "джаджи", "уреди"]
+                            },
+                            "tags": [
+                                "home appliances"
+                            ],
+                            "nl": {
+                                "desc": "Action is een van de vele huishoudapparatuur ketens en is ook relatief goedkoop.",
+                                "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
+                            },
+                            "en": {
+                                "desc": "Action is one of the many home appliance franchises while also being on the budget side.",
+                                "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
+                            },
+                            "bg": {
+                                "desc": "Action е една от многото вериги за домакински пособия, докато е и добре за бюджета.",
+                                "link": "https://www.action.com/nl-nl/winkels/delft-papsouwselaan/"
+                            }
+                        },
+                        {
+                            "name": "Blokker",
+                            "keywords": {
+                                "en": ["tag", "link", "blokker", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                                "nl": ["tag", "link", "blokker", "home", "appliances", "gadgets", "kitchen", "domestic"],
+                                "bg": ["таг", "линк", "блокър", "блокар", "акшан", "дом", "потреби", "домашни", "джаджи", "уреди", "кухня"]
+                            },
+                            "tags": [
+                                "home appliances"
+                            ],
+                            "nl": {
+                                "desc": "Blokker is een van de vele huishoudapparatuur ketens.",
+                                "link": "https://www.blokker.nl/winkels/delft"
+                            },
+                            "en": {
+                                "desc": "Blokker is one of the many home appliance franchises.",
+                                "link": "https://www.blokker.nl/winkels/delft"
+                            },
+                            "bg": {
+                                "desc": "Blokker е една от многото вериги за домакински пособия.",
+                                "link": "https://www.blokker.nl/winkels/delft"
+                            }
+                        },
+                        {
+                            "name": "Hema",
+                            "keywords": {
+                                "en": ["tag", "link", "hema", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes"],
+                                "nl": ["tag", "link", "hema", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes"],
+                                "bg": ["таг", "линк", "хема", "дом", "потреби", "джаджи", "кухня", "уреди", "дрехи", "домашни"]
+                            },
+                            "tags": [
+                                "domestic",
+                                "home appliances"
+                            ],
+                            "nl": {
+                                "desc": "Hema is een van de vele huishoudapparatuur ketens.",
+                                "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
+                            },
+                            "en": {
+                                "desc": "Hema is one of the many home appliance franchises.",
+                                "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
+                            },
+                            "bg": {
+                                "desc": "Hema е една от многото вериги за домакински пособия.",
+                                "link": "https://winkels.hema.nl/hema-delft-e38177692e08"
+                            }
+                        },
+                        {
+                            "name": "Kik",
+                            "keywords": {
+                                "en": ["tag", "link", "kik", "clothes"],
+                                "nl": ["tag", "link", "kik", "clothes"],
+                                "bg": ["таг", "линк", "кик", "дрехи"]
+                            },
+                            "tags": [
+                                "clothes"
+                            ],
+                            "nl": {
+                                "desc": "KiK is een voordelige kledingwinkel.",
+                                "link": "https://www.de-hovenpassage.nl/winkels/kik/"
+                            },
+                            "en": {
+                                "desc": "Kik is a clothing store on the budget side.",
+                                "link": "https://www.de-hovenpassage.nl/winkels/kik/"
+                            },
+                            "bg": {
+                                "desc": "Kik е много бюджетен магазин за дрехи.",
+                                "link": "https://www.de-hovenpassage.nl/winkels/kik/"
+                            }
+                        },
+                        {
+                            "name": "Yelp",
+                            "keywords": {
+                                "en": ["tag", "link", "yelp", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "nl": ["tag", "link", "yelp", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "bg": ["таг", "линк", "йелп", "иелп", "дом", "технологии", "уреди", "джаджи", "кухня", "домашни", "потреби", "дрехи", "втора", "ръка", "втораръка", "мебели"]
+                            },
+                            "tags": [
+                                "second hand"
+                            ],
+                            "nl": {
+                                "desc": "Yelp is een website die helpt met het ontdekken van locale ondernemingen.",
+                                "link": "https://www.yelp.nl/search?dt=1&find_desc=kringloopwinkels&find_loc=Noord%2C+Delft%2C+zuid+holland"
+                            },
+                            "en": {
+                                "desc": "Yelp is a website that helps to discover local businesses.",
+                                "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland"
+                            },
+                            "bg": {
+                                "desc": "Yelp е уебстраница, която помага да намериш локални бизнеси.",
+                                "link": "https://www.yelp.com/search?cflt=thrift_stores&find_loc=Delft%2C+Zuid-Holland"
+                            }
+                        },
+                        {
+                            "name": "Rataplan",
+                            "keywords": {
+                                "en": ["tag", "link", "rataplan", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "nl": ["tag", "link", "rataplan", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "bg": ["таг", "линк", "ратаплан", "ратъплан", "дом", "технологии", "уреди", "джаджи", "кухня", "домашни", "потреби", "дрехи", "втора", "ръка", "втораръка", "мебели"]
+                            },
+                            "tags": [
+                                "second hand"
+                            ],
+                            "nl": {
+                                "desc": "RataPlan is een kringloopwinkel.",
+                                "link": "https://rataplan.nl/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
+                            },
+                            "en": {
+                                "desc": "RataPlan is a thrift store.",
+                                "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
+                            },
+                            "bg": {
+                                "desc": "RataPlan е магазин втора ръка.",
+                                "link": "https://rataplan.nl/en/rataplan-kringloopwinkels/kringloopwinkel-rataplan-delft/"
+                            }
+                        },
+                        {
+                            "name": "Delta",
+                            "keywords": {
+                                "en": ["tag", "link", "delta", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "nl": ["tag", "link", "delta", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "second-hand", "secondhand", "second", "hand", "forniture"],
+                                "bg": ["таг", "линк", "делта", "дом", "технологии", "уреди", "джаджи", "кухня", "домашни", "потреби", "дрехи", "втора", "ръка", "втораръка", "мебели"]
+                            },
+                            "tags": [
+                                "second hand"
+                            ],
+                            "nl": {
+                                "desc": "Delta bevat informatie over verschillende kringloopwinkels in Delft.",
+                                "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
+                            },
+                            "en": {
+                                "desc": "Delta contains information about different thrift stores in Delft.",
+                                "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
+                            },
+                            "bg": {
+                                "desc": "Delta съдържа информация за най-различни втора ръка магазини в Делфт.",
+                                "link": "https://www.delta.tudelft.nl/article/surviving-second-hand-shopping"
+                            }
+                        }
                     ]
                 },
                 "services": {
@@ -653,7 +814,52 @@
                     "name": "Others",
                     "abbr": "Other cool links",
                     "links": [
-                        
+                        {
+                            "name": "Marktplaats",
+                            "keywords": {
+                                "en": ["tag", "link", "marktplaats", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "forniture", "online", "house", "devices", "second-hand", "secondhand", "second", "hand"],
+                                "nl": ["tag", "link", "marktplaats", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "forniture", "online", "house", "devices", "second-hand", "secondhand", "second", "hand"],
+                                "bg": ["таг", "линк"]
+                            },
+                            "tags": [
+                                "domestic"
+                            ],
+                            "nl": {
+                                "desc": "Op Marktplaats kan je tweedehands spullen kopen of verkopen.",
+                                "link": "https://www.marktplaats.nl/"
+                            },
+                            "en": {
+                                "desc": "Marktplaats is a website where you can buy or sell second hand items.",
+                                "link": "https://www.marktplaats.nl/"
+                            },
+                            "bg": {
+                                "desc": "Marktplaats е уебстраница, където може да купиш и/или да продадеш втора ръка продукти.",
+                                "link": "https://www.marktplaats.nl/"
+                            }
+                        },
+                        {
+                            "name": "Bol",
+                            "keywords": {
+                                "en": ["tag", "link", "bol", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "forniture", "online", "house", "devices", "second-hand", "secondhand", "second", "hand"],
+                                "nl": ["tag", "link", "bol", "tech", "home", "appliances", "gadgets", "kitchen", "domestic", "clothes", "forniture", "online", "house", "devices", "second-hand", "secondhand", "second", "hand"],
+                                "bg": ["таг", "линк"]
+                            },
+                            "tags": [
+                                "domestic"
+                            ],
+                            "nl": {
+                                "desc": "Bol.com is een webwinkel waar je bijna alles kan bestellen.",
+                                "link": "https://www.bol.com/nl/nl/"
+                            },
+                            "en": {
+                                "desc": "Bol.com is a webshop where you can order almost anything.",
+                                "link": "https://www.bol.com/nl/nl/"
+                            },
+                            "bg": {
+                                "desc": "Bol.com е онлайн магазин, където може да си поръчаш почти всичко.",
+                                "link": "https://www.bol.com/nl/nl/"
+                            }
+                        }
                     ]
                 }
             }
