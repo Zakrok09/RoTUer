@@ -77,6 +77,15 @@
                         "en":"Common",
                         "bg":"Общи"
                     }
+                },
+                "others": {
+                    "color": "#056AF7",
+                    "text": "Others",
+                    "pressNames":{
+                        "nl":"Others",
+                        "en":"Others",
+                        "bg":"Други"
+                    }
                 }
             },
             "programmes": {
