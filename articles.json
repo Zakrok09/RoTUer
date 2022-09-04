@@ -39,6 +39,30 @@
     },
     "articles": [
         {
+            "name": "Update 1.1.0 of RoTUer",
+            "author": {
+                "name": "Zakrok09",
+                "link": "https://github.com/zakrok09"
+            },
+            "date": "September 4th, 2022",
+            "keywords": {
+                "en": [
+                    "article"
+                ],
+                "nl": [
+                    "article"
+                ],
+                "bg": [
+                    "article"
+                ]
+            },
+            "tags": [
+                "new",
+                "story"
+            ],
+            "text": "<h2 id=\"updateokbutwhatnow\">Update \"OK, but what now?\"</h2>\n<p><em>For a full update log see <a href=\"https://github.com/Zakrok09/RoTUer/discussions/54\">Update 1.1.0</a></em></p>\n<p>We are more than happy to release the new version for RoTUer. You can now see that the Dashboard took Links place as the page with all the valuable links. What's more, Checkies are also here!</p>\n<p>I want to thank all of you who suggested new features, design/code improvements and what not! I also want to thank our entire team - Praxidike. We did loads of work these days. </p>\n<h3 id=\"okbutforrealwhatnow\">OK but for real, what now?</h3>\n<p>Currently, our website architecture is ready and we only need to add links, so expect lot's of new ones almost every day! <em>We wanted to leave the easy stuff for when school comes</em></p>\n<p>We humbly ask you to submit a link if it…</p>\n<ul>\n<li>is a legitimate source of information</li>\n<li>is the official website of e.g. shops for textbooks</li>\n<li>does not contain any pirated content</li>\n</ul>\n<p>If you want to help streamline the process so we upload links even faster, please use <a href=\"https://rotuer.praxidike.org/teamtools/linksmaker\">our links maker</a></p>\n<p>You can do so by emailing [teampraxidike@protonmail.com](mailto:teampraxidike@protonmail.com?subject=Link Suggestion), <a href=\"https://github.com/Zakrok09/RoTUer/issues/new?labels=link\">open an issue</a>.</p>"
+        },
+        {
             "name": "State of RoTUer",
             "author": {
                 "name": "Zakrok09",
@@ -66,7 +90,6 @@
                 ]
             },
             "tags": [
-                "new",
                 "story"
             ],
             "text": "<h2 id=\"whatwillcomenext\">What will come next?</h2>\n<p>Currently RoTUer is focused on building the web structure. This is because when it is done, the only work left to do is just to push the new links and articles in the JSON database we have.</p>\n<p>The things we are looking forward to building before school starts are:</p>\n<ul>\n<li>The Dashboard</li>\n<li>The Checkies</li>\n</ul>\n<h3 id=\"dashboard\">Dashboard</h3>\n<p>This page will load program-related links for each study program in TU Delft. Since there is a lot of information, the ones that will be presented first are Common, CSE and ASE.</p>\n<p>Things that will come later (maybe at 1.2.0) are:</p>\n<ul>\n<li>Recipes (you are going to love this one)</li>\n<li>Better Campus Map</li>\n<li><em>…an app!?</em></li>\n</ul>\n<h2 id=\"howwewillworkonceschoolstarts\">How we will work once school starts?</h2>\n<p>The thing is that most of us don't know how much will we have on our schedule. Our free time will get significantly shortened, therefore future updates will take longer to implement. </p>\n<p>This isn't the case with the Guidelines, Articles &amp; Links however! Those will be updated often since our Link gathering team is finding new links every day!</p>\n<h2 id=\"therotuertoolsapp\">The RoTUer Tools app</h2>\n<p>This is an app built in Tauri and SvelteKit. You can take a look at it here: <a href=\"https://github.com/Zakrok09/rotuer-tools\">RoTUer Tools Repo</a></p>\n<h6 id=\"thanksforreading\">Thanks for reading!</h6>"
