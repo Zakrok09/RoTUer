@@ -3,22 +3,98 @@
     import HEAD from "$lib/Metadata/HEAD.svelte";
     import Dashboardlink from "$lib/Reusable/Dashboardlink.svelte"
 	import { fly } from 'svelte/transition';
+    /**
+     * A faculty fetched from the dashboard.json file
+     * @typedef {Object} Faculty
+     * @property {string} name - Full name of the faculty
+     * @property {string} abbr - Abbreviation of the faculty
+     * @property {Object} programmesTags - An (array-like) object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program)
+     * @property {Object} programmes - An (array-like) object, where each key-value is: lowercase shorname/id of the faculty - a Programme Object
+     */
 
     export let data;
+
+    /**
+     * A faculty fetched from the dashboard.json file
+     * @type {Faculty}
+     */
     const faculty = data.faculty;
+
+    /**
+     * Holds the programmesTags object of the faculty - the array-like object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program) 
+     * @type {object}
+     */
     const programmeTags = faculty.programmesTags;
     const facultiesArray = data.faculties;
+
+    /**
+     * Holds the (array-like) object where each key is the lowercase shortname/id (used when choosing an active program)
+     * @type {Object}
+     */
     const tags = data.dbTags;
+
+    /**
+     * Holds the study programs object for the fetched faculty.
+     * @type {{name: string, abbr: string, links: object[]}}
+     */
     const programmes = faculty.programmes;
-    
-    
+
+    /**
+     * A string holds the shortname/id of the currently chosen program.
+     * 
+     * By default it holds the first study program for the fetched faculty - in that case it is "common". 
+     * 
+     * @type {String}
+     */
     let activeProgrammeString = "common";
+
+    /**
+     * An object that is used in dashboard pages to determine the selected study program.
+     * 
+     * It gets updated reactively when the user chooses an option to filter by study program (from the select tag)
+     * @type {object}
+     */
     $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
+    
+    /**
+     * An array that contains all the programmeTags (programme names/ids) from the fetched faculty.
+     * 
+     * Make sure you fetch it as Object.keys(TAGSOBJECT) - where TAGSOBJECT is the fetched programmeTags object for each faculty.
+     * 
+     * e.g. let programmeTagsArray = Object.keys(faculty.programmesTags); 
+     * @type {Array<string>}
+    */
     let programmeTagsArray = Object.keys(programmeTags);
+
+    /**
+     * A string that holds the text (string) typed in the searchbox
+     * @type {string}
+     */
     let searchString = '';
+
+    /**
+     * An array that splits the seatchString into an array of the words search.
+     * 
+     * This will be used to filter out links that don't have any keywords matching with the search
+     * @type {string[]}
+     */
     $:searchArray = [''];
+
+    /**
+     * A string holds the shortname/id of the currently chosen tag.
+     * 
+     * This will be used to filter out links that don't have the selected tag in their tags array
+     * @type {string}
+     */
     $:activeTag = "all";
 
+    /**
+     * This function filters out links that don't have the selected tag in their tags array.
+     * 
+     * This works by checking if an element (string) of the tags array of the link is the same (has the same text) as the chosenTag (String)
+     * @param {string[]} tagsOfLink - the array that holds the tags of the link
+     * @param {string} chosenTag - the tag will be used for sorting
+     */
     function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
         let result = false;
@@ -26,6 +102,13 @@
         return result;
     }
 
+    /**
+     * This function filters out links that don't have any keywords matching with the searchBoxKeywords array.
+     * 
+     * This works by checking if an element (string) of the keywords array of the link is the same (has the same text) as any element of the search box words array
+     * @param {string[]} linkKeywords - the array that holds the keywords of the link
+     * @param {string[]} searchBoxKeywords - the array that holds the keywords of the searchbox
+     */
     function containsKeyword(linkKeywords, searchBoxKeywords) {
         if (searchBoxKeywords.length === 1 && searchBoxKeywords[0] === "" ) return true;
         let result = false;
