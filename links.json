@@ -1319,7 +1319,7 @@
                         ]
                     },
                     "tags": [
-                        "service"
+                        "extra"
                     ],
                     "nl": {
                         "desc": "The OV-Chipkaart is a convenient way to use the public transport in NL.",
