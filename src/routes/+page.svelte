@@ -7,6 +7,10 @@
 
 <HEAD title="Home" metadescription="RoTUer - a free, open-source dashboard that students need! RoTUer is a project aimed at helping students by providing them valuable information." />
 
+<svelte:head>
+    <meta name="google-site-verification" content="ByN3rbqQlJgELbV9kYGHfAqS0kr7zf-QuS9S1GDT7gI"/>
+</svelte:head>
+
 <main>
     <LandingSite underheading={$t("homepage.underheading")} />
     <div class="landingSection secondLandingSection">
