@@ -148,9 +148,9 @@
                 {
                     "name": "De Hoven",
                     "keywords": {
-                        "en": ["tag", "link", "de hoven", "mall"],
-                        "nl": ["tag", "link", "de hoven", "mall"],
-                        "bg": ["таг", "линк", "de hoven", "мол"]
+                        "en": ["tag", "link", "mall"],
+                        "nl": ["tag", "link", "mall"],
+                        "bg": ["таг", "линк", "мол"]
                     },
                     "tags": [
                         "mall"
