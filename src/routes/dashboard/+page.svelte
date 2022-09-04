@@ -141,6 +141,19 @@
 
 <main>
     <div class="restOfPage">
+        <div class="underDashBg">
+            <div class="linkToFaculties">
+                <h2>Need something related to your faculty?</h2>
+                <p>Currently available faculties:</p>
+                <div class="facultyLinks">
+                    {#each facultiesArray as faculty}
+                        {#if faculty !== "tudelft"}
+                            <a class="linkToFaculty" href="/dashboard/{faculty}">{faculty}</a>
+                        {/if}
+                    {/each}
+                </div>
+            </div>
+        </div>
         <div class="dashboardBg">
             <div class="dashboard">
                 <div class="filters">
@@ -173,19 +186,6 @@
                             {/if}
                         {/each}
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="underDashBg">
-            <div class="linkToFaculties">
-                <h2>Need something related to your faculty?</h2>
-                <p>Currently available faculties:</p>
-                <div class="facultyLinks">
-                    {#each facultiesArray as faculty}
-                        {#if faculty !== "tudelft"}
-                            <a class="linkToFaculty" href="/dashboard/{faculty}">{faculty}</a>
-                        {/if}
-                    {/each}
                 </div>
             </div>
         </div>
