@@ -164,7 +164,7 @@
                         "link": "https://www.de-hovenpassage.nl/"
                     },
                     "bg": {
-                        "desc": "The Hoven is a mall with loads of different shops and products ranging from clothing to candy.",
+                        "desc": "The Hoven е мол с много различни магазини и прдукти вариращи от дрехи до сладко.",
                         "link": "https://www.de-hovenpassage.nl/"
                     }
                 },
@@ -523,7 +523,7 @@
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten"
                     },
                     "bg": {
-                        "desc": "On this website you can find recipes that are cheap to cook.",
+                        "desc": "AH Budget Recipes е уебстраница, където можеш да намериш рецепти с евтини продукти.",
                         "link": "https://www.ah.nl/allerhande/recepten/budget-recepten"
                     }
                 }
@@ -786,7 +786,7 @@
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     },
                     "bg": {
-                        "desc": "Tripadvisor е лебстраница, където лесно може да намериш ресторанти около теб.",
+                        "desc": "Tripadvisor е уебстраница, където лесно може да намериш ресторанти около теб.",
                         "link": "https://www.tripadvisor.com/Restaurants-g188626-c30-Delft_South_Holland_Province.html"
                     }
                 }
@@ -828,9 +828,9 @@
                 {
                     "name": "Learn Dutch",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "dutch", "netherlands", "language", "speaking"],
+                        "nl": ["tag", "link", "dutch", "netherlands", "language", "speaking"],
+                        "bg": ["tag", "link", "dutch", "netherlands", "language", "speaking"]
                     },
                     "tags": [
                         "learning"
@@ -844,16 +844,16 @@
                         "link": "https://www.learndutch.org/"
                     },
                     "bg": {
-                        "desc": "Learndutch.org е лебстраница, където може да научиш Нидерландски.",
+                        "desc": "Learndutch.org е уебстраница, където може да научиш Нидерландски.",
                         "link": "https://www.learndutch.org/"
                     }
                 },
                 {
                     "name": "linkedin",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"],
+                        "nl": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"],
+                        "bg": ["tag", "link", "linked", "linkedin", "in", "social", "platform", "media", "networking"]
                     },
                     "tags": [
                         "work"
@@ -874,9 +874,9 @@
                 {
                     "name": "I am expat",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "work", "jobs", "i", "am", "expat", "money", "job"],
+                        "nl": ["tag", "link", "work", "jobs", "i", "am", "expat", "money", "job"],
+                        "bg": ["tag", "link", "work", "jobs", "i", "am", "expat", "money"]
                     },
                     "tags": [
                         "work"
@@ -897,9 +897,9 @@
                 {
                     "name": "Just landed",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"],
+                        "nl": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"],
+                        "bg": ["tag", "link", "work", "just", "landed", "expat", "money", "job", "housing", "jobs"]
                     },
                     "tags": [
                         "work"
@@ -920,9 +920,9 @@
                 {
                     "name": "Jobs.nl",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"],
+                        "nl": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"],
+                        "bg": ["tag", "link", "work", "jobs.nl", "jobs", "expat", "money", "job"]
                     },
                     "tags": [
                         "work"
@@ -936,16 +936,16 @@
                         "link": "https://jobs.nl/"
                     },
                     "bg": {
-                        "desc": "Jobs.nl is a website that offers jobs.",
+                        "desc": "Jobs.nl предлага оферти за работа.",
                         "link": "https://jobs.nl/"
                     }
                 },
                 {
                     "name": "Jumbo jobs",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"],
+                        "nl": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"],
+                        "bg": ["tag", "link", "work", "jumbo", "jobs", "expat", "money", "job"]
                     },
                     "tags": [
                         "work"
@@ -959,16 +959,16 @@
                         "link": "https://nl.jobs.jumbo.com/en/"
                     },
                     "bg": {
-                        "desc": "On this website you can find the available jobs at supermarket Jubmo.",
+                        "desc": "Jumbo jobs е уебстраница, който показва свободни позиций за работа в Jumbo.",
                         "link": "https://nl.jobs.jumbo.com/en/"
                     }
                 },
                 {
                     "name": "Grab Jobs",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"],
+                        "nl": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"],
+                        "bg": ["tag", "link", "work", "grab", "jobs", "expat", "money", "job", "part", "time", "parttime"]
                     },
                     "tags": [
                         "work"
@@ -982,16 +982,16 @@
                         "link": "https://grabjobs.co/netherlands/part-time-jobs"
                     },
                     "bg": {
-                        "desc": "Grab Jobs offers part-time jobs throught the Netherlands.",
+                        "desc": "Grab Jobs предлага временни работи в цяла Нидерландия.",
                         "link": "https://grabjobs.co/netherlands/part-time-jobs"
                     }
                 },
                 {
                     "name": "surfspot",
                     "keywords": {
-                        "en": ["tag", "link"],
-                        "nl": ["tag", "link"],
-                        "bg": ["таг", "линк"]
+                        "en": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"],
+                        "nl": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"],
+                        "bg": ["tag", "link", "surfspot", "hardware", "software", "technology", "tech"]
                     },
                     "tags": [
                         "software"
@@ -1005,7 +1005,7 @@
                         "link": "https://www.surfspot.nl/"
                     },
                     "bg": {
-                        "desc": "Surfspot sells software and hardware.",
+                        "desc": "Surfspot предлага софтуери и хардуери.",
                         "link": "https://www.surfspot.nl/"
                     }
                 }
@@ -1030,7 +1030,7 @@
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     },
                     "bg": {
-                        "desc": "A mobile plan comparison done by Prijsvergelijken.nl.",
+                        "desc": "Сравнение на мобилни планове, направена от Prijsvergelijken.nl.",
                         "link": "https://www.prijsvergelijken.nl/telefoon-abonnement/mobile-phone-subscriptions-the-netherlands/"
                     }
                 }
