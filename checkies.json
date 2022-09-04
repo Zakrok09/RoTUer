@@ -10,7 +10,7 @@
             }
         },
         "interested": {
-            "color": "#056AF7",
+            "color": "#E91E63",
             "text": "Interested in Delft",
             "pressNames":{
                 "nl":"Geinteresseerd in Delft",
@@ -19,7 +19,7 @@
             }
         },
         "coming": {
-            "color": "#056AF7",
+            "color": "#40E91E",
             "text": "Coming to Delft",
             "pressNames":{
                 "nl":"Komt naar Delft",
@@ -28,7 +28,7 @@
             }
         },
         "justArrived": {
-            "color": "#056AF7",
+            "color": "#5897F4",
             "text": "Just arrived",
             "pressNames":{
                 "nl":"Net aangekomen",
@@ -37,7 +37,7 @@
             }
         },
         "settled": {
-            "color": "#056AF7",
+            "color": "#E9AE1E",
             "text": "Settled",
             "pressNames":{
                 "nl":"Gevistigd",
@@ -69,7 +69,7 @@
                 "justArrived"
             ],
             "text": "waobfaobga baueb aeb iab u bil aje blajb lajbe ljabl baelkj balkje balekjb kjlab jkb jkeab kjlab ejb bjb jeb  eae. af a ea .ae .a ae ae ae apm oan oanieon iae m@0 0 80 88",
-            "relevantLinks":["Just landed","I am expat","Jumno","De hoven"]
+            "relevantLinks":["Just landed","I am expat","Jumbo","De Hoven"]
         },
         {
             "name": "Testing Again",
