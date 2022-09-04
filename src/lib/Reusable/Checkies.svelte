@@ -78,7 +78,9 @@
             <h3>Releveant Links:</h3>
             <div class="flexRight">
                 {#each relevantLinks as link }
-                    <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={linkTagsObject}/>
+                    <div class="linkeringbox">
+                        <Linkpagebox desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={linkTagsObject}/>
+                    </div>
                 {/each}
             </div>
         </div>
@@ -87,6 +89,10 @@
 
 
 <style lang="scss">
+    .linkeringbox {
+        min-width: 50px;
+    }
+
     * {
         font-family: 'Oxygen', sans-serif;
     }
@@ -203,6 +209,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 20px;
     }
     
