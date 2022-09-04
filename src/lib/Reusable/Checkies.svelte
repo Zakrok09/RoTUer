@@ -31,8 +31,10 @@
 {#if checked}
     <div class="greyOut ">
         <div class="checkie show">
-            <input id="checkbox" type="checkbox" class="checkbox" bind:checked={checked}>
-            <h3>{title}</h3>
+            <div class="titleCheck">
+                <input id="checkbox" type="checkbox" class="checkbox" bind:checked={checked}>
+                <h3>{title}</h3>
+            </div>
             <div class="tags">
                 <span id="tag">Tags:</span>
                 {#each tags as tag}
@@ -46,8 +48,10 @@
 {:else}
     <div class="noGreyOut">
         <div class="checkie {showVariable}">
-            <input id="checkbox" type="checkbox" class="checkbox" bind:checked={checked}>
-            <h3>{title}</h3>
+            <div class="titleCheck">
+                <input id="checkbox" type="checkbox" class="checkbox" bind:checked={checked}>
+                <h3>{title}</h3>
+            </div>
             <div class="tags">
                 <span id="tag">Tags:</span>
                 {#each tags as tag}
@@ -85,6 +89,10 @@
 <style lang="scss">
     * {
         font-family: 'Oxygen', sans-serif;
+    }
+
+    .titleCheck {
+        display: flex;
     }
 
     .tag {
@@ -154,11 +162,9 @@
         gap: 30px;
         flex-flow: row wrap;
         align-items:center;
-        align-self:center;
         color: aliceblue;
         background-color: rgb(85, 103, 120);
         margin: 0 auto;
-        width:80%;
     }
 
     .desc{
@@ -176,7 +182,6 @@
         background-color: #1b252e; 
         margin-bottom: 20px;
         margin: 0 auto;
-        width:80%;
         
     }
 
@@ -205,6 +210,45 @@
         display: flex;
         justify-content: center;
         color:whitesmoke;
+    }
+
+    @media only screen and (max-width: 1000px){
+        .checkie {
+            flex-flow: column;
+            align-items: center;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin: 0px;
+        }
+
+        #tag {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 820px){
+        .desc {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left {
+            padding: 0px;
+            width: 90%;
+        }
+
+        .right {
+            padding: 0px;
+            width: 100%;
+        }
+        .flexRight {
+            flex-wrap: wrap;
+        }
     }
 
 </style>

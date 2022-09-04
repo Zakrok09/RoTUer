@@ -33,6 +33,7 @@
         <i>We make it simple, people!</i>
     </div>
     <div class="behindCheckies">
+        <h2>Checkies:</h2>
         {#each checkies as checkie, i}
             <Checkies title={checkie.name} tagsObject= {tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
         {/each}
@@ -67,10 +68,26 @@
     }
 
     .behindCheckies {
+        padding: 50px 100px;
         background-image: url("/background/curvy3.svg");
-        background-size: 100%;
-        background-repeat: repeat-y;
+        background-size: cover;
         color: whitesmoke;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 1000px){
+        .behindCheckies {
+            padding: 50px 30px;
+        }
+    }
+
+    @media only screen and (max-width: 600px){
+        .behindCheckies {
+            padding: 50px 5px;
+        }
     }
 
     
