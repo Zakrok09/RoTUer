@@ -321,6 +321,47 @@
                             }
                         }
                     ]
+                },
+                "others": {
+                    "name": "Others",
+                    "abbr": "Dutch/Delft services",
+                    "links": [
+                        {
+                            "name": "OV Chipkaart",
+                            "keywords": {
+                                "en": [
+                                    "chipkaart",
+                                    "ov",
+                                    "transport"
+                                ],
+                                "nl": [
+                                    "chipkaart",
+                                    "ov",
+                                    "transport"
+                                ],
+                                "bg": [
+                                    "chipkaart",
+                                    "ov",
+                                    "transport"
+                                ]
+                            },
+                            "tags": [
+                                "service"
+                            ],
+                            "nl": {
+                                "desc": "The OV-Chipkaart is a convenient way to use the public transport in NL.",
+                                "link": "https://www.ov-chipkaart.nl/home.htm#/"
+                            },
+                            "en": {
+                                "desc": "The OV-Chipkaart is a convenient way to use the public transport in NL.",
+                                "link": "https://www.ov-chipkaart.nl/home.htm#/"
+                            },
+                            "bg": {
+                                "desc": "ОВ-Чипкаарт-а е удобен начин да ползвате градския транспорт в Нидерландия",
+                                "link": "https://www.ov-chipkaart.nl/home.htm#/"
+                            }
+                        }
+                    ]
                 }
             }
         },
