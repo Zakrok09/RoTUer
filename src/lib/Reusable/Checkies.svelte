@@ -136,7 +136,7 @@
         padding: 10px 20px;
         border: none;
         color: aliceblue;
-        margin-right: 10px
+        margin-right: 5px;
     }
 
     .show {
@@ -160,7 +160,7 @@
     
     .checkie {
         border-top: 5px hsl(208, 26%, 20%) solid;
-        padding: 5px;
+        padding: 5px 10px;
         display: flex;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
