@@ -7,28 +7,25 @@
     export let desc = '';
     export let href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     export let tags = [];
-    export let tagsObject;
 
     let dispatch = createEventDispatcher();
 
     const handleClick = clickedTag => {
-        let toSend = clickedTag.text;
-        dispatch('changeActiveTag', toSend.toLowerCase());
+        let toSend = clickedTag;
+        dispatch('changeActiveTag', toSend);
     } 
 </script>
 
 
 <div class="Linkbox">
-    <div class="topStripe" style="background-color: {tagsObject[tags[0]].color};"></div>
+    <div class="topStripe" style="background-color: {tags[0].attributes.color};"></div>
     <h3>{title}</h3>
     <p>{desc}</p>
     <a {href} target="_blank" class="AnchorBox">{anchorText}</a>
     <span id="tag">Tags:</span>
     <div class="tags">
         {#each tags as tag}
-            {#if tagsObject[tag]}
-                <span on:click={() => handleClick(tagsObject[tag])} class="tag" style="background-color: {tagsObject[tag].color};">{tagsObject[tag].pressNames[$locale.toString()]}</span>
-            {/if}
+            <span on:click={() => handleClick(tag.attributes)} class="tag" style="background-color: {tag.attributes.color};">{tag.attributes.displayText}</span>
         {/each}    
     </div>
 </div>

@@ -3,59 +3,27 @@
     import HEAD from "$lib/Metadata/HEAD.svelte";
     import Dashboardlink from "$lib/Reusable/Dashboardlink.svelte"
 	import { fly } from 'svelte/transition';
-    /**
-     * A faculty fetched from the dashboard.json file
-     * @typedef {Object} Faculty
-     * @property {string} name - Full name of the faculty
-     * @property {string} abbr - Abbreviation of the faculty
-     * @property {Object} programmesTags - An (array-like) object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program)
-     * @property {Object} programmes - An (array-like) object, where each key-value is: lowercase shorname/id of the faculty - a Programme Object
-     */
-    
     export let data;
+    export let errors;
 
+    errors
     /**
      * A faculty fetched from the dashboard.json file
      * @type {Faculty}
      */
-    const faculty = data.faculty;
-
-    /**
-     * Holds the programmesTags object of the faculty - the array-like object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program) 
-     * @type {object}
-     */
-    const programmeTags = faculty.programmesTags;
-
-    /**
-     * Holds the (array-like) object where each key is the lowercase shortname/id (used when choosing an active program)
-     * @type {Object}
-     */
-    const tags = data.dbTags;
-
-    /**
-     * Holds the study programs object for the fetched faculty.
-     * @type {{name: string, abbr: string, links: object[]}}
-     */
-    const programmes = faculty.programmes;
-    
-    /**
-     * An array that contains all the programmeTags (programme names/ids) from the fetched faculty.
-     * 
-     * Make sure you fetch it as Object.keys(TAGSOBJECT) - where TAGSOBJECT is the fetched programmeTags object for each faculty.
-     * 
-     * e.g. let programmeTagsArray = Object.keys(faculty.programmesTags); 
-     * @type {Array<string>}
-    */
-    let programmeTagsArray = Object.keys(programmeTags);
+    const faculty = data.faculty.attributes;
+    const faculties = data.faculties;
+    const facultyProgrammesArray = data.programmes;
+    const programmeTagsArray = facultyProgrammesArray.map(programme => programme.attributes.programmeTag);
 
     /**
      * A string holds the shortname/id of the currently chosen program.
      * 
-     * By default it holds the first element of the programmeTagsArray - therfore showing the first study program for the fetched faculty. 
+     * By default it holds the first study program for the fetched faculty - in that case it is "common". 
      * 
      * @type {String}
      */
-    let activeProgrammeString = programmeTagsArray[0].toString();
+    let activeProgrammeString = programmeTagsArray[0];
 
     /**
      * An object that is used in dashboard pages to determine the selected study program.
@@ -63,7 +31,7 @@
      * It gets updated reactively when the user chooses an option to filter by study program (from the select tag)
      * @type {object}
      */
-    $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
+    $: [activeProgrammeObject] = facultyProgrammesArray.filter(programme => programme.attributes.programmeTag === activeProgrammeString);
 
     /**
      * A string that holds the text (string) typed in the searchbox
@@ -97,7 +65,7 @@
     function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
         let result = false;
-        if (tagsOfLink.some(linkTag => linkTag === chosenTag)) result = true;
+        if (tagsOfLink.some(linkTag => linkTag === chosenTag.slug)) result = true;
         return result;
     }
 
@@ -125,6 +93,8 @@
         } else {
             activeTag = e.detail;
         }
+
+        return;
     }
 </script>
 
@@ -136,40 +106,42 @@
     </style>
 </svelte:head>
 
-<HEAD title="Dashboard {faculty.abbr}" metadescription="This is the dashboard for students from {faculty.name} ({faculty.abbr})" />
+<HEAD title="Dashboard" metadescription="The dashboard is that cool place where you have quick access to all the links related to your study program! Come to read or contribute!" />
 
 <main>
-    <div class="dashboardBg">
-        <div class="dashboard">
-            <div class="filters">
-                <select class="filterButtons" bind:value={activeProgrammeString}>
-                    {#each programmeTagsArray as programmeTag}
-                        <option value={programmeTag}>{programmeTags[programmeTag].pressNames[$locale.toString()]}</option>
-                    {/each}
-                </select>
-                <form class="filterButtons searchForm" on:submit|preventDefault={updateSearchArray}>
-                    <input type="text" bind:value={searchString} placeholder="Search...">
-                    <button type="submit">🔎</button>
-                </form>
-            </div>
-            <div class="displayPanel">
-                <div class="panelHead">
-                    <h2>{activeProgrammeObject.name}</h2>
-                    <p>Showing links for {activeProgrammeObject.abbr}</p>
-                    {#if activeTag !== "all"}    
-                        <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {tags[activeTag].color};">{tags[activeTag].pressNames[$locale.toString()]}</span></p>
-                    {:else}
-                        <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
-                    {/if}
+    <div class="restOfPage">
+        <div class="dashboardBg">
+            <div class="dashboard">
+                <div class="filters">
+                    <select class="filterButtons" bind:value={activeProgrammeString}>
+                        {#each programmeTagsArray as programmeTag}
+                            <option value={programmeTag}>{programmeTag}</option>
+                        {/each}
+                    </select>
+                    <form class="filterButtons searchForm" on:submit|preventDefault={updateSearchArray}>
+                        <input type="text" bind:value={searchString} placeholder="Search...">
+                        <button type="submit">🔎</button>
+                    </form>
                 </div>
-                <div class="links">
-                    {#each activeProgrammeObject.links as link}
-                        {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
-                            <div transition:fly="{{ y: 10, duration: 100 }}">
-                                <Dashboardlink on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={tags}/>
-                            </div>
+                <div class="displayPanel">
+                    <div class="panelHead">
+                        <h2>{activeProgrammeObject.attributes.name}</h2>
+                        <p>Showing links for {activeProgrammeObject.attributes.abbr}</p>
+                        {#if activeTag !== "all"}    
+                            <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {activeTag.color};">{activeTag.displayText}</span></p>
+                        {:else}
+                            <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
                         {/if}
-                    {/each}
+                    </div>
+                    <div class="links">
+                        {#each activeProgrammeObject.attributes.links.data as {attributes: link}}
+                            {#if containsTag(link.tags.data.map(tag => tag.attributes.slug), activeTag) && containsKeyword(link.keywords, searchArray)}
+                            <div transition:fly="{{ y: 10, duration: 100 }}">
+                                <Dashboardlink on:changeActiveTag={changeActive} desc={link.desc} href={link.href} title={link.name} tags={link.tags.data} />
+                            </div>
+                            {/if}
+                        {/each}
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,10 +151,60 @@
 <style lang="scss">
     $contrast_header: #24313d;
 
-    .dashboardBg {
+    .restOfPage {
         background-image: url("/background/dashboard.svg");
         background-size: cover;
     }
+
+    // .facultyLinks {
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     width: 60vw;
+    //     gap: 20px;
+    // }
+
+    // .linkToFaculty {
+    //     margin-top: 50px;
+    //     color: whitesmoke;
+    //     font-size: 1.2rem;
+    //     text-decoration: none;
+    //     text-transform: uppercase;
+    //     border: 1px whitesmoke solid;
+    //     padding: 20px;
+    //     text-align: center;
+    //     width: 70px;
+    //     border-radius: 5px;
+    //     transition: all 0.1s ease-in-out;
+    // }
+
+    // .linkToFaculty:hover {
+    //     background-color: whitesmoke;
+    //     color: black;
+    // }
+
+    // .underDashBg {
+    //     position: relative;
+    //     margin-top: -1px;
+    //     background-size: cover;
+    // }
+
+    // .linkToFaculties {
+    //     padding: 100px 0px;
+    //     text-align: center;
+    //     display: flex;
+    //     flex-flow: column;
+    //     align-items: center;
+
+    //     p, h2 {
+    //         color: white;
+    //     }
+        
+    //     h2 {
+    //         text-shadow: 1px 1px 2px black;
+    //         margin: 0px;
+    //         font-size: 1.8rem;
+    //     }
+    // }
 
     .panelHead {
         h2, p {
