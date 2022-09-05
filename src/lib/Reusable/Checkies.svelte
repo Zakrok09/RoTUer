@@ -1,6 +1,5 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
-    import { each } from "svelte/internal";
     import {locale} from "$lib/translations/i18n";
     export let title = "no title specified";
     export let text = "no text provided";
