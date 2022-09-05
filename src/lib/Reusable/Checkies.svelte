@@ -122,7 +122,7 @@
     }   
 
     #tag {
-        margin: 10px 0px 5px 0px;
+		margin-right: 6px;
     }
 
     .checkbox {
