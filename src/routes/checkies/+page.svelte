@@ -31,7 +31,7 @@
     <div class="behindCheckies">
         <h2>Checkies:</h2>
         {#each checkies as checkie, i}
-            <Checkies title={checkie.name} tagsObject= {tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
+            <Checkies title={checkie.name} tagsObject={tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
         {/each}
     </div>
 </main>
