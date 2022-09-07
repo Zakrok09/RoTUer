@@ -1,7 +1,7 @@
 <script>
     import HEAD from "$lib/Metadata/HEAD.svelte";
     import LandingSite from "$lib/PageComponents/LandingSite.svelte";
-    import Checkies from "../../lib/Reusable/Checkies.svelte";
+    import Checkies from "$lib/Reusable/Checkies.svelte";
     export let data;
     const db = data.database;
     const tags = db.tags;
