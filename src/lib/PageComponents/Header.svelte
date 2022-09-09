@@ -3,9 +3,9 @@
     // ["Home", "/"], ["To Links", "/links/"], ["About", "/about"]
     //This right here imports links that will be loaded in the header. The defaults are as seen below.
     export let links = {
-        en: [["Home", "/"], ["Articles", "/articles"], ["Checkies", "/checkies"], ["Dashboard", "/dashboard"], ["About", "/about"]],
-        nl: [["Startpagina", "/"], ["Articles", "/articles"], ["Checkies", "/checkies"], ["Dashboard", "/dashboard"], ["Over", "/about"]],
-        bg: [["Начало", "/"], ["Статии", "/articles"], ["Чекита", "/checkies"], ["Табло", "/dashboard"], ["Относно", "/about"]]
+        en: [["Home", "/"], ["Articles", "/articles"], ["Dashboard", "/dashboard"], ["About", "/about"]],
+        nl: [["Startpagina", "/"], ["Articles", "/articles"], ["Dashboard", "/dashboard"], ["Over", "/about"]],
+        bg: [["Начало", "/"], ["Статии", "/articles"], ["Табло", "/dashboard"], ["Относно", "/about"]]
     };
 
 
@@ -23,7 +23,7 @@
             <!-- * Here we are loading 'links' as by destructing the inner arrays into 'text' and 'link'-->
             <div class="navItem">
                 <!-- * Then we just create anchor tags that have href to link and text as text -->
-                <a class="navLink" href={link}>{text}</a>
+                <a class="navLink" href={link} sveltekit:prefetch>{text}</a>
             </div>
         {/each}
     </nav>

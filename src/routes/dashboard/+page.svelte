@@ -3,41 +3,18 @@
     import HEAD from "$lib/Metadata/HEAD.svelte";
     import Dashboardlink from "$lib/Reusable/Dashboardlink.svelte"
 	import { fly } from 'svelte/transition';
-    /**
-     * A faculty fetched from the dashboard.json file
-     * @typedef {Object} Faculty
-     * @property {string} name - Full name of the faculty
-     * @property {string} abbr - Abbreviation of the faculty
-     * @property {Object} programmesTags - An (array-like) object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program)
-     * @property {Object} programmes - An (array-like) object, where each key-value is: lowercase shorname/id of the faculty - a Programme Object
-     */
-
     export let data;
+    export let errors;
 
+    errors;
     /**
      * A faculty fetched from the dashboard.json file
      * @type {Faculty}
      */
-    const faculty = data.faculty;
-
-    /**
-     * Holds the programmesTags object of the faculty - the array-like object, where each key is the lowercase shortname/id of the faculty (used when choosing an active program) 
-     * @type {object}
-     */
-    const programmeTags = faculty.programmesTags;
-    const facultiesArray = data.faculties;
-
-    /**
-     * Holds the (array-like) object where each key is the lowercase shortname/id (used when choosing an active program)
-     * @type {Object}
-     */
-    const tags = data.dbTags;
-
-    /**
-     * Holds the study programs object for the fetched faculty.
-     * @type {{name: string, abbr: string, links: object[]}}
-     */
-    const programmes = faculty.programmes;
+    const faculty = data.faculty.attributes;
+    const faculties = data.faculties;
+    const facultyProgrammesArray = data.programmes;
+    const programmeTagsArray = facultyProgrammesArray.map(programme => programme.attributes.programmeTag);
 
     /**
      * A string holds the shortname/id of the currently chosen program.
@@ -54,17 +31,7 @@
      * It gets updated reactively when the user chooses an option to filter by study program (from the select tag)
      * @type {object}
      */
-    $: activeProgrammeObject = programmes[activeProgrammeString.toString()];
-    
-    /**
-     * An array that contains all the programmeTags (programme names/ids) from the fetched faculty.
-     * 
-     * Make sure you fetch it as Object.keys(TAGSOBJECT) - where TAGSOBJECT is the fetched programmeTags object for each faculty.
-     * 
-     * e.g. let programmeTagsArray = Object.keys(faculty.programmesTags); 
-     * @type {Array<string>}
-    */
-    let programmeTagsArray = Object.keys(programmeTags);
+    $: [activeProgrammeObject] = facultyProgrammesArray.filter(programme => programme.attributes.programmeTag === activeProgrammeString);
 
     /**
      * A string that holds the text (string) typed in the searchbox
@@ -98,7 +65,7 @@
     function containsTag(tagsOfLink, chosenTag) {
         if (chosenTag === 'all') return true;
         let result = false;
-        if (tagsOfLink.some(linkTag => linkTag === chosenTag)) result = true;
+        if (tagsOfLink.some(linkTag => linkTag === chosenTag.slug)) result = true;
         return result;
     }
 
@@ -126,6 +93,8 @@
         } else {
             activeTag = e.detail;
         }
+
+        return;
     }
 </script>
 
@@ -146,9 +115,9 @@
                 <h2>Need something related to your faculty?</h2>
                 <p>Currently available faculties:</p>
                 <div class="facultyLinks">
-                    {#each facultiesArray as faculty}
-                        {#if faculty !== "tudelft"}
-                            <a class="linkToFaculty" href="/dashboard/{faculty}">{faculty}</a>
+                    {#each faculties as faculty}
+                        {#if faculty.attributes.facultyTag !== "common"}
+                            <a class="linkToFaculty" href="/dashboard/{faculty.attributes.facultyTag}">{faculty.attributes.facultyTag}</a>
                         {/if}
                     {/each}
                 </div>
@@ -159,7 +128,7 @@
                 <div class="filters">
                     <select class="filterButtons" bind:value={activeProgrammeString}>
                         {#each programmeTagsArray as programmeTag}
-                            <option value={programmeTag}>{programmeTags[programmeTag].pressNames[$locale.toString()]}</option>
+                            <option value={programmeTag}>{programmeTag}</option>
                         {/each}
                     </select>
                     <form class="filterButtons searchForm" on:submit|preventDefault={updateSearchArray}>
@@ -169,20 +138,20 @@
                 </div>
                 <div class="displayPanel">
                     <div class="panelHead">
-                        <h2>{activeProgrammeObject.name}</h2>
-                        <p>Showing links for {activeProgrammeObject.abbr}</p>
+                        <h2>{activeProgrammeObject.attributes.name}</h2>
+                        <p>Showing links for {activeProgrammeObject.attributes.abbr}</p>
                         {#if activeTag !== "all"}    
-                            <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {tags[activeTag].color};">{tags[activeTag].pressNames[$locale.toString()]}</span></p>
+                            <p in:fly>Selected tag is: <span on:click={() => activeTag = "all"} class="tag" style="background-color: {activeTag.color};">{activeTag.displayText}</span></p>
                         {:else}
                             <p in:fly>Selected tag is: none. <i>Click on a Tag to select it!</i></p>
                         {/if}
                     </div>
                     <div class="links">
-                        {#each activeProgrammeObject.links as link}
-                            {#if containsTag(link.tags, activeTag) && containsKeyword(link.keywords[$locale.toString()], searchArray)}
-                                <div transition:fly="{{ y: 10, duration: 100 }}">
-                                    <Dashboardlink on:changeActiveTag={changeActive} desc={link[$locale.toString()].desc} href={link[$locale.toString()].link} title={link.name} tags={link.tags} tagsObject={tags}/>
-                                </div>
+                        {#each activeProgrammeObject.attributes.links.data as {attributes: link}}
+                            {#if containsTag(link.tags.data.map(tag => tag.attributes.slug), activeTag) && containsKeyword(link.keywords, searchArray)}
+                            <div transition:fly="{{ y: 10, duration: 100 }}">
+                                <Dashboardlink on:changeActiveTag={changeActive} desc={link.desc} href={link.href} title={link.name} tags={link.tags.data} />
+                            </div>
                             {/if}
                         {/each}
                     </div>

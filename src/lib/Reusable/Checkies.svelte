@@ -1,6 +1,5 @@
 <script>
     import Linkpagebox from "$lib/Reusable/Linkpagebox.svelte";
-    import { each } from "svelte/internal";
     import {locale} from "$lib/translations/i18n";
     export let title = "no title specified";
     export let text = "no text provided";
@@ -123,7 +122,7 @@
     }   
 
     #tag {
-        margin: 10px 0px 5px 0px;
+		margin-right: 6px;
     }
 
     .checkbox {
@@ -137,7 +136,7 @@
         padding: 10px 20px;
         border: none;
         color: aliceblue;
-        margin-right: 10px
+        margin-right: 5px;
     }
 
     .show {
@@ -161,7 +160,7 @@
     
     .checkie {
         border-top: 5px hsl(208, 26%, 20%) solid;
-        padding: 5px;
+        padding: 5px 10px;
         display: flex;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;

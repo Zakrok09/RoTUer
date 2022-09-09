@@ -1,7 +1,7 @@
 <script>
     import HEAD from "$lib/Metadata/HEAD.svelte";
     import LandingSite from "$lib/PageComponents/LandingSite.svelte";
-    import Checkies from "../../lib/Reusable/Checkies.svelte";
+    import Checkies from "$lib/Reusable/Checkies.svelte";
     export let data;
     const db = data.database;
     const tags = db.tags;
@@ -28,12 +28,14 @@
 
 <main>
     <LandingSite src="/isometric/arrow.svg" underheading="We make it simple, people!" />
-    <div class="behindCheckies">
+
+    <h1>CHECKIS IS BEING MIGRATED TO THE NEWER VERSION OF ROTUER</h1>
+    <!-- <div class="behindCheckies">
         <h2>Checkies:</h2>
         {#each checkies as checkie, i}
-            <Checkies title={checkie.name} tagsObject= {tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
+            <Checkies title={checkie.name} tagsObject={tags} linkTagsObject={links.tags} tags={checkie.tags} text={checkie.text} relevantLinks={relevantLinksData[i]} ></Checkies>
         {/each}
-    </div>
+    </div> -->
 </main>
 
 <style lang="scss">
@@ -43,28 +45,28 @@
         font-family: 'Oxygen', sans-serif;
     }
 
-    .behindCheckies {
-        padding: 50px 100px;
-        background-image: url("/background/curvy3.svg");
-        background-size: cover;
-        color: whitesmoke;
+    // .behindCheckies {
+    //     padding: 50px 100px;
+    //     background-image: url("/background/curvy3.svg");
+    //     background-size: cover;
+    //     color: whitesmoke;
 
-        h2 {
-            text-align: center;
-        }
-    }
+    //     h2 {
+    //         text-align: center;
+    //     }
+    // }
 
-    @media only screen and (max-width: 1000px){
-        .behindCheckies {
-            padding: 50px 30px;
-        }
-    }
+    // @media only screen and (max-width: 1000px){
+    //     .behindCheckies {
+    //         padding: 50px 30px;
+    //     }
+    // }
 
-    @media only screen and (max-width: 600px){
-        .behindCheckies {
-            padding: 50px 5px;
-        }
-    }
+    // @media only screen and (max-width: 600px){
+    //     .behindCheckies {
+    //         padding: 50px 5px;
+    //     }
+    // }
 
     
 </style>
