@@ -39,6 +39,33 @@
     },
     "articles": [
         {
+            "name": "HAPPY BIRTHDAY KIRIL! 🥳🥳🥳",
+            "author": {
+                "name": "Zakrok09",
+                "link": "https://github.com/zakrok09"
+            },
+            "date": "September 10th, 2022",
+            "keywords": {
+                "en": [
+                    "happy",
+                    "bday"
+                ],
+                "nl": [
+                    "happy",
+                    "bday"
+                ],
+                "bg": [
+                    "happy",
+                    "bday"
+                ]
+            },
+            "tags": [
+                "new",
+                "story"
+            ],
+            "text": "<p>Happy birthday, Kiril!! (me) ! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳! 🥳🥳🥳</p>"
+        },
+        {
             "name": "Update 1.1.0 of RoTUer",
             "author": {
                 "name": "Zakrok09",
